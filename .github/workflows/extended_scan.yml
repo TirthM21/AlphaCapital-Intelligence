@@ -1,0 +1,43 @@
+name: Alpha Capital Intelligence - Market Scan
+
+on:
+  schedule:
+    - cron: '30 15 * * 1-5' # 9:00 PM IST (GMT+5:30)
+  workflow_dispatch:
+    inputs:
+      index:
+        description: 'Index to scan (e.g. NIFTY 50, NIFTY 500)'
+        default: 'NIFTY 50'
+      scan_type:
+        description: 'Scan type (full, fno, nifty, midcap, smallcap, nasdaq)'
+        default: 'nifty'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install nse-india-api pandas numpy yfinance requests
+
+      - name: Run Extended Scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event_name }}" == "schedule" ]; then
+            python run_extended_scan.py --nifty
+          else
+            python run_extended_scan.py --${{ github.event.inputs.scan_type }}
+          fi
