@@ -19,6 +19,7 @@ from src.screening.batch_processor import BatchStockProcessor
 from src.notifications.telegram_notifier import TelegramNotifier
 from src.analysis.backtest_engine import calculate_returns, format_performance_summary
 from src.data.market_cache import MarketDataCache
+from src.data.fetcher import YahooFinanceFetcher
 
 logging.basicConfig(
     level=logging.INFO,
@@ -58,14 +59,15 @@ def generate_report(results: list, title: str):
         report_lines.append(f"  • {sig}: {count} stocks")
     
     report_lines.append("\nDETAILED SIGNALS (Top 100):")
-    header = f"{'Ticker':<12} | {'Price':<10} | {'RSI':<6} | {'Signals'}"
-    report_lines.append(header)
-    report_lines.append("-" * 80)
-    
     for res in sorted(results, key=lambda x: len(x.get('signals', [])), reverse=True)[:100]:
         if res.get('signals'):
-            sigs_str = ", ".join(res['signals'])
-            row = f"{res['ticker']:<12} | {res['price']:<10.2f} | {res['rsi']:<6.1f} | {sigs_str}"
+            price = res.get('price', 0)
+            # Suggested levels if not already in result
+            stop = res.get('stop', price * 0.95)
+            target = res.get('target', price * 1.10)
+            
+            sigs_str = ", ".join(res['signals'][:3]) # Top 3 signals
+            row = f"{res['ticker']:<12} | {price:<10.2f} | {res['rsi']:<6.1f} | S: {stop:<8.2f} T: {target:<8.2f} | {sigs_str}"
             report_lines.append(row)
             
     # Output to console
@@ -145,96 +147,80 @@ def main():
     
     results = []
     cache = MarketDataCache()
+    fetcher = YahooFinanceFetcher()
     
-    # We can use BatchStockProcessor if we want concurrency, but for a standalone script,
-    # let's keep it simple or inherit from existing processor logic.
-    # Since BatchStockProcessor does a lot of Minervini specific stuff, we'll do a simple loop here
-    # or just use yfinance directly for speed in this demonstration.
+    # --- OPTIMIZED BATCH PROCESSING ---
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     
-    # Use 1 TPS rate limit for yfinance (roughly)
-    import time
-    
+    # 1. Check for cached results first to avoid unnecessary downloads
+    remaining_tickers = []
     for ticker in tickers:
-        try:
-            # Clean ticker from any irregularities ($, extra whitespace, etc.)
-            clean_ticker = ticker.replace("$", "").strip().upper()
+        res = cache.get_signal_result(ticker)
+        if res:
+            results.append(res)
+        else:
+            remaining_tickers.append(ticker)
             
-            # Stage 1: Fetch Data (Check Cache First)
-            df = cache.get_price_data(clean_ticker)
+    if not remaining_tickers:
+        logger.info("All stocks retrieved from cache.")
+    else:
+        logger.info(f"Processing {len(remaining_tickers)} stocks (using batch download and threads)...")
+        
+        # 2. Batch Download in chunks
+        chunk_size = 300
+        all_data = {}
+        for i in range(0, len(remaining_tickers), chunk_size):
+            chunk = remaining_tickers[i:i+chunk_size]
+            logger.info(f"Downloading chunk {i//chunk_size + 1}/{(len(remaining_tickers)-1)//chunk_size + 1}...")
+            chunk_data = fetcher.batch_download(chunk, period="1y")
+            all_data.update(chunk_data)
             
-            if df is None or df.empty:
-                logger.info(f"Processing {clean_ticker}...")
-                df = pd.DataFrame()
-                final_ticker = clean_ticker
-                
-                # Original fallback logic for downloading
-                base_symbol = clean_ticker.split(".")[0]
-                suffixes = [".NS", "-SM.NS", ".BO", ""] # Prioritize .NS, then -SM.NS, then .BO, then no suffix
-                
-                found_data = False
-                for suffix in suffixes:
-                    current_try = f"{base_symbol}{suffix}" if suffix not in clean_ticker else clean_ticker
+        # 3. Parallel Analysis
+        def analyze_ticker(ticker, df):
+            try:
+                if df is None or df.empty:
+                    return None
                     
-                    to_try = [current_try]
-                    if suffix == ".NS":
-                        to_try.extend([f"{base_symbol}-BE.NS", f"{base_symbol}-BZ.NS"])
-                    
-                    for t in to_try:
-                        logger.info(f"Attempting download for {t}...")
-                        for period in ["1y", "1mo", "max"]: # Try 1y, then 1mo, then max
-                            df = yf.download(t, period=period, interval="1d", progress=False)
-                            if not df.empty:
-                                final_ticker = t
-                                found_data = True
-                                break
-                        if found_data: break
-                    if found_data: break
+                # Standardize columns if MultiIndex (though batch_download should have handled it)
+                if isinstance(df.columns, pd.MultiIndex):
+                    df.columns = df.columns.get_level_values(0)
                 
-                if not df.empty:
-                    cache.save_price_data(final_ticker, df)
-                    ticker = final_ticker # Update ticker to the one that worked
-                else:
-                    logger.warning(f"No data found for {clean_ticker} after trying all variations")
-                    continue
-            else:
-                logger.info(f"Using cached data for {clean_ticker}")
-                ticker = clean_ticker # Ensure ticker is consistent with cache key
-            
-            # Handle MultiIndex columns if present (from yfinance)
-            if isinstance(df.columns, pd.MultiIndex):
-                df.columns = df.columns.get_level_values(0)
-            
-            # Stage 2: Analyze (Check Cache First)
-            res = cache.get_signal_result(ticker)
-            
-            if res is None:
                 if args.pipe:
                     res = run_piped_scan(ticker, df, args.pipe)
                 else:
                     res = score_extended_signals(ticker, df)
-                cache.save_signal_result(ticker, res)
-            else:
-                logger.info(f"Using cached signal results for {ticker}")
-            
-            if res.get('signals'):
-                # Add date for backtesting
-                res['date'] = df.index[-1]
                 
-                # Perform backtest if requested (on a previous date signal)
-                if args.backtest:
-                    # Find a signal day from 30 days ago and see how it performed
-                    if len(df) > 60:
+                if res.get('signals'):
+                    res['date'] = df.index[-1]
+                    # Backtest logic if requested
+                    if args.backtest and len(df) > 60:
                         hist_res = score_extended_signals(ticker, df.iloc[:-30])
                         if hist_res.get('signals'):
                             perf = calculate_returns(df, len(df)-31, [1, 5, 10, 22, 30])
                             res.update(perf)
-                
-                results.append(res)
-                
-            time.sleep(0.5)
-                
-        except Exception as e:
-            logger.error(f"Error processing {ticker}: {e}")
+                    
+                    cache.save_signal_result(ticker, res)
+                    # We also want to cache the price data if we just downloaded it
+                    cache.save_price_data(ticker, df)
+                    return res
+                return None
+            except Exception as e:
+                logger.error(f"Error analyzing {ticker}: {e}")
+                return None
+
+        max_workers = 15
+        logger.info(f"Analyzing {len(all_data)} stocks with {max_workers} workers...")
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_to_ticker = {
+                executor.submit(analyze_ticker, t, d): t 
+                for t, d in all_data.items()
+            }
+            
+            for future in as_completed(future_to_ticker):
+                res = future.result()
+                if res:
+                    results.append(res)
+    # --- END OPTIMIZED BATCH PROCESSING ---
             
     generate_report(results, title)
     

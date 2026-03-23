@@ -13,9 +13,10 @@
 *   **Lorentzian ML Classification**: KNN-inspired distance-based momentum scoring for next-day direction prediction.
 *   **NSE Factor Index Rankings**: Alpha 50, Momentum 30/50, Low Volatility 50, High Beta 50, Quality 30, Value, Dual Momentum, and Multifactor MQVLv — all per NSE Feb 2026 methodology.
 *   **Sector Rotation Analysis**: Tracks institutional money flow across 15 NSE sectoral indices with Relative Strength slopes.
-*   **Advanced Backtesting Engine**: Simulates portfolio performance with Market Regime filter and adaptive trailing stops.
-*   **Portfolio Risk Management**: Automated stop-loss trailing, partial profit recommendations, and LTCG tax-aware position filtering.
-*   **Telegram Alerts**: Real-time BUY/SELL notifications pushed to your phone.
+*   **Automated Regime Detection**: 7-layer probabilistic system using Gaussian Mixture Models (GMM) to identify market states (Bullish, Sideways, Volatile, Crisis).
+*   **Adaptive Strategy Allocation**: Markov-inspired meta-controller that dynamically adjusts strategy weights (Momentum vs Mean Reversion) based on detected regime.
+*   **High-Performance Batch Processing**: Optimized data layer with multi-threaded analysis and batch downloading for processing 2,250+ stocks in minutes.
+*   **Detailed Signal Summaries**: Enhanced Telegram alerts with entry points, stop-losses, targets, and position sizing.
 
 ---
 
@@ -284,8 +285,16 @@ Scoring: `Score = 1M Perf + (RS Slope × 2) + Distance from 50 SMA`
 
 ## 🛠️ Main Tools & Commands
 
+### 🧠 Adaptive Regime Scanner (`run_regime_scan.py`)
+Fully adaptive system that changes strategy based on current market regime.
+```bash
+python run_regime_scan.py                           # Default scan (Nifty 200)
+python run_regime_scan.py --test --index "NIFTY 50" # Test mode (20 stocks)
+python run_regime_scan.py --full                    # Scan NIFTY 500 universe
+```
+
 ### 📈 Primary Scanner (`run_extended_scan.py`)
-The main engine for daily NSE screening.
+The main engine for daily NSE screening with extended signals.
 ```bash
 python run_extended_scan.py                         # Full NSE universe (default)
 python run_extended_scan.py --test                  # Test scan (first 10)

@@ -10,7 +10,7 @@ import pickle
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 
 import pandas as pd
 import yfinance as yf
@@ -100,7 +100,7 @@ class YahooFinanceFetcher:
 
         return is_valid
 
-    def _load_from_cache(self, cache_path: Path) -> Optional[any]:
+    def _load_from_cache(self, cache_path: Path) -> Optional[Any]:
         """Load data from cache file.
 
         Args:
@@ -118,7 +118,7 @@ class YahooFinanceFetcher:
             logger.warning(f"Failed to load cache {cache_path.name}: {e}")
             return None
 
-    def _save_to_cache(self, data: any, cache_path: Path) -> None:
+    def _save_to_cache(self, data: Any, cache_path: Path) -> None:
         """Save data to cache file.
 
         Args:
@@ -157,7 +157,7 @@ class YahooFinanceFetcher:
                     logger.error(f"Failed to fetch {ticker} after {self.max_retries} attempts")
                     return None
 
-    def fetch_fundamentals(self, ticker: str) -> Dict[str, any]:
+    def fetch_fundamentals(self, ticker: str) -> Dict[str, Any]:
         """Fetch fundamental data for a stock.
 
         Retrieves key fundamental metrics including current price, 52-week high/low,
@@ -348,6 +348,62 @@ class YahooFinanceFetcher:
         )
 
         return fundamentals_df, prices_df
+
+    def batch_download(
+        self,
+        tickers: List[str],
+        period: str = "2y",
+        interval: str = "1d",
+        group_by: str = 'ticker',
+        threads: bool = True
+    ) -> Dict[str, pd.DataFrame]:
+        """Download price history for multiple tickers in one call.
+
+        Args:
+            tickers: List of tickers to download
+            period: Data period (1y, 2y, 5y, max)
+            interval: Data interval (1d)
+            group_by: How to group results ('ticker' or 'column')
+            threads: Whether to use threads for downloading
+
+        Returns:
+            Dict mapping ticker to its price DataFrame
+        """
+        logger.info(f"Batch downloading {len(tickers)} tickers (period={period}, threads={threads})...")
+        
+        try:
+            # yfinance download returns a MultiIndex DataFrame if multiple tickers
+            data = yf.download(
+                tickers,
+                period=period,
+                interval=interval,
+                group_by=group_by,
+                threads=threads,
+                progress=False
+            )
+            
+            results = {}
+            
+            if len(tickers) == 1:
+                ticker = tickers[0]
+                results[ticker] = data
+            else:
+                for ticker in tickers:
+                    try:
+                        ticker_data = data[ticker].dropna(how='all')
+                        if not ticker_data.empty:
+                            # Standardize column names (Capitalize)
+                            ticker_data.columns = [col.capitalize() for col in ticker_data.columns]
+                            results[ticker] = ticker_data
+                    except KeyError:
+                        logger.warning(f"No data found for {ticker} in batch download")
+            
+            logger.info(f"Batch download complete. Successfully retrieved {len(results)}/{len(tickers)} tickers.")
+            return results
+            
+        except Exception as e:
+            logger.error(f"Error during batch download: {e}")
+            return {}
 
     def clear_cache(self, ticker: Optional[str] = None) -> None:
         """Clear cached data.

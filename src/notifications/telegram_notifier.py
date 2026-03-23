@@ -1,6 +1,7 @@
 import logging
 import os
 import requests
+from datetime import datetime
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -35,18 +36,39 @@ class TelegramNotifier:
             return False
 
     def send_signals(self, signals: list, title: str):
-        """Format and send a list of signals."""
+        """Format and send a list of signals with Buy/Stop/Target details if available."""
         if not signals:
             return
             
-        msg = f"🚀 *{title} Signal Alert*\n\n"
+        msg = f"🚀 *{title} Signal Alert*\n"
+        msg += f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
         
-        for sig in signals[:15]: # Limit to top 15 to avoid telegram message size limits
-            msg += f"• *{sig['ticker']}*: {sig['price']} (RSI: {sig['rsi']})\n"
-            msg += f"  Signals: {', '.join(sig['signals'])}\n"
+        # Sort by score if present
+        if 'score' in signals[0]:
+            signals = sorted(signals, key=lambda x: x.get('score', 0), reverse=True)
+        elif 'alpha_score' in signals[0]:
+            signals = sorted(signals, key=lambda x: x.get('alpha_score', 0), reverse=True)
+
+        for sig in signals[:15]: # Limit to top 15
+            ticker = sig.get('ticker', 'Unknown')
+            price = sig.get('price', sig.get('current_price', 'N/A'))
+            
+            msg += f"• *{ticker}* | Price: {price}\n"
+            
+            # Case 1: Advanced Regime Signals
+            if 'strategy' in sig and 'stop' in sig:
+                msg += f"  Type: {sig['strategy']} (Score: {sig.get('score', 0):.2f})\n"
+                msg += f"  🎯 Target: {sig.get('target', 'N/A')} | 🛑 Stop: {sig.get('stop', 'N/A')}\n"
+                msg += f"  📦 Qty: {sig.get('quantity', 'N/A')} (Risk: {sig.get('risk_pct', 'N/A')}%)\n"
+            
+            # Case 2: Extended Technical Signals
+            elif 'signals' in sig:
+                msg += f"  Signals: {', '.join(sig['signals'][:4])}\n"
+                if 'rsi' in sig: msg += f"  RSI: {sig['rsi']:.1f}\n"
+
             msg += "\n"
             
         if len(signals) > 15:
-            msg += f"\n... and {len(signals) - 15} more."
+            msg += f"\n... and {len(signals) - 15} more stocks found."
             
         self.send_message(msg)

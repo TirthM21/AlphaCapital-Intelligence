@@ -7,8 +7,13 @@ to identify leader and laggard rotations across all dimensions.
 import logging
 import pandas as pd
 import yfinance as yf
+import os
+import json
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
+from pathlib import Path
+
+from src.data.nifty_indices import NiftyIndexFetcher
 
 logger = logging.getLogger(__name__)
 
@@ -70,9 +75,38 @@ class SectorRotationAnalyzer:
         self.lookback_days = lookback_days
         self.benchmark = "^NSEI"
 
-    def fetch_index_data(self, ticker: str, period: str = "1y") -> pd.DataFrame:
-        """Fetch index prices from yfinance."""
+    def fetch_index_data(self, ticker: str, name: str = "", period: str = "1y") -> pd.DataFrame:
+        """Fetch index data. Prefers local TRI data, falls back to yfinance."""
+        # 1. Try local TRI data first (if it's a Nifty index)
+        if name:
+            filename = name.replace(' ', '_').replace('/', '-')
+            local_path = Path(f"./data/indices/{filename}.json")
+            if local_path.exists():
+                try:
+                    with open(local_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    
+                    fetcher = NiftyIndexFetcher()
+                    df = fetcher.process_data_to_dataframe(data)
+                    
+                    if df is not None and not df.empty:
+                        # Ensure we have enough data for the period
+                        # If recent data is missing (more than 3 days old), we might want to warn
+                        last_date = df.index[-1]
+                        if (datetime.now() - last_date).days < 7:
+                            logger.info(f"  Using local TRI data for {name} (Last update: {last_date.date()})")
+                            # We need 'Close' for rotation analysis. TRI data uses 'TotalReturnsIndex'
+                            if 'TotalReturnsIndex' in df.columns:
+                                df['Close'] = df['TotalReturnsIndex']
+                            return df
+                        else:
+                            logger.warning(f"  Local data for {name} is outdated ({last_date.date()}).")
+                except Exception as e:
+                    logger.warning(f"  Failed to load local data for {name}: {e}")
+
+        # 2. Fallback to yfinance
         try:
+            logger.info(f"  Fetching {ticker} from Yahoo Finance...")
             df = yf.download(ticker, period=period, interval="1d", progress=False)
             if df.empty:
                 return pd.DataFrame()
@@ -98,7 +132,7 @@ class SectorRotationAnalyzer:
                 continue
 
             logger.info(f"  Analyzing {name} ({ticker})...")
-            df = self.fetch_index_data(ticker)
+            df = self.fetch_index_data(ticker, name=name)
             if df.empty or len(df) < 23:
                 logger.warning(f"  Skipping {name} — insufficient data")
                 continue
@@ -146,7 +180,7 @@ class SectorRotationAnalyzer:
     def analyze_all(self) -> Dict[str, any]:
         """Perform full rotation analysis across market cap, sectors, and themes."""
         logger.info("Fetching Nifty 50 benchmark data...")
-        bench_df = self.fetch_index_data(self.benchmark)
+        bench_df = self.fetch_index_data(self.benchmark, name="Nifty 50")
         if bench_df.empty:
             return {"error": "Failed to fetch benchmark data"}
         bench_close = bench_df['Close']

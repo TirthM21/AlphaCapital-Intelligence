@@ -1,0 +1,30 @@
+{
+  "d": [
+    {"indextype": "NIFTY 50"},
+    {"indextype": "NIFTY NEXT 50"},
+    {"indextype": "NIFTY 100"},
+    {"indextype": "NIFTY 200"},
+    {"indextype": "NIFTY 500"},
+    {"indextype": "NIFTY MIDCAP 50"},
+    {"indextype": "NIFTY MIDCAP 100"},
+    {"indextype": "NIFTY MIDCAP 150"},
+    {"indextype": "NIFTY SMALLCAP 50"},
+    {"indextype": "NIFTY SMALLCAP 100"},
+    {"indextype": "NIFTY SMALLCAP 250"},
+    {"indextype": "NIFTY BANK"},
+    {"indextype": "NIFTY IT"},
+    {"indextype": "NIFTY PHARMA"},
+    {"indextype": "NIFTY FMCG"},
+    {"indextype": "NIFTY AUTO"},
+    {"indextype": "NIFTY METAL"},
+    {"indextype": "NIFTY REALTY"},
+    {"indextype": "NIFTY MEDIA"},
+    {"indexType": "NIFTY ENERGY"},
+    {"indextype": "NIFTY HEALTHCARE"},
+    {"indextype": "NIFTY CONSUMPTION"},
+    {"indextype": "NIFTY ALPHA 50"},
+    {"indextype": "NIFTY LOW VOL 50"},
+    {"indextype": "NIFTY QUALITY 30"},
+    {"indextype": "NIFTY VALUE 20"}
+  ]
+}
