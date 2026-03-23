@@ -320,6 +320,10 @@ class OptimizedBatchProcessor:
             # Track error type
             error_type = type(e).__name__
             error_msg = str(e)
+            
+            # Log traceback for debugging
+            import traceback
+            tb = traceback.format_exc()
 
             if error_type not in self.error_types:
                 self.error_types[error_type] = 0
@@ -329,7 +333,7 @@ class OptimizedBatchProcessor:
 
             # Log first 5 occurrences of each error type for debugging
             if self.error_types[error_type] <= 5:
-                logger.error(f"[ERROR #{self.error_types[error_type]}] {error_type} on {ticker}: {error_msg}")
+                logger.error(f"[ERROR #{self.error_types[error_type]}] {error_type} on {ticker}: {error_msg}\n{tb}")
             elif self.error_types[error_type] == 6:
                 logger.info(f"  ({error_type} will now be suppressed, {self.error_types[error_type]} total so far)")
 

@@ -364,9 +364,9 @@ def analyze_fundamentals_for_signal(quarterly_data: Dict) -> Dict[str, any]:
     else:
         eps_trend = 'deteriorating'
 
-    if inv_change > 15:
+    if inv_change is not None and inv_change > 15:
         inventory_signal = 'negative'
-    elif inv_change > 5:
+    elif inv_change is not None and inv_change > 5:
         inventory_signal = 'caution'
     else:
         inventory_signal = 'neutral'
