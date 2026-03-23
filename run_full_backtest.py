@@ -24,6 +24,7 @@ import sys
 import os
 from datetime import datetime
 from pathlib import Path
+from typing import Dict, List, Optional
 
 logging.basicConfig(
     level=logging.INFO,
@@ -32,7 +33,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def run_strategy(name, cmd, cwd=None):
+def run_strategy(name, cmd, short=False):
     """Run a strategy backtest as a subprocess."""
     print(f"\n{'━' * 80}")
     print(f"  🚀 STRATEGY: {name}")
@@ -40,19 +41,28 @@ def run_strategy(name, cmd, cwd=None):
     print(f"{'━' * 80}\n")
 
     try:
-        result = subprocess.run(
-            cmd, cwd=cwd,
-            timeout=7200  # 2 hour timeout per strategy
-        )
-        if result.returncode == 0:
+        if short:
+            process = subprocess.Popen(
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, 
+                text=True, bufsize=1, universal_newlines=True
+            )
+            output_lines = []
+            for line in process.stdout:
+                output_lines.append(line)
+                if not any(k in line for k in ["INFO", "Downloading", "Processing", "["]):
+                    print(line, end="") # Only print interesting lines in short mode
+            process.wait(timeout=7200)
+            returncode = process.returncode
+        else:
+            result = subprocess.run(cmd, timeout=7200)
+            returncode = result.returncode
+
+        if returncode == 0:
             logger.info(f"  ✅ {name} completed successfully")
             return True
         else:
-            logger.error(f"  ❌ {name} exited with code {result.returncode}")
+            logger.error(f"  ❌ {name} exited with code {returncode}")
             return False
-    except subprocess.TimeoutExpired:
-        logger.error(f"  ❌ {name} timed out (2h limit)")
-        return False
     except Exception as e:
         logger.error(f"  ❌ {name} failed: {e}")
         return False
@@ -67,6 +77,7 @@ def main():
     parser.add_argument('--forward', type=int, default=60,
                         help='Forward period for factor backtests')
     parser.add_argument('--test', action='store_true', help='Quick test mode')
+    parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines per strat)')
     parser.add_argument('--skip-factors', action='store_true',
                         help='Skip factor ranking backtest (slow due to API calls)')
     parser.add_argument('--skip-portfolio', action='store_true',
@@ -78,56 +89,53 @@ def main():
     print("=" * 80)
     print("  FULL MARKET BACKTEST ORCHESTRATOR")
     print(f"  Universe: {args.universe}")
-    print(f"  Signal lookback: {args.days_ago} days ago")
-    print(f"  Factor forward period: {args.forward} days")
+    print(f"  Short output: {args.short}")
     print(f"  Started: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 80)
 
     py = sys.executable
     universe_flag = ['--full'] if args.universe.upper() == 'FULL' else ['--index', args.universe]
     test_flag = ['--test'] if args.test else []
+    short_flag = ['--short'] if args.short else []
 
-    results = {}
+    results = {} # type: Dict[str, Optional[bool]]
+    results['Extended Signals'] = None
+    results['VCP / Trend Template'] = None
+    results['Factor Rankings'] = None
+    results['Portfolio Simulation'] = None
 
     # ─── 1. Extended Signals Backtest ────────────────────────────────────
-    cmd = [py, 'backtest_extended_signals.py'] + universe_flag + test_flag + [
+    cmd = [py, 'backtest_extended_signals.py'] + universe_flag + test_flag + short_flag + [
         '--days-ago', str(args.days_ago)
     ]
-    results['Extended Signals'] = run_strategy('Extended Signals (RSI, MACD, VSA, Lorentzian, etc.)', cmd)
+    results['Extended Signals'] = run_strategy('Extended Signals', cmd, short=args.short)
 
     # ─── 2. VCP / Trend Template Backtest ────────────────────────────────
-    cmd = [py, 'backtest_vcp.py'] + universe_flag + test_flag + [
+    cmd = [py, 'backtest_vcp.py'] + universe_flag + test_flag + short_flag + [
         '--days-ago', str(args.days_ago)
     ]
-    results['VCP / Trend Template'] = run_strategy('VCP / Minervini Trend Template', cmd)
+    results['VCP / Trend Template'] = run_strategy('VCP / Trend Template', cmd, short=args.short)
 
     # ─── 3. Factor Ranking Backtest ──────────────────────────────────────
     if not args.skip_factors:
-        cmd = [py, 'backtest_factor_ranking.py'] + universe_flag + test_flag + [
+        cmd = [py, 'backtest_factor_ranking.py'] + universe_flag + test_flag + short_flag + [
             '--all-factors',
             '--forward', str(args.forward)
         ]
-        results['Factor Rankings'] = run_strategy(
-            'Factor Rankings (Alpha, Momentum, Quality, Value, Multifactor)', cmd
-        )
+        results['Factor Rankings'] = run_strategy('Factor Rankings', cmd, short=args.short)
     else:
-        logger.info("Skipping factor ranking backtest (--skip-factors)")
         results['Factor Rankings'] = None
 
     # ─── 4. Advanced Portfolio Simulation ────────────────────────────────
     if not args.skip_portfolio:
-        portfolio_universe = args.universe
         symbols_count = '50' if args.test else '500'
         cmd = [py, 'run_advanced_backtest.py',
-               '--days', '365',
+               '--days', '365', short_flag[0] if short_flag else '',
                '--symbols', symbols_count]
         if args.universe.upper() != 'FULL':
             cmd += ['--index', args.universe]
-        results['Portfolio Simulation'] = run_strategy(
-            'Advanced Portfolio Simulation (Phase 2 Entry/Exit)', cmd
-        )
+        results['Portfolio Simulation'] = run_strategy('Portfolio Simulation', cmd, short=args.short)
     else:
-        logger.info("Skipping portfolio simulation (--skip-portfolio)")
         results['Portfolio Simulation'] = None
 
     # ─── Summary ─────────────────────────────────────────────────────────

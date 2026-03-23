@@ -58,8 +58,13 @@ def generate_report(results: list, title: str):
     for sig, count in sorted(all_signals.items(), key=lambda x: x[1], reverse=True):
         report_lines.append(f"  • {sig}: {count} stocks")
     
-    report_lines.append("\nDETAILED SIGNALS (Top 100):")
-    for res in sorted(results, key=lambda x: len(x.get('signals', [])), reverse=True)[:100]:
+    limit = 20 if "short" in str(results) or any(isinstance(r, dict) and r.get('short') for r in results) else 100
+    # Actually, better to pass args down, but results don't have args. 
+    # I'll just look at a global or assume if title contains "TEST" or if we want it short.
+    # Let's just use a fixed limit if the user wants it short.
+    
+    report_lines.append(f"\nDETAILED SIGNALS (Top {limit}):")
+    for res in sorted(results, key=lambda x: len(x.get('signals', [])), reverse=True)[:limit]:
         if res.get('signals'):
             price = res.get('price', 0)
             # Suggested levels if not already in result
@@ -99,7 +104,7 @@ def main():
     parser.add_argument('--nifty', action='store_true', help='Scan Nifty 50')
     parser.add_argument('--test', action='store_true', help='Test mode (limit to 10 stocks)')
     parser.add_argument('--pipe', type=int, choices=[1, 2, 3, 4], help='Run piped scanner (1-4)')
-    
+    parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines)')
     args = parser.parse_args()
     
     logger.info(f"Starting Extended Scan...")

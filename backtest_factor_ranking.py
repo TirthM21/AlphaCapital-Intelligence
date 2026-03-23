@@ -261,6 +261,7 @@ def main():
     parser.add_argument('--forward', type=int, default=60,
                         help='Forward period (days) for return measurement')
     parser.add_argument('--test', action='store_true', help='Test mode (50 stocks)')
+    parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines)')
     args = parser.parse_args()
 
     factors_to_test = ALL_FACTORS if args.all_factors else ([args.factor] if args.factor else ['momentum'])

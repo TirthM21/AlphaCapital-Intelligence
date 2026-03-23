@@ -200,6 +200,7 @@ def main():
     parser.add_argument('--full', action='store_true', help='ALL NSE stocks')
     parser.add_argument('--days-ago', type=int, default=30, help='Days ago to check for signals')
     parser.add_argument('--test', action='store_true', help='Test mode (20 stocks)')
+    parser.add_argument('--short', action='store_true', help='Summary only, skip detailed table')
     args = parser.parse_args()
 
     uf = StockUniverseFetcher()
@@ -222,7 +223,7 @@ def main():
     print(generate_summary(bearish, "BEARISH SIGNALS ONLY (short/avoid)", forward_periods))
 
     # Detailed table
-    if all_results:
+    if all_results and not args.short:
         print("\n" + "=" * 80)
         print("DETAILED SIGNAL PERFORMANCE (from {} days ago)".format(args.days_ago))
         print("=" * 80)

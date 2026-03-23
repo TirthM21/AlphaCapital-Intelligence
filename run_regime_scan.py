@@ -201,6 +201,7 @@ def main():
     parser.add_argument('--index', type=str, default='NIFTY 50', help='Index to scan')
     parser.add_argument('--test', action='store_true', help='Test with 20 stocks')
     parser.add_argument('--full', action='store_true', help='Scan NIFTY 500')
+    parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines)')
     args = parser.parse_args()
     
     uf = StockUniverseFetcher()

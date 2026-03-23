@@ -195,6 +195,7 @@ def main():
     parser.add_argument('--days-ago', type=int, default=30, help='Days ago for signal check')
     parser.add_argument('--min-score', type=int, default=60, help='Minimum buy score threshold')
     parser.add_argument('--test', action='store_true', help='Test mode (20 stocks)')
+    parser.add_argument('--short', action='store_true', help='Summary only, skip detailed table')
     args = parser.parse_args()
 
     uf = StockUniverseFetcher()
@@ -218,7 +219,7 @@ def main():
     print(summary)
 
     # Detailed table
-    if results:
+    if results and not args.short:
         print("\n" + "=" * 90)
         print("INDIVIDUAL SIGNAL RESULTS")
         print("=" * 90)

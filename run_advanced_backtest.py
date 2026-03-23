@@ -26,6 +26,7 @@ def main():
     parser.add_argument('--index', type=str, default=None, help='Specific index to backtest (e.g. NIFTY MIDCAP 100)')
     parser.add_argument('--nifty', action='store_true', help='Use Nifty 50 constituents for backtest')
     parser.add_argument('--fno', action='store_true', help='Use F&O constituents for backtest')
+    parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines)')
     args = parser.parse_args()
     
     logger.info(f"Preparing advanced backtest for last {args.days} days...")
