@@ -16,6 +16,7 @@ import numpy as np
 from scipy import stats
 import yfinance as yf
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 logger = logging.getLogger(__name__)
 
@@ -24,6 +25,9 @@ class NiftyFactorAnalyzer:
     """
     Computes factor scores for a universe of stocks per NSE Index Methodology.
     """
+
+    def __init__(self):
+        self._info_cache = {}
 
     # ------------------------------------------------------------------ #
     #  PRICE-BASED HELPERS
@@ -130,14 +134,23 @@ class NiftyFactorAnalyzer:
     # ------------------------------------------------------------------ #
     #  FACTOR 4 – QUALITY  (Nifty100 Quality 30 / Nifty500 Quality 50)
     # ------------------------------------------------------------------ #
-    @staticmethod
-    def _fetch_quality_data(ticker):
+    def _get_ticker_info(self, ticker):
+        if ticker in self._info_cache:
+            return self._info_cache[ticker]
+        try:
+            info = yf.Ticker(ticker).info
+        except Exception:
+            info = {}
+        self._info_cache[ticker] = info or {}
+        return self._info_cache[ticker]
+
+    def _fetch_quality_data(self, ticker):
         """
         Fetches ROE, D/E ratio, and trailing EPS from yfinance.
         Returns dict or None.
         """
         try:
-            info = yf.Ticker(ticker).info
+            info = self._get_ticker_info(ticker)
             roe = info.get('returnOnEquity', np.nan)
             de = info.get('debtToEquity', np.nan)
             # Normalize D/E from percentage to ratio
@@ -199,11 +212,10 @@ class NiftyFactorAnalyzer:
     # ------------------------------------------------------------------ #
     #  FACTOR 5 – VALUE  (from Nifty500 Multifactor MQVLv 50)
     # ------------------------------------------------------------------ #
-    @staticmethod
-    def _fetch_value_data(ticker):
+    def _fetch_value_data(self, ticker):
         """Fetches E/P, B/P, S/P, Dividend Yield from yfinance."""
         try:
-            info = yf.Ticker(ticker).info
+            info = self._get_ticker_info(ticker)
             pe = info.get('trailingPE', None)
             pb = info.get('priceToBook', None)
             ps = info.get('priceToSalesTrailing12Months', None)
@@ -216,6 +228,15 @@ class NiftyFactorAnalyzer:
             return {'ep': ep, 'bp': bp, 'sp': sp, 'div_yield': dy}
         except Exception:
             return None
+
+    def _populate_info_cache(self, tickers, max_workers=12):
+        missing = [ticker for ticker in tickers if ticker not in self._info_cache]
+        if not missing:
+            return
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {executor.submit(self._get_ticker_info, ticker): ticker for ticker in missing}
+            for future in as_completed(futures):
+                future.result()
 
     def _compute_value_score(self, factor_df):
         """
@@ -347,11 +368,17 @@ class NiftyFactorAnalyzer:
             factor_df = self._compute_dual_momentum(factor_df)
 
         # Fundamental-dependent factors (slower – API calls)
-        if 'quality' in factors or 'multifactor' in factors:
+        needs_quality = 'quality' in factors or 'multifactor' in factors
+        needs_value = 'value' in factors or 'multifactor' in factors
+        if needs_quality or needs_value:
+            logger.info("Fetching fundamental data once for %s tickers...", len(factor_df))
+            self._populate_info_cache(factor_df['symbol'].tolist())
+
+        if needs_quality:
             logger.info("Fetching fundamental data for Quality scores...")
             factor_df = self._compute_quality_score(factor_df)
 
-        if 'value' in factors or 'multifactor' in factors:
+        if needs_value:
             logger.info("Fetching fundamental data for Value scores...")
             factor_df = self._compute_value_score(factor_df)
 

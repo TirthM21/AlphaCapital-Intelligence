@@ -25,6 +25,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
+from src.data.fetcher import YahooFinanceFetcher
 from src.data.universe_fetcher import StockUniverseFetcher
 from src.analysis.factor_indices import NiftyFactorAnalyzer
 
@@ -49,29 +50,21 @@ FACTOR_SORT = {
 }
 
 
-def fetch_all_data(symbols, start_dt, end_dt, batch_size=50):
+def fetch_all_data(symbols, start_dt, end_dt, batch_size=50, cached_only: bool = False):
     """Download price history for all symbols in batches."""
     all_data = {}
+    fetcher = YahooFinanceFetcher()
     for i in range(0, len(symbols), batch_size):
         batch = symbols[i:i + batch_size]
-        tickers = [s if s.endswith('.NS') else f"{s}.NS" for s in batch]
         try:
-            raw = yf.download(tickers, start=start_dt, end=end_dt,
-                              group_by='ticker', threads=True, progress=False)
-            for s in batch:
-                t = s if s.endswith('.NS') else f"{s}.NS"
-                try:
-                    if len(tickers) == 1:
-                        sdf = raw.copy()
-                    else:
-                        sdf = raw[t] if t in raw.columns.get_level_values(0) else pd.DataFrame()
-                    if isinstance(sdf.columns, pd.MultiIndex):
-                        sdf.columns = sdf.columns.get_level_values(0)
-                    sdf = sdf.dropna()
+            tickers = [s if s.endswith('.NS') else f"{s}.NS" for s in batch]
+            batch_data = fetcher.batch_download(tickers, period="2y", cached_only=cached_only)
+            for original_symbol, ticker in zip(batch, tickers):
+                sdf = batch_data.get(ticker, pd.DataFrame())
+                if not sdf.empty:
+                    sdf = sdf.loc[start_dt:end_dt].dropna()
                     if not sdf.empty and len(sdf) >= 100:
-                        all_data[s] = sdf
-                except Exception:
-                    pass
+                        all_data[original_symbol] = sdf
             logger.info(f"  Batch {i // batch_size + 1} — {len(all_data)} stocks loaded")
         except Exception as e:
             logger.error(f"  Batch error: {e}")
@@ -79,7 +72,7 @@ def fetch_all_data(symbols, start_dt, end_dt, batch_size=50):
 
 
 def run_factor_backtest(factor, symbols, bench_df, all_data, total_days, top_n,
-                        selection_offset_days=60):
+                        selection_offset_days=60, cached_only: bool = False):
     """
     Backtest a single factor:
     1. Use data up to (today - selection_offset_days) for factor scoring
@@ -114,6 +107,9 @@ def run_factor_backtest(factor, symbols, bench_df, all_data, total_days, top_n,
 
     # Compute factor scores
     analyzer = NiftyFactorAnalyzer()
+    if cached_only and factor in {'quality', 'value', 'multifactor'}:
+        logger.warning("Skipping %s in cached-only mode because no fundamentals cache is available", factor)
+        return None
     try:
         factor_df = analyzer.compute_scores(scoring_data, scoring_bench, factors=[factor])
     except Exception as e:
@@ -217,7 +213,7 @@ def format_factor_report(results: List[Dict]) -> str:
     lines.append("  " + "-" * 94)
 
     for r in sorted(results, key=lambda x: x['alpha'], reverse=True):
-        alpha_emoji = "🟢" if r['alpha'] > 0 else "🔴"
+        alpha_emoji = "+" if r['alpha'] > 0 else "-"
         line = (
             f"  {alpha_emoji} {r['factor']:<15} {r['portfolio_return']:>+7.2f}% "
             f"{r['benchmark_return']:>+7.2f}% {r['alpha']:>+7.2f}% "
@@ -253,6 +249,7 @@ def format_factor_report(results: List[Dict]) -> str:
 def main():
     parser = argparse.ArgumentParser(description='Backtest Factor Ranking Strategies')
     parser.add_argument('--index', type=str, default='NIFTY 500', help='Index universe')
+    parser.add_argument('--full', action='store_true', help='Use full NSE universe')
     parser.add_argument('--factor', type=str, default=None, choices=ALL_FACTORS,
                         help='Single factor to test')
     parser.add_argument('--all-factors', action='store_true', help='Test ALL factors')
@@ -262,15 +259,17 @@ def main():
                         help='Forward period (days) for return measurement')
     parser.add_argument('--test', action='store_true', help='Test mode (50 stocks)')
     parser.add_argument('--short', action='store_true', help='Summarize output (<100 lines)')
+    parser.add_argument('--cached-only', action='store_true', help='Use cached universe and price data only')
     args = parser.parse_args()
 
     factors_to_test = ALL_FACTORS if args.all_factors else ([args.factor] if args.factor else ['momentum'])
 
-    logger.info(f"Factor Backtest: {', '.join(factors_to_test)} | Universe: {args.index} | Top {args.top}")
+    universe_label = 'FULL NSE' if args.full else args.index
+    logger.info(f"Factor Backtest: {', '.join(factors_to_test)} | Universe: {universe_label} | Top {args.top}")
 
     # 1. Fetch universe
     uf = StockUniverseFetcher()
-    symbols = uf.fetch_universe(index_name=args.index)
+    symbols = uf.fetch_universe(index_name=None if args.full else args.index, cached_only=args.cached_only)
     if args.test:
         symbols = symbols[:50]
 
@@ -280,8 +279,9 @@ def main():
     # 2. Download benchmark
     end_dt = datetime.now()
     start_dt = end_dt - timedelta(days=args.days + 30)
-    logger.info("Downloading benchmark (Nifty 50)...")
-    bench = yf.download('^NSEI', start=start_dt, end=end_dt, progress=False)
+    logger.info("Loading benchmark (Nifty 50)...")
+    fetcher = YahooFinanceFetcher()
+    bench = fetcher.batch_download(["^NSEI"], period="2y", cached_only=args.cached_only).get("^NSEI", pd.DataFrame())
     if bench.empty:
         logger.error("Benchmark download failed!"); return
     if isinstance(bench.columns, pd.MultiIndex):
@@ -289,7 +289,7 @@ def main():
 
     # 3. Download all stock data
     logger.info(f"Downloading {len(symbols)} stocks...")
-    all_data = fetch_all_data(symbols, start_dt, end_dt)
+    all_data = fetch_all_data(symbols, start_dt, end_dt, cached_only=args.cached_only)
     logger.info(f"Total stocks with data: {len(all_data)}")
 
     # 4. Run backtests for each factor
@@ -302,7 +302,8 @@ def main():
         result = run_factor_backtest(
             factor, symbols, bench, all_data,
             total_days=args.days, top_n=args.top,
-            selection_offset_days=args.forward
+            selection_offset_days=args.forward,
+            cached_only=args.cached_only,
         )
 
         if result:
@@ -334,7 +335,7 @@ def main():
             csv_path = report_dir / f"backtest_{r['factor']}_{ts}.csv"
             r['details'].to_csv(csv_path, index=False)
 
-    print(f"\n✅ Factor Backtest Complete — {len(factor_results)} factors tested")
+    print(f"\nFactor Backtest Complete: {len(factor_results)} factors tested")
 
 
 if __name__ == '__main__':

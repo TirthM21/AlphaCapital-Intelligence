@@ -25,6 +25,17 @@ logger = logging.getLogger(__name__)
 class StockUniverseFetcher:
     """Fetches and maintains the universe of NSE-listed stocks."""
 
+    INDEX_SIZE_LIMITS = {
+        "NIFTY 50": 75,
+        "NIFTY NEXT 50": 75,
+        "NIFTY 100": 130,
+        "NIFTY 200": 240,
+        "NIFTY 500": 550,
+        "NIFTY MIDCAP 100": 140,
+        "NIFTY SMALLCAP 100": 140,
+        "SECURITIES IN F&O": 500,
+    }
+
     def __init__(self, cache_dir: str = "./data/cache"):
         """Initialize the universe fetcher.
 
@@ -37,11 +48,25 @@ class StockUniverseFetcher:
         self.nse = NSEFetcher()
         logger.info("StockUniverseFetcher initialized (NSE India)")
 
+    def _get_cache_file(self, include_etfs: bool = False, index_name: Optional[str] = None) -> Path:
+        if index_name:
+            cache_key = index_name.lower().replace(" ", "_")
+        else:
+            cache_key = "etf" if include_etfs else "equity"
+        return self.cache_dir / f"nse_{cache_key}_universe.pkl"
+
+    def _is_cached_index_size_plausible(self, index_name: Optional[str], symbols: List[str]) -> bool:
+        if not index_name:
+            return True
+        limit = self.INDEX_SIZE_LIMITS.get(index_name.upper())
+        return limit is None or len(symbols) <= limit
+
     def fetch_universe(
         self, 
         force_refresh: bool = False, 
         include_etfs: bool = False,
-        index_name: Optional[str] = None
+        index_name: Optional[str] = None,
+        cached_only: bool = False,
     ) -> List[str]:
         """Fetch the complete universe of NSE-listed stocks or a specific index.
         
@@ -54,23 +79,32 @@ class StockUniverseFetcher:
             List of stock ticker symbols
         """
         # Determine unique cache key
-        if index_name:
-            cache_key = index_name.lower().replace(" ", "_")
-        else:
-            cache_key = "etf" if include_etfs else "equity"
-            
-        cache_file = self.cache_dir / f"nse_{cache_key}_universe.pkl"
+        cache_file = self._get_cache_file(include_etfs=include_etfs, index_name=index_name)
+        cache_key = cache_file.stem.replace("nse_", "").replace("_universe", "")
 
-        if not force_refresh and cache_file.exists():
+        if cache_file.exists() and (cached_only or not force_refresh):
             cache_age = datetime.now() - datetime.fromtimestamp(
                 cache_file.stat().st_mtime
             )
 
-            if cache_age < timedelta(days=1):
+            if cached_only or cache_age < timedelta(days=1):
                 with open(cache_file, 'rb') as f:
                     cached_data = pickle.load(f)
-                logger.info(f"Loaded {len(cached_data['symbols'])} NSE {cache_key} symbols from cache")
-                return cached_data['symbols']
+                cached_symbols = cached_data['symbols']
+                if self._is_cached_index_size_plausible(index_name, cached_symbols):
+                    logger.info(f"Loaded {len(cached_symbols)} NSE {cache_key} symbols from cache")
+                    return cached_symbols
+                logger.warning(
+                    "Ignoring cached universe for %s because %s symbols is not plausible for that index",
+                    index_name,
+                    len(cached_symbols),
+                )
+                if cached_only:
+                    return []
+
+        if cached_only:
+            logger.warning("Cached-only universe request had no usable cache for %s", index_name or cache_key)
+            return []
 
         if index_name:
             logger.info(f"Fetching index: {index_name}")
@@ -83,7 +117,17 @@ class StockUniverseFetcher:
             symbols = self.nse.get_all_equity_stocks()
 
         if not symbols:
-            # Fallback to index if primary fails
+            if index_name:
+                logger.error("Fetch failed for requested index %s", index_name)
+                if cache_file.exists():
+                    with open(cache_file, 'rb') as f:
+                        cached_data = pickle.load(f)
+                    cached_symbols = cached_data.get('symbols', [])
+                    if self._is_cached_index_size_plausible(index_name, cached_symbols):
+                        logger.warning("Using stale cached universe for %s", index_name)
+                        return cached_symbols
+                return []
+
             logger.warning(f"Fetch failed for {cache_key}, trying fallback...")
             symbols = self.nse.get_index_stocks('NIFTY 500')
 

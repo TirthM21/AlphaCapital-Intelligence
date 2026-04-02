@@ -53,11 +53,12 @@ def calculate_rsi(prices: pd.Series, period: int = 14) -> pd.Series:
     avg_gains = gains.ewm(span=period, min_periods=period, adjust=False).mean()
     avg_losses = losses.ewm(span=period, min_periods=period, adjust=False).mean()
 
-    # Avoid division by zero
+    # Wilder-style handling for zero-loss / zero-gain periods.
     rs = avg_gains / avg_losses.replace(0, np.nan)
-
-    # Calculate RSI
     rsi = 100 - (100 / (1 + rs))
+    rsi = rsi.where(avg_losses != 0, 100.0)
+    rsi = rsi.where(avg_gains != 0, 0.0)
+    rsi = rsi.where(~((avg_gains == 0) & (avg_losses == 0)), 50.0)
 
     return rsi
 
@@ -180,8 +181,12 @@ def detect_volume_spike(
         logger.warning(f"Insufficient volume data: {len(volumes)} < 20")
         return False
 
-    # Calculate average volume (last 20 periods)
-    avg_volume = volumes.iloc[-20:].mean()
+    # Compare against prior volume only; including the current bar dilutes true spikes.
+    lookback = volumes.iloc[-21:-1] if len(volumes) >= 21 else volumes.iloc[:-1]
+    if lookback.empty:
+        return False
+
+    avg_volume = lookback.mean()
 
     if avg_volume == 0:
         return False
@@ -605,7 +610,7 @@ def detect_higher_hl(df: pd.DataFrame, window: int = 5) -> str:
     
     if curr['High'] > prev['High'].max() and curr['Low'] > prev['Low'].min():
         return "higher_hl"
-    elif curr['High'] < prev['High'].min() and curr['Low'] < prev['Low'].max():
+    elif curr['High'] < prev['High'].max() and curr['Low'] < prev['Low'].min():
         return "lower_hl"
     return "none"
 

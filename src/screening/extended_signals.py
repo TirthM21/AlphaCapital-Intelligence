@@ -4,10 +4,11 @@ This module provides detection for a wide range of trading signals including
 momentum, trend reversals, crossovers, and price patterns.
 """
 
-import logging
-from typing import Dict, List, Optional
-import pandas as pd
 import numpy as np
+import logging
+from typing import Dict, List
+
+import pandas as pd
 
 from .indicators import (
     calculate_rsi,
@@ -33,6 +34,54 @@ from .indicators import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+BULLISH_SIGNAL_TOKENS = (
+    "Bullish",
+    "Golden Cross",
+    "Higher High / Higher Low Trend",
+    "Potential Support Bounce Zone",
+    "TTM Squeeze",
+    "Squeeze Breakout",
+    "Upper Keltner Breakout",
+    "MFI Low",
+    "CCI Low",
+    "RSI Oversold",
+    "Near 52-Week High Case",
+    "Volume Breakout",
+    "Stopping Volume",
+    "Absorption",
+)
+
+BULLISH_REVERSAL_TOKENS = (
+    "Bullish RSI Divergence",
+    "Candlestick: Bullish Engulfing",
+    "Candlestick: Hammer",
+    "Candlestick: Morning Star",
+)
+
+BEARISH_SIGNAL_TOKENS = (
+    "Bearish",
+    "Death Cross",
+    "Lower High / Lower Low Trend",
+    "RSI Overbought",
+    "MFI High",
+    "CCI High",
+    "52-Week Low",
+    "Lower Keltner Breakdown",
+    "No Demand",
+    "Weakness",
+    "MACD Momentum Deteriorating",
+)
+
+
+def _is_valid_number(value: float) -> bool:
+    return value is not None and not pd.isna(value) and np.isfinite(value)
+
+
+def _append_signal(signals: List[str], signal: str) -> None:
+    if signal and signal not in signals:
+        signals.append(signal)
 
 def detect_crossover(series_fast: pd.Series, series_slow: pd.Series) -> str:
     """Detect if fast series crossed above or below the slow series."""
@@ -109,19 +158,32 @@ def score_extended_signals(ticker: str, df: pd.DataFrame) -> Dict:
     ema_9 = calculate_ema(close, 9)
     ema_21 = calculate_ema(close, 21)
     
+    macd_line, macd_signal, macd_hist = calculate_macd(close)
+
     # Golden / Death Cross
     ma_cross = detect_crossover(sma_50, sma_200)
     if ma_cross == "bullish":
-        signals.append("Golden Cross")
+        _append_signal(signals, "Golden Cross")
     elif ma_cross == "bearish":
-        signals.append("Death Cross")
+        _append_signal(signals, "Death Cross")
         
     # EMA Cross (Short term)
     ema_cross = detect_crossover(ema_9, ema_21)
     if ema_cross == "bullish":
-        signals.append("Bullish 9/21 EMA Cross")
+        _append_signal(signals, "Bullish 9/21 EMA Cross")
     elif ema_cross == "bearish":
-        signals.append("Bearish 9/21 EMA Cross")
+        _append_signal(signals, "Bearish 9/21 EMA Cross")
+
+    macd_cross = detect_crossover(macd_line, macd_signal)
+    if macd_cross == "bullish":
+        _append_signal(signals, "Bullish MACD Cross")
+    elif macd_cross == "bearish":
+        _append_signal(signals, "Bearish MACD Cross")
+    elif len(macd_hist) >= 2 and _is_valid_number(macd_hist.iloc[-1]) and _is_valid_number(macd_hist.iloc[-2]):
+        if macd_hist.iloc[-1] > macd_hist.iloc[-2] > 0:
+            _append_signal(signals, "MACD Momentum Improving")
+        elif macd_hist.iloc[-1] < macd_hist.iloc[-2] < 0:
+            _append_signal(signals, "MACD Momentum Deteriorating")
     
     # 2. Momentum Indicators
     rsi = calculate_rsi(close, 14)
@@ -132,114 +194,130 @@ def score_extended_signals(ticker: str, df: pd.DataFrame) -> Dict:
     latest_mfi = mfi.iloc[-1]
     latest_cci = cci.iloc[-1]
     
-    if latest_rsi > 70: signals.append("RSI Overbought")
-    elif latest_rsi < 30: signals.append("RSI Oversold")
+    if _is_valid_number(latest_rsi):
+        if latest_rsi > 70:
+            _append_signal(signals, "RSI Overbought")
+        elif latest_rsi < 30:
+            _append_signal(signals, "RSI Oversold")
     
     # RSI Divergence
     rsi_div = detect_divergence(close, rsi)
-    if rsi_div == "bullish": signals.append("Bullish RSI Divergence")
-    elif rsi_div == "bearish": signals.append("Bearish RSI Divergence")
+    if rsi_div == "bullish":
+        _append_signal(signals, "Bullish RSI Divergence")
+    elif rsi_div == "bearish":
+        _append_signal(signals, "Bearish RSI Divergence")
     
-    if latest_mfi > 80: signals.append("MFI High")
-    elif latest_mfi < 20: signals.append("MFI Low")
+    if _is_valid_number(latest_mfi):
+        if latest_mfi > 80:
+            _append_signal(signals, "MFI High")
+        elif latest_mfi < 20:
+            _append_signal(signals, "MFI Low")
     
-    if latest_cci > 100: signals.append("CCI High")
-    elif latest_cci < -100: signals.append("CCI Low")
+    if _is_valid_number(latest_cci):
+        if latest_cci > 100:
+            _append_signal(signals, "CCI High")
+        elif latest_cci < -100:
+            _append_signal(signals, "CCI Low")
     
     # 3. Volume
     if detect_volume_spike(vol, vol.iloc[-1], threshold=2.0):
-        signals.append("Volume Breakout (>2x)")
+        _append_signal(signals, "Volume Breakout (>2x)")
         
     # 4. Price Patterns
     if detect_inside_bar(df):
-        signals.append("Inside Bar")
+        _append_signal(signals, "Inside Bar")
         
-    week_52_high = df['High'].rolling(252).max().iloc[-1]
-    week_52_low = df['Low'].rolling(252).min().iloc[-1]
-    
-    if close.iloc[-1] >= week_52_high:
-        signals.append("52-Week High Breakout")
-    elif close.iloc[-1] <= week_52_low:
-        signals.append("52-Week Low")
+    week_52_high = df['High'].shift(1).rolling(252, min_periods=200).max().iloc[-1]
+    week_52_low = df['Low'].shift(1).rolling(252, min_periods=200).min().iloc[-1]
+
+    if _is_valid_number(week_52_high) and close.iloc[-1] > week_52_high:
+        _append_signal(signals, "52-Week High Breakout")
+    elif _is_valid_number(week_52_low) and close.iloc[-1] < week_52_low:
+        _append_signal(signals, "52-Week Low")
         
     # 5. Volatility & Trend
     psar = calculate_psar(high, low)
-    if psar.iloc[-1] < close.iloc[-1] and psar.iloc[-2] >= close.iloc[-2]:
-        signals.append("PSAR Trend Reversal (Bullish)")
-    elif psar.iloc[-1] > close.iloc[-1] and psar.iloc[-2] <= close.iloc[-2]:
-        signals.append("PSAR Trend Reversal (Bearish)")
+    if len(psar) >= 2 and _is_valid_number(psar.iloc[-1]) and _is_valid_number(psar.iloc[-2]):
+        if psar.iloc[-1] < close.iloc[-1] and psar.iloc[-2] >= close.iloc[-2]:
+            _append_signal(signals, "PSAR Trend Reversal (Bullish)")
+        elif psar.iloc[-1] > close.iloc[-1] and psar.iloc[-2] <= close.iloc[-2]:
+            _append_signal(signals, "PSAR Trend Reversal (Bearish)")
     # 13. TTM Squeeze Detection
     squeeze_series = calculate_ttm_squeeze(close, df['Low'], df['High'])
     squeeze = squeeze_series.iloc[-1]
     if squeeze:
-        signals.append("TTM Squeeze (Potential Breakout)")
+        _append_signal(signals, "TTM Squeeze (Potential Breakout)")
         
     # 14. Keltner Channels
     k_mid, k_upper, k_lower = calculate_keltner_channels(df['High'], df['Low'], close)
     curr_price = close.iloc[-1]
     
-    if curr_price > k_upper.iloc[-1]:
-        signals.append("Upper Keltner Breakout (Bullish Momentum)")
-    elif curr_price < k_lower.iloc[-1]:
-        signals.append("Lower Keltner Rejection (Oversold)")
+    if _is_valid_number(k_upper.iloc[-1]) and curr_price > k_upper.iloc[-1]:
+        _append_signal(signals, "Upper Keltner Breakout (Bullish Momentum)")
+    elif _is_valid_number(k_lower.iloc[-1]) and curr_price < k_lower.iloc[-1]:
+        _append_signal(signals, "Lower Keltner Breakdown (Bearish Momentum)")
     
     # Check for Keltner squeeze (narrow bands)
     k_range = (k_upper - k_lower) / k_mid
-    if k_range.iloc[-1] < k_range.tail(20).mean() * 0.8:
-        signals.append("Keltner Band Compression (Volatility Squeeze)")
-    elif squeeze_series.iloc[-2] and not squeeze_series.iloc[-1]: # Use squeeze_series for historical check
-        signals.append("Squeeze Breakout")
+    if _is_valid_number(k_range.iloc[-1]) and _is_valid_number(k_range.tail(20).mean()) and k_range.iloc[-1] < k_range.tail(20).mean() * 0.8:
+        _append_signal(signals, "Keltner Band Compression (Volatility Squeeze)")
+    elif len(squeeze_series) >= 2 and bool(squeeze_series.iloc[-2]) and not bool(squeeze_series.iloc[-1]):
+        _append_signal(signals, "Squeeze Breakout")
         
     # ATR Expansion
     atr = calculate_atr(high, low, close, 14)
-    if atr.iloc[-1] > atr.iloc[-2] * 1.5:
-        signals.append("ATR Expansion (Volatility Jump)")
+    if len(atr) >= 2 and _is_valid_number(atr.iloc[-1]) and _is_valid_number(atr.iloc[-2]) and atr.iloc[-2] > 0:
+        if atr.iloc[-1] > atr.iloc[-2] * 1.5:
+            _append_signal(signals, "ATR Expansion (Volatility Jump)")
         
     # 6. Advanced Patterns
     nr = detect_nr4_nr7(df)
     if nr != "none":
-        signals.append(f"Narrow Range ({nr}) - Consolidation")
+        _append_signal(signals, f"Narrow Range ({nr}) - Consolidation")
         
     hl = detect_higher_hl(df)
     if hl == "higher_hl":
-        signals.append("Higher High / Higher Low Trend")
+        _append_signal(signals, "Higher High / Higher Low Trend")
     elif hl == "lower_hl":
-        signals.append("Lower High / Lower Low Trend")
+        _append_signal(signals, "Lower High / Lower Low Trend")
         
     lorentz_score = calculate_lorentzian(df)
     if lorentz_score >= 70:
-        signals.append(f"Lorentzian Classifier (Bullish: {lorentz_score:.1f})")
+        _append_signal(signals, f"Lorentzian Classifier (Bullish: {lorentz_score:.1f})")
     elif lorentz_score <= 30:
-        signals.append(f"Lorentzian Classifier (Bearish: {lorentz_score:.1f})")
+        _append_signal(signals, f"Lorentzian Classifier (Bearish: {lorentz_score:.1f})")
         
     # 7. VSA Analysis
     vsa = detect_vsa_signals(df)
     for v in vsa:
-        signals.append(f"VSA: {v}")
+        _append_signal(signals, f"VSA: {v}")
         
     # 8. Support / Resistance
     sr = find_support_resistance(df)
-    if close.iloc[-1] > sr['resistance_52w'] * 0.98:
-        signals.append("Near 52-Week High Case")
-    if close.iloc[-1] < sr['support_52w'] * 1.02:
-        signals.append("Potential Support Bounce Zone")
+    if sr.get('resistance_52w', 0) and close.iloc[-1] > sr['resistance_52w'] * 0.98:
+        _append_signal(signals, "Near 52-Week High Case")
+    if sr.get('support_52w', 0) and close.iloc[-1] < sr['support_52w'] * 1.02:
+        _append_signal(signals, "Potential Support Bounce Zone")
         
     # 8b. Fibonacci Awareness
     fib = calculate_fibonacci_levels(sr['resistance_52w'], sr['support_52w'])
     curr_price = close.iloc[-1]
     for lvl, price in fib.items():
-        if abs(curr_price - price) / price < 0.01:
-            signals.append(f"Near Fibonacci Level: {lvl}")
+        if price and abs(curr_price - price) / price < 0.01:
+            _append_signal(signals, f"Near Fibonacci Level: {lvl}")
             
     # 9. Aroon Crossover
     aroon_up, aroon_down = calculate_aroon(high, low)
-    if aroon_up.iloc[-1] > 70 and aroon_up.iloc[-2] <= 70:
-        signals.append("Aroon Bullish Crossover")
+    if len(aroon_up) >= 2 and _is_valid_number(aroon_up.iloc[-1]) and _is_valid_number(aroon_up.iloc[-2]):
+        if aroon_up.iloc[-1] > 70 and aroon_up.iloc[-2] <= 70:
+            _append_signal(signals, "Aroon Bullish Crossover")
+        if _is_valid_number(aroon_down.iloc[-1]) and _is_valid_number(aroon_down.iloc[-2]) and aroon_down.iloc[-1] > 70 and aroon_down.iloc[-2] <= 70:
+            _append_signal(signals, "Aroon Bearish Crossover")
         
     # 10. Candlestick Patterns
     candles = detect_candlestick_patterns(df)
     for c in candles:
-        signals.append(f"Candlestick: {c}")
+        _append_signal(signals, f"Candlestick: {c}")
 
     # 11. Next Day AI Prediction
     pred_data = predict_next_day(df)
@@ -248,9 +326,21 @@ def score_extended_signals(ticker: str, df: pd.DataFrame) -> Dict:
     # 10. "AI" Style Prediction Score (Weighted probability)
     prediction_score = pred_data['score']
     # Adjust based on other signals
-    if signals and any("Bullish" in s or "higher_hl" in s or "Golden" in s or "Lorentzian" in s or "VCP" in s for s in signals): 
+    if signals and any(
+        any(token in signal for token in BULLISH_SIGNAL_TOKENS + BULLISH_REVERSAL_TOKENS)
+        for signal in signals
+    ):
         prediction_score += 15
-    
+
+    bullish_score = sum(
+        any(token in sig for token in BULLISH_SIGNAL_TOKENS + BULLISH_REVERSAL_TOKENS)
+        for sig in signals
+    )
+    bearish_score = sum(
+        any(token in sig for token in BEARISH_SIGNAL_TOKENS)
+        for sig in signals
+    )
+
     return {
         'ticker': ticker,
         'signals': signals,
@@ -259,6 +349,8 @@ def score_extended_signals(ticker: str, df: pd.DataFrame) -> Dict:
         'volume_ratio': round(vol.iloc[-1] / vol.iloc[-50:-1].mean(), 2) if len(vol) > 50 else 1.0,
         'prediction_score': min(100, prediction_score),
         'lorentzian': round(lorentz_score, 1),
+        'bullish_score': bullish_score,
+        'bearish_score': bearish_score,
         'next_day_forecast': prediction_text,
         'levels': sr,
         'fib_levels': fib

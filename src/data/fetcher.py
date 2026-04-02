@@ -43,6 +43,15 @@ class YahooFinanceFetcher:
         >>> all_data = fetcher.fetch_multiple(["AAPL", "MSFT", "GOOGL"])
     """
 
+    @staticmethod
+    def _normalize_price_frame(data: Any) -> Any:
+        """Normalize cached OHLCV frames to a tz-naive DatetimeIndex."""
+        if isinstance(data, pd.DataFrame) and isinstance(data.index, pd.DatetimeIndex):
+            if data.index.tz is not None:
+                data = data.copy()
+                data.index = data.index.tz_localize(None)
+        return data
+
     def __init__(
         self,
         cache_dir: str = "./data/cache",
@@ -76,6 +85,19 @@ class YahooFinanceFetcher:
             Path object for the cache file.
         """
         return self.cache_dir / f"{ticker}_{data_type}.pkl"
+
+    def _load_best_cached_price_history(self, ticker: str, interval: str = "1d") -> Optional[pd.DataFrame]:
+        """Load the largest cached price history available for a ticker."""
+        candidates = sorted(
+            self.cache_dir.glob(f"{ticker}_prices_*_{interval}.pkl"),
+            key=lambda path: path.stat().st_size,
+            reverse=True,
+        )
+        for cache_path in candidates:
+            cached_data = self._load_from_cache(cache_path)
+            if isinstance(cached_data, pd.DataFrame) and not cached_data.empty:
+                return cached_data
+        return None
 
     def _is_cache_valid(self, cache_path: Path) -> bool:
         """Check if cached data is still valid.
@@ -112,6 +134,7 @@ class YahooFinanceFetcher:
         try:
             with open(cache_path, 'rb') as f:
                 data = pickle.load(f)
+            data = self._normalize_price_frame(data)
             logger.info(f"Loaded data from cache: {cache_path.name}")
             return data
         except Exception as e:
@@ -126,6 +149,7 @@ class YahooFinanceFetcher:
             cache_path: Path to save the cache file.
         """
         try:
+            data = self._normalize_price_frame(data)
             with open(cache_path, 'wb') as f:
                 pickle.dump(data, f)
             logger.info(f"Saved data to cache: {cache_path.name}")
@@ -227,11 +251,18 @@ class YahooFinanceFetcher:
             logger.error(f"Error extracting fundamentals for {ticker}: {e}")
             return {}
 
+    def load_cached_fundamentals(self, ticker: str) -> Dict[str, Any]:
+        """Load fundamentals from cache only, without any network calls."""
+        cache_path = self._get_cache_path(ticker, 'fundamentals')
+        cached_data = self._load_from_cache(cache_path) if cache_path.exists() else None
+        return cached_data if isinstance(cached_data, dict) else {}
+
     def fetch_price_history(
         self,
         ticker: str,
         period: str = "5y",
-        interval: str = "1d"
+        interval: str = "1d",
+        cached_only: bool = False,
     ) -> pd.DataFrame:
         """Fetch historical price data for a stock.
 
@@ -260,6 +291,14 @@ class YahooFinanceFetcher:
             cached_data = self._load_from_cache(cache_path)
             if cached_data is not None and isinstance(cached_data, pd.DataFrame):
                 return cached_data
+        elif cached_only and cache_path.exists():
+            cached_data = self._load_from_cache(cache_path)
+            if cached_data is not None and isinstance(cached_data, pd.DataFrame):
+                return cached_data
+
+        if cached_only:
+            fallback = self._load_best_cached_price_history(ticker, interval=interval)
+            return fallback if isinstance(fallback, pd.DataFrame) else pd.DataFrame()
 
         # Fetch from API
         logger.info(f"Fetching price history for {ticker} (period={period}, interval={interval})")
@@ -355,7 +394,8 @@ class YahooFinanceFetcher:
         period: str = "2y",
         interval: str = "1d",
         group_by: str = 'ticker',
-        threads: bool = True
+        threads: bool = True,
+        cached_only: bool = False,
     ) -> Dict[str, pd.DataFrame]:
         """Download price history for multiple tickers in one call.
 
@@ -372,33 +412,67 @@ class YahooFinanceFetcher:
         logger.info(f"Batch downloading {len(tickers)} tickers (period={period}, threads={threads})...")
         
         try:
-            # yfinance download returns a MultiIndex DataFrame if multiple tickers
-            data = yf.download(
-                tickers,
-                period=period,
-                interval=interval,
-                group_by=group_by,
-                threads=threads,
-                progress=False
+            results: Dict[str, pd.DataFrame] = {}
+            missing_tickers: List[str] = []
+
+            for ticker in tickers:
+                cache_path = self._get_cache_path(ticker, f'prices_{period}_{interval}')
+                if self._is_cache_valid(cache_path) or (cached_only and cache_path.exists()):
+                    cached_data = self._load_from_cache(cache_path)
+                    if isinstance(cached_data, pd.DataFrame) and not cached_data.empty:
+                        results[ticker] = cached_data
+                        continue
+                if cached_only:
+                    fallback = self._load_best_cached_price_history(ticker, interval=interval)
+                    if isinstance(fallback, pd.DataFrame) and not fallback.empty:
+                        results[ticker] = fallback
+                        continue
+                missing_tickers.append(ticker)
+
+            if missing_tickers and not cached_only:
+                data = yf.download(
+                    missing_tickers,
+                    period=period,
+                    interval=interval,
+                    group_by=group_by,
+                    threads=threads,
+                    progress=False
+                )
+
+                if len(missing_tickers) == 1:
+                    ticker = missing_tickers[0]
+                    ticker_data = data.copy()
+                    if not ticker_data.empty:
+                        ticker_data.columns = [col.capitalize() for col in ticker_data.columns]
+                        results[ticker] = ticker_data
+                        self._save_to_cache(
+                            ticker_data,
+                            self._get_cache_path(ticker, f'prices_{period}_{interval}')
+                        )
+                else:
+                    for ticker in missing_tickers:
+                        try:
+                            ticker_data = data[ticker].dropna(how='all')
+                            if not ticker_data.empty:
+                                ticker_data.columns = [col.capitalize() for col in ticker_data.columns]
+                                results[ticker] = ticker_data
+                                self._save_to_cache(
+                                    ticker_data,
+                                    self._get_cache_path(ticker, f'prices_{period}_{interval}')
+                                )
+                        except KeyError:
+                            logger.warning(f"No data found for {ticker} in batch download")
+
+            elif missing_tickers and cached_only:
+                logger.info(
+                    "Cached-only batch download skipped %s tickers with no local cache.",
+                    len(missing_tickers),
+                )
+
+            logger.info(
+                f"Batch download complete. Successfully retrieved {len(results)}/{len(tickers)} tickers "
+                f"({len(tickers) - len(missing_tickers)} from cache)."
             )
-            
-            results = {}
-            
-            if len(tickers) == 1:
-                ticker = tickers[0]
-                results[ticker] = data
-            else:
-                for ticker in tickers:
-                    try:
-                        ticker_data = data[ticker].dropna(how='all')
-                        if not ticker_data.empty:
-                            # Standardize column names (Capitalize)
-                            ticker_data.columns = [col.capitalize() for col in ticker_data.columns]
-                            results[ticker] = ticker_data
-                    except KeyError:
-                        logger.warning(f"No data found for {ticker} in batch download")
-            
-            logger.info(f"Batch download complete. Successfully retrieved {len(results)}/{len(tickers)} tickers.")
             return results
             
         except Exception as e:

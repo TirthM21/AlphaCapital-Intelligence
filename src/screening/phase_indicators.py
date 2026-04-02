@@ -196,10 +196,10 @@ def find_base_high(prices: pd.Series, window: int = 60) -> Optional[float]:
     Returns:
         Base high price level
     """
-    if len(prices) < window:
+    if len(prices) <= window:
         return None
 
-    recent_high = prices.iloc[-window:].max()
+    recent_high = prices.iloc[-window:-1].max()
     return float(recent_high)
 
 
@@ -213,10 +213,10 @@ def find_pivot_high(prices: pd.Series, window: int = 20) -> Optional[float]:
     Returns:
         Pivot high price level
     """
-    if len(prices) < window:
+    if len(prices) <= window:
         return None
 
-    pivot = prices.iloc[-window:].max()
+    pivot = prices.iloc[-window:-1].max()
     return float(pivot)
 
 

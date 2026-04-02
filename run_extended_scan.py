@@ -4,18 +4,17 @@
 Supports multiple indices, IPOs, and extended technical signals.
 """
 
-import argparse
 import logging
+import os
 import sys
+import argparse
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
-import yfinance as yf
 
 from src.data.universe_fetcher import StockUniverseFetcher
 from src.screening.extended_signals import score_extended_signals
 from src.screening.piped_scanners import run_piped_scan
-from src.screening.batch_processor import BatchStockProcessor
 from src.notifications.telegram_notifier import TelegramNotifier
 from src.analysis.backtest_engine import calculate_returns, format_performance_summary
 from src.data.market_cache import MarketDataCache
@@ -153,6 +152,7 @@ def main():
     results = []
     cache = MarketDataCache()
     fetcher = YahooFinanceFetcher()
+    strategy_cache_key = f"pipe_{args.pipe}" if args.pipe else "extended"
     
     # --- OPTIMIZED BATCH PROCESSING ---
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -160,8 +160,8 @@ def main():
     # 1. Check for cached results first to avoid unnecessary downloads
     remaining_tickers = []
     for ticker in tickers:
-        res = cache.get_signal_result(ticker)
-        if res:
+        res = cache.get_signal_result(ticker, strategy=strategy_cache_key)
+        if res is not None:
             results.append(res)
         else:
             remaining_tickers.append(ticker)
@@ -171,13 +171,25 @@ def main():
     else:
         logger.info(f"Processing {len(remaining_tickers)} stocks (using batch download and threads)...")
         
-        # 2. Batch Download in chunks
-        chunk_size = 300
+        # 2. Reuse same-day cached prices before hitting the network.
+        chunk_size = 500
         all_data = {}
-        for i in range(0, len(remaining_tickers), chunk_size):
-            chunk = remaining_tickers[i:i+chunk_size]
-            logger.info(f"Downloading chunk {i//chunk_size + 1}/{(len(remaining_tickers)-1)//chunk_size + 1}...")
+        uncached_tickers = []
+        for ticker in remaining_tickers:
+            cached_df = cache.get_price_data(ticker)
+            if cached_df is not None and not cached_df.empty:
+                all_data[ticker] = cached_df
+            else:
+                uncached_tickers.append(ticker)
+
+        logger.info(f"Loaded {len(all_data)} cached price histories; downloading {len(uncached_tickers)}")
+        for i in range(0, len(uncached_tickers), chunk_size):
+            chunk = uncached_tickers[i:i+chunk_size]
+            logger.info(f"Downloading chunk {i//chunk_size + 1}/{(len(uncached_tickers)-1)//chunk_size + 1}...")
             chunk_data = fetcher.batch_download(chunk, period="1y")
+            for ticker, df in chunk_data.items():
+                if not df.empty:
+                    cache.save_price_data(ticker, df)
             all_data.update(chunk_data)
             
         # 3. Parallel Analysis
@@ -197,23 +209,22 @@ def main():
                 
                 if res.get('signals'):
                     res['date'] = df.index[-1]
-                    # Backtest logic if requested
                     if args.backtest and len(df) > 60:
                         hist_res = score_extended_signals(ticker, df.iloc[:-30])
                         if hist_res.get('signals'):
                             perf = calculate_returns(df, len(df)-31, [1, 5, 10, 22, 30])
                             res.update(perf)
-                    
-                    cache.save_signal_result(ticker, res)
-                    # We also want to cache the price data if we just downloaded it
-                    cache.save_price_data(ticker, df)
+                    cache.save_signal_result(ticker, res, strategy=strategy_cache_key)
                     return res
+
+                empty_res = {'ticker': ticker, 'signals': [], 'date': df.index[-1]}
+                cache.save_signal_result(ticker, empty_res, strategy=strategy_cache_key)
                 return None
             except Exception as e:
                 logger.error(f"Error analyzing {ticker}: {e}")
                 return None
 
-        max_workers = 15
+        max_workers = min(32, (os.cpu_count() or 8) * 2)
         logger.info(f"Analyzing {len(all_data)} stocks with {max_workers} workers...")
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             future_to_ticker = {

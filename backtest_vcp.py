@@ -12,18 +12,24 @@ Usage:
 """
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 import sys
-import time
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 import pandas as pd
 import yfinance as yf
 
+from src.data.fetcher import YahooFinanceFetcher
 from src.data.universe_fetcher import StockUniverseFetcher
-from src.screening.phase_indicators import classify_phase, validate_minervini_trend_template
+from src.screening.phase_indicators import (
+    calculate_relative_strength,
+    classify_phase,
+    detect_vcp_pattern,
+    validate_minervini_trend_template,
+)
 from src.screening.signal_engine import score_buy_signal
 from src.analysis.backtest_engine import calculate_returns, format_performance_summary
 
@@ -34,7 +40,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def backtest_vcp(tickers, days_ago=30, min_score=60, forward_periods=None):
+def _normalize_downloaded_frames(all_data: Dict[str, pd.DataFrame]) -> Dict[str, pd.DataFrame]:
+    normalized = {}
+    for ticker, df in all_data.items():
+        if df is None or df.empty:
+            continue
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = df.columns.get_level_values(0)
+        normalized[ticker] = df.dropna()
+    return normalized
+
+
+def backtest_vcp(tickers, days_ago=30, min_score=60, forward_periods=None, cached_only: bool = False) -> Tuple[List[Dict], int]:
     """
     For each ticker:
     1. Look at data from `days_ago` to apply Minervini Trend Template
@@ -44,46 +61,45 @@ def backtest_vcp(tickers, days_ago=30, min_score=60, forward_periods=None):
     if forward_periods is None:
         forward_periods = [1, 5, 10, 22, 30]
 
-    results = []
-    total_scanned = 0
+    results: List[Dict] = []
+    tickers = [t.strip().upper() if "." in t else f"{t.strip().upper()}.NS" for t in tickers]
+    total_scanned = len(tickers)
 
-    for i, original_ticker in enumerate(tickers):
+    fetcher = YahooFinanceFetcher()
+    chunk_size = 300
+    all_data: Dict[str, pd.DataFrame] = {}
+    for i in range(0, len(tickers), chunk_size):
+        chunk = tickers[i:i + chunk_size]
+        logger.info("Downloading chunk %s/%s...", i // chunk_size + 1, (len(tickers) - 1) // chunk_size + 1)
+        chunk_data = fetcher.batch_download(chunk, period="2y", cached_only=cached_only)
+        all_data.update(_normalize_downloaded_frames(chunk_data))
+
+    benchmark = fetcher.batch_download(["^NSEI"], period="2y", cached_only=cached_only).get("^NSEI", pd.DataFrame())
+    if isinstance(benchmark.columns, pd.MultiIndex):
+        benchmark.columns = benchmark.columns.get_level_values(0)
+    benchmark_close = benchmark["Close"] if not benchmark.empty else pd.Series(dtype=float)
+
+    def analyze_ticker(ticker: str, df: pd.DataFrame) -> Dict | None:
         try:
-            ticker = original_ticker.strip().upper()
-            if "." not in ticker:
-                ticker += ".NS"
-
-            logger.info(f"[{i+1}/{len(tickers)}] {ticker}")
-            total_scanned += 1
-
-            df = yf.download(ticker, period="2y", interval="1d", progress=False)
             if df.empty or len(df) < 200:
-                continue
-
-            if isinstance(df.columns, pd.MultiIndex):
-                df.columns = df.columns.get_level_values(0)
+                return None
 
             if len(df) < days_ago + 100:
-                continue
+                return None
 
             idx_signal = len(df) - days_ago - 1
             hist_df = df.iloc[:idx_signal + 1]
 
-            # 1. Classify phase
             current_price = float(hist_df['Close'].iloc[-1])
             phase_info = classify_phase(hist_df, current_price)
+            vcp_data = detect_vcp_pattern(hist_df, current_price, phase_info)
 
-            # 2. Check Minervini Trend Template
             sma_200_series = hist_df['Close'].rolling(200).mean()
             trend_info = validate_minervini_trend_template(current_price, phase_info, sma_200_series)
-
             if not trend_info.get('passes_template'):
-                continue
+                return None
 
-            # 3. Score buy signal (includes VCP detection)
-            # We need a dummy RS series for the scorer
-            bench_close = hist_df['Close']  # Self-relative as placeholder
-            rs_series = (bench_close / bench_close.rolling(50).mean()).dropna()
+            rs_series = calculate_relative_strength(hist_df['Close'], benchmark_close) if not benchmark_close.empty else pd.Series(dtype=float)
 
             sig = score_buy_signal(
                 ticker=ticker,
@@ -92,18 +108,14 @@ def backtest_vcp(tickers, days_ago=30, min_score=60, forward_periods=None):
                 phase_info=phase_info,
                 rs_series=rs_series,
                 fundamentals=None,
-                vcp_data=phase_info.get('vcp_data')
+                vcp_data=vcp_data
             )
 
             if sig.get('score', 0) < min_score:
-                continue
+                return None
 
-            logger.info(f"  ✓ Signal: score={sig['score']}, phase={sig['phase']}")
-
-            # 4. Calculate forward returns
             perf = calculate_returns(df, idx_signal, forward_periods)
-
-            entry = {
+            entry: Dict[str, object] = {
                 'ticker': ticker,
                 'date': hist_df.index[-1],
                 'price': current_price,
@@ -113,15 +125,24 @@ def backtest_vcp(tickers, days_ago=30, min_score=60, forward_periods=None):
                 'rr_ratio': sig.get('risk_reward_ratio', 0),
                 'stop_loss': sig.get('stop_loss', 0),
                 'minervini_score': sig.get('minervini_template_score', 0),
+                'vcp_quality': round(vcp_data.get('vcp_quality', 0), 1),
+                'vcp_pattern': vcp_data.get('pattern_details', ''),
                 'reasons': ' | '.join(sig.get('reasons', [])[:3]),
             }
             entry.update(perf)
-            results.append(entry)
-
-            time.sleep(0.3)
+            return entry
 
         except Exception as e:
-            logger.error(f"Error backtesting {original_ticker}: {e}")
+            logger.error(f"Error backtesting {ticker}: {e}")
+            return None
+
+    max_workers = 16
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(analyze_ticker, ticker, df): ticker for ticker, df in all_data.items()}
+        for future in as_completed(futures):
+            res = future.result()
+            if res:
+                results.append(res)
 
     return results, total_scanned
 
@@ -196,13 +217,14 @@ def main():
     parser.add_argument('--min-score', type=int, default=60, help='Minimum buy score threshold')
     parser.add_argument('--test', action='store_true', help='Test mode (20 stocks)')
     parser.add_argument('--short', action='store_true', help='Summary only, skip detailed table')
+    parser.add_argument('--cached-only', action='store_true', help='Use cached universe and price data only')
     args = parser.parse_args()
 
     uf = StockUniverseFetcher()
     if args.full:
-        tickers = uf.fetch_universe()
+        tickers = uf.fetch_universe(cached_only=args.cached_only)
     else:
-        tickers = uf.fetch_universe(index_name=args.index)
+        tickers = uf.fetch_universe(index_name=args.index, cached_only=args.cached_only)
 
     if args.test:
         tickers = tickers[:20]
@@ -211,7 +233,7 @@ def main():
 
     forward_periods = [1, 5, 10, 22, 30]
     results, total_scanned = backtest_vcp(
-        tickers, args.days_ago, args.min_score, forward_periods
+        tickers, args.days_ago, args.min_score, forward_periods, args.cached_only
     )
 
     # Summary
@@ -235,7 +257,7 @@ def main():
             f.write(summary)
         logger.info(f"Reports saved to {report_dir}")
 
-    print(f"\n✅ VCP Backtest Complete — {len(results)} signals from {total_scanned} stocks")
+    print(f"\nVCP Backtest Complete: {len(results)} signals from {total_scanned} stocks")
 
 
 if __name__ == '__main__':
