@@ -320,7 +320,8 @@ def main():
         # Fetch universe
         universe_fetcher = StockUniverseFetcher()
         logger.info("Fetching stock universe...")
-        tickers = universe_fetcher.fetch_universe()
+        # Always request a fresh full-universe snapshot for scheduled scans.
+        tickers = universe_fetcher.fetch_universe(force_refresh=True)
 
         if not tickers:
             logger.error("Failed to fetch universe")
