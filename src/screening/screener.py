@@ -220,8 +220,15 @@ def detect_support_levels(price_df: pd.DataFrame) -> List[float]:
             consolidated = [support_levels[0]]
 
             for level in support_levels[1:]:
+                # If the prior level is zero (or near-zero), avoid division-by-zero
+                prev_level = consolidated[-1]
+                if abs(prev_level) < 1e-9:
+                    if abs(level - prev_level) > 1e-9:
+                        consolidated.append(level)
+                    continue
+
                 # If level is more than 0.5% different from last, add it
-                if abs(level - consolidated[-1]) / consolidated[-1] > 0.005:
+                if abs(level - prev_level) / abs(prev_level) > 0.005:
                     consolidated.append(level)
 
             logger.info(f"Detected {len(consolidated)} support levels")
