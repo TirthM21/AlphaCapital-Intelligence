@@ -55,8 +55,8 @@ DISPLAY_COLS = {
 def main():
     parser = argparse.ArgumentParser(
         description='Nifty Factor Index Ranking Tool')
-    parser.add_argument('--index', type=str, default='NIFTY 500',
-                        help='Index universe (e.g. NIFTY 100, NIFTY 200, NIFTY 500)')
+    parser.add_argument('--index', type=str, default='ALL',
+                        help='Index universe (e.g. NIFTY 100, NIFTY 200, NIFTY 500, or ALL for full NSE equity universe)')
     parser.add_argument('--factor', type=str, default='alpha',
                         choices=ALL_FACTORS,
                         help='Factor to rank by')
@@ -70,7 +70,9 @@ def main():
 
     # ── 1. Fetch symbol universe ──────────────────────────────────────
     uf = StockUniverseFetcher()
-    symbols = uf.fetch_universe(index_name=args.index)
+    index_value = (args.index or '').strip()
+    index_name = None if index_value.upper() in {'', 'ALL', 'FULL', 'WHOLE'} else index_value
+    symbols = uf.fetch_universe(index_name=index_name)
     if not symbols:
         logger.error(f"No symbols found for {args.index}"); return
 

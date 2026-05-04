@@ -24,19 +24,19 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy yfinance requests scipy
+          pip install -r requirements.txt
 
       - name: Create Directories
         run: mkdir -p data/reports/rankings
 
-      - name: Run Alpha 50 Scan (Nifty 500)
-        run: python run_factor_ranking.py --index "NIFTY 500" --factor alpha --symbols 50
+      - name: Run Alpha 50 Scan (Full NSE Universe)
+        run: python run_factor_ranking.py --index "ALL" --factor alpha --symbols 50
 
-      - name: Run Momentum 30 Scan (Nifty 200)
-        run: python run_factor_ranking.py --index "NIFTY 200" --factor momentum --symbols 30
+      - name: Run Momentum 30 Scan (Full NSE Universe)
+        run: python run_factor_ranking.py --index "ALL" --factor momentum --symbols 30
 
-      - name: Run Low Volatility 50 Scan (Nifty 500)
-        run: python run_factor_ranking.py --index "NIFTY 500" --factor volatility --symbols 50
+      - name: Run Low Volatility 50 Scan (Full NSE Universe)
+        run: python run_factor_ranking.py --index "ALL" --factor volatility --symbols 50
 
       - name: Upload Results
         uses: actions/upload-artifact@v4
