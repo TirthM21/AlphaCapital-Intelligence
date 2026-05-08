@@ -8,6 +8,7 @@ This module fetches detailed quarterly financial metrics including:
 """
 
 import logging
+from numbers import Real
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -19,6 +20,23 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def _safe_number(value, default=None):
+    """Return a real numeric value, or default for missing/non-numeric data."""
+    if value is None:
+        return default
+
+    try:
+        if pd.isna(value):
+            return default
+    except (TypeError, ValueError):
+        pass
+
+    if isinstance(value, Real):
+        return value
+
+    return default
 
 
 def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
@@ -177,8 +195,8 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     snapshot += f"{'='*60}\n"
 
     # Revenue analysis with QoQ trend
-    yoy = quarterly_data.get('revenue_yoy_change')
-    qoq = quarterly_data.get('revenue_qoq_change')
+    yoy = _safe_number(quarterly_data.get('revenue_yoy_change'))
+    qoq = _safe_number(quarterly_data.get('revenue_qoq_change'))
 
     # Get quarterly revenue values for trend
     qrev = quarterly_data.get('quarterly_revenue', {})
@@ -216,8 +234,8 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
                 snapshot += f"  QoQ Trend (last 4Q): {' → '.join(reversed(qoq_trends))}\n"
 
     # EPS analysis with QoQ trend
-    eps_yoy = quarterly_data.get('eps_yoy_change')
-    eps_qoq = quarterly_data.get('eps_qoq_change')
+    eps_yoy = _safe_number(quarterly_data.get('eps_yoy_change'))
+    eps_qoq = _safe_number(quarterly_data.get('eps_qoq_change'))
 
     # Get quarterly EPS values for trend
     qeps = quarterly_data.get('quarterly_eps', {})
@@ -256,21 +274,21 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
 
     # Margin analysis
     if 'gross_margin' in quarterly_data:
-        margin = quarterly_data['gross_margin']
-        margin_change = quarterly_data.get('margin_change', 0)
+        margin = _safe_number(quarterly_data['gross_margin'])
+        margin_change = _safe_number(quarterly_data.get('margin_change'), 0)
 
-        if margin_change > 1:
+        if margin is not None and margin_change > 1:
             snapshot += f"✓ Margins: EXPANDING ({margin:.1f}%, +{margin_change:.1f}pp QoQ)\n"
-        elif margin_change > 0:
+        elif margin is not None and margin_change > 0:
             snapshot += f"• Margins: Stable/slightly up ({margin:.1f}%, +{margin_change:.1f}pp QoQ)\n"
-        elif margin_change > -1:
+        elif margin is not None and margin_change > -1:
             snapshot += f"• Margins: Flat ({margin:.1f}%, {margin_change:.1f}pp QoQ)\n"
-        else:
+        elif margin is not None:
             snapshot += f"✗ Margins: CONTRACTING ({margin:.1f}%, {margin_change:.1f}pp QoQ)\n"
 
     # Inventory analysis
-    inv_change = quarterly_data.get('inventory_qoq_change')
-    inv_to_sales = quarterly_data.get('inventory_to_sales_ratio', 0)
+    inv_change = _safe_number(quarterly_data.get('inventory_qoq_change'))
+    inv_to_sales = _safe_number(quarterly_data.get('inventory_to_sales_ratio'), 0)
 
     if inv_change is not None:
         if inv_change > 10:
@@ -298,18 +316,23 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     supports_breakout = True
     concerns = []
 
-    if quarterly_data.get('revenue_yoy_change', 0) < 0:
+    revenue_yoy = _safe_number(quarterly_data.get('revenue_yoy_change'), 0)
+    eps_yoy = _safe_number(quarterly_data.get('eps_yoy_change'), 0)
+    margin_change = _safe_number(quarterly_data.get('margin_change'), 0)
+    inventory_qoq_change = _safe_number(quarterly_data.get('inventory_qoq_change'), 0)
+
+    if revenue_yoy < 0:
         supports_breakout = False
         concerns.append('revenue declining')
 
-    if quarterly_data.get('eps_yoy_change', 0) < 0:
+    if eps_yoy < 0:
         supports_breakout = False
         concerns.append('EPS declining')
 
-    if quarterly_data.get('margin_change', 0) < -2:
+    if margin_change < -2:
         concerns.append('margins contracting')
 
-    if quarterly_data.get('inventory_qoq_change', 0) > 15:
+    if inventory_qoq_change > 15:
         concerns.append('inventory building rapidly')
 
     if supports_breakout and len(concerns) == 0:
@@ -340,10 +363,10 @@ def analyze_fundamentals_for_signal(quarterly_data: Dict) -> Dict[str, any]:
             'penalty_points': 10
         }
 
-    revenue_yoy = quarterly_data.get('revenue_yoy_change', 0)
-    revenue_qoq = quarterly_data.get('revenue_qoq_change', 0)
-    eps_yoy = quarterly_data.get('eps_yoy_change', 0)
-    inv_change = quarterly_data.get('inventory_qoq_change', 0)
+    revenue_yoy = _safe_number(quarterly_data.get('revenue_yoy_change'), 0)
+    revenue_qoq = _safe_number(quarterly_data.get('revenue_qoq_change'), 0)
+    eps_yoy = _safe_number(quarterly_data.get('eps_yoy_change'), 0)
+    inv_change = _safe_number(quarterly_data.get('inventory_qoq_change'), 0)
 
     # Assess trends
     if revenue_yoy > 10:

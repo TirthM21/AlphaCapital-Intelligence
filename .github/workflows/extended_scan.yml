@@ -29,7 +29,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install nse-india-api pandas numpy yfinance requests
 
       - name: Run Extended Scan
         env:
