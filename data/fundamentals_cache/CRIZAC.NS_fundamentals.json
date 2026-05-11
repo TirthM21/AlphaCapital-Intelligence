@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "CRIZAC.NS",
+    "fetch_date": "2026-05-11T14:45:09.344551",
+    "quarterly_revenue": {
+      "2024-09-30 00:00:00": NaN,
+      "2024-12-31 00:00:00": 2176699000.0,
+      "2025-03-31 00:00:00": 3405860000.0,
+      "2025-09-30 00:00:00": NaN,
+      "2025-12-31 00:00:00": 2786360000.0
+    },
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
+    "quarterly_eps": {
+      "2024-09-30 00:00:00": NaN,
+      "2024-12-31 00:00:00": 2.47423,
+      "2025-03-31 00:00:00": NaN,
+      "2025-09-30 00:00:00": NaN,
+      "2025-12-31 00:00:00": 2.85
+    },
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
+    "gross_margin": 29.14,
+    "margin_change": NaN,
+    "operating_margin": 21.21,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-05-11T14:45:09.345729"
+}
