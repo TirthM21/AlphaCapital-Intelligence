@@ -4326,5 +4326,53 @@
   "WEBELSOLAR.NS": {
     "last_updated": "2026-05-15T14:31:50.603551",
     "in_earnings_season": true
+  },
+  "ADFFOODS.NS": {
+    "last_updated": "2026-05-18T15:18:04.842576",
+    "in_earnings_season": false
+  },
+  "ARIHANTSUP.NS": {
+    "last_updated": "2026-05-18T15:20:01.013238",
+    "in_earnings_season": false
+  },
+  "ATLANTAA.NS": {
+    "last_updated": "2026-05-18T15:20:44.954208",
+    "in_earnings_season": false
+  },
+  "KILITCH.NS": {
+    "last_updated": "2026-05-18T15:36:12.987957",
+    "in_earnings_season": false
+  },
+  "MCLEODRUSS.NS": {
+    "last_updated": "2026-05-18T15:39:20.042532",
+    "in_earnings_season": false
+  },
+  "MWL.NS": {
+    "last_updated": "2026-05-18T15:40:42.182809",
+    "in_earnings_season": false
+  },
+  "QUICKHEAL.NS": {
+    "last_updated": "2026-05-18T15:45:12.216757",
+    "in_earnings_season": false
+  },
+  "SIYSIL.NS": {
+    "last_updated": "2026-05-18T15:49:50.104968",
+    "in_earnings_season": false
+  },
+  "SOLEX.NS": {
+    "last_updated": "2026-05-18T15:50:11.057434",
+    "in_earnings_season": false
+  },
+  "SOMANYCERA.NS": {
+    "last_updated": "2026-05-18T15:50:12.538862",
+    "in_earnings_season": false
+  },
+  "STERTOOLS.NS": {
+    "last_updated": "2026-05-18T15:50:56.208722",
+    "in_earnings_season": false
+  },
+  "VALIANTORG.NS": {
+    "last_updated": "2026-05-18T15:54:51.252835",
+    "in_earnings_season": false
   }
 }
