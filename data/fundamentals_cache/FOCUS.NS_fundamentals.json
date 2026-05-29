@@ -1,0 +1,27 @@
+{
+  "data": {
+    "ticker": "FOCUS.NS",
+    "fetch_date": "2026-05-29T15:04:27.507344",
+    "quarterly_revenue": {
+      "2024-09-30 00:00:00": 453684000.0,
+      "2025-09-30 00:00:00": 487733000.0
+    },
+    "revenue_qoq_change": 7.505003482600224,
+    "quarterly_eps": {
+      "2024-09-30 00:00:00": 0.73,
+      "2025-09-30 00:00:00": 0.25
+    },
+    "eps_qoq_change": -65.75342465753424,
+    "gross_margin": 42.28,
+    "margin_change": -5.51,
+    "operating_margin": 3.93,
+    "quarterly_inventory": {
+      "2024-09-30 00:00:00": 463679000.0,
+      "2025-09-30 00:00:00": 513979000.0
+    },
+    "inventory_qoq_change": 10.85,
+    "inventory_to_sales_ratio": 1.054,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-05-29T15:04:27.509078"
+}
