@@ -4930,5 +4930,49 @@
   "THOMASCOOK.NS": {
     "last_updated": "2026-06-08T16:14:18.847667",
     "in_earnings_season": false
+  },
+  "ARROWGREEN.NS": {
+    "last_updated": "2026-06-10T15:24:04.192839",
+    "in_earnings_season": false
+  },
+  "BIOFILCHEM.NS": {
+    "last_updated": "2026-06-10T15:26:39.298297",
+    "in_earnings_season": false
+  },
+  "BLUESTONE.NS": {
+    "last_updated": "2026-06-10T15:26:58.358084",
+    "in_earnings_season": false
+  },
+  "COMSYN.NS": {
+    "last_updated": "2026-06-10T15:28:48.298330",
+    "in_earnings_season": false
+  },
+  "NIBE.NS": {
+    "last_updated": "2026-06-10T15:45:22.438582",
+    "in_earnings_season": false
+  },
+  "NUCLEUS.NS": {
+    "last_updated": "2026-06-10T15:45:58.522958",
+    "in_earnings_season": false
+  },
+  "TRAVELFOOD.NS": {
+    "last_updated": "2026-06-10T15:57:19.594776",
+    "in_earnings_season": false
+  },
+  "UNICHEMLAB.NS": {
+    "last_updated": "2026-06-10T15:57:59.569445",
+    "in_earnings_season": false
+  },
+  "VENUSREM.NS": {
+    "last_updated": "2026-06-10T15:58:46.458657",
+    "in_earnings_season": false
+  },
+  "VETO.NS": {
+    "last_updated": "2026-06-10T15:58:50.565534",
+    "in_earnings_season": false
+  },
+  "WANBURY.NS": {
+    "last_updated": "2026-06-10T15:59:44.684582",
+    "in_earnings_season": false
   }
 }
