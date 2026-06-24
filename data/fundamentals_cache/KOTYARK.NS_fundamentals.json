@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "KOTYARK.NS",
+    "fetch_date": "2026-06-24T14:34:17.856181",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": 198625000.0,
+      "2026-03-31 00:00:00": 636588000.0
+    },
+    "revenue_qoq_change": 220.49741976085588,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": 1.42,
+      "2026-03-31 00:00:00": 9.08
+    },
+    "eps_qoq_change": 539.4366197183099,
+    "gross_margin": 38.39,
+    "margin_change": -5.74,
+    "operating_margin": 25.02,
+    "quarterly_inventory": {
+      "2024-09-30 00:00:00": 881013000.0,
+      "2025-03-31 00:00:00": 1283116000.0,
+      "2025-09-30 00:00:00": 1180378000.0,
+      "2026-03-31 00:00:00": 1511426000.0
+    },
+    "inventory_qoq_change": 28.05,
+    "inventory_to_sales_ratio": 2.374,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-06-24T14:34:17.858038"
+}

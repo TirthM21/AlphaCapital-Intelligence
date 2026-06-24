@@ -5286,5 +5286,49 @@
   "SWANCORP.NS": {
     "last_updated": "2026-06-23T15:11:12.487482",
     "in_earnings_season": false
+  },
+  "AVG.NS": {
+    "last_updated": "2026-06-24T14:18:48.623980",
+    "in_earnings_season": false
+  },
+  "INDNIPPON.NS": {
+    "last_updated": "2026-06-24T14:31:01.696969",
+    "in_earnings_season": false
+  },
+  "KOTYARK.NS": {
+    "last_updated": "2026-06-24T14:34:17.859039",
+    "in_earnings_season": false
+  },
+  "SAMPANN.NS": {
+    "last_updated": "2026-06-24T14:45:11.868702",
+    "in_earnings_season": false
+  },
+  "STEELCAS.NS": {
+    "last_updated": "2026-06-24T14:48:21.854996",
+    "in_earnings_season": false
+  },
+  "STLNETWORK.NS": {
+    "last_updated": "2026-06-24T14:48:26.784585",
+    "in_earnings_season": false
+  },
+  "TCIEXP.NS": {
+    "last_updated": "2026-06-24T14:49:59.843682",
+    "in_earnings_season": false
+  },
+  "TREL.NS": {
+    "last_updated": "2026-06-24T14:51:10.877802",
+    "in_earnings_season": false
+  },
+  "TSFINV.NS": {
+    "last_updated": "2026-06-24T14:51:19.907201",
+    "in_earnings_season": false
+  },
+  "VIJIFIN.NS": {
+    "last_updated": "2026-06-24T14:52:48.849526",
+    "in_earnings_season": false
+  },
+  "ZFCVINDIA.NS": {
+    "last_updated": "2026-06-24T14:54:23.008215",
+    "in_earnings_season": false
   }
 }
