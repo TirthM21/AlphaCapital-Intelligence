@@ -1,0 +1,30 @@
+{
+  "data": {
+    "ticker": "KRISHNADEF.NS",
+    "fetch_date": "2026-06-26T14:31:18.090683",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 515824000.0,
+      "2025-03-31 00:00:00": 447659000.0,
+      "2025-12-31 00:00:00": 636609000.0
+    },
+    "revenue_qoq_change": 42.20846671238599,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": 2.61,
+      "2025-03-31 00:00:00": NaN,
+      "2025-12-31 00:00:00": 6.76
+    },
+    "eps_qoq_change": null,
+    "gross_margin": 41.95,
+    "margin_change": -0.15,
+    "operating_margin": 20.29,
+    "quarterly_inventory": {
+      "2024-09-30 00:00:00": 558466000.0,
+      "2025-03-31 00:00:00": 724207000.0,
+      "2025-09-30 00:00:00": 516657000.0
+    },
+    "inventory_qoq_change": -28.66,
+    "inventory_to_sales_ratio": 0.812,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-06-26T14:31:18.092529"
+}
