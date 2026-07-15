@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BAJAJHFL.NS",
-    "fetch_date": "2026-05-11T14:41:18.069011",
+    "fetch_date": "2026-07-15T13:28:08.216280",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 23939300000.0,
       "2025-03-31 00:00:00": 24715900000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 31.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:41:18.070164"
+  "fetched_at": "2026-07-15T13:28:08.217598"
 }

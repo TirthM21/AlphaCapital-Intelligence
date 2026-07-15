@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GANESHHOU.NS",
-    "fetch_date": "2026-07-07T14:29:10.783276",
+    "fetch_date": "2026-07-15T13:35:52.813714",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2570123000.0,
       "2025-03-31 00:00:00": 2513895000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 5.233,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-07T14:29:10.785140"
+  "fetched_at": "2026-07-15T13:35:52.816253"
 }

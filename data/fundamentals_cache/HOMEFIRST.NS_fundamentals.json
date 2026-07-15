@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HOMEFIRST.NS",
-    "fetch_date": "2026-05-11T14:52:16.214955",
+    "fetch_date": "2026-07-15T13:39:02.691846",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3711560000.0,
       "2025-03-31 00:00:00": 3802200000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 35.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:52:16.216148"
+  "fetched_at": "2026-07-15T13:39:02.693140"
 }

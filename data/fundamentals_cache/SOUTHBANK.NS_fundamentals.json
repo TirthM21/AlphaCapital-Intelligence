@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOUTHBANK.NS",
-    "fetch_date": "2026-05-11T15:10:14.320874",
+    "fetch_date": "2026-07-15T13:56:59.648535",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 12783600000.0,
       "2025-03-31 00:00:00": 14406600000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 18.3206106870229,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:10:14.321549"
+  "fetched_at": "2026-07-15T13:56:59.649186"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BAJAJHCARE.NS",
-    "fetch_date": "2026-06-18T15:00:00.122720",
+    "fetch_date": "2026-07-15T13:28:07.381216",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1227940000.0,
       "2025-03-31 00:00:00": 1544725000.0,
@@ -24,7 +24,6 @@
     "margin_change": -3.2,
     "operating_margin": 9.83,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 1424303000.0,
       "2025-03-31 00:00:00": 1618877000.0,
       "2026-03-31 00:00:00": 2160096000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 1.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-18T15:00:00.124577"
+  "fetched_at": "2026-07-15T13:28:07.382932"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUTHOOTMF.NS",
-    "fetch_date": "2026-05-11T15:00:34.342825",
+    "fetch_date": "2026-07-15T13:47:21.655070",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6528940000.0,
       "2025-03-31 00:00:00": 5440820000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 26.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:00:34.344010"
+  "fetched_at": "2026-07-15T13:47:21.656361"
 }

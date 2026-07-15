@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACMESOLAR.NS",
-    "fetch_date": "2026-05-11T14:37:50.062030",
+    "fetch_date": "2026-07-15T13:24:41.022042",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3490120000.0,
       "2025-03-31 00:00:00": 4868870000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": 0.032,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:37:50.063293"
+  "fetched_at": "2026-07-15T13:24:41.023446"
 }

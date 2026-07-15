@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TCIEXP.NS",
-    "fetch_date": "2026-06-24T14:49:59.841326",
+    "fetch_date": "2026-07-15T13:59:08.760515",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3072800000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-24T14:49:59.842667"
+  "fetched_at": "2026-07-15T13:59:08.761886"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHRIRAMFIN.NS",
-    "fetch_date": "2026-05-11T15:09:14.657663",
+    "fetch_date": "2026-07-15T13:56:00.455290",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 57999300000.0,
       "2025-03-31 00:00:00": 60661900000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -6.956521739130431,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:09:14.658334"
+  "fetched_at": "2026-07-15T13:56:00.455982"
 }

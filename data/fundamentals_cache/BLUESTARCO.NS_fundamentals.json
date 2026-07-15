@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLUESTARCO.NS",
-    "fetch_date": "2026-06-18T15:01:37.405848",
+    "fetch_date": "2026-07-15T13:29:44.363891",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 28073600000.0,
       "2025-03-31 00:00:00": 40189600000.0,
@@ -24,7 +24,6 @@
     "margin_change": -1.35,
     "operating_margin": 6.83,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 17143800000.0,
       "2025-03-31 00:00:00": 21491500000.0,
       "2026-03-31 00:00:00": 21662000000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.532,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-18T15:01:37.407659"
+  "fetched_at": "2026-07-15T13:29:44.365578"
 }

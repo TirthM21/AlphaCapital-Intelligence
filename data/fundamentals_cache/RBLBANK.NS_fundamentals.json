@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RBLBANK.NS",
-    "fetch_date": "2026-05-11T15:05:46.280591",
+    "fetch_date": "2026-07-15T13:52:33.299674",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 26591600000.0,
       "2025-03-31 00:00:00": 25653200000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 400.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:05:46.281282"
+  "fetched_at": "2026-07-15T13:52:33.300352"
 }

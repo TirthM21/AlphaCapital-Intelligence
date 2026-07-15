@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAHLIFE.NS",
-    "fetch_date": "2026-05-22T14:48:30.773983",
+    "fetch_date": "2026-07-15T13:45:08.512328",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1672800000.0,
       "2025-03-31 00:00:00": 92400000.0,
@@ -24,13 +24,12 @@
     "margin_change": -12.99,
     "operating_margin": -7.39,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 35813000000.0,
       "2025-03-31 00:00:00": 44620904000.0,
-      "2026-03-31 00:00:00": 51753600000.0
+      "2026-03-31 00:00:00": 51753627000.0
     },
     "inventory_qoq_change": 15.99,
     "inventory_to_sales_ratio": 7.729,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-22T14:48:30.775246"
+  "fetched_at": "2026-07-15T13:45:08.514047"
 }

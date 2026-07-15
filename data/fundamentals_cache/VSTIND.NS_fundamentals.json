@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSTIND.NS",
-    "fetch_date": "2026-05-11T15:15:46.452509",
+    "fetch_date": "2026-07-15T14:02:37.716253",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3663400000.0,
       "2025-03-31 00:00:00": 3486400000.0,
@@ -24,13 +24,12 @@
     "margin_change": 21.4,
     "operating_margin": 31.77,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 5816800000.0,
       "2025-03-31 00:00:00": 4845819000.0,
-      "2026-03-31 00:00:00": 6749700000.0
+      "2026-03-31 00:00:00": 6749732000.0
     },
     "inventory_qoq_change": 39.29,
     "inventory_to_sales_ratio": 1.478,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:15:46.453987"
+  "fetched_at": "2026-07-15T14:02:37.718000"
 }

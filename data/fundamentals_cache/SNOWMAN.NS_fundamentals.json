@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNOWMAN.NS",
-    "fetch_date": "2026-05-11T15:09:59.457728",
+    "fetch_date": "2026-07-15T13:56:44.740093",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1318474000.0,
       "2025-03-31 00:00:00": 1370148000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.78,
     "operating_margin": 4.57,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 146378000.0,
       "2025-03-31 00:00:00": 150496000.0,
       "2026-03-31 00:00:00": 132124000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.093,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:09:59.459279"
+  "fetched_at": "2026-07-15T13:56:44.741836"
 }

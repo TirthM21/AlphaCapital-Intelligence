@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RALLIS.NS",
-    "fetch_date": "2026-05-11T15:05:28.473270",
+    "fetch_date": "2026-07-15T13:52:14.417710",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5220000000.0,
       "2025-03-31 00:00:00": 4300000000.0,
@@ -24,13 +24,12 @@
     "margin_change": 1.53,
     "operating_margin": -6.58,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 7380000000.0,
       "2025-03-31 00:00:00": 7509700000.0,
-      "2026-03-31 00:00:00": 9590000000.0
+      "2026-03-31 00:00:00": 9591100000.0
     },
-    "inventory_qoq_change": 27.7,
+    "inventory_qoq_change": 27.72,
     "inventory_to_sales_ratio": 2.103,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:05:28.474784"
+  "fetched_at": "2026-07-15T13:52:14.419448"
 }

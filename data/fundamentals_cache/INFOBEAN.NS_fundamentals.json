@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INFOBEAN.NS",
-    "fetch_date": "2026-05-11T14:53:36.264074",
+    "fetch_date": "2026-07-15T13:40:21.888968",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 963300000.0,
       "2025-03-31 00:00:00": 1032200000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:53:36.265276"
+  "fetched_at": "2026-07-15T13:40:21.890297"
 }

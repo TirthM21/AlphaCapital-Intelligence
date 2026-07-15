@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELGIRUBCO.NS",
-    "fetch_date": "2026-07-06T15:30:07.669358",
+    "fetch_date": "2026-07-15T13:34:11.927380",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 972246000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.957,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-06T15:30:07.670903"
+  "fetched_at": "2026-07-15T13:34:11.932844"
 }

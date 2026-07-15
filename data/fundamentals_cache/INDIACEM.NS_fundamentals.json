@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDIACEM.NS",
-    "fetch_date": "2026-05-11T14:53:09.303598",
+    "fetch_date": "2026-07-15T13:39:54.783487",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 9398400000.0,
       "2025-03-31 00:00:00": 11975700000.0,
@@ -24,13 +24,13 @@
     "margin_change": -5.88,
     "operating_margin": 6.29,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 4918600000.0,
       "2025-03-31 00:00:00": 5561975000.0,
+      "2025-09-30 00:00:00": NaN,
       "2026-03-31 00:00:00": 7342200000.0
     },
-    "inventory_qoq_change": 32.01,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": 0.598,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:53:09.305098"
+  "fetched_at": "2026-07-15T13:39:54.785204"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATHERENERG.NS",
-    "fetch_date": "2026-05-11T14:40:36.170616",
+    "fetch_date": "2026-07-15T13:27:27.206475",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 6760800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:40:36.172051"
+  "fetched_at": "2026-07-15T13:27:27.208252"
 }

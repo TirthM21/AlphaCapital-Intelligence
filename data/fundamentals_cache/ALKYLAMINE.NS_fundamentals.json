@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALKYLAMINE.NS",
-    "fetch_date": "2026-05-11T14:38:57.167812",
+    "fetch_date": "2026-07-15T13:25:48.094541",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3712000000.0,
       "2025-03-31 00:00:00": 3860500000.0,
@@ -24,13 +24,12 @@
     "margin_change": -2.05,
     "operating_margin": 13.65,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 1620900000.0,
       "2025-03-31 00:00:00": 1647808000.0,
-      "2026-03-31 00:00:00": 1221300000.0
+      "2026-03-31 00:00:00": 1221307000.0
     },
     "inventory_qoq_change": -25.88,
     "inventory_to_sales_ratio": 0.316,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:38:57.169284"
+  "fetched_at": "2026-07-15T13:25:48.096321"
 }

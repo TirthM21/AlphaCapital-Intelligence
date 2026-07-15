@@ -1,15 +1,13 @@
 {
   "data": {
     "ticker": "UNIVASTU.NS",
-    "fetch_date": "2026-05-11T15:14:24.363475",
+    "fetch_date": "2026-07-15T14:01:09.556043",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 423927000.0,
       "2024-12-31 00:00:00": 419898000.0,
       "2025-03-31 00:00:00": 517270000.0
     },
     "revenue_qoq_change": 23.189441245254798,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 2.71,
       "2024-12-31 00:00:00": 2.67,
       "2025-03-31 00:00:00": NaN
     },
@@ -18,12 +16,10 @@
     "margin_change": 3.2,
     "operating_margin": 16.64,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 10979000.0,
       "2025-03-31 00:00:00": 12947000.0
     },
-    "inventory_qoq_change": 17.93,
     "inventory_to_sales_ratio": 0.025,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:14:24.364965"
+  "fetched_at": "2026-07-15T14:01:09.557616"
 }

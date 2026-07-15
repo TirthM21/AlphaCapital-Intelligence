@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAHLOG.NS",
-    "fetch_date": "2026-05-11T14:58:22.340963",
+    "fetch_date": "2026-07-15T13:45:09.333666",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 15942000000.0,
       "2025-03-31 00:00:00": 15695100000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:58:22.342137"
+  "fetched_at": "2026-07-15T13:45:09.335005"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDIQUBE.NS",
-    "fetch_date": "2026-06-22T17:00:55.569945",
+    "fetch_date": "2026-07-15T13:40:03.744866",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2678910000.0,
       "2025-03-31 00:00:00": 2969440000.0,
@@ -24,7 +24,7 @@
     "margin_change": 2.07,
     "operating_margin": 17.7,
     "quarterly_inventory": {
-      "2025-03-31 00:00:00": NaN,
+      "2025-03-31 00:00:00": 0.0,
       "2025-09-30 00:00:00": 4480000.0,
       "2026-03-31 00:00:00": 6920000.0
     },
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.002,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-22T17:00:55.571421"
+  "fetched_at": "2026-07-15T13:40:03.746565"
 }

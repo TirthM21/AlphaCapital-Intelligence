@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COROMANDEL.NS",
-    "fetch_date": "2026-06-15T17:14:54.564429",
+    "fetch_date": "2026-07-15T13:31:44.685269",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 69351900000.0,
       "2025-03-31 00:00:00": 49883900000.0,
@@ -24,7 +24,6 @@
     "margin_change": 4.92,
     "operating_margin": 5.38,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 37838700000.0,
       "2025-03-31 00:00:00": 47699100000.0,
       "2026-03-31 00:00:00": 72041100000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 1.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-15T17:14:54.566220"
+  "fetched_at": "2026-07-15T13:31:44.687015"
 }

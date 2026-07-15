@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAXESTATES.NS",
-    "fetch_date": "2026-07-06T15:41:46.583514",
+    "fetch_date": "2026-07-15T13:45:50.178481",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 400401000.0,
       "2025-03-31 00:00:00": 397835000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 139.34,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-06T15:41:46.585055"
+  "fetched_at": "2026-07-15T13:45:50.180230"
 }

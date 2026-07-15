@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CONTROLPR.NS",
-    "fetch_date": "2026-07-02T13:54:24.418322",
+    "fetch_date": "2026-07-15T13:31:40.632922",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1220697000.0,
       "2025-06-30 00:00:00": 1112850000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-02T13:54:24.420185"
+  "fetched_at": "2026-07-15T13:31:40.634647"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORIENTCEM.NS",
-    "fetch_date": "2026-05-25T15:09:42.475557",
+    "fetch_date": "2026-07-15T13:49:26.394492",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6433526000.0,
       "2025-03-31 00:00:00": 8251878000.0,
@@ -24,7 +24,6 @@
     "margin_change": 1.18,
     "operating_margin": 9.72,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 3383966000.0,
       "2025-03-31 00:00:00": 3184405000.0,
       "2026-03-31 00:00:00": 2291793000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.354,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-25T15:09:42.477387"
+  "fetched_at": "2026-07-15T13:49:26.396198"
 }

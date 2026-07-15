@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PIDILITIND.NS",
-    "fetch_date": "2026-05-11T15:03:42.655047",
+    "fetch_date": "2026-07-15T13:50:29.370895",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 33689100000.0,
       "2025-03-31 00:00:00": 31411400000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.1,
     "operating_margin": 20.53,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 15696600000.0,
       "2025-03-31 00:00:00": 16850900000.0,
       "2026-03-31 00:00:00": 17376000000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.485,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:03:42.656566"
+  "fetched_at": "2026-07-15T13:50:29.372603"
 }

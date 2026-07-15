@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "URBANCO.NS",
-    "fetch_date": "2026-07-07T14:54:28.897998",
+    "fetch_date": "2026-07-15T14:01:15.970269",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2879200000.0,
       "2025-03-31 00:00:00": 2984500000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.173,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-07T14:54:28.899762"
+  "fetched_at": "2026-07-15T14:01:15.972651"
 }

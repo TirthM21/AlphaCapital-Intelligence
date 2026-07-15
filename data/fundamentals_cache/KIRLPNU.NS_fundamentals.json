@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KIRLPNU.NS",
-    "fetch_date": "2026-05-11T14:56:17.258921",
+    "fetch_date": "2026-07-15T13:43:02.918372",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3426000000.0,
       "2025-03-31 00:00:00": 5916000000.0,
@@ -24,13 +24,13 @@
     "margin_change": -1.85,
     "operating_margin": 24.95,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 2471700000.0,
       "2025-03-31 00:00:00": 2153940000.0,
-      "2026-03-31 00:00:00": 2180000000.0
+      "2025-09-30 00:00:00": NaN,
+      "2026-03-31 00:00:00": 2180490000.0
     },
-    "inventory_qoq_change": 1.21,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": 0.306,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:56:17.260490"
+  "fetched_at": "2026-07-15T13:43:02.920100"
 }
