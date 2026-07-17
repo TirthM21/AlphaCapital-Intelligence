@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAVELLS.NS",
-    "fetch_date": "2026-07-07T14:31:22.869962",
+    "fetch_date": "2026-07-17T13:29:42.883379",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 48889800000.0,
       "2025-03-31 00:00:00": 65435600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.662,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-07T14:31:22.871803"
+  "fetched_at": "2026-07-17T13:29:42.886216"
 }

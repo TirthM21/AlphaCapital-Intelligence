@@ -1196,7 +1196,7 @@
     "in_earnings_season": true
   },
   "GICHSGFIN.NS": {
-    "last_updated": "2026-05-11T14:49:32.276236",
+    "last_updated": "2026-07-17T13:27:53.941088",
     "in_earnings_season": true
   },
   "GICRE.NS": {
@@ -1224,7 +1224,7 @@
     "in_earnings_season": true
   },
   "GLOBUSSPR.NS": {
-    "last_updated": "2026-05-11T14:49:51.222124",
+    "last_updated": "2026-07-17T13:28:12.902982",
     "in_earnings_season": true
   },
   "GMDCLTD.NS": {
@@ -1812,7 +1812,7 @@
     "in_earnings_season": true
   },
   "JKIL.NS": {
-    "last_updated": "2026-05-11T14:54:52.352703",
+    "last_updated": "2026-07-17T13:33:13.074796",
     "in_earnings_season": true
   },
   "JKLAKSHMI.NS": {
@@ -2000,7 +2000,7 @@
     "in_earnings_season": true
   },
   "KOTAKBANK.NS": {
-    "last_updated": "2026-05-11T14:56:30.312698",
+    "last_updated": "2026-07-17T13:34:52.110527",
     "in_earnings_season": true
   },
   "KPEL.NS": {
@@ -2152,7 +2152,7 @@
     "in_earnings_season": true
   },
   "MANAKALUCO.NS": {
-    "last_updated": "2026-05-11T14:58:30.218431",
+    "last_updated": "2026-07-17T13:36:53.138774",
     "in_earnings_season": true
   },
   "MANAKSTEEL.NS": {
@@ -2932,7 +2932,7 @@
     "in_earnings_season": true
   },
   "RELIANCE.NS": {
-    "last_updated": "2026-05-11T15:05:59.369716",
+    "last_updated": "2026-07-17T13:44:21.242871",
     "in_earnings_season": true
   },
   "RELIGARE.NS": {
@@ -3760,7 +3760,7 @@
     "in_earnings_season": true
   },
   "VASCONEQ.NS": {
-    "last_updated": "2026-05-11T15:14:49.410297",
+    "last_updated": "2026-07-17T13:53:09.182175",
     "in_earnings_season": true
   },
   "VBL.NS": {
@@ -3988,7 +3988,7 @@
     "in_earnings_season": true
   },
   "DBREALTY.NS": {
-    "last_updated": "2026-05-12T14:16:37.737737",
+    "last_updated": "2026-07-17T13:24:05.315818",
     "in_earnings_season": true
   },
   "DMCC.NS": {
@@ -4600,8 +4600,8 @@
     "in_earnings_season": true
   },
   "JIOFIN.NS": {
-    "last_updated": "2026-05-25T15:01:50.352371",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:33:07.873688",
+    "in_earnings_season": true
   },
   "KELLTONTEC.NS": {
     "last_updated": "2026-05-25T15:02:59.327182",
@@ -5184,8 +5184,8 @@
     "in_earnings_season": true
   },
   "BATAINDIA.NS": {
-    "last_updated": "2026-06-18T15:00:30.443921",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:20:14.716201",
+    "in_earnings_season": true
   },
   "BLUESTARCO.NS": {
     "last_updated": "2026-07-15T13:29:44.366749",
@@ -5448,8 +5448,8 @@
     "in_earnings_season": true
   },
   "OMINFRAL.NS": {
-    "last_updated": "2026-07-06T15:45:06.858499",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:40:44.123401",
+    "in_earnings_season": true
   },
   "SGMART.NS": {
     "last_updated": "2026-07-16T14:01:04.474482",
@@ -5472,8 +5472,8 @@
     "in_earnings_season": true
   },
   "HAVELLS.NS": {
-    "last_updated": "2026-07-07T14:31:22.872921",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:29:42.888519",
+    "in_earnings_season": true
   },
   "HCLTECH.NS": {
     "last_updated": "2026-07-15T13:38:15.992917",
@@ -5508,20 +5508,20 @@
     "in_earnings_season": true
   },
   "CNL.NS": {
-    "last_updated": "2026-07-09T14:51:41.744289",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:23:00.734169",
+    "in_earnings_season": true
   },
   "EIMCOELECO.NS": {
-    "last_updated": "2026-07-09T14:54:20.790839",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:25:39.965643",
+    "in_earnings_season": true
   },
   "GMBREW.NS": {
     "last_updated": "2026-07-09T14:56:57.825613",
     "in_earnings_season": false
   },
   "RBZJEWEL.NS": {
-    "last_updated": "2026-07-09T15:12:51.853000",
-    "in_earnings_season": false
+    "last_updated": "2026-07-17T13:44:08.930044",
+    "in_earnings_season": true
   },
   "BFINVEST.NS": {
     "last_updated": "2026-07-10T14:14:12.803019",
@@ -5589,6 +5589,18 @@
   },
   "SAATVIKGL.NS": {
     "last_updated": "2026-07-16T13:59:37.680641",
+    "in_earnings_season": true
+  },
+  "COUNCODOS.NS": {
+    "last_updated": "2026-07-17T13:23:24.778206",
+    "in_earnings_season": true
+  },
+  "GKENERGY.NS": {
+    "last_updated": "2026-07-17T13:28:00.646884",
+    "in_earnings_season": true
+  },
+  "NILKAMAL.NS": {
+    "last_updated": "2026-07-17T13:39:57.079468",
     "in_earnings_season": true
   }
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JIOFIN.NS",
-    "fetch_date": "2026-05-25T15:01:50.350103",
+    "fetch_date": "2026-07-17T13:33:07.871083",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2469900000.0,
       "2025-03-31 00:00:00": 3151700000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 69.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-25T15:01:50.351464"
+  "fetched_at": "2026-07-17T13:33:07.872437"
 }
