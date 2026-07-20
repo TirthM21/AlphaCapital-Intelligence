@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CSBBANK.NS",
-    "fetch_date": "2026-07-10T14:17:10.143129",
+    "fetch_date": "2026-07-20T14:02:31.942616",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7527400000.0,
       "2025-06-30 00:00:00": 6241200000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 5.8287795992713916,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-10T14:17:10.143878"
+  "fetched_at": "2026-07-20T14:02:31.943199"
 }
