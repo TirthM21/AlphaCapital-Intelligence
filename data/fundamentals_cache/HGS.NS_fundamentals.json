@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HGS.NS",
-    "fetch_date": "2026-07-14T13:35:02.519487",
+    "fetch_date": "2026-07-21T13:40:03.843732",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 11610600000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.028,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-14T13:35:02.520735"
+  "fetched_at": "2026-07-21T13:40:03.844939"
 }
