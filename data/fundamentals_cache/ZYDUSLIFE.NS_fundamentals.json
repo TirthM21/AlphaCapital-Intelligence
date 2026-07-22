@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZYDUSLIFE.NS",
-    "fetch_date": "2026-07-15T14:03:42.772911",
+    "fetch_date": "2026-07-22T14:09:28.285950",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 51235000000.0,
       "2025-03-31 00:00:00": 62902000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.757,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:03:42.774646"
+  "fetched_at": "2026-07-22T14:09:28.287304"
 }

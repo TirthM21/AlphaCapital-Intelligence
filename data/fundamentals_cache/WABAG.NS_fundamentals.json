@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WABAG.NS",
-    "fetch_date": "2026-07-15T14:02:44.833034",
+    "fetch_date": "2026-07-22T14:08:30.190539",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 11562000000.0,
       "2025-06-30 00:00:00": 7340000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.025,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:02:44.834791"
+  "fetched_at": "2026-07-22T14:08:30.191694"
 }

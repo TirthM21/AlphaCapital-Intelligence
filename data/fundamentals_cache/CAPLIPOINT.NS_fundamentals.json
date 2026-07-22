@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAPLIPOINT.NS",
-    "fetch_date": "2026-07-15T13:30:28.522441",
+    "fetch_date": "2026-07-22T13:36:13.500799",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4929600000.0,
       "2025-03-31 00:00:00": 5024500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.715,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:30:28.524285"
+  "fetched_at": "2026-07-22T13:36:13.502026"
 }

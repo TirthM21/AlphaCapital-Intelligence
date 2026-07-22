@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCL.NS",
-    "fetch_date": "2026-07-15T13:30:39.756011",
+    "fetch_date": "2026-07-22T13:36:24.929323",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 7584110000.0,
       "2025-03-31 00:00:00": 8358476000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.851,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:30:39.757735"
+  "fetched_at": "2026-07-22T13:36:24.930682"
 }

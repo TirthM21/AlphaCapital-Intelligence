@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DRREDDY.NS",
-    "fetch_date": "2026-07-15T13:33:38.846229",
+    "fetch_date": "2026-07-22T13:39:25.447143",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 85060000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.018,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:33:38.848007"
+  "fetched_at": "2026-07-22T13:39:25.448307"
 }

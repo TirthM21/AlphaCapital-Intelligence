@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CIPLA.NS",
-    "fetch_date": "2026-07-15T13:31:15.570837",
+    "fetch_date": "2026-07-22T13:37:00.945202",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 69616000000.0,
       "2025-03-31 00:00:00": 65977200000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:31:15.572518"
+  "fetched_at": "2026-07-22T13:37:00.946328"
 }

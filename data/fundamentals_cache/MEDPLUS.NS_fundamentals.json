@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MEDPLUS.NS",
-    "fetch_date": "2026-07-15T13:46:08.289122",
+    "fetch_date": "2026-07-22T13:51:54.202516",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 15614460000.0,
       "2025-03-31 00:00:00": 15096090000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.741,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:46:08.290826"
+  "fetched_at": "2026-07-22T13:51:54.203664"
 }

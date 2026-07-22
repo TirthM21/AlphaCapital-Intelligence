@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AARTECH.NS",
-    "fetch_date": "2026-07-15T13:24:12.069345",
+    "fetch_date": "2026-07-22T13:29:55.747415",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 105537000.0,
       "2025-06-30 00:00:00": 43363000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:24:12.072423"
+  "fetched_at": "2026-07-22T13:29:55.748636"
 }

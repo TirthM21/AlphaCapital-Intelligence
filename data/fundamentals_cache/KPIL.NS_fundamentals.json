@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KPIL.NS",
-    "fetch_date": "2026-07-15T13:43:25.973868",
+    "fetch_date": "2026-07-22T13:49:11.374780",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 57324800000.0,
       "2025-03-31 00:00:00": 70667700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.228,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:43:25.975598"
+  "fetched_at": "2026-07-22T13:49:11.376015"
 }

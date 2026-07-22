@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BPCL.NS",
-    "fetch_date": "2026-07-15T13:30:00.348932",
+    "fetch_date": "2026-07-22T13:35:45.662935",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1131658700000.0,
       "2025-03-31 00:00:00": 1112302100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.449,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:30:00.350686"
+  "fetched_at": "2026-07-22T13:35:45.664347"
 }

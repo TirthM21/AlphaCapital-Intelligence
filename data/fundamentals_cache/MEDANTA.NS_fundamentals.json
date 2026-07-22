@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MEDANTA.NS",
-    "fetch_date": "2026-07-15T13:46:04.596396",
+    "fetch_date": "2026-07-22T13:51:50.187568",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 9312520000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.068,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:46:04.598103"
+  "fetched_at": "2026-07-22T13:51:50.188932"
 }

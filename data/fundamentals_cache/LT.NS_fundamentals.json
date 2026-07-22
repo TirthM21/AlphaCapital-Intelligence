@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LT.NS",
-    "fetch_date": "2026-07-15T13:44:41.288831",
+    "fetch_date": "2026-07-22T13:50:27.333334",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 646677800000.0,
       "2025-03-31 00:00:00": 743922800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.115,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:44:41.290551"
+  "fetched_at": "2026-07-22T13:50:27.334639"
 }

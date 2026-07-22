@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JASH.NS",
-    "fetch_date": "2026-07-15T13:41:15.938861",
+    "fetch_date": "2026-07-22T13:47:02.263625",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3003752000.0,
       "2025-06-30 00:00:00": 1276104000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.671,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:41:15.940555"
+  "fetched_at": "2026-07-22T13:47:02.264930"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TITAN.NS",
-    "fetch_date": "2026-07-15T13:59:57.658940",
+    "fetch_date": "2026-07-22T14:05:43.236203",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 175500000000.0,
       "2025-03-31 00:00:00": 138970000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 2.074,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:57.660716"
+  "fetched_at": "2026-07-22T14:05:43.237553"
 }

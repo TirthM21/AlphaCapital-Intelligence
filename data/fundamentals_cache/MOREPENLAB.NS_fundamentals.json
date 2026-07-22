@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOREPENLAB.NS",
-    "fetch_date": "2026-07-15T13:46:55.581699",
+    "fetch_date": "2026-07-22T13:52:40.716255",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4658533000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.561,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:46:55.583437"
+  "fetched_at": "2026-07-22T13:52:40.717398"
 }

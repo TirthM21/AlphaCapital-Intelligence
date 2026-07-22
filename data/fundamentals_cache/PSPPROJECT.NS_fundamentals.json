@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PSPPROJECT.NS",
-    "fetch_date": "2026-07-15T13:51:39.319349",
+    "fetch_date": "2026-07-22T13:57:24.947067",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6302101000.0,
       "2025-03-31 00:00:00": 6728873000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.312,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:51:39.321070"
+  "fetched_at": "2026-07-22T13:57:24.948215"
 }

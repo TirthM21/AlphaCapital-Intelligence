@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALKEM.NS",
-    "fetch_date": "2026-07-15T13:25:47.130784",
+    "fetch_date": "2026-07-22T13:31:32.771018",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 31437500000.0,
       "2025-06-30 00:00:00": 33711400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.925,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:25:47.132524"
+  "fetched_at": "2026-07-22T13:31:32.772341"
 }

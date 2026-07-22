@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIINDIA.NS",
-    "fetch_date": "2026-07-15T13:59:45.726278",
+    "fetch_date": "2026-07-22T14:05:31.204289",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 46816500000.0,
       "2025-03-31 00:00:00": 50172900000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.474,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:45.728045"
+  "fetched_at": "2026-07-22T14:05:31.205613"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAGILITY.NS",
-    "fetch_date": "2026-07-15T13:54:01.342612",
+    "fetch_date": "2026-07-22T13:59:46.785706",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 14530690000.0,
       "2025-03-31 00:00:00": 15684760000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 17.81,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:54:01.343923"
+  "fetched_at": "2026-07-22T13:59:46.786656"
 }

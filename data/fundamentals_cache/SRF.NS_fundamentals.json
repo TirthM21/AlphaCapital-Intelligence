@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SRF.NS",
-    "fetch_date": "2026-07-15T13:57:15.648240",
+    "fetch_date": "2026-07-22T14:03:02.223125",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 34066900000.0,
       "2025-03-31 00:00:00": 42151700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.615,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:57:15.649932"
+  "fetched_at": "2026-07-22T14:03:02.224301"
 }

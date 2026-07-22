@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUVEN.NS",
-    "fetch_date": "2026-07-15T13:58:23.672590",
+    "fetch_date": "2026-07-22T14:04:09.186601",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 14670000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.067,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:58:23.674339"
+  "fetched_at": "2026-07-22T14:04:09.187981"
 }

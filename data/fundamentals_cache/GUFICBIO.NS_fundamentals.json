@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GUFICBIO.NS",
-    "fetch_date": "2026-07-15T13:37:40.942930",
+    "fetch_date": "2026-07-22T13:43:26.982299",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2050201000.0,
       "2025-06-30 00:00:00": 2237225000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.288,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:37:40.944673"
+  "fetched_at": "2026-07-22T13:43:26.983900"
 }

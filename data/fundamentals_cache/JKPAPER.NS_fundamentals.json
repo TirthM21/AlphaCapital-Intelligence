@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JKPAPER.NS",
-    "fetch_date": "2026-07-15T13:41:41.169047",
+    "fetch_date": "2026-07-22T13:47:26.148797",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 16319900000.0,
       "2025-03-31 00:00:00": 16770500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.686,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:41:41.170783"
+  "fetched_at": "2026-07-22T13:47:26.149960"
 }

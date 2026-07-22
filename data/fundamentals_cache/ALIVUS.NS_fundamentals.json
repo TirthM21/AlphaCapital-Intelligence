@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALIVUS.NS",
-    "fetch_date": "2026-07-15T13:25:45.142660",
+    "fetch_date": "2026-07-22T13:31:30.145084",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6418440000.0,
       "2025-03-31 00:00:00": 6495450000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.004,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:25:45.144431"
+  "fetched_at": "2026-07-22T13:31:30.146311"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IIFLCAPS.NS",
-    "fetch_date": "2026-07-15T13:39:40.884428",
+    "fetch_date": "2026-07-22T13:45:27.557285",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4401205000.0,
       "2025-06-30 00:00:00": 5174568000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.85,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:39:40.885725"
+  "fetched_at": "2026-07-22T13:45:27.558205"
 }

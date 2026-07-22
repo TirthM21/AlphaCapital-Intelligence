@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STEELCAS.NS",
-    "fetch_date": "2026-07-15T13:57:30.502985",
+    "fetch_date": "2026-07-22T14:03:17.068559",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1200939000.0,
       "2025-06-30 00:00:00": 1066855000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.363,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:57:30.504706"
+  "fetched_at": "2026-07-22T14:03:17.069733"
 }

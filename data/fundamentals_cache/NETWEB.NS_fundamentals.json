@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NETWEB.NS",
-    "fetch_date": "2026-07-15T13:48:03.475300",
+    "fetch_date": "2026-07-22T13:53:48.811408",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3339920000.0,
       "2025-03-31 00:00:00": 4146510000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 1.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:48:03.477007"
+  "fetched_at": "2026-07-22T13:53:48.812608"
 }

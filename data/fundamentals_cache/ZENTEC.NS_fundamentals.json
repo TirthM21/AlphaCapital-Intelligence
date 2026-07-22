@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZENTEC.NS",
-    "fetch_date": "2026-07-15T14:03:32.899013",
+    "fetch_date": "2026-07-22T14:09:18.297526",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1522090000.0,
       "2025-03-31 00:00:00": 3249733000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.057,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:03:32.900726"
+  "fetched_at": "2026-07-22T14:09:18.298848"
 }

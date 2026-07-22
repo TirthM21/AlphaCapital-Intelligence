@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INTELLECT.NS",
-    "fetch_date": "2026-07-15T13:40:33.792665",
+    "fetch_date": "2026-07-22T13:46:20.149719",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6096260000.0,
       "2025-03-31 00:00:00": 7259060000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:40:33.794019"
+  "fetched_at": "2026-07-22T13:46:20.150692"
 }

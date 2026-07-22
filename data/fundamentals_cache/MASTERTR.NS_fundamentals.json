@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MASTERTR.NS",
-    "fetch_date": "2026-07-15T13:45:47.207449",
+    "fetch_date": "2026-07-22T13:51:33.285248",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1219700000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.047,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:45:47.209225"
+  "fetched_at": "2026-07-22T13:51:33.286603"
 }

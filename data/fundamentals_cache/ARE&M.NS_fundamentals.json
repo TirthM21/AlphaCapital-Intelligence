@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARE&M.NS",
-    "fetch_date": "2026-07-15T13:26:39.249814",
+    "fetch_date": "2026-07-22T13:32:24.225844",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 32724700000.0,
       "2025-03-31 00:00:00": 30600700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.711,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:26:39.251524"
+  "fetched_at": "2026-07-22T13:32:24.227017"
 }

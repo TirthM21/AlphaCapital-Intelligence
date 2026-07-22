@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GPTHEALTH.NS",
-    "fetch_date": "2026-07-15T13:37:09.609383",
+    "fetch_date": "2026-07-22T13:42:55.743129",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1014022000.0,
       "2025-06-30 00:00:00": 1071086000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.084,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:37:09.611108"
+  "fetched_at": "2026-07-22T13:42:55.744351"
 }

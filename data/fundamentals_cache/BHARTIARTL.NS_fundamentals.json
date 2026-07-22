@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BHARTIARTL.NS",
-    "fetch_date": "2026-07-15T13:29:15.461990",
+    "fetch_date": "2026-07-22T13:35:00.522323",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 451293000000.0,
       "2025-03-31 00:00:00": 478762000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.011,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:29:15.463656"
+  "fetched_at": "2026-07-22T13:35:00.523624"
 }

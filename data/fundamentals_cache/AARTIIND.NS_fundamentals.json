@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AARTIIND.NS",
-    "fetch_date": "2026-07-15T13:24:14.016485",
+    "fetch_date": "2026-07-22T13:29:57.972936",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 18430000000.0,
       "2025-03-31 00:00:00": 19490000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.785,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:24:14.018269"
+  "fetched_at": "2026-07-22T13:29:57.974137"
 }

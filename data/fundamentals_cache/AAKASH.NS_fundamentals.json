@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAKASH.NS",
-    "fetch_date": "2026-07-15T13:24:07.943586",
+    "fetch_date": "2026-07-22T13:29:51.792403",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 233545000.0,
       "2025-03-31 00:00:00": 257745000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:24:07.944965"
+  "fetched_at": "2026-07-22T13:29:51.793403"
 }

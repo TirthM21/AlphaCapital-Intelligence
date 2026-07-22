@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SURYODAY.NS",
-    "fetch_date": "2026-07-15T13:58:21.540960",
+    "fetch_date": "2026-07-22T14:04:07.111447",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3078200000.0,
       "2025-03-31 00:00:00": 3047600000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 49.999999999999986,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:58:21.541609"
+  "fetched_at": "2026-07-22T14:04:07.112008"
 }

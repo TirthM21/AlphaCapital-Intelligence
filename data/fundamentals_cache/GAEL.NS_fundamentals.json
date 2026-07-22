@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GAEL.NS",
-    "fetch_date": "2026-07-15T13:35:42.952671",
+    "fetch_date": "2026-07-22T13:41:29.766172",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 12666200000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.548,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:35:42.954415"
+  "fetched_at": "2026-07-22T13:41:29.767333"
 }

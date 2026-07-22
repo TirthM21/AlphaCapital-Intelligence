@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLUEJET.NS",
-    "fetch_date": "2026-07-15T13:29:43.252161",
+    "fetch_date": "2026-07-22T13:35:28.402156",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3183820000.0,
       "2025-03-31 00:00:00": 3404450000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.799,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:29:43.253894"
+  "fetched_at": "2026-07-22T13:35:28.403379"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZENSARTECH.NS",
-    "fetch_date": "2026-07-15T14:03:31.863777",
+    "fetch_date": "2026-07-22T14:09:17.427963",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 13256000000.0,
       "2025-03-31 00:00:00": 13589000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:03:31.865113"
+  "fetched_at": "2026-07-22T14:09:17.428905"
 }

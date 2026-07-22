@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CGCL.NS",
-    "fetch_date": "2026-07-15T13:30:57.685156",
+    "fetch_date": "2026-07-22T13:36:43.091564",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 7607990000.0,
       "2025-03-31 00:00:00": 8837110000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 25.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:30:57.686483"
+  "fetched_at": "2026-07-22T13:36:43.092498"
 }

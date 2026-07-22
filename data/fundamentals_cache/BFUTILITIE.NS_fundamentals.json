@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BFUTILITIE.NS",
-    "fetch_date": "2026-07-15T13:29:03.317711",
+    "fetch_date": "2026-07-22T13:34:48.480080",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2098350000.0,
       "2025-03-31 00:00:00": 2070491000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.197,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:29:03.319425"
+  "fetched_at": "2026-07-22T13:34:48.481305"
 }

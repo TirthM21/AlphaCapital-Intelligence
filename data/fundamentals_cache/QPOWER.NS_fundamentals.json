@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QPOWER.NS",
-    "fetch_date": "2026-07-15T13:51:52.039334",
+    "fetch_date": "2026-07-22T13:57:38.214161",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1083230000.0,
       "2025-06-30 00:00:00": 1767170000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.414,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:51:52.041049"
+  "fetched_at": "2026-07-22T13:57:38.215502"
 }

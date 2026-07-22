@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NUVAMA.NS",
-    "fetch_date": "2026-07-15T13:48:53.300210",
+    "fetch_date": "2026-07-22T13:54:38.875808",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5149300000.0,
       "2025-03-31 00:00:00": 5747600000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -3.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:48:53.301561"
+  "fetched_at": "2026-07-22T13:54:38.877223"
 }

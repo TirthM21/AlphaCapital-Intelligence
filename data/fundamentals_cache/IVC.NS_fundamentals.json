@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IVC.NS",
-    "fetch_date": "2026-07-15T13:41:01.816632",
+    "fetch_date": "2026-07-22T13:46:48.223428",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 85226000.0,
       "2025-03-31 00:00:00": 75759000.0,
@@ -19,5 +19,5 @@
     "operating_margin": 26.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:41:01.817941"
+  "fetched_at": "2026-07-22T13:46:48.224456"
 }

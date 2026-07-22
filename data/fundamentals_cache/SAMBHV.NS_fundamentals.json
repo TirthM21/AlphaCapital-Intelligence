@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAMBHV.NS",
-    "fetch_date": "2026-07-15T13:54:16.364270",
+    "fetch_date": "2026-07-22T14:00:01.830369",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3690410000.0,
       "2025-03-31 00:00:00": 4952630000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.646,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:54:16.365994"
+  "fetched_at": "2026-07-22T14:00:01.831509"
 }

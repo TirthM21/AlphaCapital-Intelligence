@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BASML.NS",
-    "fetch_date": "2026-07-15T13:28:36.166999",
+    "fetch_date": "2026-07-22T13:34:21.548582",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2255213000.0,
       "2025-06-30 00:00:00": 2173927000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.883,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:28:36.168665"
+  "fetched_at": "2026-07-22T13:34:21.549765"
 }

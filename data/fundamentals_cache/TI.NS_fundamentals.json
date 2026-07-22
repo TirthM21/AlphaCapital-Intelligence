@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TI.NS",
-    "fetch_date": "2026-07-15T13:59:41.763532",
+    "fetch_date": "2026-07-22T14:05:27.112667",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3835985000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.423,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:41.765264"
+  "fetched_at": "2026-07-22T14:05:27.113954"
 }

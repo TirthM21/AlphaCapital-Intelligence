@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VENUSPIPES.NS",
-    "fetch_date": "2026-07-15T14:01:45.796400",
+    "fetch_date": "2026-07-22T14:07:31.074540",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2581360000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.28,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:01:45.798150"
+  "fetched_at": "2026-07-22T14:07:31.075866"
 }

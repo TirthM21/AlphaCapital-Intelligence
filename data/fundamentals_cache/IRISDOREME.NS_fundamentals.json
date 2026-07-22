@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IRISDOREME.NS",
-    "fetch_date": "2026-07-15T13:40:51.912313",
+    "fetch_date": "2026-07-22T13:46:38.248353",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 333757000.0,
       "2025-03-31 00:00:00": 402036000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.257,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:40:51.914045"
+  "fetched_at": "2026-07-22T13:46:38.249521"
 }

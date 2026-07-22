@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANAPPURAM.NS",
-    "fetch_date": "2026-07-15T13:45:22.397416",
+    "fetch_date": "2026-07-22T13:51:08.269223",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 16146900000.0,
       "2025-03-31 00:00:00": 14433500000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 44.68085106382978,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:45:22.398074"
+  "fetched_at": "2026-07-22T13:51:08.269750"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANKIND.NS",
-    "fetch_date": "2026-07-15T13:45:29.331746",
+    "fetch_date": "2026-07-22T13:51:15.268238",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 31987900000.0,
       "2025-03-31 00:00:00": 30793700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.623,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:45:29.333499"
+  "fetched_at": "2026-07-22T13:51:15.269460"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDOSTAR.NS",
-    "fetch_date": "2026-07-15T13:40:12.081264",
+    "fetch_date": "2026-07-22T13:45:57.265111",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3402900000.0,
       "2025-03-31 00:00:00": 3421300000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 25.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:40:12.082588"
+  "fetched_at": "2026-07-22T13:45:57.266220"
 }

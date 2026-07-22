@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DDEVPLSTIK.NS",
-    "fetch_date": "2026-07-15T13:32:40.623462",
+    "fetch_date": "2026-07-22T13:38:27.329775",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 736792800000.0,
       "2025-06-30 00:00:00": 7692155000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.512,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:32:40.625338"
+  "fetched_at": "2026-07-22T13:38:27.331078"
 }

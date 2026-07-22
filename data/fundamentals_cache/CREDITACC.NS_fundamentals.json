@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CREDITACC.NS",
-    "fetch_date": "2026-07-15T13:31:54.736429",
+    "fetch_date": "2026-07-22T13:37:41.322840",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 13636500000.0,
       "2025-03-31 00:00:00": 13865900000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 47.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:31:54.737799"
+  "fetched_at": "2026-07-22T13:37:41.323920"
 }

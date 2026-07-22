@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELLEN.NS",
-    "fetch_date": "2026-07-15T13:34:14.572533",
+    "fetch_date": "2026-07-22T13:40:01.603106",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 680190000.0,
       "2025-03-31 00:00:00": 824690000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.162,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:34:14.574281"
+  "fetched_at": "2026-07-22T13:40:01.604452"
 }

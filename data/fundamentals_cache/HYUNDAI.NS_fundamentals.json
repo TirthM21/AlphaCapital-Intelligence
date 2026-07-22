@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HYUNDAI.NS",
-    "fetch_date": "2026-07-15T13:39:15.759258",
+    "fetch_date": "2026-07-22T13:45:02.003887",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 163230880000.0,
       "2025-03-31 00:00:00": 175272470000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.195,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:39:15.761073"
+  "fetched_at": "2026-07-22T13:45:02.005102"
 }

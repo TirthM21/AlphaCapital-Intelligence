@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNITDSPR.NS",
-    "fetch_date": "2026-07-15T14:01:05.670329",
+    "fetch_date": "2026-07-22T14:06:51.300151",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 34330000000.0,
       "2025-03-31 00:00:00": 29460000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.874,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:01:05.672062"
+  "fetched_at": "2026-07-22T14:06:51.301481"
 }

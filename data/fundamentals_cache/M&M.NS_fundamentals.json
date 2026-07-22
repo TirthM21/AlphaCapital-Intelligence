@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "M&M.NS",
-    "fetch_date": "2026-07-15T13:44:52.283141",
+    "fetch_date": "2026-07-22T13:50:38.443992",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 414649800000.0,
       "2025-03-31 00:00:00": 425856700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.402,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:44:52.284868"
+  "fetched_at": "2026-07-22T13:50:38.445422"
 }

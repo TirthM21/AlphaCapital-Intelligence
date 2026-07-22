@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VMART.NS",
-    "fetch_date": "2026-07-15T14:02:26.746335",
+    "fetch_date": "2026-07-22T14:08:12.391905",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7800800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.017,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:02:26.748104"
+  "fetched_at": "2026-07-22T14:08:12.393271"
 }

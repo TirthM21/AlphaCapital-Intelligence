@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WOCKPHARMA.NS",
-    "fetch_date": "2026-07-15T14:03:10.864055",
+    "fetch_date": "2026-07-22T14:08:56.502129",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 7210000000.0,
       "2025-03-31 00:00:00": 7430000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.919,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:03:10.865802"
+  "fetched_at": "2026-07-22T14:08:56.503552"
 }

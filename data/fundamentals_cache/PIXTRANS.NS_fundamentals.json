@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PIXTRANS.NS",
-    "fetch_date": "2026-07-15T13:50:39.459613",
+    "fetch_date": "2026-07-22T13:56:24.694737",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1402813000.0,
       "2025-03-31 00:00:00": 1627711000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.597,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:50:39.461332"
+  "fetched_at": "2026-07-22T13:56:24.695926"
 }

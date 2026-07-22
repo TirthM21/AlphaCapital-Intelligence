@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIGMAADV.NS",
-    "fetch_date": "2026-07-15T13:56:11.428045",
+    "fetch_date": "2026-07-22T14:01:58.113068",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 567335000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.599,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:56:11.429733"
+  "fetched_at": "2026-07-22T14:01:58.114412"
 }

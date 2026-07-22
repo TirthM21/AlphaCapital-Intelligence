@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPANDANA.NS",
-    "fetch_date": "2026-07-15T13:57:02.511888",
+    "fetch_date": "2026-07-22T14:02:49.219560",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5029200000.0,
       "2025-03-31 00:00:00": 3906900000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -23.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:57:02.513194"
+  "fetched_at": "2026-07-22T14:02:49.220495"
 }

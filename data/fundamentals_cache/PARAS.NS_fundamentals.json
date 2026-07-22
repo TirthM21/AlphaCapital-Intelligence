@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PARAS.NS",
-    "fetch_date": "2026-07-15T13:49:56.211290",
+    "fetch_date": "2026-07-22T13:55:41.858589",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1082300000.0,
       "2025-06-30 00:00:00": 931900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.932,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:49:56.213023"
+  "fetched_at": "2026-07-22T13:55:41.859792"
 }

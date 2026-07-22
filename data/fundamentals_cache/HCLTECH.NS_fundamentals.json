@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "HCLTECH.NS",
-    "fetch_date": "2026-07-15T13:38:15.989966",
+    "fetch_date": "2026-07-22T13:44:01.874926",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 298900000000.0,
       "2025-03-31 00:00:00": 302460000000.0,
       "2025-06-30 00:00:00": 303490000000.0,
       "2025-09-30 00:00:00": NaN,
       "2025-12-31 00:00:00": 338720000000.0,
       "2026-03-31 00:00:00": 339810000000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 345790000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 1.7598069509431742,
+    "revenue_yoy_change": 13.937856272035324,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15.88,
       "2025-06-30 00:00:00": 14.17,
       "2025-09-30 00:00:00": NaN,
@@ -24,16 +22,16 @@
     },
     "eps_qoq_change": 3.0193236714975846,
     "eps_yoy_change": 20.395201129146077,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 40.59,
+    "margin_change": -0.3,
+    "operating_margin": 31.63,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 1330000000.0,
       "2026-03-31 00:00:00": 2390000000.0
     },
     "inventory_qoq_change": 79.7,
-    "inventory_to_sales_ratio": NaN,
+    "inventory_to_sales_ratio": 0.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:38:15.991708"
+  "fetched_at": "2026-07-22T13:44:01.876231"
 }

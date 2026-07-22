@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HEG.NS",
-    "fetch_date": "2026-07-15T13:38:24.839593",
+    "fetch_date": "2026-07-22T13:44:11.358075",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5365800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:38:24.841355"
+  "fetched_at": "2026-07-22T13:44:11.359272"
 }

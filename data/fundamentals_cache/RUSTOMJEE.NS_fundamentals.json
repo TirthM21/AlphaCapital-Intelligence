@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUSTOMJEE.NS",
-    "fetch_date": "2026-07-15T13:53:48.760199",
+    "fetch_date": "2026-07-22T13:59:34.270448",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5848500000.0,
       "2025-06-30 00:00:00": 2731200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.299,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:53:48.761946"
+  "fetched_at": "2026-07-22T13:59:34.271561"
 }

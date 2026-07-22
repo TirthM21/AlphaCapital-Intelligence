@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAPPSTMNDS.NS",
-    "fetch_date": "2026-07-15T13:37:59.136363",
+    "fetch_date": "2026-07-22T13:43:44.722527",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5308100000.0,
       "2025-03-31 00:00:00": 5445700000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:37:59.137793"
+  "fetched_at": "2026-07-22T13:43:44.723620"
 }

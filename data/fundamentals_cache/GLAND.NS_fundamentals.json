@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GLAND.NS",
-    "fetch_date": "2026-07-15T13:36:27.979884",
+    "fetch_date": "2026-07-22T13:42:14.137659",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 13840520000.0,
       "2025-03-31 00:00:00": 14249090000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:36:27.981602"
+  "fetched_at": "2026-07-22T13:42:14.138840"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COFORGE.NS",
-    "fetch_date": "2026-07-15T13:31:30.300904",
+    "fetch_date": "2026-07-22T13:37:15.561849",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 32581000000.0,
       "2025-03-31 00:00:00": 34222000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:31:30.302264"
+  "fetched_at": "2026-07-22T13:37:15.562763"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HEIDELBERG.NS",
-    "fetch_date": "2026-07-15T13:38:25.884664",
+    "fetch_date": "2026-07-22T13:44:11.799194",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5428200000.0,
       "2025-03-31 00:00:00": 6124600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.246,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:38:25.887210"
+  "fetched_at": "2026-07-22T13:44:11.800646"
 }
