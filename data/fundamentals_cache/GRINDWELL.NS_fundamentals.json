@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRINDWELL.NS",
-    "fetch_date": "2026-07-16T13:43:09.186051",
+    "fetch_date": "2026-07-23T13:56:33.310273",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6992007000.0,
       "2025-03-31 00:00:00": 7058984000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.574,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:43:09.187585"
+  "fetched_at": "2026-07-23T13:56:33.311693"
 }

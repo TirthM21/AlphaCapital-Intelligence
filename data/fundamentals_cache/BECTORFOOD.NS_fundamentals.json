@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BECTORFOOD.NS",
-    "fetch_date": "2026-07-16T13:34:35.788306",
+    "fetch_date": "2026-07-23T13:47:59.191239",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4460720000.0,
       "2025-06-30 00:00:00": 4729630000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.261,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:34:35.789858"
+  "fetched_at": "2026-07-23T13:47:59.192558"
 }

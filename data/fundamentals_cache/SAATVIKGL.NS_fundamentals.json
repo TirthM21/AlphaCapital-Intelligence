@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAATVIKGL.NS",
-    "fetch_date": "2026-07-16T13:59:37.678033",
+    "fetch_date": "2026-07-23T14:12:59.242459",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5181850000.0,
       "2025-03-31 00:00:00": 9189370000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.436,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:59:37.679484"
+  "fetched_at": "2026-07-23T14:12:59.243738"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GENCON.NS",
-    "fetch_date": "2026-07-15T13:36:09.620069",
+    "fetch_date": "2026-07-23T13:55:17.006530",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1067999000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.704,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:36:09.621781"
+  "fetched_at": "2026-07-23T13:55:17.007843"
 }

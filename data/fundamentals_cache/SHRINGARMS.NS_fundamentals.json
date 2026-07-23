@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHRINGARMS.NS",
-    "fetch_date": "2026-07-16T14:01:42.882968",
+    "fetch_date": "2026-07-23T14:15:05.322895",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3913170000.0,
       "2025-03-31 00:00:00": 3513630000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.606,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:01:42.884430"
+  "fetched_at": "2026-07-23T14:15:05.324173"
 }

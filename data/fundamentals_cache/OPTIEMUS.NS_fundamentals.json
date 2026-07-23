@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OPTIEMUS.NS",
-    "fetch_date": "2026-07-15T13:49:19.436696",
+    "fetch_date": "2026-07-23T14:08:25.140810",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4492564000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.648,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:49:19.438455"
+  "fetched_at": "2026-07-23T14:08:25.142112"
 }
