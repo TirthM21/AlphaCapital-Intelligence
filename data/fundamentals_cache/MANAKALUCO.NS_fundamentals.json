@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANAKALUCO.NS",
-    "fetch_date": "2026-07-17T13:36:53.135647",
+    "fetch_date": "2026-07-24T13:46:11.272950",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1370732000.0,
       "2025-06-30 00:00:00": 1344144000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.369,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-17T13:36:53.137493"
+  "fetched_at": "2026-07-24T13:46:11.274828"
 }

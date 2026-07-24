@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNL.NS",
-    "fetch_date": "2026-07-17T13:23:00.730986",
+    "fetch_date": "2026-07-24T13:32:18.043491",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4029908000.0,
       "2025-06-30 00:00:00": 3929640000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.234,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-17T13:23:00.732842"
+  "fetched_at": "2026-07-24T13:32:18.045239"
 }

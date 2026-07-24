@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GARUDA.NS",
-    "fetch_date": "2026-07-15T13:35:58.011581",
+    "fetch_date": "2026-07-24T13:36:51.912293",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 622171000.0,
       "2025-03-31 00:00:00": 815814000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:35:58.013324"
+  "fetched_at": "2026-07-24T13:36:51.914042"
 }

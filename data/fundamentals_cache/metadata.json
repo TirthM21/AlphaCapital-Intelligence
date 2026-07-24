@@ -428,7 +428,7 @@
     "in_earnings_season": true
   },
   "BALMLAWRIE.NS": {
-    "last_updated": "2026-07-15T13:28:21.730629",
+    "last_updated": "2026-07-24T13:29:15.023712",
     "in_earnings_season": true
   },
   "BALRAMCHIN.NS": {
@@ -440,7 +440,7 @@
     "in_earnings_season": true
   },
   "BANCOINDIA.NS": {
-    "last_updated": "2026-07-15T13:28:27.315304",
+    "last_updated": "2026-07-24T13:29:21.044242",
     "in_earnings_season": true
   },
   "BANDHANBNK.NS": {
@@ -1160,7 +1160,7 @@
     "in_earnings_season": true
   },
   "GARUDA.NS": {
-    "last_updated": "2026-07-15T13:35:58.014562",
+    "last_updated": "2026-07-24T13:36:51.915178",
     "in_earnings_season": true
   },
   "GATEWAY.NS": {
@@ -1188,7 +1188,7 @@
     "in_earnings_season": true
   },
   "GHCL.NS": {
-    "last_updated": "2026-05-11T14:49:30.323900",
+    "last_updated": "2026-07-24T13:37:10.061458",
     "in_earnings_season": true
   },
   "GHCLTEXTIL.NS": {
@@ -1552,7 +1552,7 @@
     "in_earnings_season": true
   },
   "IEX.NS": {
-    "last_updated": "2026-07-16T13:45:14.616306",
+    "last_updated": "2026-07-24T13:40:24.027384",
     "in_earnings_season": true
   },
   "IFCI.NS": {
@@ -2152,7 +2152,7 @@
     "in_earnings_season": true
   },
   "MANAKALUCO.NS": {
-    "last_updated": "2026-07-17T13:36:53.138774",
+    "last_updated": "2026-07-24T13:46:11.276095",
     "in_earnings_season": true
   },
   "MANAKSTEEL.NS": {
@@ -3208,7 +3208,7 @@
     "in_earnings_season": true
   },
   "SHAKTIPUMP.NS": {
-    "last_updated": "2026-07-15T13:55:25.517817",
+    "last_updated": "2026-07-24T13:56:18.196940",
     "in_earnings_season": true
   },
   "SHARDACROP.NS": {
@@ -4140,7 +4140,7 @@
     "in_earnings_season": true
   },
   "BTML.NS": {
-    "last_updated": "2026-05-13T14:24:14.119083",
+    "last_updated": "2026-07-24T13:31:04.932466",
     "in_earnings_season": true
   },
   "DDEVPLSTIK.NS": {
@@ -4452,8 +4452,8 @@
     "in_earnings_season": true
   },
   "GODREJAGRO.NS": {
-    "last_updated": "2026-05-21T15:06:03.725092",
-    "in_earnings_season": false
+    "last_updated": "2026-07-24T13:37:47.980222",
+    "in_earnings_season": true
   },
   "HDFCLIFE.NS": {
     "last_updated": "2026-05-21T15:07:28.767565",
@@ -4556,7 +4556,7 @@
     "in_earnings_season": true
   },
   "CALSOFT.NS": {
-    "last_updated": "2026-07-15T13:30:17.520486",
+    "last_updated": "2026-07-24T13:31:10.934335",
     "in_earnings_season": true
   },
   "CENTURYPLY.NS": {
@@ -4764,8 +4764,8 @@
     "in_earnings_season": true
   },
   "LAXMIINDIA.NS": {
-    "last_updated": "2026-05-29T15:13:01.624691",
-    "in_earnings_season": false
+    "last_updated": "2026-07-24T13:45:05.142025",
+    "in_earnings_season": true
   },
   "LOTUSDEV.NS": {
     "last_updated": "2026-07-22T13:50:23.099958",
@@ -5164,7 +5164,7 @@
     "in_earnings_season": false
   },
   "SUNTECK.NS": {
-    "last_updated": "2026-07-15T13:58:03.529748",
+    "last_updated": "2026-07-24T13:58:55.320791",
     "in_earnings_season": true
   },
   "TCIFINANCE.NS": {
@@ -5184,7 +5184,7 @@
     "in_earnings_season": true
   },
   "BATAINDIA.NS": {
-    "last_updated": "2026-07-17T13:20:14.716201",
+    "last_updated": "2026-07-24T13:29:31.000466",
     "in_earnings_season": true
   },
   "BLUESTARCO.NS": {
@@ -5472,7 +5472,7 @@
     "in_earnings_season": true
   },
   "HAVELLS.NS": {
-    "last_updated": "2026-07-17T13:29:42.888519",
+    "last_updated": "2026-07-24T13:39:01.051696",
     "in_earnings_season": true
   },
   "HCLTECH.NS": {
@@ -5508,7 +5508,7 @@
     "in_earnings_season": true
   },
   "CNL.NS": {
-    "last_updated": "2026-07-17T13:23:00.734169",
+    "last_updated": "2026-07-24T13:32:18.046457",
     "in_earnings_season": true
   },
   "EIMCOELECO.NS": {
@@ -5520,7 +5520,7 @@
     "in_earnings_season": true
   },
   "RBZJEWEL.NS": {
-    "last_updated": "2026-07-17T13:44:08.930044",
+    "last_updated": "2026-07-24T13:53:26.098428",
     "in_earnings_season": true
   },
   "BFINVEST.NS": {
@@ -5592,7 +5592,7 @@
     "in_earnings_season": true
   },
   "COUNCODOS.NS": {
-    "last_updated": "2026-07-17T13:23:24.778206",
+    "last_updated": "2026-07-24T13:32:41.932179",
     "in_earnings_season": true
   },
   "GKENERGY.NS": {
@@ -5665,6 +5665,18 @@
   },
   "TRUALT.NS": {
     "last_updated": "2026-07-23T14:19:33.102136",
+    "in_earnings_season": true
+  },
+  "JKCEMENT.NS": {
+    "last_updated": "2026-07-24T13:42:30.010380",
+    "in_earnings_season": true
+  },
+  "JLHL.NS": {
+    "last_updated": "2026-07-24T13:42:36.088213",
+    "in_earnings_season": true
+  },
+  "MAXIND.NS": {
+    "last_updated": "2026-07-24T13:46:46.128308",
     "in_earnings_season": true
   }
 }

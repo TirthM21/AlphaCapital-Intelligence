@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IEX.NS",
-    "fetch_date": "2026-07-16T13:45:14.613698",
+    "fetch_date": "2026-07-24T13:40:24.024864",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1320530000.0,
       "2025-03-31 00:00:00": 1422482000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 82.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:45:14.614880"
+  "fetched_at": "2026-07-24T13:40:24.026209"
 }
