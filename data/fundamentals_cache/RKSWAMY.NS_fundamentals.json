@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RKSWAMY.NS",
-    "fetch_date": "2026-07-20T14:23:50.097985",
+    "fetch_date": "2026-07-27T14:48:20.219280",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 835112000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-20T14:23:50.098787"
+  "fetched_at": "2026-07-27T14:48:20.220412"
 }

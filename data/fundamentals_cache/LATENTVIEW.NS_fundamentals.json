@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LATENTVIEW.NS",
-    "fetch_date": "2026-07-16T13:49:51.807614",
+    "fetch_date": "2026-07-27T14:39:12.335589",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2278360000.0,
       "2025-03-31 00:00:00": 2321770000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 19.77,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:49:51.808823"
+  "fetched_at": "2026-07-27T14:39:12.336944"
 }

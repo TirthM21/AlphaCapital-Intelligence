@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COFFEEDAY.NS",
-    "fetch_date": "2026-07-15T13:31:28.773468",
+    "fetch_date": "2026-07-27T14:26:29.127152",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2680300000.0,
       "2025-06-30 00:00:00": 2693200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.133,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:31:28.775240"
+  "fetched_at": "2026-07-27T14:26:29.128922"
 }
