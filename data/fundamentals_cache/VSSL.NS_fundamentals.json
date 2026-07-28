@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSSL.NS",
-    "fetch_date": "2026-07-21T14:04:01.229471",
+    "fetch_date": "2026-07-28T14:29:43.409783",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4267731000.0,
       "2025-03-31 00:00:00": 4280388000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.765,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T14:04:01.230678"
+  "fetched_at": "2026-07-28T14:29:43.411537"
 }

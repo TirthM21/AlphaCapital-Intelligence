@@ -1,15 +1,13 @@
 {
   "data": {
     "ticker": "VAISHALI.NS",
-    "fetch_date": "2026-05-11T15:14:42.315583",
+    "fetch_date": "2026-07-28T14:28:34.614022",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 207857000.0,
       "2024-12-31 00:00:00": 279143000.0,
       "2025-03-31 00:00:00": 311022000.0
     },
     "revenue_qoq_change": 11.420311453269472,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 0.151,
       "2024-12-31 00:00:00": 0.98,
       "2025-03-31 00:00:00": NaN
     },
@@ -18,12 +16,10 @@
     "margin_change": -13.5,
     "operating_margin": 0.43,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 18952000.0,
       "2025-03-31 00:00:00": 48101000.0
     },
-    "inventory_qoq_change": 153.8,
     "inventory_to_sales_ratio": 0.155,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:14:42.317049"
+  "fetched_at": "2026-07-28T14:28:34.615684"
 }

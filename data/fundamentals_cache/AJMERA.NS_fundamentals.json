@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AJMERA.NS",
-    "fetch_date": "2026-07-15T13:25:30.064477",
+    "fetch_date": "2026-07-28T13:52:39.319722",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1513900000.0,
       "2025-06-30 00:00:00": 2585100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 3.468,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:25:30.066927"
+  "fetched_at": "2026-07-28T13:52:39.321529"
 }

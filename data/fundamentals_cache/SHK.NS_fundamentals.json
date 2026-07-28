@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHK.NS",
-    "fetch_date": "2026-07-21T13:57:13.251946",
+    "fetch_date": "2026-07-28T14:22:55.401807",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5644400000.0,
       "2025-06-30 00:00:00": 5785600000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.028,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T13:57:13.253133"
+  "fetched_at": "2026-07-28T14:22:55.403585"
 }

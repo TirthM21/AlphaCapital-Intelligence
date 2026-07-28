@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EUROPRATIK.NS",
-    "fetch_date": "2026-07-21T13:36:18.300619",
+    "fetch_date": "2026-07-28T14:02:01.916257",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 751202000.0,
       "2025-03-31 00:00:00": 729634000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T13:36:18.301840"
+  "fetched_at": "2026-07-28T14:02:01.918061"
 }

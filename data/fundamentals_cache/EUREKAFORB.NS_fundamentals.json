@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EUREKAFORB.NS",
-    "fetch_date": "2026-07-15T13:34:49.583105",
+    "fetch_date": "2026-07-28T14:01:59.956513",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6126522000.0,
       "2025-06-30 00:00:00": 6078694000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.555,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:34:49.585083"
+  "fetched_at": "2026-07-28T14:01:59.958279"
 }

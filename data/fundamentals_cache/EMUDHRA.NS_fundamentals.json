@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMUDHRA.NS",
-    "fetch_date": "2026-07-21T13:35:54.869470",
+    "fetch_date": "2026-07-28T14:01:38.319859",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1388500000.0,
       "2025-03-31 00:00:00": 1468770000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T13:35:54.870712"
+  "fetched_at": "2026-07-28T14:01:38.321625"
 }
