@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKYGOLD.NS",
-    "fetch_date": "2026-07-22T14:02:24.057475",
+    "fetch_date": "2026-07-29T14:28:14.661655",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10581748000.0,
       "2025-06-30 00:00:00": 11312366000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:02:24.058637"
+  "fetched_at": "2026-07-29T14:28:14.663552"
 }

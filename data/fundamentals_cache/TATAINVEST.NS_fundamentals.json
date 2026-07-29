@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATAINVEST.NS",
-    "fetch_date": "2026-05-11T15:12:14.488057",
+    "fetch_date": "2026-07-29T14:30:34.914672",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 299900000.0,
       "2025-03-31 00:00:00": 457700000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 223.0769230769231,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:12:14.488709"
+  "fetched_at": "2026-07-29T14:30:34.915441"
 }

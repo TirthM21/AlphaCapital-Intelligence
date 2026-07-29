@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AFFLE.NS",
-    "fetch_date": "2026-07-22T13:30:53.206388",
+    "fetch_date": "2026-07-29T13:56:45.449776",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6016720000.0,
       "2025-03-31 00:00:00": 6022510000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 17.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:30:53.207352"
+  "fetched_at": "2026-07-29T13:56:45.451114"
 }

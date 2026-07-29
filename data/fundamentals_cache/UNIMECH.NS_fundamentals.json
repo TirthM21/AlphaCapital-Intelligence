@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNIMECH.NS",
-    "fetch_date": "2026-07-22T14:06:48.058068",
+    "fetch_date": "2026-07-29T14:32:37.934595",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 683717000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.307,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:06:48.059355"
+  "fetched_at": "2026-07-29T14:32:37.936388"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RITES.NS",
-    "fetch_date": "2026-07-22T13:58:51.857220",
+    "fetch_date": "2026-07-29T14:24:42.030826",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6022900000.0,
       "2025-06-30 00:00:00": 4897400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.045,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:58:51.858540"
+  "fetched_at": "2026-07-29T14:24:42.032714"
 }

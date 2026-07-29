@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PARADEEP.NS",
-    "fetch_date": "2026-07-22T13:55:40.597149",
+    "fetch_date": "2026-07-29T14:21:30.102965",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 49895500000.0,
       "2025-03-31 00:00:00": 41939600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.984,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:55:40.598491"
+  "fetched_at": "2026-07-29T14:21:30.104786"
 }

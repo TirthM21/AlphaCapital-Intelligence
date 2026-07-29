@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAVINFLUOR.NS",
-    "fetch_date": "2026-07-22T13:53:27.098529",
+    "fetch_date": "2026-07-29T14:19:16.705348",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6062000000.0,
       "2025-03-31 00:00:00": 7009400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.475,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:53:27.099745"
+  "fetched_at": "2026-07-29T14:19:16.707384"
 }

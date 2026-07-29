@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPMLINFRA.NS",
-    "fetch_date": "2026-07-22T14:02:58.290160",
+    "fetch_date": "2026-07-29T14:28:47.898035",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1916843000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.427,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:02:58.291512"
+  "fetched_at": "2026-07-29T14:28:47.899826"
 }

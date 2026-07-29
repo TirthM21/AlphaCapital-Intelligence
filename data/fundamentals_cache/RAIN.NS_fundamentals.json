@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAIN.NS",
-    "fetch_date": "2026-07-22T13:57:50.230666",
+    "fetch_date": "2026-07-29T14:23:39.762190",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 36757270000.0,
       "2025-03-31 00:00:00": 37680160000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.801,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:57:50.231805"
+  "fetched_at": "2026-07-29T14:23:39.764104"
 }

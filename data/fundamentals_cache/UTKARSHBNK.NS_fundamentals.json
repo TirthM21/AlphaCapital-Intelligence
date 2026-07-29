@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UTKARSHBNK.NS",
-    "fetch_date": "2026-07-22T14:07:06.241182",
+    "fetch_date": "2026-07-29T14:32:56.271304",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6985178000.0,
       "2025-06-30 00:00:00": 5395581000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -3633.3333333333335,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:07:06.241701"
+  "fetched_at": "2026-07-29T14:32:56.272030"
 }

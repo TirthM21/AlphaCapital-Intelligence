@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MASFIN.NS",
-    "fetch_date": "2026-07-22T13:51:30.338976",
+    "fetch_date": "2026-07-29T14:17:21.709191",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3726600000.0,
       "2025-03-31 00:00:00": 3979000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 26.15,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:51:30.339916"
+  "fetched_at": "2026-07-29T14:17:21.710680"
 }

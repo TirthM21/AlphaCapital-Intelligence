@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AFIL.NS",
-    "fetch_date": "2026-07-22T13:30:54.968184",
+    "fetch_date": "2026-07-29T13:56:47.337868",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 288366000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 34.51,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:30:54.969188"
+  "fetched_at": "2026-07-29T13:56:47.339241"
 }

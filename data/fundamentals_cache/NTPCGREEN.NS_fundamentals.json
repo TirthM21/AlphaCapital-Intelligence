@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTPCGREEN.NS",
-    "fetch_date": "2026-07-22T13:54:35.702031",
+    "fetch_date": "2026-07-29T14:20:25.644376",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5050800000.0,
       "2025-03-31 00:00:00": 6222700000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": 0.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:54:35.703101"
+  "fetched_at": "2026-07-29T14:20:25.645978"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KIRLOSENG.NS",
-    "fetch_date": "2026-07-22T13:48:46.328907",
+    "fetch_date": "2026-07-29T14:14:37.772825",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 17493200000.0,
       "2025-06-30 00:00:00": 17638000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.351,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:48:46.330218"
+  "fetched_at": "2026-07-29T14:14:37.774727"
 }

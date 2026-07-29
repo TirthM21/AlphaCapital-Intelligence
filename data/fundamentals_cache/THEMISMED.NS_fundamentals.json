@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "THEMISMED.NS",
-    "fetch_date": "2026-07-22T14:05:22.741688",
+    "fetch_date": "2026-07-29T14:31:11.884054",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 717016000.0,
       "2025-06-30 00:00:00": 975777000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:05:22.742942"
+  "fetched_at": "2026-07-29T14:31:11.885810"
 }

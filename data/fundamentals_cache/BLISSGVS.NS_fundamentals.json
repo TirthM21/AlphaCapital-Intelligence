@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLISSGVS.NS",
-    "fetch_date": "2026-07-22T13:35:21.475292",
+    "fetch_date": "2026-07-29T14:01:13.377414",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1979858000.0,
       "2025-06-30 00:00:00": 2074692000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.587,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:35:21.476436"
+  "fetched_at": "2026-07-29T14:01:13.379174"
 }

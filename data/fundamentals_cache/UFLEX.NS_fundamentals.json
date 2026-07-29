@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UFLEX.NS",
-    "fetch_date": "2026-07-22T14:06:33.194328",
+    "fetch_date": "2026-07-29T14:32:22.918666",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 37770600000.0,
       "2025-06-30 00:00:00": 38379000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.609,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:06:33.195690"
+  "fetched_at": "2026-07-29T14:32:22.920475"
 }

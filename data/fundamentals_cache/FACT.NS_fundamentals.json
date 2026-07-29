@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FACT.NS",
-    "fetch_date": "2026-07-22T13:40:49.705540",
+    "fetch_date": "2026-07-29T14:06:41.409404",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 9494200000.0,
       "2025-03-31 00:00:00": 10532800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.834,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:40:49.706700"
+  "fetched_at": "2026-07-29T14:06:41.411361"
 }

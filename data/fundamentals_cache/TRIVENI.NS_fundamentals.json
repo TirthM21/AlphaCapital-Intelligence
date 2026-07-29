@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRIVENI.NS",
-    "fetch_date": "2026-07-22T14:06:11.300862",
+    "fetch_date": "2026-07-29T14:32:01.587051",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 12683200000.0,
       "2025-03-31 00:00:00": 16292900000.0,
@@ -20,8 +20,8 @@
     },
     "eps_qoq_change": 97.91666666666666,
     "eps_yoy_change": 291.75257731958766,
-    "gross_margin": 39.56,
-    "margin_change": 9.29,
+    "gross_margin": NaN,
+    "margin_change": NaN,
     "operating_margin": 15.97,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 27378100000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:06:11.302109"
+  "fetched_at": "2026-07-29T14:32:01.588793"
 }

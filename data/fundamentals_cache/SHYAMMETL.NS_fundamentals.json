@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHYAMMETL.NS",
-    "fetch_date": "2026-07-22T14:01:50.191071",
+    "fetch_date": "2026-07-29T14:27:40.889167",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 44229900000.0,
       "2025-09-30 00:00:00": 44570200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.825,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:01:50.192263"
+  "fetched_at": "2026-07-29T14:27:40.891081"
 }

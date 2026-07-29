@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HINDCOPPER.NS",
-    "fetch_date": "2026-07-22T13:44:31.752051",
+    "fetch_date": "2026-07-29T14:10:23.806593",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7314000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.335,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:44:31.753229"
+  "fetched_at": "2026-07-29T14:10:23.808374"
 }

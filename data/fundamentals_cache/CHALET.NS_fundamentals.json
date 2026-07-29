@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHALET.NS",
-    "fetch_date": "2026-07-22T13:36:44.746633",
+    "fetch_date": "2026-07-29T14:02:36.260408",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4577910000.0,
       "2025-03-31 00:00:00": 5219740000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.483,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:36:44.747800"
+  "fetched_at": "2026-07-29T14:02:36.262194"
 }

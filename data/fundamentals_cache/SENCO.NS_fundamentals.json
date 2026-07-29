@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SENCO.NS",
-    "fetch_date": "2026-07-22T14:00:54.070148",
+    "fetch_date": "2026-07-29T14:26:43.650290",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 13777120000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 2.652,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:00:54.071365"
+  "fetched_at": "2026-07-29T14:26:43.652161"
 }

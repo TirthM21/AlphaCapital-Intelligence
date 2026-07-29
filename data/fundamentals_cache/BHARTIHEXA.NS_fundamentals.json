@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BHARTIHEXA.NS",
-    "fetch_date": "2026-07-22T13:35:01.288040",
+    "fetch_date": "2026-07-29T14:00:53.310255",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 22507000000.0,
       "2025-03-31 00:00:00": 22890000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 29.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:35:01.289025"
+  "fetched_at": "2026-07-29T14:00:53.311562"
 }

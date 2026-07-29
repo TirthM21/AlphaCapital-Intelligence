@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DELHIVERY.NS",
-    "fetch_date": "2026-07-22T13:38:34.528128",
+    "fetch_date": "2026-07-29T14:04:26.223042",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 23782980000.0,
       "2025-03-31 00:00:00": 21915660000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.008,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:38:34.529317"
+  "fetched_at": "2026-07-29T14:04:26.224924"
 }

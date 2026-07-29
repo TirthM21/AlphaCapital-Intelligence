@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAMMAANCAP.NS",
-    "fetch_date": "2026-07-22T14:00:04.049567",
+    "fetch_date": "2026-07-29T14:25:54.837813",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 19172400000.0,
       "2025-03-31 00:00:00": 15335100000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 71.63,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:00:04.050502"
+  "fetched_at": "2026-07-29T14:25:54.839559"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CESC.NS",
-    "fetch_date": "2026-07-22T13:36:40.907453",
+    "fetch_date": "2026-07-29T14:02:32.513053",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 35610000000.0,
       "2025-03-31 00:00:00": 38770000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:36:40.909609"
+  "fetched_at": "2026-07-29T14:02:32.514796"
 }

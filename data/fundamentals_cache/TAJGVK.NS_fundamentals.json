@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TAJGVK.NS",
-    "fetch_date": "2026-07-22T14:04:28.274251",
+    "fetch_date": "2026-07-29T14:30:18.543951",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1247600000.0,
       "2025-06-30 00:00:00": 1063900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.084,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:04:28.275708"
+  "fetched_at": "2026-07-29T14:30:18.545865"
 }

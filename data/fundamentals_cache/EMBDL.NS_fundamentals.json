@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMBDL.NS",
-    "fetch_date": "2026-07-22T13:40:06.566883",
+    "fetch_date": "2026-07-29T14:05:59.088627",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3252860000.0,
       "2025-03-31 00:00:00": 8888890000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 36.303,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:40:06.568067"
+  "fetched_at": "2026-07-29T14:05:59.090461"
 }

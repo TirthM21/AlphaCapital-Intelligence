@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VERANDA.NS",
-    "fetch_date": "2026-07-22T14:07:33.174957",
+    "fetch_date": "2026-07-29T14:33:23.855773",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 769971000.0,
       "2025-03-31 00:00:00": 873274000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.022,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:07:33.176098"
+  "fetched_at": "2026-07-29T14:33:23.857629"
 }

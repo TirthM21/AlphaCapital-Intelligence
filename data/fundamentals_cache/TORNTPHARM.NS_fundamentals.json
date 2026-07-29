@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TORNTPHARM.NS",
-    "fetch_date": "2026-07-22T14:05:52.132793",
+    "fetch_date": "2026-07-29T14:31:44.022235",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 29090000000.0,
       "2025-06-30 00:00:00": 31280000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:05:52.133975"
+  "fetched_at": "2026-07-29T14:31:44.024374"
 }

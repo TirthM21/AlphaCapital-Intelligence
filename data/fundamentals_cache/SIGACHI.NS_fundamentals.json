@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIGACHI.NS",
-    "fetch_date": "2026-07-22T14:01:55.254327",
+    "fetch_date": "2026-07-29T14:27:44.901124",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1394168000.0,
       "2025-03-31 00:00:00": 1282048000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.604,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:01:55.255892"
+  "fetched_at": "2026-07-29T14:27:44.902980"
 }

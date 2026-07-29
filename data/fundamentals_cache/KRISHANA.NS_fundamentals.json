@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRISHANA.NS",
-    "fetch_date": "2026-07-22T13:49:18.267438",
+    "fetch_date": "2026-07-29T14:15:09.896493",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3040337000.0,
       "2025-03-31 00:00:00": 4728825000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:49:18.268610"
+  "fetched_at": "2026-07-29T14:15:09.898336"
 }

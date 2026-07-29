@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WESTLIFE.NS",
-    "fetch_date": "2026-07-21T14:04:24.190368",
+    "fetch_date": "2026-07-29T14:34:36.152866",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6502361000.0,
       "2025-03-31 00:00:00": 5948897000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T14:04:24.191554"
+  "fetched_at": "2026-07-29T14:34:36.154697"
 }

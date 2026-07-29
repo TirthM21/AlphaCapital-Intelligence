@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GVT&D.NS",
-    "fetch_date": "2026-07-22T13:43:38.791332",
+    "fetch_date": "2026-07-29T14:09:30.558359",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 10736500000.0,
       "2025-03-31 00:00:00": 11525400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.75,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:43:38.792513"
+  "fetched_at": "2026-07-29T14:09:30.560110"
 }

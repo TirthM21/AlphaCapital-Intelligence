@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TORNTPOWER.NS",
-    "fetch_date": "2026-07-22T14:05:53.505316",
+    "fetch_date": "2026-07-29T14:31:42.738610",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 64563400000.0,
       "2025-06-30 00:00:00": 79063700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.079,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:05:53.506540"
+  "fetched_at": "2026-07-29T14:31:42.740395"
 }

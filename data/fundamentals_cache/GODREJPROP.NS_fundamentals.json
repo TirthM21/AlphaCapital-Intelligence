@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GODREJPROP.NS",
-    "fetch_date": "2026-07-22T13:42:42.775729",
+    "fetch_date": "2026-07-29T14:08:34.606243",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 9688800000.0,
       "2025-03-31 00:00:00": 21217300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 16.716,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:42:42.777127"
+  "fetched_at": "2026-07-29T14:08:34.608041"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESCORTS.NS",
-    "fetch_date": "2026-07-22T13:40:30.814359",
+    "fetch_date": "2026-07-29T14:06:27.182525",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 29480200000.0,
       "2025-03-31 00:00:00": 24448800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.496,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:40:30.815529"
+  "fetched_at": "2026-07-29T14:06:27.184428"
 }

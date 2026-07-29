@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADANIPORTS.NS",
-    "fetch_date": "2026-07-22T13:30:31.121709",
+    "fetch_date": "2026-07-29T13:56:23.333856",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 79635500000.0,
       "2025-03-31 00:00:00": 84884400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.064,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:30:31.123098"
+  "fetched_at": "2026-07-29T13:56:23.335750"
 }

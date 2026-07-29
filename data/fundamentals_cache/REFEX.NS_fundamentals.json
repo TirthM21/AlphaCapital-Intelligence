@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REFEX.NS",
-    "fetch_date": "2026-07-22T13:58:25.903598",
+    "fetch_date": "2026-07-29T14:24:17.112348",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6860417000.0,
       "2025-03-31 00:00:00": 5944746000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.081,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:58:25.904731"
+  "fetched_at": "2026-07-29T14:24:17.114421"
 }

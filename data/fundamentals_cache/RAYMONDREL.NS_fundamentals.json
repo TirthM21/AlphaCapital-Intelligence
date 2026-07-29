@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAYMONDREL.NS",
-    "fetch_date": "2026-07-22T13:58:16.692867",
+    "fetch_date": "2026-07-29T14:24:06.649276",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 922600000.0,
       "2025-03-31 00:00:00": 1170500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 3.701,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:58:16.694278"
+  "fetched_at": "2026-07-29T14:24:06.651399"
 }

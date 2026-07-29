@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDOBORAX.NS",
-    "fetch_date": "2026-07-22T13:45:53.311506",
+    "fetch_date": "2026-07-29T14:11:45.256150",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 501166000.0,
       "2025-06-30 00:00:00": 535684000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.505,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:45:53.314092"
+  "fetched_at": "2026-07-29T14:11:45.258009"
 }

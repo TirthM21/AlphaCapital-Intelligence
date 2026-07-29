@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FLUOROCHEM.NS",
-    "fetch_date": "2026-07-22T13:41:16.813522",
+    "fetch_date": "2026-07-29T14:07:08.672615",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 12250000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.412,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:41:16.814739"
+  "fetched_at": "2026-07-29T14:07:08.674422"
 }

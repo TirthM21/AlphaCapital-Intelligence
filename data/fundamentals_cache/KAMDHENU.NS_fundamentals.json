@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KAMDHENU.NS",
-    "fetch_date": "2026-07-22T13:48:06.351192",
+    "fetch_date": "2026-07-29T14:13:57.639613",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1978215000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:48:06.352511"
+  "fetched_at": "2026-07-29T14:13:57.641386"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UYFINCORP.NS",
-    "fetch_date": "2026-07-22T14:07:09.097462",
+    "fetch_date": "2026-07-29T14:32:58.795325",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 152505000.0,
       "2025-06-30 00:00:00": 212242000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.192,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:07:09.098618"
+  "fetched_at": "2026-07-29T14:32:58.797351"
 }

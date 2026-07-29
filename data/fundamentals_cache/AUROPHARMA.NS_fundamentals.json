@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AUROPHARMA.NS",
-    "fetch_date": "2026-07-22T13:33:21.619004",
+    "fetch_date": "2026-07-29T13:59:14.002422",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 78931500000.0,
       "2025-03-31 00:00:00": 83811200000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.377,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:33:21.620308"
+  "fetched_at": "2026-07-29T13:59:14.004097"
 }

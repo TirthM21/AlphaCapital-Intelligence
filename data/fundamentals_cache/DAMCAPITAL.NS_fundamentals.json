@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DAMCAPITAL.NS",
-    "fetch_date": "2026-07-22T13:38:04.358299",
+    "fetch_date": "2026-07-29T14:03:56.329029",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 330100000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -8.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:38:04.359434"
+  "fetched_at": "2026-07-29T14:03:56.330520"
 }

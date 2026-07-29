@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAKAR.NS",
-    "fetch_date": "2026-07-22T13:59:52.828833",
+    "fetch_date": "2026-07-29T14:25:42.688924",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 502418000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.985,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:59:52.830002"
+  "fetched_at": "2026-07-29T14:25:42.690782"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ENGINERSIN.NS",
-    "fetch_date": "2026-07-22T13:40:19.880666",
+    "fetch_date": "2026-07-29T14:06:09.597353",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 10102209000.0,
@@ -24,7 +24,7 @@
     "eps_yoy_change": -30.32128514056225,
     "gross_margin": 55.43,
     "margin_change": -5.25,
-    "operating_margin": 15.22,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 41152000.0,
       "2025-09-30 00:00:00": 6387000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:40:19.881834"
+  "fetched_at": "2026-07-29T14:06:09.599366"
 }
