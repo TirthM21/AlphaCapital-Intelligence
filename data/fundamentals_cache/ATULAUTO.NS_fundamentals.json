@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATULAUTO.NS",
-    "fetch_date": "2026-07-22T13:33:18.268807",
+    "fetch_date": "2026-07-30T13:49:11.571391",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2045900000.0,
       "2025-06-30 00:00:00": 1509200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.385,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:33:18.269996"
+  "fetched_at": "2026-07-30T13:49:11.572432"
 }

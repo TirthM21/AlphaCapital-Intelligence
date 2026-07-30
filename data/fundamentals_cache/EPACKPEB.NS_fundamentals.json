@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EPACKPEB.NS",
-    "fetch_date": "2026-07-23T13:53:45.005951",
+    "fetch_date": "2026-07-30T13:56:15.915378",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2663329000.0,
       "2025-03-31 00:00:00": 3305969000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.564,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T13:53:45.007290"
+  "fetched_at": "2026-07-30T13:56:15.916306"
 }

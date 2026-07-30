@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBSTOCKBRO.NS",
-    "fetch_date": "2026-07-23T13:51:38.058326",
+    "fetch_date": "2026-07-30T13:54:08.609119",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 34111000.0,
       "2025-03-31 00:00:00": 23184000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -10.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T13:51:38.059319"
+  "fetched_at": "2026-07-30T13:54:08.609824"
 }
