@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BATAINDIA.NS",
-    "fetch_date": "2026-07-24T13:29:30.997413",
+    "fetch_date": "2026-07-31T13:55:00.969384",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 9187940000.0,
       "2025-03-31 00:00:00": 7882140000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.855,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:29:30.999163"
+  "fetched_at": "2026-07-31T13:55:00.970934"
 }

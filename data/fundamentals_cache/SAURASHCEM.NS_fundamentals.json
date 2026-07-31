@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAURASHCEM.NS",
-    "fetch_date": "2026-07-16T14:00:24.766184",
+    "fetch_date": "2026-07-31T14:21:05.039827",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4780515000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.554,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:00:24.767713"
+  "fetched_at": "2026-07-31T14:21:05.041420"
 }

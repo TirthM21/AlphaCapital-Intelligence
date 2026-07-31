@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BANCOINDIA.NS",
-    "fetch_date": "2026-07-24T13:29:21.040846",
+    "fetch_date": "2026-07-31T13:54:50.758110",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8684000000.0,
       "2025-06-30 00:00:00": 9631400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.373,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:29:21.042824"
+  "fetched_at": "2026-07-31T13:54:50.759721"
 }

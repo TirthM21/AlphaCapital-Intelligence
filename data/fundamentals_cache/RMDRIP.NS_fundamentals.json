@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RMDRIP.NS",
-    "fetch_date": "2026-07-15T13:53:12.394055",
+    "fetch_date": "2026-07-31T14:19:36.057664",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 482129000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.556,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:53:12.395862"
+  "fetched_at": "2026-07-31T14:19:36.059251"
 }

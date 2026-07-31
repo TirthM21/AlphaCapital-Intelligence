@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GHCL.NS",
-    "fetch_date": "2026-07-24T13:37:10.058456",
+    "fetch_date": "2026-07-31T14:02:39.902623",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 7787300000.0,
       "2025-03-31 00:00:00": 7814700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.755,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:37:10.060240"
+  "fetched_at": "2026-07-31T14:02:39.904174"
 }
