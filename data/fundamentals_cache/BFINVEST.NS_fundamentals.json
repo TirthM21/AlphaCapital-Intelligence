@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BFINVEST.NS",
-    "fetch_date": "2026-07-27T14:23:59.091776",
+    "fetch_date": "2026-08-03T14:31:04.910882",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 245960000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 91.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:23:59.093129"
+  "fetched_at": "2026-08-03T14:31:04.912121"
 }

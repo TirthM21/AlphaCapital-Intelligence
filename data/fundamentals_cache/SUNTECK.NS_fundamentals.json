@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUNTECK.NS",
-    "fetch_date": "2026-07-24T13:58:55.317836",
+    "fetch_date": "2026-08-03T15:00:24.344700",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2060485000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 41.217,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:58:55.319602"
+  "fetched_at": "2026-08-03T15:00:24.346242"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALEMBICLTD.NS",
-    "fetch_date": "2026-07-27T14:20:39.146537",
+    "fetch_date": "2026-08-03T14:27:44.942845",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 602700000.0,
       "2025-06-30 00:00:00": 497500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:20:39.148406"
+  "fetched_at": "2026-08-03T14:27:44.944444"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JUSTDIAL.NS",
-    "fetch_date": "2026-07-27T14:37:11.223922",
+    "fetch_date": "2026-08-03T14:44:18.971768",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2892000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 23.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:37:11.224934"
+  "fetched_at": "2026-08-03T14:44:18.972707"
 }

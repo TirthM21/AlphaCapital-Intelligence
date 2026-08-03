@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RSYSTEMS.NS",
-    "fetch_date": "2026-07-27T14:48:47.678151",
+    "fetch_date": "2026-08-03T14:55:56.206003",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4424650000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:48:47.679588"
+  "fetched_at": "2026-08-03T14:55:56.207216"
 }

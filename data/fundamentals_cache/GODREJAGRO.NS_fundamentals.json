@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GODREJAGRO.NS",
-    "fetch_date": "2026-07-24T13:37:47.976964",
+    "fetch_date": "2026-08-03T14:39:06.012468",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 24446400000.0,
       "2025-03-31 00:00:00": 21254600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.615,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:37:47.978733"
+  "fetched_at": "2026-08-03T14:39:06.014013"
 }

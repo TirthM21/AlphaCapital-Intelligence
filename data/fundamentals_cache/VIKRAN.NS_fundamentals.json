@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIKRAN.NS",
-    "fetch_date": "2026-07-23T14:21:08.319796",
+    "fetch_date": "2026-08-03T15:04:24.071036",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2652000000.0,
       "2025-03-31 00:00:00": 3553500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.123,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T14:21:08.321086"
+  "fetched_at": "2026-08-03T15:04:24.072569"
 }

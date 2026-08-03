@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MONARCH.NS",
-    "fetch_date": "2026-07-27T14:41:57.351347",
+    "fetch_date": "2026-08-03T14:49:05.947122",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 803189000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 49.28,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:41:57.352761"
+  "fetched_at": "2026-08-03T14:49:05.948357"
 }

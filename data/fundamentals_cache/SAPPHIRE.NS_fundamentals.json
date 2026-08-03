@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAPPHIRE.NS",
-    "fetch_date": "2026-07-27T14:49:42.255720",
+    "fetch_date": "2026-08-03T14:56:51.108404",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7113410000.0,
       "2025-06-30 00:00:00": 7768280000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.126,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:49:42.257480"
+  "fetched_at": "2026-08-03T14:56:51.109955"
 }

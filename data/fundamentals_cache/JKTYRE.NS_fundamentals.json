@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JKTYRE.NS",
-    "fetch_date": "2026-07-27T14:36:47.281311",
+    "fetch_date": "2026-08-03T14:43:55.150042",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 36736800000.0,
       "2025-03-31 00:00:00": 37586000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.631,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:36:47.283083"
+  "fetched_at": "2026-08-03T14:43:55.151574"
 }

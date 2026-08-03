@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UPL.NS",
-    "fetch_date": "2026-07-27T14:56:26.453572",
+    "fetch_date": "2026-08-03T15:03:35.209415",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 109070000000.0,
       "2025-03-31 00:00:00": 155730000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.691,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T14:56:26.455292"
+  "fetched_at": "2026-08-03T15:03:35.211038"
 }
