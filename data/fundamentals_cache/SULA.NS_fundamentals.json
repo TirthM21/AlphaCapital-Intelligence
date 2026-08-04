@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SULA.NS",
-    "fetch_date": "2026-07-28T14:24:57.499288",
+    "fetch_date": "2026-08-04T14:30:16.038436",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1257100000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.489,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:24:57.501124"
+  "fetched_at": "2026-08-04T14:30:16.039941"
 }

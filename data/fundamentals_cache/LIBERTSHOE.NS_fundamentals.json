@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LIBERTSHOE.NS",
-    "fetch_date": "2026-07-28T14:11:31.468366",
+    "fetch_date": "2026-08-04T14:16:48.743775",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1600979000.0,
       "2025-03-31 00:00:00": 1876593000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.852,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:11:31.470144"
+  "fetched_at": "2026-08-04T14:16:48.745263"
 }

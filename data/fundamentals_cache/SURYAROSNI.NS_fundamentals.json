@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SURYAROSNI.NS",
-    "fetch_date": "2026-07-28T14:25:27.393538",
+    "fetch_date": "2026-08-04T14:30:45.567060",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 21458300000.0,
       "2025-06-30 00:00:00": 16045200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.465,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:25:27.395290"
+  "fetched_at": "2026-08-04T14:30:45.568597"
 }

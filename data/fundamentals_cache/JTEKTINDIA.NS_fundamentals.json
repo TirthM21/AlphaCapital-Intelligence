@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JTEKTINDIA.NS",
-    "fetch_date": "2026-07-28T14:09:07.221147",
+    "fetch_date": "2026-08-04T14:14:23.449244",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6491871000.0,
       "2025-06-30 00:00:00": 5660184000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.283,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:09:07.222928"
+  "fetched_at": "2026-08-04T14:14:23.450763"
 }

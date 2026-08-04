@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SURANASOL.NS",
-    "fetch_date": "2026-07-28T14:25:23.269594",
+    "fetch_date": "2026-08-04T14:30:41.560288",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 106370000.0,
       "2025-03-31 00:00:00": 25202000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": 0.918,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:25:23.271234"
+  "fetched_at": "2026-08-04T14:30:41.561740"
 }

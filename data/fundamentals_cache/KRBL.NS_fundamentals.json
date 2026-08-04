@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRBL.NS",
-    "fetch_date": "2026-07-28T14:10:38.299668",
+    "fetch_date": "2026-08-04T14:15:54.536778",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 14422500000.0,
       "2025-06-30 00:00:00": 15843500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.434,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:10:38.301447"
+  "fetched_at": "2026-08-04T14:15:54.538312"
 }

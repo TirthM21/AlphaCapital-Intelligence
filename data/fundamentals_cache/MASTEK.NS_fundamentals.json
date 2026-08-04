@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MASTEK.NS",
-    "fetch_date": "2026-07-28T14:12:55.336811",
+    "fetch_date": "2026-08-04T14:18:12.573070",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 9054200000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:12:55.338170"
+  "fetched_at": "2026-08-04T14:18:12.574275"
 }

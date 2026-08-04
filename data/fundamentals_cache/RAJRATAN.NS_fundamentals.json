@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAJRATAN.NS",
-    "fetch_date": "2026-07-28T14:19:17.268636",
+    "fetch_date": "2026-08-04T14:24:34.465378",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2514200000.0,
       "2025-06-30 00:00:00": 2465100000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.327,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:19:17.270417"
+  "fetched_at": "2026-08-04T14:24:34.466875"
 }
