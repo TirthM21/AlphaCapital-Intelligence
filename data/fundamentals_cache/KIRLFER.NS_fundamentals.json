@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KIRLFER.NS",
-    "fetch_date": "2026-07-15T13:42:59.101364",
+    "fetch_date": "2026-08-05T14:12:42.643231",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 16076000000.0,
       "2025-03-31 00:00:00": 17369500000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.591,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:42:59.103117"
+  "fetched_at": "2026-08-05T14:12:42.644925"
 }

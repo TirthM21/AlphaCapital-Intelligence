@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KANSAINER.NS",
-    "fetch_date": "2026-05-11T14:55:41.402780",
+    "fetch_date": "2026-08-05T14:12:10.706395",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 19218900000.0,
       "2025-03-31 00:00:00": 18166500000.0,
@@ -24,7 +24,6 @@
     "margin_change": -0.9,
     "operating_margin": 7.96,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 16543300000.0,
       "2025-03-31 00:00:00": 16650700000.0,
       "2026-03-31 00:00:00": 15301700000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.783,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:55:41.404274"
+  "fetched_at": "2026-08-05T14:12:10.708104"
 }
