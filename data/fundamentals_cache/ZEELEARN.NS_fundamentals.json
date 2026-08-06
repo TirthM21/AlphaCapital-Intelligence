@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZEELEARN.NS",
-    "fetch_date": "2026-07-29T14:35:02.942548",
+    "fetch_date": "2026-08-06T14:30:32.673556",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1586801000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.153,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:35:02.944289"
+  "fetched_at": "2026-08-06T14:30:32.675324"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SANSERA.NS",
-    "fetch_date": "2026-07-29T14:26:04.869260",
+    "fetch_date": "2026-08-06T14:21:34.302751",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7816520000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.672,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:26:04.871098"
+  "fetched_at": "2026-08-06T14:21:34.304474"
 }

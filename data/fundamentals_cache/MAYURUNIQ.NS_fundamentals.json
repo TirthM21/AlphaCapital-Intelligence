@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAYURUNIQ.NS",
-    "fetch_date": "2026-07-29T14:17:30.722737",
+    "fetch_date": "2026-08-06T14:12:59.294079",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2505580000.0,
       "2025-06-30 00:00:00": 2158765000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:17:30.724609"
+  "fetched_at": "2026-08-06T14:12:59.295821"
 }

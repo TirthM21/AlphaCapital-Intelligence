@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUNPHARMA.NS",
-    "fetch_date": "2026-07-29T14:29:37.955476",
+    "fetch_date": "2026-08-06T14:25:07.600920",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 134369400000.0,
       "2025-03-31 00:00:00": 128155800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.789,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:29:37.957220"
+  "fetched_at": "2026-08-06T14:25:07.602653"
 }

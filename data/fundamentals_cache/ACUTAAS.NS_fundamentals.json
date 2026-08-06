@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACUTAAS.NS",
-    "fetch_date": "2026-07-29T13:56:19.294560",
+    "fetch_date": "2026-08-06T13:51:39.142774",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2749876000.0,
       "2025-03-31 00:00:00": 3015747000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:56:19.296337"
+  "fetched_at": "2026-08-06T13:51:39.144503"
 }

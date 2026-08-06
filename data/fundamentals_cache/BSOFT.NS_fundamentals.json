@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BSOFT.NS",
-    "fetch_date": "2026-07-29T14:01:47.454313",
+    "fetch_date": "2026-08-06T13:57:08.406926",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 13168880000.0,
@@ -13,15 +13,15 @@
     "revenue_qoq_change": 2.2816572434887386,
     "revenue_yoy_change": 4.746645120921445,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": 4.15,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4.34,
       "2025-06-30 00:00:00": 3.78,
       "2025-12-31 00:00:00": 4.26,
       "2026-03-31 00:00:00": 6.24,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 5.7
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": null,
+    "eps_qoq_change": -8.653846153846153,
+    "eps_yoy_change": 31.336405529953925,
     "gross_margin": 39.11,
     "margin_change": -2.38,
     "operating_margin": 14.75,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.003,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:01:47.456337"
+  "fetched_at": "2026-08-06T13:57:08.408669"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HARDWYN.NS",
-    "fetch_date": "2026-07-29T14:09:38.449946",
+    "fetch_date": "2026-08-06T14:05:02.384886",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 456419000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.917,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:09:38.451761"
+  "fetched_at": "2026-08-06T14:05:02.386571"
 }

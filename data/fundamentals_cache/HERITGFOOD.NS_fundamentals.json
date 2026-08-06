@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HERITGFOOD.NS",
-    "fetch_date": "2026-07-29T14:10:06.730709",
+    "fetch_date": "2026-08-06T14:05:30.304644",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 10484660000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.238,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:10:06.734498"
+  "fetched_at": "2026-08-06T14:05:30.306413"
 }

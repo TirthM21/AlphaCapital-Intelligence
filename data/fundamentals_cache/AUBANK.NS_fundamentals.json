@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AUBANK.NS",
-    "fetch_date": "2026-07-29T13:59:11.372342",
+    "fetch_date": "2026-08-06T13:54:32.137804",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 28545920000.0,
       "2025-06-30 00:00:00": 28552772000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 55.7037037037037,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:59:11.373023"
+  "fetched_at": "2026-08-06T13:54:32.138464"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FINOPB.NS",
-    "fetch_date": "2026-07-30T13:57:01.295061",
+    "fetch_date": "2026-08-06T14:02:23.230594",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4356900000.0,
       "2025-03-31 00:00:00": 4675000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -69.20289855072464,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T13:57:01.295495"
+  "fetched_at": "2026-08-06T14:02:23.231317"
 }

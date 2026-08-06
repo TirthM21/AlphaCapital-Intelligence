@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMCGLOBAL.NS",
-    "fetch_date": "2026-07-29T14:28:16.790947",
+    "fetch_date": "2026-08-06T14:23:46.580421",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4286791000.0,
       "2025-03-31 00:00:00": 4307935000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.009,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:28:16.792782"
+  "fetched_at": "2026-08-06T14:23:46.582166"
 }

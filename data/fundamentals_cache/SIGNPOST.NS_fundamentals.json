@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIGNPOST.NS",
-    "fetch_date": "2026-07-29T14:27:49.563877",
+    "fetch_date": "2026-08-06T14:23:19.351517",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1108447000.0,
       "2025-06-30 00:00:00": 1376475000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 19.54,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:27:49.565316"
+  "fetched_at": "2026-08-06T14:23:19.352889"
 }

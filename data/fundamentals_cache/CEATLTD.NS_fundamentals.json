@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CEATLTD.NS",
-    "fetch_date": "2026-07-30T13:52:19.433135",
+    "fetch_date": "2026-08-06T13:57:39.162569",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 34206200000.0,
       "2025-06-30 00:00:00": 35290000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.413,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T13:52:19.434114"
+  "fetched_at": "2026-08-06T13:57:39.164324"
 }

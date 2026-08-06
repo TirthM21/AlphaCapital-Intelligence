@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNIVCABLES.NS",
-    "fetch_date": "2026-07-29T14:32:45.897101",
+    "fetch_date": "2026-08-06T14:28:15.576274",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6740318000.0,
       "2025-06-30 00:00:00": 6001929000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.723,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:32:45.898855"
+  "fetched_at": "2026-08-06T14:28:15.578820"
 }

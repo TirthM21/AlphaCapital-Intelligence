@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PDMJEPAPER.NS",
-    "fetch_date": "2026-07-30T14:11:51.501462",
+    "fetch_date": "2026-08-06T14:17:17.356192",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1900800000.0,
       "2025-06-30 00:00:00": 1964500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.673,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:11:51.502392"
+  "fetched_at": "2026-08-06T14:17:17.357956"
 }

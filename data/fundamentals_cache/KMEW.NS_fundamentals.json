@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMEW.NS",
-    "fetch_date": "2026-07-29T14:14:44.732459",
+    "fetch_date": "2026-08-06T14:10:11.363345",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 474750000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:14:44.734275"
+  "fetched_at": "2026-08-06T14:10:11.365147"
 }

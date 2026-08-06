@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LAXMIINDIA.NS",
-    "fetch_date": "2026-07-24T13:45:05.139033",
+    "fetch_date": "2026-08-06T14:11:15.434951",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 611189000.0,
       "2025-03-31 00:00:00": 752412000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 31.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T13:45:05.140572"
+  "fetched_at": "2026-08-06T14:11:15.436290"
 }

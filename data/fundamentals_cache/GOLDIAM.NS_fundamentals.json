@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOLDIAM.NS",
-    "fetch_date": "2026-07-29T14:08:39.498671",
+    "fetch_date": "2026-08-06T14:04:03.330947",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1985705000.0,
       "2025-06-30 00:00:00": 2297316000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.486,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:08:39.500395"
+  "fetched_at": "2026-08-06T14:04:03.332632"
 }

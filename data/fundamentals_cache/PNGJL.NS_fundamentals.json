@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PNGJL.NS",
-    "fetch_date": "2026-07-29T14:22:25.718078",
+    "fetch_date": "2026-08-06T14:17:55.390791",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 17145620000.0,
       "2025-09-30 00:00:00": 21776220000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.515,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:22:25.719920"
+  "fetched_at": "2026-08-06T14:17:55.392494"
 }

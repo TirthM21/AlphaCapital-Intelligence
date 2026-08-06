@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABB.NS",
-    "fetch_date": "2026-07-29T13:55:58.238175",
+    "fetch_date": "2026-08-06T13:51:18.218000",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 33268800000.0,
       "2025-03-31 00:00:00": 29901900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.649,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:55:58.240022"
+  "fetched_at": "2026-08-06T13:51:18.219843"
 }

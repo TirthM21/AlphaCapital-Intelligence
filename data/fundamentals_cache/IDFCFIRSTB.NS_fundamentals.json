@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDFCFIRSTB.NS",
-    "fetch_date": "2026-07-29T14:11:06.893239",
+    "fetch_date": "2026-08-06T14:06:30.253287",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 68030900000.0,
       "2025-06-30 00:00:00": 71600200000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 229.99999999999997,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:11:06.894089"
+  "fetched_at": "2026-08-06T14:06:30.253998"
 }

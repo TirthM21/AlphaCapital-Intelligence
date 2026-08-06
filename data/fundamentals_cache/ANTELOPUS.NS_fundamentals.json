@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANTELOPUS.NS",
-    "fetch_date": "2026-07-30T13:47:55.472021",
+    "fetch_date": "2026-08-06T13:53:15.608578",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 506300000.0,
       "2025-09-30 00:00:00": 551300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.312,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T13:47:55.473101"
+  "fetched_at": "2026-08-06T13:53:15.610294"
 }

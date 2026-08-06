@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "A2ZINFRA.NS",
-    "fetch_date": "2026-07-30T13:45:42.580307",
+    "fetch_date": "2026-08-06T13:51:00.987517",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 906559000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -4.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T13:45:42.581210"
+  "fetched_at": "2026-08-06T13:51:00.988958"
 }

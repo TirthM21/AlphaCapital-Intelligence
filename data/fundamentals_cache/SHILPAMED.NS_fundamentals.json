@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHILPAMED.NS",
-    "fetch_date": "2026-07-29T14:27:16.880353",
+    "fetch_date": "2026-08-06T14:22:46.507954",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3308200000.0,
       "2025-06-30 00:00:00": 3214574000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.839,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:27:16.882535"
+  "fetched_at": "2026-08-06T14:22:46.509714"
 }

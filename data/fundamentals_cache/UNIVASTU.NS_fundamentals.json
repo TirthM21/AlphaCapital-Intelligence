@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNIVASTU.NS",
-    "fetch_date": "2026-07-29T14:32:45.089617",
+    "fetch_date": "2026-08-06T14:28:14.410057",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 419898000.0,
       "2025-03-31 00:00:00": 517270000.0
@@ -21,5 +21,5 @@
     "inventory_to_sales_ratio": 0.025,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:32:45.091316"
+  "fetched_at": "2026-08-06T14:28:14.411677"
 }

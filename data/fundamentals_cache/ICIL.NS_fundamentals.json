@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ICIL.NS",
-    "fetch_date": "2026-07-29T14:11:02.674805",
+    "fetch_date": "2026-08-06T14:06:25.340995",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10225632000.0,
       "2025-06-30 00:00:00": 9587060000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.183,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:11:02.676631"
+  "fetched_at": "2026-08-06T14:06:25.342773"
 }

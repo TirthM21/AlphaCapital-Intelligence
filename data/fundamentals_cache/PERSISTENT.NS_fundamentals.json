@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PERSISTENT.NS",
-    "fetch_date": "2026-07-29T14:21:52.702630",
+    "fetch_date": "2026-08-06T14:17:22.450491",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 30622840000.0,
       "2025-03-31 00:00:00": 32421120000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.25,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:21:52.704562"
+  "fetched_at": "2026-08-06T14:17:22.451862"
 }

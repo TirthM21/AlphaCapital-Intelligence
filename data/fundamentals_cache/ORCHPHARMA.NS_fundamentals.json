@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORCHPHARMA.NS",
-    "fetch_date": "2026-07-29T14:20:57.616463",
+    "fetch_date": "2026-08-06T14:16:27.442006",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2374787000.0,
       "2025-06-30 00:00:00": 1729288000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.079,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:20:57.618343"
+  "fetched_at": "2026-08-06T14:16:27.443741"
 }

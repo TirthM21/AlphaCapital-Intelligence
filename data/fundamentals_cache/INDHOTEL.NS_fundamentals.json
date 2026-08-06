@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDHOTEL.NS",
-    "fetch_date": "2026-07-29T14:11:34.199501",
+    "fetch_date": "2026-08-06T14:06:56.377665",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 24251400000.0,
       "2025-06-30 00:00:00": 20410800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.064,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:11:34.201397"
+  "fetched_at": "2026-08-06T14:06:56.379429"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CYIENTDLM.NS",
-    "fetch_date": "2026-07-29T14:03:51.388472",
+    "fetch_date": "2026-08-06T13:59:13.092810",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4280550000.0,
       "2025-06-30 00:00:00": 2784270000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.732,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:03:51.390374"
+  "fetched_at": "2026-08-06T13:59:13.094624"
 }

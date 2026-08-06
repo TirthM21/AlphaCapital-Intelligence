@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROSSTECH.NS",
-    "fetch_date": "2026-07-29T14:24:57.119242",
+    "fetch_date": "2026-08-06T14:20:27.487818",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 872164000.0,
       "2025-09-30 00:00:00": 1251710000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.039,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:24:57.121017"
+  "fetched_at": "2026-08-06T14:20:27.489479"
 }

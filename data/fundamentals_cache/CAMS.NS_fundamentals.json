@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAMS.NS",
-    "fetch_date": "2026-07-29T14:01:57.507479",
+    "fetch_date": "2026-08-06T13:57:18.284886",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3697429000.0,
       "2025-03-31 00:00:00": 3561658000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 39.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:01:57.508826"
+  "fetched_at": "2026-08-06T13:57:18.286227"
 }

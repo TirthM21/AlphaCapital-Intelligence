@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBAPL.NS",
-    "fetch_date": "2026-07-29T14:17:35.546103",
+    "fetch_date": "2026-08-06T14:13:02.403565",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2837204000.0,
       "2025-03-31 00:00:00": 2967896000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.912,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:17:35.548110"
+  "fetched_at": "2026-08-06T14:13:02.405365"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BAJAJELEC.NS",
-    "fetch_date": "2026-07-30T13:49:43.392820",
+    "fetch_date": "2026-08-06T13:55:03.230005",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 12863100000.0,
       "2025-03-31 00:00:00": 12627300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.431,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T13:49:43.393868"
+  "fetched_at": "2026-08-06T13:55:03.232440"
 }

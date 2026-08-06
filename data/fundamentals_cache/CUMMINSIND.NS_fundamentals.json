@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CUMMINSIND.NS",
-    "fetch_date": "2026-07-29T14:03:45.847418",
+    "fetch_date": "2026-08-06T13:59:07.342994",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 30521500000.0,
       "2025-03-31 00:00:00": 24281300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.394,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:03:45.851635"
+  "fetched_at": "2026-08-06T13:59:07.344736"
 }

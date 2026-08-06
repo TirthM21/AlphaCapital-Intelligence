@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GEMAROMA.NS",
-    "fetch_date": "2026-07-29T14:07:45.425100",
+    "fetch_date": "2026-08-06T14:03:08.198342",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 968440000.0,
       "2025-03-31 00:00:00": 2022150000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.117,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:07:45.426837"
+  "fetched_at": "2026-08-06T14:03:08.200104"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASHAPURMIN.NS",
-    "fetch_date": "2026-07-29T13:58:40.572184",
+    "fetch_date": "2026-08-06T13:54:01.359448",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5552400000.0,
       "2025-06-30 00:00:00": 13555700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.297,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:58:40.573930"
+  "fetched_at": "2026-08-06T13:54:01.361202"
 }

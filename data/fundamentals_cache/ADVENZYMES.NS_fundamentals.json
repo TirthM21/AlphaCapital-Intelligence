@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADVENZYMES.NS",
-    "fetch_date": "2026-07-29T13:56:34.757055",
+    "fetch_date": "2026-08-06T13:51:54.039923",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1671790000.0,
       "2025-06-30 00:00:00": 1859140000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.872,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:56:34.758793"
+  "fetched_at": "2026-08-06T13:51:54.041776"
 }

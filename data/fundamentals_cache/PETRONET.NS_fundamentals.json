@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PETRONET.NS",
-    "fetch_date": "2026-07-29T14:21:54.405261",
+    "fetch_date": "2026-08-06T14:17:23.468670",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 123157500000.0,
       "2025-06-30 00:00:00": 118798600000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.096,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:21:54.407239"
+  "fetched_at": "2026-08-06T14:17:23.470423"
 }

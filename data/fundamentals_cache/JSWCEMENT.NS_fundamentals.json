@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JSWCEMENT.NS",
-    "fetch_date": "2026-07-29T14:13:29.623125",
+    "fetch_date": "2026-08-06T14:08:56.223968",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 14327400000.0,
       "2025-03-31 00:00:00": 17093900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.318,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:13:29.625179"
+  "fetched_at": "2026-08-06T14:08:56.225721"
 }

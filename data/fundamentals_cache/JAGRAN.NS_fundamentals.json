@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAGRAN.NS",
-    "fetch_date": "2026-07-29T14:12:45.551064",
+    "fetch_date": "2026-08-06T14:08:11.245924",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4810042000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:12:45.553045"
+  "fetched_at": "2026-08-06T14:08:11.247664"
 }

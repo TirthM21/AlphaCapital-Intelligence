@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUNDRMFAST.NS",
-    "fetch_date": "2026-07-29T14:29:34.983450",
+    "fetch_date": "2026-08-06T14:25:04.458174",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 14411200000.0,
       "2025-03-31 00:00:00": 15305900000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.702,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:29:34.985247"
+  "fetched_at": "2026-08-06T14:25:04.459875"
 }

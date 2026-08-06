@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SANDHAR.NS",
-    "fetch_date": "2026-07-29T14:25:57.686361",
+    "fetch_date": "2026-08-06T14:21:27.420927",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10140848000.0,
       "2025-06-30 00:00:00": 10900884000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.428,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:25:57.688223"
+  "fetched_at": "2026-08-06T14:21:27.422720"
 }

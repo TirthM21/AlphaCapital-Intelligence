@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAZARA.NS",
-    "fetch_date": "2026-07-29T14:19:21.391489",
+    "fetch_date": "2026-08-06T14:14:50.449825",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5202000000.0,
       "2025-06-30 00:00:00": 4987700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.009,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:19:21.393341"
+  "fetched_at": "2026-08-06T14:14:50.451508"
 }

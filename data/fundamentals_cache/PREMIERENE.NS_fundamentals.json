@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PREMIERENE.NS",
-    "fetch_date": "2026-07-29T14:22:57.569089",
+    "fetch_date": "2026-08-06T14:18:27.322911",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 17133230000.0,
       "2025-03-31 00:00:00": 16208350000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.913,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:22:57.570879"
+  "fetched_at": "2026-08-06T14:18:27.324595"
 }

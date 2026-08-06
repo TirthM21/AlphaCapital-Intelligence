@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SANGHVIMOV.NS",
-    "fetch_date": "2026-07-29T14:26:00.926651",
+    "fetch_date": "2026-08-06T14:21:30.399270",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2674213000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.018,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:26:00.928503"
+  "fetched_at": "2026-08-06T14:21:30.401043"
 }

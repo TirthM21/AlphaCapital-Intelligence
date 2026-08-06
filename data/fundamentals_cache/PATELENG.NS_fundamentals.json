@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PATELENG.NS",
-    "fetch_date": "2026-07-30T14:11:43.534266",
+    "fetch_date": "2026-08-06T14:17:09.223520",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 16118590000.0,
       "2025-06-30 00:00:00": 12334450000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.688,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:11:43.535224"
+  "fetched_at": "2026-08-06T14:17:09.225255"
 }

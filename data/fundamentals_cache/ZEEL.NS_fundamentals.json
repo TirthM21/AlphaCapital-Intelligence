@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZEEL.NS",
-    "fetch_date": "2026-07-29T14:35:01.999610",
+    "fetch_date": "2026-08-06T14:30:31.557409",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 19788000000.0,
       "2025-03-31 00:00:00": 21841000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 3.216,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:35:02.001425"
+  "fetched_at": "2026-08-06T14:30:31.559202"
 }

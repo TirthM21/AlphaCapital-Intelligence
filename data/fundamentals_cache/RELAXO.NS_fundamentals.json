@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RELAXO.NS",
-    "fetch_date": "2026-07-29T14:24:19.333870",
+    "fetch_date": "2026-08-06T14:19:48.324354",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6951500000.0,
       "2025-06-30 00:00:00": 6544900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.741,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:24:19.335777"
+  "fetched_at": "2026-08-06T14:19:48.326059"
 }

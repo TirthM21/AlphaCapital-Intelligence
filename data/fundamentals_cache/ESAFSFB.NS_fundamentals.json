@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESAFSFB.NS",
-    "fetch_date": "2026-07-29T14:06:21.508179",
+    "fetch_date": "2026-08-06T14:01:44.187605",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5791300000.0,
       "2025-06-30 00:00:00": 5730100000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 112.64044943820224,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:06:21.508874"
+  "fetched_at": "2026-08-06T14:01:44.188276"
 }

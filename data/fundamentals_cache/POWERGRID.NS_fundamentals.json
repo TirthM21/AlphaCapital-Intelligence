@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POWERGRID.NS",
-    "fetch_date": "2026-07-29T14:22:36.865684",
+    "fetch_date": "2026-08-06T14:18:06.411314",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 112330300000.0,
       "2025-03-31 00:00:00": 122753500000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": 0.182,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:22:36.867288"
+  "fetched_at": "2026-08-06T14:18:06.412786"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GNA.NS",
-    "fetch_date": "2026-07-29T14:08:22.642831",
+    "fetch_date": "2026-08-06T14:03:46.347879",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3442080000.0,
       "2025-09-30 00:00:00": 3479409000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.527,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:08:22.644664"
+  "fetched_at": "2026-08-06T14:03:46.349593"
 }

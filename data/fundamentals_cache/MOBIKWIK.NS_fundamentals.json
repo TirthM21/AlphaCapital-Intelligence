@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOBIKWIK.NS",
-    "fetch_date": "2026-07-29T14:18:16.592382",
+    "fetch_date": "2026-08-06T14:13:45.226292",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2677840000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 12.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:18:16.593857"
+  "fetched_at": "2026-08-06T14:13:45.227633"
 }

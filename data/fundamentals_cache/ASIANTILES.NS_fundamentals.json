@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASIANTILES.NS",
-    "fetch_date": "2026-07-28T13:54:22.115729",
+    "fetch_date": "2026-08-06T13:54:11.158466",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5147704000.0,
       "2025-06-30 00:00:00": 3882419000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.636,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T13:54:22.117502"
+  "fetched_at": "2026-08-06T13:54:11.160229"
 }

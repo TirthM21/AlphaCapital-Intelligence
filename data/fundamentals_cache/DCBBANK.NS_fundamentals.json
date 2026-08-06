@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DCBBANK.NS",
-    "fetch_date": "2026-07-29T14:04:09.493790",
+    "fetch_date": "2026-08-06T13:59:31.260771",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7767800000.0,
       "2025-06-30 00:00:00": 8165600000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 17.50000000000001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:04:09.494482"
+  "fetched_at": "2026-08-06T13:59:31.261420"
 }

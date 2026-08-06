@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UBL.NS",
-    "fetch_date": "2026-07-29T14:32:16.823557",
+    "fetch_date": "2026-08-06T14:27:46.513027",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 20002600000.0,
       "2025-03-31 00:00:00": 23229800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.956,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:32:16.825465"
+  "fetched_at": "2026-08-06T14:27:46.514685"
 }

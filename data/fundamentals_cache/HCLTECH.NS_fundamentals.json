@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HCLTECH.NS",
-    "fetch_date": "2026-07-29T14:09:53.742234",
+    "fetch_date": "2026-08-06T14:05:17.298264",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 302460000000.0,
       "2025-06-30 00:00:00": 303490000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:09:53.744169"
+  "fetched_at": "2026-08-06T14:05:17.300026"
 }

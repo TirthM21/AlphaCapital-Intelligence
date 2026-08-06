@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GESHIP.NS",
-    "fetch_date": "2026-07-29T14:07:51.537375",
+    "fetch_date": "2026-08-06T14:03:15.285059",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12230400000.0,
       "2025-06-30 00:00:00": 12014700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.189,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:07:51.539145"
+  "fetched_at": "2026-08-06T14:03:15.286815"
 }

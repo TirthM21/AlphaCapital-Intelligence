@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMLMAH.NS",
-    "fetch_date": "2026-07-30T14:18:21.499811",
+    "fetch_date": "2026-08-06T14:23:47.590859",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3318000000.0,
       "2025-03-31 00:00:00": 7549721000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:18:21.500869"
+  "fetched_at": "2026-08-06T14:23:47.592603"
 }

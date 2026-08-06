@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANBA.NS",
-    "fetch_date": "2026-07-29T14:17:00.575218",
+    "fetch_date": "2026-08-06T14:12:28.354738",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 630415000.0,
       "2025-09-30 00:00:00": 723325000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 28.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:17:00.576663"
+  "fetched_at": "2026-08-06T14:12:28.356069"
 }

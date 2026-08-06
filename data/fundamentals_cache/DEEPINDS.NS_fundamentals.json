@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DEEPINDS.NS",
-    "fetch_date": "2026-07-29T14:04:25.517585",
+    "fetch_date": "2026-08-06T13:59:47.325114",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1994989000.0,
       "2025-09-30 00:00:00": 2210093000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.338,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:04:25.519640"
+  "fetched_at": "2026-08-06T13:59:47.326872"
 }

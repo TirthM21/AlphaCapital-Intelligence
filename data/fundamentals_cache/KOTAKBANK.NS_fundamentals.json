@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KOTAKBANK.NS",
-    "fetch_date": "2026-07-29T14:14:53.862274",
+    "fetch_date": "2026-08-06T14:10:20.401600",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 200736600000.0,
       "2025-06-30 00:00:00": 191768300000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 22.44444444444444,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:14:53.863035"
+  "fetched_at": "2026-08-06T14:10:20.402563"
 }

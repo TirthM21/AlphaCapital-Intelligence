@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CEIGALL.NS",
-    "fetch_date": "2026-07-29T14:02:19.676170",
+    "fetch_date": "2026-08-06T13:57:40.209098",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10116140000.0,
       "2025-06-30 00:00:00": 8381780000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.072,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:02:19.677943"
+  "fetched_at": "2026-08-06T13:57:40.210836"
 }

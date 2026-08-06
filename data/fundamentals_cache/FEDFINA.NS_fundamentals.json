@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FEDFINA.NS",
-    "fetch_date": "2026-07-29T14:06:49.508998",
+    "fetch_date": "2026-08-06T14:02:12.210533",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5317800000.0,
       "2025-06-30 00:00:00": 5112900000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 27.81,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:06:49.510483"
+  "fetched_at": "2026-08-06T14:02:12.211844"
 }

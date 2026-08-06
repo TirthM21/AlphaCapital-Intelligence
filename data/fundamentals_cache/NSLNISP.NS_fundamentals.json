@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NSLNISP.NS",
-    "fetch_date": "2026-07-29T14:20:23.509581",
+    "fetch_date": "2026-08-06T14:15:53.462413",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 28382500000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.005,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:20:23.511619"
+  "fetched_at": "2026-08-06T14:15:53.464253"
 }

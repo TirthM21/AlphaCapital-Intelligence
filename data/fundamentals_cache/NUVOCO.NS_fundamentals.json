@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NUVOCO.NS",
-    "fetch_date": "2026-07-29T14:20:29.866928",
+    "fetch_date": "2026-08-06T14:15:59.308585",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 24093600000.0,
       "2025-03-31 00:00:00": 30422500000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:20:29.868753"
+  "fetched_at": "2026-08-06T14:15:59.310368"
 }

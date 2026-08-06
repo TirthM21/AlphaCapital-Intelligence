@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUFIN.NS",
-    "fetch_date": "2026-07-29T14:18:47.552847",
+    "fetch_date": "2026-08-06T14:14:16.382656",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 493203000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 22.73,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:18:47.554281"
+  "fetched_at": "2026-08-06T14:14:16.383973"
 }

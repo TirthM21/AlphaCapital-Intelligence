@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SERVOTECH.NS",
-    "fetch_date": "2026-07-29T14:26:46.924397",
+    "fetch_date": "2026-08-06T14:22:16.276866",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1374354000.0,
       "2025-09-30 00:00:00": 1064943000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.277,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:26:46.926242"
+  "fetched_at": "2026-08-06T14:22:16.278548"
 }
