@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KOTYARK.NS",
-    "fetch_date": "2026-07-15T13:43:22.024260",
+    "fetch_date": "2026-08-07T13:09:19.430876",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 198625000.0,
       "2026-03-31 00:00:00": 636588000.0
@@ -24,5 +24,5 @@
     "inventory_to_sales_ratio": 2.374,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:43:22.025994"
+  "fetched_at": "2026-08-07T13:09:19.432057"
 }

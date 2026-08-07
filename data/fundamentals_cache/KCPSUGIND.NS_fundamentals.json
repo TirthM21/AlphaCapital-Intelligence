@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KCPSUGIND.NS",
-    "fetch_date": "2026-07-21T13:44:00.464998",
+    "fetch_date": "2026-08-07T13:08:33.646499",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 639915000.0,
       "2025-06-30 00:00:00": 593709000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.264,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T13:44:00.466179"
+  "fetched_at": "2026-08-07T13:08:33.647686"
 }
