@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAXIND.NS",
-    "fetch_date": "2026-07-31T14:12:17.848639",
+    "fetch_date": "2026-08-10T13:17:02.832635",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 415200000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.236,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:12:17.850166"
+  "fetched_at": "2026-08-10T13:17:02.834394"
 }

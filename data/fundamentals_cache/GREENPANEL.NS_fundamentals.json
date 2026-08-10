@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GREENPANEL.NS",
-    "fetch_date": "2026-07-31T14:03:45.944781",
+    "fetch_date": "2026-08-10T13:08:27.893008",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3745051000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.474,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:03:45.946336"
+  "fetched_at": "2026-08-10T13:08:27.894795"
 }

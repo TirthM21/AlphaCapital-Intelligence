@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REGAAL.NS",
-    "fetch_date": "2026-07-15T13:52:41.502897",
+    "fetch_date": "2026-08-10T13:23:55.993347",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2585380000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.321,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:52:41.505538"
+  "fetched_at": "2026-08-10T13:23:55.995462"
 }

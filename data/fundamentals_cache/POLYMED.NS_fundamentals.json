@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POLYMED.NS",
-    "fetch_date": "2026-07-29T14:22:32.686531",
+    "fetch_date": "2026-08-10T13:22:09.983830",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4408282000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.812,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:22:32.688400"
+  "fetched_at": "2026-08-10T13:22:09.985584"
 }

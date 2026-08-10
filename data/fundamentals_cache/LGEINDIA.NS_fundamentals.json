@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LGEINDIA.NS",
-    "fetch_date": "2026-07-31T14:10:44.906855",
+    "fetch_date": "2026-08-10T13:15:28.890872",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 43955310000.0,
       "2025-03-31 00:00:00": 74484210000.0,
@@ -27,5 +27,5 @@
     "inventory_to_sales_ratio": 0.368,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:10:44.908403"
+  "fetched_at": "2026-08-10T13:15:28.892590"
 }
