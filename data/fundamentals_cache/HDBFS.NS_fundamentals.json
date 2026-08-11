@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HDBFS.NS",
-    "fetch_date": "2026-07-22T13:44:02.754360",
+    "fetch_date": "2026-08-11T13:05:34.652978",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 42591000000.0,
       "2025-06-30 00:00:00": 44412000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 35.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:44:02.755485"
+  "fetched_at": "2026-08-11T13:05:34.654380"
 }

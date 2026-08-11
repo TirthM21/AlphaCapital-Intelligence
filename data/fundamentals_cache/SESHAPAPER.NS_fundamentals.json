@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SESHAPAPER.NS",
-    "fetch_date": "2026-08-03T14:57:31.125737",
+    "fetch_date": "2026-08-11T13:22:34.765627",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5023500000.0,
       "2025-06-30 00:00:00": 3854000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.732,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:57:31.127237"
+  "fetched_at": "2026-08-11T13:22:34.767458"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PIIND.NS",
-    "fetch_date": "2026-08-03T14:52:47.114067",
+    "fetch_date": "2026-08-11T13:17:53.671071",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 17871000000.0,
       "2025-06-30 00:00:00": 19005000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.777,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:52:47.115588"
+  "fetched_at": "2026-08-11T13:17:53.672903"
 }

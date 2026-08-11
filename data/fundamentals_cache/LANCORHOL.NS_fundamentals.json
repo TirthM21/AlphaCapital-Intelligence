@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LANCORHOL.NS",
-    "fetch_date": "2026-08-03T14:46:13.945529",
+    "fetch_date": "2026-08-11T13:11:20.830739",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 516088000.0,
       "2025-06-30 00:00:00": 411930000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 16.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:46:13.947124"
+  "fetched_at": "2026-08-11T13:11:20.832493"
 }

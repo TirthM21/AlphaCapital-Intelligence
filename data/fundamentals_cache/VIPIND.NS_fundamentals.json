@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIPIND.NS",
-    "fetch_date": "2026-08-03T15:04:33.237134",
+    "fetch_date": "2026-08-11T13:29:33.771372",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4942100000.0,
       "2025-06-30 00:00:00": 5614300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T15:04:33.238701"
+  "fetched_at": "2026-08-11T13:29:33.773165"
 }

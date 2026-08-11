@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOL.NS",
-    "fetch_date": "2026-08-03T14:49:03.050651",
+    "fetch_date": "2026-08-11T13:14:10.608810",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6136239000.0,
       "2025-09-30 00:00:00": 5772554000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.974,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:49:03.052201"
+  "fetched_at": "2026-08-11T13:14:10.610590"
 }

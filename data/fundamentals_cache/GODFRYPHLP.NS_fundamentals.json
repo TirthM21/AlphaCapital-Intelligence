@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GODFRYPHLP.NS",
-    "fetch_date": "2026-08-03T14:39:03.916171",
+    "fetch_date": "2026-08-11T13:04:09.723724",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15658200000.0,
@@ -26,12 +26,12 @@
     "margin_change": -14.53,
     "operating_margin": 12.35,
     "quarterly_inventory": {
-      "2025-03-31 00:00:00": 19970807000.0,
+      "2025-03-31 00:00:00": 19970800000.0,
       "2026-03-31 00:00:00": 22643500000.0
     },
     "inventory_qoq_change": 13.38,
     "inventory_to_sales_ratio": 1.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:39:03.917745"
+  "fetched_at": "2026-08-11T13:04:09.725533"
 }

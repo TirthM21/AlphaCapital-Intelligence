@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GENUSPAPER.NS",
-    "fetch_date": "2026-08-03T14:38:21.991153",
+    "fetch_date": "2026-08-11T13:03:28.559954",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2130874000.0,
       "2025-03-31 00:00:00": 2282091000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.851,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:38:21.992689"
+  "fetched_at": "2026-08-11T13:03:28.561863"
 }

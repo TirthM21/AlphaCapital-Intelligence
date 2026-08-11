@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PCJEWELLER.NS",
-    "fetch_date": "2026-08-03T14:52:27.125074",
+    "fetch_date": "2026-08-11T13:17:33.673730",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6990200000.0,
       "2025-06-30 00:00:00": 7249100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 7.779,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:52:27.126589"
+  "fetched_at": "2026-08-11T13:17:33.675584"
 }

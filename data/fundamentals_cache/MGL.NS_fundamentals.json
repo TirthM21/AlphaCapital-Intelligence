@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGL.NS",
-    "fetch_date": "2026-08-03T14:48:37.992126",
+    "fetch_date": "2026-08-11T13:13:45.597620",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 19643800000.0,
       "2025-06-30 00:00:00": 20830100000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.026,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:48:37.993722"
+  "fetched_at": "2026-08-11T13:13:45.599423"
 }

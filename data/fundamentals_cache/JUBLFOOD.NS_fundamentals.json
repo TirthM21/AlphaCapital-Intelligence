@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JUBLFOOD.NS",
-    "fetch_date": "2026-08-03T14:44:15.138945",
+    "fetch_date": "2026-08-11T13:09:21.637995",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 20950160000.0,
       "2025-06-30 00:00:00": 22608600000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.123,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:44:15.140485"
+  "fetched_at": "2026-08-11T13:09:21.639803"
 }
