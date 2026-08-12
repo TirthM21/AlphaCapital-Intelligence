@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORIENTTECH.NS",
-    "fetch_date": "2026-07-29T14:21:08.123629",
+    "fetch_date": "2026-08-12T13:20:43.014288",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2606831000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:21:08.125495"
+  "fetched_at": "2026-08-12T13:20:43.015798"
 }

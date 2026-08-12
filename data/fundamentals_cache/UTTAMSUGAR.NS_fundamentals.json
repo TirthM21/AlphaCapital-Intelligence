@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UTTAMSUGAR.NS",
-    "fetch_date": "2026-08-04T14:33:47.704361",
+    "fetch_date": "2026-08-12T13:32:33.347316",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5667900000.0,
       "2025-06-30 00:00:00": 6287700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.026,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:33:47.705881"
+  "fetched_at": "2026-08-12T13:32:33.348812"
 }

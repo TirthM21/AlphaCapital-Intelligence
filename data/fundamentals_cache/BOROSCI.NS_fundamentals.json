@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BOROSCI.NS",
-    "fetch_date": "2026-08-04T14:02:17.409821",
+    "fetch_date": "2026-08-12T13:00:58.809687",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1294848000.0,
       "2025-06-30 00:00:00": 959764000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.721,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:02:17.411402"
+  "fetched_at": "2026-08-12T13:00:58.811311"
 }

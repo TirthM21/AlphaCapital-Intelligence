@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JUNIPER.NS",
-    "fetch_date": "2026-08-03T14:44:17.987314",
+    "fetch_date": "2026-08-12T13:13:12.941212",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2775632000.0,
       "2025-06-30 00:00:00": 2207418000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T14:44:17.988852"
+  "fetched_at": "2026-08-12T13:13:12.942725"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLASTIBLEN.NS",
-    "fetch_date": "2026-08-04T14:23:05.601693",
+    "fetch_date": "2026-08-12T13:21:51.136624",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1991583000.0,
       "2025-06-30 00:00:00": 1996284000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.694,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:23:05.603306"
+  "fetched_at": "2026-08-12T13:21:51.138132"
 }

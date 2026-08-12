@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VAISHALI.NS",
-    "fetch_date": "2026-08-04T14:33:52.486393",
+    "fetch_date": "2026-08-12T13:32:38.076088",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 279143000.0,
       "2025-03-31 00:00:00": 311022000.0
@@ -21,5 +21,5 @@
     "inventory_to_sales_ratio": 0.155,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:33:52.487790"
+  "fetched_at": "2026-08-12T13:32:38.077472"
 }

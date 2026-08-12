@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNIECOM.NS",
-    "fetch_date": "2026-06-15T17:44:12.500628",
+    "fetch_date": "2026-08-12T13:32:10.328112",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 452740000.0,
       "2025-06-30 00:00:00": 449340000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-15T17:44:12.502020"
+  "fetched_at": "2026-08-12T13:32:10.329292"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASTRAL.NS",
-    "fetch_date": "2026-07-28T13:54:29.260428",
+    "fetch_date": "2026-08-12T12:58:21.892912",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 13970000000.0,
       "2025-03-31 00:00:00": 16814000000.0,
@@ -25,11 +25,12 @@
     "operating_margin": 14.79,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 10111000000.0,
+      "2025-09-30 00:00:00": NaN,
       "2026-03-31 00:00:00": 11173000000.0
     },
-    "inventory_qoq_change": 10.5,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": 0.535,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T13:54:29.262196"
+  "fetched_at": "2026-08-12T12:58:21.894442"
 }

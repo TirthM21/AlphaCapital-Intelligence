@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XTGLOBAL.NS",
-    "fetch_date": "2026-08-03T15:05:40.017379",
+    "fetch_date": "2026-08-12T13:34:29.102838",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 870488000.0,
       "2025-06-30 00:00:00": 923056000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T15:05:40.018587"
+  "fetched_at": "2026-08-12T13:34:29.104054"
 }

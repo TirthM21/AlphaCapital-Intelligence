@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADVANCE.NS",
-    "fetch_date": "2026-08-04T13:57:13.347788",
+    "fetch_date": "2026-08-12T12:55:52.749630",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1131650000.0,
       "2025-03-31 00:00:00": 898320000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.657,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T13:57:13.349448"
+  "fetched_at": "2026-08-12T12:55:52.751325"
 }

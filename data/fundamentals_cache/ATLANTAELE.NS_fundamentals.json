@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATLANTAELE.NS",
-    "fetch_date": "2026-08-04T13:59:50.092691",
+    "fetch_date": "2026-08-12T12:58:31.678670",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3151100000.0,
       "2025-09-30 00:00:00": 3169609000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.781,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T13:59:50.094225"
+  "fetched_at": "2026-08-12T12:58:31.680380"
 }

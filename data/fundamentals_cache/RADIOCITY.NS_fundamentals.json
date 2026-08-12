@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RADIOCITY.NS",
-    "fetch_date": "2026-08-04T14:24:26.520617",
+    "fetch_date": "2026-08-12T13:23:12.115546",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 493245000.0,
       "2025-09-30 00:00:00": 378413000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 11.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:24:26.521809"
+  "fetched_at": "2026-08-12T13:23:12.116726"
 }

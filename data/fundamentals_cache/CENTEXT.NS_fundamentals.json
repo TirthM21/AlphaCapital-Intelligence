@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CENTEXT.NS",
-    "fetch_date": "2026-08-04T14:03:08.376083",
+    "fetch_date": "2026-08-12T13:01:50.828933",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1197900000.0,
       "2025-06-30 00:00:00": 1041500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.479,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:03:08.377584"
+  "fetched_at": "2026-08-12T13:01:50.830444"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MARKOLINES.NS",
-    "fetch_date": "2026-08-04T14:18:06.472277",
+    "fetch_date": "2026-08-12T13:16:50.878044",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1215140000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.077,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:18:06.473802"
+  "fetched_at": "2026-08-12T13:16:50.879577"
 }
