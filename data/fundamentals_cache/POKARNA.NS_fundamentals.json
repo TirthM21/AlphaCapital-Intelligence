@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POKARNA.NS",
-    "fetch_date": "2026-07-15T13:50:54.336034",
+    "fetch_date": "2026-08-13T13:23:09.273956",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2626772000.0,
       "2025-06-30 00:00:00": 1709617000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.965,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:50:54.337894"
+  "fetched_at": "2026-08-13T13:23:09.275704"
 }

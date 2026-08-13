@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBOL.NS",
-    "fetch_date": "2026-08-05T14:02:08.466151",
+    "fetch_date": "2026-08-13T13:04:36.154681",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4924800000.0,
       "2025-09-30 00:00:00": 5576900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.901,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T14:02:08.467898"
+  "fetched_at": "2026-08-13T13:04:36.156566"
 }

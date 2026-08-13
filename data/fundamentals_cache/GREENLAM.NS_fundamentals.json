@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GREENLAM.NS",
-    "fetch_date": "2026-08-05T14:07:03.734120",
+    "fetch_date": "2026-08-13T13:09:32.204672",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6817700000.0,
       "2025-06-30 00:00:00": 6737900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.891,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T14:07:03.735813"
+  "fetched_at": "2026-08-13T13:09:32.206496"
 }

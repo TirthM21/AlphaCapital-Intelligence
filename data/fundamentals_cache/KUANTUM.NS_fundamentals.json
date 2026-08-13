@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KUANTUM.NS",
-    "fetch_date": "2026-08-05T14:13:35.809373",
+    "fetch_date": "2026-08-13T13:16:05.414727",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2762700000.0,
@@ -26,13 +26,13 @@
     "margin_change": 3.31,
     "operating_margin": 10.31,
     "quarterly_inventory": {
-      "2025-03-31 00:00:00": 1261988000.0,
+      "2025-03-31 00:00:00": 1262000000.0,
       "2025-09-30 00:00:00": 1134500000.0,
-      "2026-03-31 00:00:00": 1314400000.0
+      "2026-03-31 00:00:00": 1314300000.0
     },
-    "inventory_qoq_change": 15.86,
+    "inventory_qoq_change": 15.85,
     "inventory_to_sales_ratio": 0.442,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T14:13:35.811105"
+  "fetched_at": "2026-08-13T13:16:05.416526"
 }
