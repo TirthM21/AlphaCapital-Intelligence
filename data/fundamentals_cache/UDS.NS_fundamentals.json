@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UDS.NS",
-    "fetch_date": "2026-08-06T14:27:49.707766",
+    "fetch_date": "2026-08-14T13:29:28.046153",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7002410000.0,
       "2025-09-30 00:00:00": 7293440000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.014,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:27:49.709453"
+  "fetched_at": "2026-08-14T13:29:28.047920"
 }

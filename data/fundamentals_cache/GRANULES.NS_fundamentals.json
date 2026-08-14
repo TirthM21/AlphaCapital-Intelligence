@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRANULES.NS",
-    "fetch_date": "2026-08-06T14:04:15.284101",
+    "fetch_date": "2026-08-14T13:05:48.893765",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12087920000.0,
       "2025-09-30 00:00:00": 12946740000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.142,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:04:15.285852"
+  "fetched_at": "2026-08-14T13:05:48.895541"
 }

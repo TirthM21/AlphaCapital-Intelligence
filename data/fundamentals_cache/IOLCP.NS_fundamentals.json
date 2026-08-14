@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IOLCP.NS",
-    "fetch_date": "2026-08-06T14:07:45.301226",
+    "fetch_date": "2026-08-14T13:09:18.836533",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5277800000.0,
       "2025-06-30 00:00:00": 5516900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.599,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:07:45.303000"
+  "fetched_at": "2026-08-14T13:09:18.838287"
 }

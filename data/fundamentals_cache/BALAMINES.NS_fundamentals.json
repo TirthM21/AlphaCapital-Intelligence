@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALAMINES.NS",
-    "fetch_date": "2026-08-06T13:55:15.182987",
+    "fetch_date": "2026-08-14T12:56:46.842854",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3583412000.0,
       "2025-09-30 00:00:00": 3405521000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.542,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:15.184729"
+  "fetched_at": "2026-08-14T12:56:46.844661"
 }

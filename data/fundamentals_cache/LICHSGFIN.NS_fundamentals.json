@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LICHSGFIN.NS",
-    "fetch_date": "2026-08-06T14:11:28.350771",
+    "fetch_date": "2026-08-14T13:13:03.021272",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 22952800000.0,
       "2025-06-30 00:00:00": 21154700000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 9.130957148578299,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:11:28.351437"
+  "fetched_at": "2026-08-14T13:13:03.021941"
 }

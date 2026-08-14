@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOSCHIP.NS",
-    "fetch_date": "2026-08-06T14:14:01.272349",
+    "fetch_date": "2026-08-14T13:15:35.934318",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1347072000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:14:01.274095"
+  "fetched_at": "2026-08-14T13:15:35.936096"
 }

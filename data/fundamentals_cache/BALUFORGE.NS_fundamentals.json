@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALUFORGE.NS",
-    "fetch_date": "2026-08-06T13:55:22.126133",
+    "fetch_date": "2026-08-14T12:56:53.778726",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2696462000.0,
       "2025-06-30 00:00:00": 2331960000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.551,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:22.127854"
+  "fetched_at": "2026-08-14T12:56:53.780491"
 }

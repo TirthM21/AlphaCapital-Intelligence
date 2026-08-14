@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHREEJISPG.NS",
-    "fetch_date": "2026-08-06T14:22:58.448209",
+    "fetch_date": "2026-08-14T13:24:33.917934",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1521940000.0,
       "2025-03-31 00:00:00": 1560940000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.154,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:22:58.449957"
+  "fetched_at": "2026-08-14T13:24:33.919737"
 }

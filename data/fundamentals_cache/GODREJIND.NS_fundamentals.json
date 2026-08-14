@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GODREJIND.NS",
-    "fetch_date": "2026-08-06T14:03:57.392840",
+    "fetch_date": "2026-08-14T13:05:30.802282",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 57796900000.0,
       "2025-06-30 00:00:00": 44598000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 7.791,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:03:57.394596"
+  "fetched_at": "2026-08-14T13:05:30.804096"
 }

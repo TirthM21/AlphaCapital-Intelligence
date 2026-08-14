@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HEMIPROP.NS",
-    "fetch_date": "2026-08-06T14:05:28.311224",
+    "fetch_date": "2026-08-14T13:07:01.796838",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2386000.0,
       "2025-03-31 00:00:00": 2386000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 511.793,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:05:28.312963"
+  "fetched_at": "2026-08-14T13:07:01.798566"
 }

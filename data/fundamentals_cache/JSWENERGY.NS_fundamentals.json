@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JSWENERGY.NS",
-    "fetch_date": "2026-08-06T14:08:58.385873",
+    "fetch_date": "2026-08-14T13:10:31.896805",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 31893900000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.184,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:08:58.387622"
+  "fetched_at": "2026-08-14T13:10:31.898597"
 }

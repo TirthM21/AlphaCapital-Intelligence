@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TFCILTD.NS",
-    "fetch_date": "2026-08-06T14:26:32.546613",
+    "fetch_date": "2026-08-14T13:28:11.149648",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 585589000.0,
       "2025-09-30 00:00:00": 615253000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 58.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:26:32.547957"
+  "fetched_at": "2026-08-14T13:28:11.150994"
 }

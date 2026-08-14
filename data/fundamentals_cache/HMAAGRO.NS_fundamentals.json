@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HMAAGRO.NS",
-    "fetch_date": "2026-08-07T13:04:54.410452",
+    "fetch_date": "2026-08-14T13:07:33.812963",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 14995590000.0,
       "2025-06-30 00:00:00": 11226100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.843,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:04:54.411635"
+  "fetched_at": "2026-08-14T13:07:33.814781"
 }

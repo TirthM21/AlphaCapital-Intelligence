@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASIANPAINT.NS",
-    "fetch_date": "2026-08-06T13:54:10.185796",
+    "fetch_date": "2026-08-14T12:55:41.921307",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 89244900000.0,
       "2025-09-30 00:00:00": 85137000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.546,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:54:10.187544"
+  "fetched_at": "2026-08-14T12:55:41.923092"
 }

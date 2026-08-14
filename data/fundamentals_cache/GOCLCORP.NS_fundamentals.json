@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOCLCORP.NS",
-    "fetch_date": "2026-08-07T13:02:44.382378",
+    "fetch_date": "2026-08-14T13:05:23.976932",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 63211000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.413,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:02:44.383611"
+  "fetched_at": "2026-08-14T13:05:23.978721"
 }

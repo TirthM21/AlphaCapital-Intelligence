@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LTFOODS.NS",
-    "fetch_date": "2026-08-06T14:11:48.539913",
+    "fetch_date": "2026-08-14T13:13:22.973679",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 22283612000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 1.583,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:11:48.541838"
+  "fetched_at": "2026-08-14T13:13:22.975496"
 }

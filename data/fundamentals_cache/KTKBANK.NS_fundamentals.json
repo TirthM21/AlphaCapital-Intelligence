@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KTKBANK.NS",
-    "fetch_date": "2026-08-06T14:10:54.498871",
+    "fetch_date": "2026-08-14T13:12:28.120374",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11139900000.0,
       "2025-09-30 00:00:00": 10715300000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 43.264248704663224,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:10:54.499547"
+  "fetched_at": "2026-08-14T13:12:28.121073"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIL.NS",
-    "fetch_date": "2026-08-06T14:26:52.773154",
+    "fetch_date": "2026-08-14T13:28:31.049863",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1015200000.0,
       "2025-06-30 00:00:00": 629100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:26:52.774910"
+  "fetched_at": "2026-08-14T13:28:31.051622"
 }

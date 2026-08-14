@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PARACABLES.NS",
-    "fetch_date": "2026-08-06T14:16:58.310794",
+    "fetch_date": "2026-08-14T13:18:32.981354",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5070200000.0,
       "2025-06-30 00:00:00": 4511200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.497,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:16:58.312519"
+  "fetched_at": "2026-08-14T13:18:32.983117"
 }

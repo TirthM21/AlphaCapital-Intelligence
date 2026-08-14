@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHRIRAMPPS.NS",
-    "fetch_date": "2026-08-06T14:23:07.466594",
+    "fetch_date": "2026-08-14T13:24:42.852960",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4077300000.0,
       "2025-06-30 00:00:00": 2423200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 3.818,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:23:07.468474"
+  "fetched_at": "2026-08-14T13:24:42.854787"
 }

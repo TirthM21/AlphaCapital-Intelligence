@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RADHIKAJWE.NS",
-    "fetch_date": "2026-08-06T14:19:04.186531",
+    "fetch_date": "2026-08-14T13:20:38.824651",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1565050000.0,
       "2025-06-30 00:00:00": 991458000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.378,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:19:04.188222"
+  "fetched_at": "2026-08-14T13:20:38.826568"
 }

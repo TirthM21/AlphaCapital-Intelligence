@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ONWARDTEC.NS",
-    "fetch_date": "2026-08-06T14:16:23.224243",
+    "fetch_date": "2026-08-14T13:17:58.861902",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1272877000.0,
       "2025-06-30 00:00:00": 1331508000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:16:23.225581"
+  "fetched_at": "2026-08-14T13:17:58.863294"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TARSONS.NS",
-    "fetch_date": "2026-08-06T14:25:57.606846",
+    "fetch_date": "2026-08-14T13:27:35.083614",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1126910000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.073,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:25:57.608606"
+  "fetched_at": "2026-08-14T13:27:35.085369"
 }

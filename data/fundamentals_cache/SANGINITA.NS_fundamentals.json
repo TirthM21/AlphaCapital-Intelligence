@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SANGINITA.NS",
-    "fetch_date": "2026-08-06T14:21:31.511415",
+    "fetch_date": "2026-08-14T13:23:06.001940",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 498463000.0,
       "2025-06-30 00:00:00": 459104000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.445,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:21:31.513183"
+  "fetched_at": "2026-08-14T13:23:06.003708"
 }

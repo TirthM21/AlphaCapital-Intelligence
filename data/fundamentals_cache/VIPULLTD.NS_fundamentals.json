@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIPULLTD.NS",
-    "fetch_date": "2026-08-06T14:29:17.733052",
+    "fetch_date": "2026-08-14T13:30:56.277387",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 112574000.0,
       "2025-03-31 00:00:00": 442599000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 47.584,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:29:17.734812"
+  "fetched_at": "2026-08-14T13:30:56.279179"
 }

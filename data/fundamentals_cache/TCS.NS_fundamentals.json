@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TCS.NS",
-    "fetch_date": "2026-08-06T14:26:16.603300",
+    "fetch_date": "2026-08-14T13:27:54.041857",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 644790000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:26:16.605096"
+  "fetched_at": "2026-08-14T13:27:54.043615"
 }

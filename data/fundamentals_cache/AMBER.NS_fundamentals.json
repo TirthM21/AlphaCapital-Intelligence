@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMBER.NS",
-    "fetch_date": "2026-08-06T13:52:58.089281",
+    "fetch_date": "2026-08-14T12:54:27.876187",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 21333275000.0,
       "2025-03-31 00:00:00": 37536969000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.591,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:52:58.091048"
+  "fetched_at": "2026-08-14T12:54:27.877952"
 }

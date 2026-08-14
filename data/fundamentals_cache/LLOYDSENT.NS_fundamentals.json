@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LLOYDSENT.NS",
-    "fetch_date": "2026-08-06T14:11:35.248328",
+    "fetch_date": "2026-08-14T13:13:09.894233",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4893200000.0,
       "2025-06-30 00:00:00": 3309000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.781,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:11:35.250089"
+  "fetched_at": "2026-08-14T13:13:09.896001"
 }

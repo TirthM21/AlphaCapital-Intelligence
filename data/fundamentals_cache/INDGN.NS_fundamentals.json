@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDGN.NS",
-    "fetch_date": "2026-08-06T14:06:55.103982",
+    "fetch_date": "2026-08-14T13:08:28.809079",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7556000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:06:55.104997"
+  "fetched_at": "2026-08-14T13:08:28.810105"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUBICON.NS",
-    "fetch_date": "2026-08-07T13:19:41.525727",
+    "fetch_date": "2026-08-14T13:22:21.880445",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 3133960000.0,
       "2025-03-31 00:00:00": 3581470000.0,
@@ -27,5 +27,5 @@
     "inventory_to_sales_ratio": 1.419,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:19:41.526926"
+  "fetched_at": "2026-08-14T13:22:21.882181"
 }

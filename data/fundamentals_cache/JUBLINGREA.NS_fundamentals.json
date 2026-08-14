@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JUBLINGREA.NS",
-    "fetch_date": "2026-08-06T14:09:06.323660",
+    "fetch_date": "2026-08-14T13:10:39.967385",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10381600000.0,
       "2025-06-30 00:00:00": 10294200000.0,
@@ -25,11 +25,11 @@
     "operating_margin": 11.49,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 9434150000.0,
-      "2026-03-31 00:00:00": 8799600000.0
+      "2026-03-31 00:00:00": 8799650000.0
     },
     "inventory_qoq_change": -6.73,
     "inventory_to_sales_ratio": 0.683,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:09:06.325474"
+  "fetched_at": "2026-08-14T13:10:39.969186"
 }

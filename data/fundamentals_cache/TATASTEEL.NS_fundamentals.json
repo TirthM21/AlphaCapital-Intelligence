@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATASTEEL.NS",
-    "fetch_date": "2026-08-06T14:26:06.806912",
+    "fetch_date": "2026-08-14T13:27:44.122875",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 527440700000.0,
       "2025-09-30 00:00:00": 582160400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.782,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:26:06.808636"
+  "fetched_at": "2026-08-14T13:27:44.124689"
 }

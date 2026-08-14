@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAYBARMARU.NS",
-    "fetch_date": "2026-08-06T14:08:21.308987",
+    "fetch_date": "2026-08-14T13:09:54.962713",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 6106592000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.351,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:08:21.310744"
+  "fetched_at": "2026-08-14T13:09:54.964585"
 }

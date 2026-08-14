@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAUKRI.NS",
-    "fetch_date": "2026-08-06T14:14:44.922514",
+    "fetch_date": "2026-08-14T13:16:19.073960",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7496250000.0,
       "2025-06-30 00:00:00": 7908620000.0,
@@ -20,10 +20,10 @@
     },
     "eps_qoq_change": 108.1145584725537,
     "eps_yoy_change": 22.128851540616264,
-    "gross_margin": 97.01,
-    "margin_change": -0.24,
+    "gross_margin": 58.85,
+    "margin_change": 3.38,
     "operating_margin": 34.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:14:44.923851"
+  "fetched_at": "2026-08-14T13:16:19.075332"
 }

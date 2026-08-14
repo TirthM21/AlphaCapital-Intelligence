@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EBGNG.NS",
-    "fetch_date": "2026-08-06T14:00:53.294190",
+    "fetch_date": "2026-08-14T13:02:25.769551",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3122790000.0,
       "2025-09-30 00:00:00": 4399180000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.802,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:00:53.295913"
+  "fetched_at": "2026-08-14T13:02:25.771343"
 }

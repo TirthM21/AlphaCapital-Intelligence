@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRITURBINE.NS",
-    "fetch_date": "2026-08-06T14:27:29.566987",
+    "fetch_date": "2026-08-14T13:29:08.094767",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5380000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.359,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:27:29.568682"
+  "fetched_at": "2026-08-14T13:29:08.096523"
 }

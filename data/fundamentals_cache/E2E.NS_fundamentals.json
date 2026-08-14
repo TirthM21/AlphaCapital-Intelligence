@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "E2E.NS",
-    "fetch_date": "2026-08-06T14:00:50.238720",
+    "fetch_date": "2026-08-14T13:02:22.880724",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 361102000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 36.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:00:50.240021"
+  "fetched_at": "2026-08-14T13:02:22.882090"
 }

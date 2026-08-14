@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MARINE.NS",
-    "fetch_date": "2026-08-06T14:12:45.481235",
+    "fetch_date": "2026-08-14T13:14:20.005318",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1937955000.0,
       "2025-03-31 00:00:00": 2507406000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.307,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:12:45.482983"
+  "fetched_at": "2026-08-14T13:14:20.007087"
 }

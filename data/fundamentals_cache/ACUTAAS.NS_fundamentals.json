@@ -1,16 +1,16 @@
 {
   "data": {
     "ticker": "ACUTAAS.NS",
-    "fetch_date": "2026-08-06T13:51:39.142774",
+    "fetch_date": "2026-08-14T12:53:08.753154",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2749876000.0,
       "2025-03-31 00:00:00": 3015747000.0,
       "2025-06-30 00:00:00": 2072372000.0,
       "2025-12-31 00:00:00": 3931833000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 3296748000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -16.1523899921487,
+    "revenue_yoy_change": 19.887151275184774,
     "quarterly_eps": {
       "2024-12-31 00:00:00": 5.68,
       "2025-03-31 00:00:00": NaN,
@@ -20,9 +20,9 @@
     },
     "eps_qoq_change": -30.992366412213745,
     "eps_yoy_change": 59.15492957746478,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 57.91,
+    "margin_change": 0.94,
+    "operating_margin": 31.32,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 1799402000.0,
       "2025-09-30 00:00:00": NaN
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:51:39.144503"
+  "fetched_at": "2026-08-14T12:53:08.754921"
 }

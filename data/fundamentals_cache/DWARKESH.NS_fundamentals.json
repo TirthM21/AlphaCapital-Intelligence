@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DWARKESH.NS",
-    "fetch_date": "2026-08-06T14:00:46.207297",
+    "fetch_date": "2026-08-14T13:02:18.879747",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4054652000.0,
       "2025-09-30 00:00:00": 2459327000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.893,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:00:46.209071"
+  "fetched_at": "2026-08-14T13:02:18.881517"
 }

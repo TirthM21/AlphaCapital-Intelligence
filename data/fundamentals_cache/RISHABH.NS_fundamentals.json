@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RISHABH.NS",
-    "fetch_date": "2026-08-06T14:20:10.388893",
+    "fetch_date": "2026-08-14T13:21:44.913607",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1874500000.0,
       "2025-06-30 00:00:00": 1903290000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:20:10.390584"
+  "fetched_at": "2026-08-14T13:21:44.915348"
 }

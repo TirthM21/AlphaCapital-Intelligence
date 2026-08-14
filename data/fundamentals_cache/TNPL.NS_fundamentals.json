@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TNPL.NS",
-    "fetch_date": "2026-08-06T14:27:07.621775",
+    "fetch_date": "2026-08-14T13:28:46.081634",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 11118800000.0,
       "2025-03-31 00:00:00": 13230300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.773,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:27:07.623535"
+  "fetched_at": "2026-08-14T13:28:46.083383"
 }

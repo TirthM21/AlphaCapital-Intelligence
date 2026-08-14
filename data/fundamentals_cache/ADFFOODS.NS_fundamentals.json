@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADFFOODS.NS",
-    "fetch_date": "2026-08-06T13:51:45.200328",
+    "fetch_date": "2026-08-14T12:53:14.776416",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1328787000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.714,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:51:45.202185"
+  "fetched_at": "2026-08-14T12:53:14.778212"
 }

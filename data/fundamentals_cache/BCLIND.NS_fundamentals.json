@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCLIND.NS",
-    "fetch_date": "2026-08-06T13:55:43.134935",
+    "fetch_date": "2026-08-14T12:57:14.805149",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 7227667000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.47,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:43.136652"
+  "fetched_at": "2026-08-14T12:57:14.806950"
 }

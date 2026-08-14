@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NITCO.NS",
-    "fetch_date": "2026-08-06T14:15:34.375021",
+    "fetch_date": "2026-08-14T13:17:09.968104",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 931852000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 2.836,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:15:34.376789"
+  "fetched_at": "2026-08-14T13:17:09.969835"
 }

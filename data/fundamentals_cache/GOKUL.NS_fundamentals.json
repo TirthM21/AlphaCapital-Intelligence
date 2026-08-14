@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOKUL.NS",
-    "fetch_date": "2026-08-06T14:04:00.412357",
+    "fetch_date": "2026-08-14T13:05:33.931417",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8600662000.0,
       "2025-06-30 00:00:00": 9264290000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.177,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:04:00.414162"
+  "fetched_at": "2026-08-14T13:05:33.933182"
 }

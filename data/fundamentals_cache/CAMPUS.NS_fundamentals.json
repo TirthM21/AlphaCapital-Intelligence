@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAMPUS.NS",
-    "fetch_date": "2026-08-07T12:56:11.283162",
+    "fetch_date": "2026-08-14T12:58:49.752562",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4057100000.0,
       "2025-06-30 00:00:00": 3432700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.986,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T12:56:11.284424"
+  "fetched_at": "2026-08-14T12:58:49.754320"
 }

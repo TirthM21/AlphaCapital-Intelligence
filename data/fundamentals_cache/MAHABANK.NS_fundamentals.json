@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAHABANK.NS",
-    "fetch_date": "2026-08-06T14:12:08.508992",
+    "fetch_date": "2026-08-14T13:13:42.946716",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 40977500000.0,
       "2025-06-30 00:00:00": 41172700000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 34.87179487179487,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:12:08.509675"
+  "fetched_at": "2026-08-14T13:13:42.947408"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELECON.NS",
-    "fetch_date": "2026-08-06T14:01:09.197878",
+    "fetch_date": "2026-08-14T13:02:41.931545",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7975700000.0,
       "2025-06-30 00:00:00": 4905700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.579,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:01:09.199713"
+  "fetched_at": "2026-08-14T13:02:41.933266"
 }

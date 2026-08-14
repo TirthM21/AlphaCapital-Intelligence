@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MPSLTD.NS",
-    "fetch_date": "2026-08-06T14:14:07.549147",
+    "fetch_date": "2026-08-14T13:15:41.854386",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1862800000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 30.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:14:07.550174"
+  "fetched_at": "2026-08-14T13:15:41.855441"
 }

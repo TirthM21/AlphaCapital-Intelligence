@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWIGGY.NS",
-    "fetch_date": "2026-08-06T14:25:38.473860",
+    "fetch_date": "2026-08-14T13:27:16.056412",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 44100000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.011,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:25:38.475543"
+  "fetched_at": "2026-08-14T13:27:16.058184"
 }

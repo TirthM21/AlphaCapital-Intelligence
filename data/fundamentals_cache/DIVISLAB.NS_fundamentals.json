@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DIVISLAB.NS",
-    "fetch_date": "2026-08-06T14:00:18.328944",
+    "fetch_date": "2026-08-14T13:01:50.847764",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 23190000000.0,
       "2025-03-31 00:00:00": 25850000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.397,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:00:18.330680"
+  "fetched_at": "2026-08-14T13:01:50.849552"
 }

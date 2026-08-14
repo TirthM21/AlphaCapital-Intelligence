@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WINDMACHIN.NS",
-    "fetch_date": "2026-08-07T13:29:05.672158",
+    "fetch_date": "2026-08-14T13:31:50.063497",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1208210000.0,
       "2025-06-30 00:00:00": 1133350000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.165,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:29:05.673377"
+  "fetched_at": "2026-08-14T13:31:50.065333"
 }

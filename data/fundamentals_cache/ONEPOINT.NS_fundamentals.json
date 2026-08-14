@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ONEPOINT.NS",
-    "fetch_date": "2026-08-06T14:16:19.263254",
+    "fetch_date": "2026-08-14T13:17:53.987420",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 656810000.0,
       "2025-03-31 00:00:00": 670468000.0,
@@ -30,5 +30,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:16:19.264725"
+  "fetched_at": "2026-08-14T13:17:53.988858"
 }

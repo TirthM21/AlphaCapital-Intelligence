@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLSE.NS",
-    "fetch_date": "2026-08-06T13:56:37.003804",
+    "fetch_date": "2026-08-14T12:58:08.773512",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2392058000.0,
       "2025-06-30 00:00:00": 2439879000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:56:37.005530"
+  "fetched_at": "2026-08-14T12:58:08.775500"
 }

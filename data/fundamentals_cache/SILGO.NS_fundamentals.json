@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SILGO.NS",
-    "fetch_date": "2026-08-06T14:23:23.417868",
+    "fetch_date": "2026-08-14T13:24:59.977345",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 101534000.0,
       "2025-03-31 00:00:00": 165264000.0,
@@ -27,5 +27,5 @@
     "inventory_to_sales_ratio": 8.718,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:23:23.419572"
+  "fetched_at": "2026-08-14T13:24:59.979077"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAL.NS",
-    "fetch_date": "2026-08-06T14:04:56.320329",
+    "fetch_date": "2026-08-14T13:06:29.882941",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 136998500000.0,
       "2025-06-30 00:00:00": 48190100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.213,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:04:56.322090"
+  "fetched_at": "2026-08-14T13:06:29.884733"
 }

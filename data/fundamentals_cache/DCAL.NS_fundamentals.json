@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DCAL.NS",
-    "fetch_date": "2026-08-06T13:59:30.244557",
+    "fetch_date": "2026-08-14T13:01:02.825789",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 6823400000.0,
       "2025-03-31 00:00:00": 7163400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.197,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:59:30.246329"
+  "fetched_at": "2026-08-14T13:01:02.827571"
 }

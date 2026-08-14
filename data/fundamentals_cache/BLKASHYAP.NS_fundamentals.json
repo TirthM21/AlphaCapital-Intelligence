@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLKASHYAP.NS",
-    "fetch_date": "2026-08-06T13:56:35.039606",
+    "fetch_date": "2026-08-14T12:58:06.729757",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2941848000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.559,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:56:35.041358"
+  "fetched_at": "2026-08-14T12:58:06.731575"
 }

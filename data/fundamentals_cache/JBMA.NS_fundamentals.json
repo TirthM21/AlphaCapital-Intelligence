@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JBMA.NS",
-    "fetch_date": "2026-08-06T14:08:25.409085",
+    "fetch_date": "2026-08-14T13:09:58.849267",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 16457000000.0,
       "2025-06-30 00:00:00": 12538800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.359,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:08:25.410840"
+  "fetched_at": "2026-08-14T13:09:58.851061"
 }

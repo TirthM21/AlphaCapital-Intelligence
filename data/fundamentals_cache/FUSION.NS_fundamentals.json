@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FUSION.NS",
-    "fetch_date": "2026-08-06T14:02:42.289343",
+    "fetch_date": "2026-08-14T13:04:14.775288",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 4408400000.0,
       "2025-03-31 00:00:00": 4497200000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 15.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:02:42.290652"
+  "fetched_at": "2026-08-14T13:04:14.776751"
 }

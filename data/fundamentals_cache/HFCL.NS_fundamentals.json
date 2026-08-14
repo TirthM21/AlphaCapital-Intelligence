@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HFCL.NS",
-    "fetch_date": "2026-08-06T14:05:36.326240",
+    "fetch_date": "2026-08-14T13:07:09.897284",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8007200000.0,
       "2025-06-30 00:00:00": 8710200000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.739,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:05:36.328035"
+  "fetched_at": "2026-08-14T13:07:09.899001"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NACLIND.NS",
-    "fetch_date": "2026-08-06T14:14:30.411165",
+    "fetch_date": "2026-08-14T13:16:04.867677",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2014300000.0,
       "2025-06-30 00:00:00": 4483600000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.737,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:14:30.412843"
+  "fetched_at": "2026-08-14T13:16:04.869468"
 }

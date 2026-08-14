@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALKRISIND.NS",
-    "fetch_date": "2026-08-06T13:55:18.491479",
+    "fetch_date": "2026-08-14T12:56:49.812322",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 27523800000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.523,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:18.494499"
+  "fetched_at": "2026-08-14T12:56:49.814091"
 }

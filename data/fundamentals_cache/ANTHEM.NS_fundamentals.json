@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANTHEM.NS",
-    "fetch_date": "2026-08-06T13:53:17.313578",
+    "fetch_date": "2026-08-14T12:54:47.744898",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5402090000.0,
       "2025-09-30 00:00:00": 5500270000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.298,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:53:17.315347"
+  "fetched_at": "2026-08-14T12:54:47.746673"
 }

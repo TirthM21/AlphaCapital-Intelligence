@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADANIPOWER.NS",
-    "fetch_date": "2026-08-06T13:51:44.196804",
+    "fetch_date": "2026-08-14T12:53:13.768926",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 142374000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.192,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:51:44.198627"
+  "fetched_at": "2026-08-14T12:53:13.770733"
 }

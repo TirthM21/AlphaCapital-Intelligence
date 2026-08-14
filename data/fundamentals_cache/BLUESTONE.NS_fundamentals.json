@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLUESTONE.NS",
-    "fetch_date": "2026-08-06T13:56:43.140817",
+    "fetch_date": "2026-08-14T12:58:14.637708",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4613030000.0,
       "2025-06-30 00:00:00": 4926780000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 3.626,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:56:43.142521"
+  "fetched_at": "2026-08-14T12:58:14.639509"
 }

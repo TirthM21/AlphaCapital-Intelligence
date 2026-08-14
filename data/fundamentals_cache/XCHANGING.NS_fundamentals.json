@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XCHANGING.NS",
-    "fetch_date": "2026-08-06T14:30:20.650850",
+    "fetch_date": "2026-08-14T13:31:59.187361",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 456400000.0,
       "2025-03-31 00:00:00": 507400000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 37.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:30:20.652257"
+  "fetched_at": "2026-08-14T13:31:59.188689"
 }

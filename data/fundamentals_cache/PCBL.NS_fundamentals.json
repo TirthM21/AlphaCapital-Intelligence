@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PCBL.NS",
-    "fetch_date": "2026-08-06T14:17:15.653528",
+    "fetch_date": "2026-08-14T13:18:49.964610",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 20874900000.0,
       "2025-06-30 00:00:00": 21140500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.414,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:17:15.655294"
+  "fetched_at": "2026-08-14T13:18:49.967286"
 }

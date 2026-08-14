@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSTCLTD.NS",
-    "fetch_date": "2026-08-06T14:14:11.215743",
+    "fetch_date": "2026-08-14T13:15:45.893257",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 888524000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 60.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:14:11.216712"
+  "fetched_at": "2026-08-14T13:15:45.894361"
 }
