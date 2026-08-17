@@ -2036,8 +2036,8 @@
     "in_earnings_season": true
   },
   "KRN.NS": {
-    "last_updated": "2026-05-11T14:56:52.137605",
-    "in_earnings_season": true
+    "last_updated": "2026-08-17T12:52:29.100542",
+    "in_earnings_season": false
   },
   "KROSS.NS": {
     "last_updated": "2026-08-14T13:12:17.914511",
@@ -2556,8 +2556,8 @@
     "in_earnings_season": true
   },
   "OMAXAUTO.NS": {
-    "last_updated": "2026-05-11T15:02:20.362399",
-    "in_earnings_season": true
+    "last_updated": "2026-08-17T12:58:25.304781",
+    "in_earnings_season": false
   },
   "OMAXE.NS": {
     "last_updated": "2026-08-14T13:17:47.884006",
@@ -2624,8 +2624,8 @@
     "in_earnings_season": true
   },
   "PAKKA.NS": {
-    "last_updated": "2026-05-11T15:02:58.351139",
-    "in_earnings_season": true
+    "last_updated": "2026-08-17T12:59:09.121988",
+    "in_earnings_season": false
   },
   "PANACEABIO.NS": {
     "last_updated": "2026-08-14T13:18:27.872237",
@@ -3064,8 +3064,8 @@
     "in_earnings_season": true
   },
   "SAKHTISUG.NS": {
-    "last_updated": "2026-05-11T15:07:21.398795",
-    "in_earnings_season": true
+    "last_updated": "2026-08-17T13:03:47.288575",
+    "in_earnings_season": false
   },
   "SAKSOFT.NS": {
     "last_updated": "2026-08-14T13:22:48.981601",
@@ -4172,8 +4172,8 @@
     "in_earnings_season": true
   },
   "RAYMONDLSL.NS": {
-    "last_updated": "2026-05-13T14:46:23.312516",
-    "in_earnings_season": true
+    "last_updated": "2026-08-17T13:02:05.273820",
+    "in_earnings_season": false
   },
   "SUNFLAG.NS": {
     "last_updated": "2026-08-14T13:26:43.090896",
@@ -5878,5 +5878,13 @@
   "THOMASCOTT.NS": {
     "last_updated": "2026-08-14T13:28:23.013376",
     "in_earnings_season": true
+  },
+  "FINKURVE.NS": {
+    "last_updated": "2026-08-17T12:43:48.909223",
+    "in_earnings_season": false
+  },
+  "RENUKA.NS": {
+    "last_updated": "2026-08-17T13:02:26.206965",
+    "in_earnings_season": false
   }
 }
