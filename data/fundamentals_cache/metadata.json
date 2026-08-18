@@ -2256,8 +2256,8 @@
     "in_earnings_season": true
   },
   "MFSL.NS": {
-    "last_updated": "2026-05-11T14:59:33.333898",
-    "in_earnings_season": true
+    "last_updated": "2026-08-18T12:56:55.136747",
+    "in_earnings_season": false
   },
   "MGEL.NS": {
     "last_updated": "2026-08-14T13:15:03.004498",
@@ -5885,6 +5885,18 @@
   },
   "RENUKA.NS": {
     "last_updated": "2026-08-17T13:02:26.206965",
+    "in_earnings_season": false
+  },
+  "MATRIMONY.NS": {
+    "last_updated": "2026-08-18T12:56:21.200669",
+    "in_earnings_season": false
+  },
+  "MOLDTECH.NS": {
+    "last_updated": "2026-08-18T12:57:30.308513",
+    "in_earnings_season": false
+  },
+  "OSWALSEEDS.NS": {
+    "last_updated": "2026-08-18T13:00:31.949539",
     "in_earnings_season": false
   }
 }
