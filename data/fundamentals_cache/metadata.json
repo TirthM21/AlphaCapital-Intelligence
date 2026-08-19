@@ -928,8 +928,8 @@
     "in_earnings_season": true
   },
   "DOLATALGO.NS": {
-    "last_updated": "2026-05-11T14:46:38.211502",
-    "in_earnings_season": true
+    "last_updated": "2026-08-19T12:44:14.745294",
+    "in_earnings_season": false
   },
   "DOLLAR.NS": {
     "last_updated": "2026-08-14T13:02:00.844465",
@@ -2876,8 +2876,8 @@
     "in_earnings_season": true
   },
   "RAINBOW.NS": {
-    "last_updated": "2026-05-11T15:05:18.287151",
-    "in_earnings_season": true
+    "last_updated": "2026-08-19T13:04:01.037802",
+    "in_earnings_season": false
   },
   "RAJRATAN.NS": {
     "last_updated": "2026-08-12T13:23:19.895834",
@@ -4400,7 +4400,7 @@
     "in_earnings_season": true
   },
   "SEAMECLTD.NS": {
-    "last_updated": "2026-05-19T15:19:12.802877",
+    "last_updated": "2026-08-19T13:07:02.112674",
     "in_earnings_season": false
   },
   "BAJAJFINSV.NS": {
@@ -5897,6 +5897,22 @@
   },
   "OSWALSEEDS.NS": {
     "last_updated": "2026-08-18T13:00:31.949539",
+    "in_earnings_season": false
+  },
+  "GFLLIMITED.NS": {
+    "last_updated": "2026-08-19T12:47:10.947533",
+    "in_earnings_season": false
+  },
+  "HNDFDS.NS": {
+    "last_updated": "2026-08-19T12:50:03.907892",
+    "in_earnings_season": false
+  },
+  "MMP.NS": {
+    "last_updated": "2026-08-19T12:58:10.110709",
+    "in_earnings_season": false
+  },
+  "PITTIENG.NS": {
+    "last_updated": "2026-08-19T13:02:31.139643",
     "in_earnings_season": false
   }
 }
