@@ -2592,8 +2592,8 @@
     "in_earnings_season": true
   },
   "ORICONENT.NS": {
-    "last_updated": "2026-05-11T15:02:36.890237",
-    "in_earnings_season": true
+    "last_updated": "2026-08-20T13:02:19.573698",
+    "in_earnings_season": false
   },
   "ORIENTELEC.NS": {
     "last_updated": "2026-08-13T13:21:44.538087",
@@ -4412,7 +4412,7 @@
     "in_earnings_season": false
   },
   "MODISONLTD.NS": {
-    "last_updated": "2026-05-20T15:10:55.088729",
+    "last_updated": "2026-08-20T12:59:27.532812",
     "in_earnings_season": false
   },
   "REDINGTON.NS": {
@@ -5913,6 +5913,14 @@
   },
   "PITTIENG.NS": {
     "last_updated": "2026-08-19T13:02:31.139643",
+    "in_earnings_season": false
+  },
+  "DOLPHIN.NS": {
+    "last_updated": "2026-08-20T12:45:27.304352",
+    "in_earnings_season": false
+  },
+  "KOTARISUG.NS": {
+    "last_updated": "2026-08-20T12:55:43.682248",
     "in_earnings_season": false
   }
 }
