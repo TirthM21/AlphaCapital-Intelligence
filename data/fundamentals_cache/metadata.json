@@ -20,8 +20,8 @@
     "in_earnings_season": true
   },
   "AAREYDRUGS.NS": {
-    "last_updated": "2026-05-11T14:37:19.827539",
-    "in_earnings_season": true
+    "last_updated": "2026-08-21T12:34:36.102372",
+    "in_earnings_season": false
   },
   "AARTIDRUGS.NS": {
     "last_updated": "2026-08-14T12:52:38.892265",
@@ -388,8 +388,8 @@
     "in_earnings_season": true
   },
   "AXITA.NS": {
-    "last_updated": "2026-05-11T14:41:06.155457",
-    "in_earnings_season": true
+    "last_updated": "2026-08-21T12:38:43.095994",
+    "in_earnings_season": false
   },
   "AZAD.NS": {
     "last_updated": "2026-08-14T12:56:28.788955",
@@ -1652,8 +1652,8 @@
     "in_earnings_season": true
   },
   "INDOWIND.NS": {
-    "last_updated": "2026-05-11T14:53:29.188851",
-    "in_earnings_season": true
+    "last_updated": "2026-08-21T12:51:40.953610",
+    "in_earnings_season": false
   },
   "INDRAMEDCO.NS": {
     "last_updated": "2026-08-07T13:06:14.348380",
@@ -2424,8 +2424,8 @@
     "in_earnings_season": true
   },
   "NCC.NS": {
-    "last_updated": "2026-05-11T15:01:01.338431",
-    "in_earnings_season": true
+    "last_updated": "2026-08-21T12:59:47.250188",
+    "in_earnings_season": false
   },
   "NDTV.NS": {
     "last_updated": "2026-07-15T13:47:53.368441",
@@ -5921,6 +5921,34 @@
   },
   "KOTARISUG.NS": {
     "last_updated": "2026-08-20T12:55:43.682248",
+    "in_earnings_season": false
+  },
+  "ALPHAGEO.NS": {
+    "last_updated": "2026-08-21T12:36:27.996807",
+    "in_earnings_season": false
+  },
+  "AMRUTANJAN.NS": {
+    "last_updated": "2026-08-21T12:36:43.076111",
+    "in_earnings_season": false
+  },
+  "BLBLIMITED.NS": {
+    "last_updated": "2026-08-21T12:40:24.027110",
+    "in_earnings_season": false
+  },
+  "JAYSREETEA.NS": {
+    "last_updated": "2026-08-21T12:52:50.105659",
+    "in_earnings_season": false
+  },
+  "RAJSREESUG.NS": {
+    "last_updated": "2026-08-21T13:04:28.109501",
+    "in_earnings_season": false
+  },
+  "SHANTIGEAR.NS": {
+    "last_updated": "2026-08-21T13:07:56.319923",
+    "in_earnings_season": false
+  },
+  "YASHO.NS": {
+    "last_updated": "2026-08-21T13:16:31.249050",
     "in_earnings_season": false
   }
 }
