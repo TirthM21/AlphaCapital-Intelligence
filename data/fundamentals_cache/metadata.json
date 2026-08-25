@@ -1668,8 +1668,8 @@
     "in_earnings_season": true
   },
   "INDUSTOWER.NS": {
-    "last_updated": "2026-05-11T14:53:35.238074",
-    "in_earnings_season": true
+    "last_updated": "2026-08-25T12:53:15.599745",
+    "in_earnings_season": false
   },
   "INFOBEAN.NS": {
     "last_updated": "2026-08-04T14:12:47.364972",
@@ -2132,8 +2132,8 @@
     "in_earnings_season": true
   },
   "MADRASFERT.NS": {
-    "last_updated": "2026-05-11T14:58:12.289011",
-    "in_earnings_season": true
+    "last_updated": "2026-08-25T12:58:13.451041",
+    "in_earnings_season": false
   },
   "MAHABANK.NS": {
     "last_updated": "2026-08-14T13:13:42.948781",
@@ -3640,8 +3640,8 @@
     "in_earnings_season": true
   },
   "TRACXN.NS": {
-    "last_updated": "2026-05-11T15:13:27.436824",
-    "in_earnings_season": true
+    "last_updated": "2026-08-25T13:14:35.650785",
+    "in_earnings_season": false
   },
   "TRANSRAILL.NS": {
     "last_updated": "2026-07-31T14:26:38.122736",
@@ -4300,8 +4300,8 @@
     "in_earnings_season": true
   },
   "PROZONER.NS": {
-    "last_updated": "2026-05-15T14:20:47.463908",
-    "in_earnings_season": true
+    "last_updated": "2026-08-25T13:05:19.545246",
+    "in_earnings_season": false
   },
   "RAIN.NS": {
     "last_updated": "2026-08-14T13:20:43.914465",
@@ -4616,7 +4616,7 @@
     "in_earnings_season": true
   },
   "MANGLMCEM.NS": {
-    "last_updated": "2026-05-25T15:05:42.518270",
+    "last_updated": "2026-08-25T12:58:42.645655",
     "in_earnings_season": false
   },
   "ORIENTCEM.NS": {
@@ -5965,6 +5965,22 @@
   },
   "RATNAMANI.NS": {
     "last_updated": "2026-08-24T13:07:28.560943",
+    "in_earnings_season": false
+  },
+  "ARSSBL.NS": {
+    "last_updated": "2026-08-25T12:39:01.379327",
+    "in_earnings_season": false
+  },
+  "FMGOETZE.NS": {
+    "last_updated": "2026-08-25T12:48:13.333865",
+    "in_earnings_season": false
+  },
+  "SHEKHAWATI.NS": {
+    "last_updated": "2026-08-25T13:09:33.542715",
+    "in_earnings_season": false
+  },
+  "TTL.NS": {
+    "last_updated": "2026-08-25T13:14:56.788372",
     "in_earnings_season": false
   }
 }
