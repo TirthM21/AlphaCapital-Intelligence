@@ -1,0 +1,36 @@
+{
+  "data": {
+    "ticker": "VIVIDHA.NS",
+    "fetch_date": "2026-08-27T22:17:02.879350",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": 0.0,
+      "2025-06-30 00:00:00": 1085000.0,
+      "2025-09-30 00:00:00": 0.0,
+      "2025-12-31 00:00:00": 67000.0,
+      "2026-03-31 00:00:00": 0.0
+    },
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": -0.02,
+      "2025-06-30 00:00:00": -0.02,
+      "2025-09-30 00:00:00": -0.01,
+      "2025-12-31 00:00:00": -0.01,
+      "2026-03-31 00:00:00": -0.01
+    },
+    "eps_qoq_change": 0.0,
+    "eps_yoy_change": 50.0,
+    "gross_margin": 0,
+    "margin_change": -100.0,
+    "operating_margin": 0,
+    "quarterly_inventory": {
+      "2025-03-31 00:00:00": 19742000.0,
+      "2025-09-30 00:00:00": 18869000.0,
+      "2026-03-31 00:00:00": 18929000.0
+    },
+    "inventory_qoq_change": 0.32,
+    "inventory_to_sales_ratio": 0,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-08-27T22:17:02.881045"
+}

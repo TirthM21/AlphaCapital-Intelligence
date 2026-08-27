@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DELTACORP.NS",
-    "fetch_date": "2026-05-11T14:46:00.105547",
+    "fetch_date": "2026-08-27T21:45:24.700117",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1868800000.0,
       "2025-03-31 00:00:00": 1826500000.0,
@@ -24,7 +24,6 @@
     "margin_change": 26.8,
     "operating_margin": 9.25,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": 193600000.0,
       "2025-03-31 00:00:00": 190700000.0,
       "2026-03-31 00:00:00": 190700000.0
     },
@@ -32,5 +31,5 @@
     "inventory_to_sales_ratio": 0.118,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T14:46:00.107054"
+  "fetched_at": "2026-08-27T21:45:24.701920"
 }

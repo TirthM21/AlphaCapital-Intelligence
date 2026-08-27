@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "HDIL.NS",
+    "fetch_date": "2026-08-27T21:51:11.617233",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 144064000.0,
+      "2025-03-31 00:00:00": -319278000.0,
+      "2025-09-30 00:00:00": 4059000.0
+    },
+    "revenue_qoq_change": -101.27130588390054,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": 0.05,
+      "2025-03-31 00:00:00": NaN,
+      "2025-09-30 00:00:00": -0.1
+    },
+    "eps_qoq_change": null,
+    "gross_margin": 100.0,
+    "margin_change": 0.0,
+    "operating_margin": -694.83,
+    "quarterly_inventory": {
+      "2025-03-31 00:00:00": 28146868000.0,
+      "2025-09-30 00:00:00": 28146868000.0
+    },
+    "inventory_qoq_change": 0.0,
+    "inventory_to_sales_ratio": 6934.434,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-08-27T21:51:11.618969"
+}
