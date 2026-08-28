@@ -4784,7 +4784,7 @@
     "in_earnings_season": true
   },
   "VINDHYATEL.NS": {
-    "last_updated": "2026-05-29T15:30:46.855134",
+    "last_updated": "2026-08-28T22:20:36.729967",
     "in_earnings_season": false
   },
   "AERONEU.NS": {
@@ -6249,6 +6249,38 @@
   },
   "VIVIDHA.NS": {
     "last_updated": "2026-08-27T22:17:02.882422",
+    "in_earnings_season": false
+  },
+  "DCI.NS": {
+    "last_updated": "2026-08-28T21:48:57.796015",
+    "in_earnings_season": false
+  },
+  "GROWW.NS": {
+    "last_updated": "2026-08-28T21:54:08.419652",
+    "in_earnings_season": false
+  },
+  "GTPL.NS": {
+    "last_updated": "2026-08-28T21:54:19.573360",
+    "in_earnings_season": false
+  },
+  "GVPTECH.NS": {
+    "last_updated": "2026-08-28T21:54:31.474341",
+    "in_earnings_season": false
+  },
+  "KAPSTON.NS": {
+    "last_updated": "2026-08-28T21:59:24.587881",
+    "in_earnings_season": false
+  },
+  "OAL.NS": {
+    "last_updated": "2026-08-28T22:06:23.652848",
+    "in_earnings_season": false
+  },
+  "SHAHALLOYS.NS": {
+    "last_updated": "2026-08-28T22:13:14.723144",
+    "in_earnings_season": false
+  },
+  "TMCV.NS": {
+    "last_updated": "2026-08-28T22:18:18.857704",
     "in_earnings_season": false
   }
 }
