@@ -1220,8 +1220,8 @@
     "in_earnings_season": true
   },
   "GLOBAL.NS": {
-    "last_updated": "2026-05-11T14:49:46.250344",
-    "in_earnings_season": true
+    "last_updated": "2026-08-31T18:50:39.716070",
+    "in_earnings_season": false
   },
   "GLOBUSSPR.NS": {
     "last_updated": "2026-08-03T14:38:48.924066",
@@ -4252,8 +4252,8 @@
     "in_earnings_season": true
   },
   "VENKEYS.NS": {
-    "last_updated": "2026-05-14T14:33:49.745302",
-    "in_earnings_season": true
+    "last_updated": "2026-08-31T19:17:46.914965",
+    "in_earnings_season": false
   },
   "VIJAYA.NS": {
     "last_updated": "2026-08-14T13:30:41.045901",
@@ -6281,6 +6281,22 @@
   },
   "TMCV.NS": {
     "last_updated": "2026-08-28T22:18:18.857704",
+    "in_earnings_season": false
+  },
+  "ASIANHOTNR.NS": {
+    "last_updated": "2026-08-31T18:40:36.571243",
+    "in_earnings_season": false
+  },
+  "AYMSYNTEX.NS": {
+    "last_updated": "2026-08-31T18:41:29.628463",
+    "in_earnings_season": false
+  },
+  "NAGAFERT.NS": {
+    "last_updated": "2026-08-31T19:02:19.759747",
+    "in_earnings_season": false
+  },
+  "VIVIMEDLAB.NS": {
+    "last_updated": "2026-08-31T19:18:31.114558",
     "in_earnings_season": false
   }
 }
