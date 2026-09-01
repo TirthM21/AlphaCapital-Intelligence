@@ -3784,8 +3784,8 @@
     "in_earnings_season": true
   },
   "VINEETLAB.NS": {
-    "last_updated": "2026-05-11T15:15:20.464119",
-    "in_earnings_season": true
+    "last_updated": "2026-09-01T16:37:13.717072",
+    "in_earnings_season": false
   },
   "VIPCLOTHNG.NS": {
     "last_updated": "2026-05-11T15:15:23.440543",
@@ -4676,7 +4676,7 @@
     "in_earnings_season": true
   },
   "CORDSCABLE.NS": {
-    "last_updated": "2026-05-27T15:32:45.705293",
+    "last_updated": "2026-09-01T16:04:37.235881",
     "in_earnings_season": false
   },
   "CPPLUS.NS": {
@@ -6297,6 +6297,18 @@
   },
   "VIVIMEDLAB.NS": {
     "last_updated": "2026-08-31T19:18:31.114558",
+    "in_earnings_season": false
+  },
+  "ORIENTCER.NS": {
+    "last_updated": "2026-09-01T16:23:31.438955",
+    "in_earnings_season": false
+  },
+  "PINELABS.NS": {
+    "last_updated": "2026-09-01T16:24:45.252416",
+    "in_earnings_season": false
+  },
+  "ZUARIIND.NS": {
+    "last_updated": "2026-09-01T16:38:57.492821",
     "in_earnings_season": false
   }
 }
