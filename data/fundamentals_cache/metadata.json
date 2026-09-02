@@ -1676,8 +1676,8 @@
     "in_earnings_season": true
   },
   "INNOVACAP.NS": {
-    "last_updated": "2026-05-11T14:53:40.194452",
-    "in_earnings_season": true
+    "last_updated": "2026-09-02T16:06:16.559708",
+    "in_earnings_season": false
   },
   "INOXGREEN.NS": {
     "last_updated": "2026-08-11T13:07:48.674720",
@@ -4296,8 +4296,8 @@
     "in_earnings_season": true
   },
   "PLAZACABLE.NS": {
-    "last_updated": "2026-05-15T14:19:56.471799",
-    "in_earnings_season": true
+    "last_updated": "2026-09-02T16:17:24.001579",
+    "in_earnings_season": false
   },
   "PROZONER.NS": {
     "last_updated": "2026-08-25T13:05:19.545246",
@@ -6309,6 +6309,22 @@
   },
   "ZUARIIND.NS": {
     "last_updated": "2026-09-01T16:38:57.492821",
+    "in_earnings_season": false
+  },
+  "EMMVEE.NS": {
+    "last_updated": "2026-09-02T15:59:59.505260",
+    "in_earnings_season": false
+  },
+  "HATSUN.NS": {
+    "last_updated": "2026-09-02T16:03:46.736649",
+    "in_earnings_season": false
+  },
+  "PAR.NS": {
+    "last_updated": "2026-09-02T16:16:28.656380",
+    "in_earnings_season": false
+  },
+  "PWL.NS": {
+    "last_updated": "2026-09-02T16:18:31.784918",
     "in_earnings_season": false
   }
 }
