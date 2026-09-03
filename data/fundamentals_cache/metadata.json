@@ -3232,12 +3232,12 @@
     "in_earnings_season": true
   },
   "SHREDIGCEM.NS": {
-    "last_updated": "2026-05-11T15:09:04.236454",
-    "in_earnings_season": true
+    "last_updated": "2026-09-03T16:12:19.379238",
+    "in_earnings_season": false
   },
   "SHREEPUSHK.NS": {
-    "last_updated": "2026-05-11T15:09:07.343137",
-    "in_earnings_season": true
+    "last_updated": "2026-09-03T16:12:22.487720",
+    "in_earnings_season": false
   },
   "SHRIPISTON.NS": {
     "last_updated": "2026-05-11T15:09:13.328651",
@@ -4196,8 +4196,8 @@
     "in_earnings_season": true
   },
   "ZIMLAB.NS": {
-    "last_updated": "2026-05-13T14:57:18.310940",
-    "in_earnings_season": true
+    "last_updated": "2026-09-03T16:20:49.050983",
+    "in_earnings_season": false
   },
   "AMBUJACEM.NS": {
     "last_updated": "2026-08-06T13:53:01.165618",
@@ -6325,6 +6325,26 @@
   },
   "PWL.NS": {
     "last_updated": "2026-09-02T16:18:31.784918",
+    "in_earnings_season": false
+  },
+  "ANDREWYU.NS": {
+    "last_updated": "2026-09-03T15:40:34.955453",
+    "in_earnings_season": false
+  },
+  "GALAXYSURF.NS": {
+    "last_updated": "2026-09-03T15:50:51.121138",
+    "in_earnings_season": false
+  },
+  "ISFT.NS": {
+    "last_updated": "2026-09-03T15:56:12.125809",
+    "in_earnings_season": false
+  },
+  "MVGJL.NS": {
+    "last_updated": "2026-09-03T16:03:16.087980",
+    "in_earnings_season": false
+  },
+  "TENNIND.NS": {
+    "last_updated": "2026-09-03T16:16:12.394498",
     "in_earnings_season": false
   }
 }
