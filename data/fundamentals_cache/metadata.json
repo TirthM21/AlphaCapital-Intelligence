@@ -3920,8 +3920,8 @@
     "in_earnings_season": true
   },
   "ZENITHSTL.NS": {
-    "last_updated": "2026-05-11T15:16:40.366284",
-    "in_earnings_season": true
+    "last_updated": "2026-09-04T16:19:05.725635",
+    "in_earnings_season": false
   },
   "ZENTEC.NS": {
     "last_updated": "2026-08-14T13:32:16.153366",
@@ -6345,6 +6345,18 @@
   },
   "TENNIND.NS": {
     "last_updated": "2026-09-03T16:16:12.394498",
+    "in_earnings_season": false
+  },
+  "CYBERMEDIA.NS": {
+    "last_updated": "2026-09-04T15:45:20.719181",
+    "in_earnings_season": false
+  },
+  "PRAENG.NS": {
+    "last_updated": "2026-09-04T16:05:41.731839",
+    "in_earnings_season": false
+  },
+  "UTLSOLAR.NS": {
+    "last_updated": "2026-09-04T16:16:40.734007",
     "in_earnings_season": false
   }
 }
