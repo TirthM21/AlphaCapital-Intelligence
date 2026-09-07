@@ -4832,7 +4832,7 @@
     "in_earnings_season": true
   },
   "CENTUM.NS": {
-    "last_updated": "2026-06-02T16:18:09.492733",
+    "last_updated": "2026-09-07T17:10:51.349379",
     "in_earnings_season": false
   },
   "IFGLEXPOR.NS": {
@@ -6357,6 +6357,14 @@
   },
   "UTLSOLAR.NS": {
     "last_updated": "2026-09-04T16:16:40.734007",
+    "in_earnings_season": false
+  },
+  "ANUHPHR.NS": {
+    "last_updated": "2026-09-07T17:06:01.092181",
+    "in_earnings_season": false
+  },
+  "TEXMOPIPES.NS": {
+    "last_updated": "2026-09-07T17:41:44.458413",
     "in_earnings_season": false
   }
 }
