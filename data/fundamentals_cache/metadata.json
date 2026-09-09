@@ -300,8 +300,8 @@
     "in_earnings_season": true
   },
   "ASTEC.NS": {
-    "last_updated": "2026-05-11T14:40:27.177934",
-    "in_earnings_season": true
+    "last_updated": "2026-09-09T15:49:39.501329",
+    "in_earnings_season": false
   },
   "ASTERDM.NS": {
     "last_updated": "2026-08-14T12:55:48.828890",
@@ -6365,6 +6365,14 @@
   },
   "TEXMOPIPES.NS": {
     "last_updated": "2026-09-07T17:41:44.458413",
+    "in_earnings_season": false
+  },
+  "AIRAN.NS": {
+    "last_updated": "2026-09-09T15:47:33.613753",
+    "in_earnings_season": false
+  },
+  "LIKHITHA.NS": {
+    "last_updated": "2026-09-09T16:07:52.673734",
     "in_earnings_season": false
   }
 }
