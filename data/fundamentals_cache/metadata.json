@@ -4936,7 +4936,7 @@
     "in_earnings_season": false
   },
   "BIOFILCHEM.NS": {
-    "last_updated": "2026-06-10T15:26:39.298297",
+    "last_updated": "2026-09-10T15:46:53.995548",
     "in_earnings_season": false
   },
   "BLUESTONE.NS": {
@@ -6373,6 +6373,22 @@
   },
   "LIKHITHA.NS": {
     "last_updated": "2026-09-09T16:07:52.673734",
+    "in_earnings_season": false
+  },
+  "EXCELSOFT.NS": {
+    "last_updated": "2026-09-10T15:52:51.864516",
+    "in_earnings_season": false
+  },
+  "GOACARBON.NS": {
+    "last_updated": "2026-09-10T15:54:47.370269",
+    "in_earnings_season": false
+  },
+  "KSL.NS": {
+    "last_updated": "2026-09-10T16:02:13.521547",
+    "in_earnings_season": false
+  },
+  "NOVARTIND.NS": {
+    "last_updated": "2026-09-10T16:07:34.553636",
     "in_earnings_season": false
   }
 }
