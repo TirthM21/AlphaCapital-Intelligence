@@ -4192,8 +4192,8 @@
     "in_earnings_season": true
   },
   "VGL.NS": {
-    "last_updated": "2026-05-13T14:55:37.376726",
-    "in_earnings_season": true
+    "last_updated": "2026-09-11T16:23:17.810970",
+    "in_earnings_season": false
   },
   "ZIMLAB.NS": {
     "last_updated": "2026-09-03T16:20:49.050983",
@@ -4976,7 +4976,7 @@
     "in_earnings_season": true
   },
   "BHAGERIA.NS": {
-    "last_updated": "2026-06-11T15:50:05.911693",
+    "last_updated": "2026-09-11T15:48:08.578001",
     "in_earnings_season": false
   },
   "MOTISONS.NS": {
@@ -4984,7 +4984,7 @@
     "in_earnings_season": true
   },
   "NECCLTD.NS": {
-    "last_updated": "2026-06-11T16:08:47.880928",
+    "last_updated": "2026-09-11T16:08:16.917107",
     "in_earnings_season": false
   },
   "REGAAL.NS": {
@@ -5000,7 +5000,7 @@
     "in_earnings_season": false
   },
   "EXXARO.NS": {
-    "last_updated": "2026-06-12T14:56:41.674661",
+    "last_updated": "2026-09-11T15:54:29.616154",
     "in_earnings_season": false
   },
   "PNB.NS": {
@@ -6389,6 +6389,18 @@
   },
   "NOVARTIND.NS": {
     "last_updated": "2026-09-10T16:07:34.553636",
+    "in_earnings_season": false
+  },
+  "BALPHARMA.NS": {
+    "last_updated": "2026-09-11T15:47:23.775637",
+    "in_earnings_season": false
+  },
+  "RACLGEAR.NS": {
+    "last_updated": "2026-09-11T16:12:36.843478",
+    "in_earnings_season": false
+  },
+  "SANATHAN.NS": {
+    "last_updated": "2026-09-11T16:15:04.812026",
     "in_earnings_season": false
   }
 }
