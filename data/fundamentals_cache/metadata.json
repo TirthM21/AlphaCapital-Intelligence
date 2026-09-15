@@ -3852,8 +3852,8 @@
     "in_earnings_season": true
   },
   "WCIL.NS": {
-    "last_updated": "2026-05-11T15:15:57.859858",
-    "in_earnings_season": true
+    "last_updated": "2026-09-15T16:45:32.942731",
+    "in_earnings_season": false
   },
   "WELCORP.NS": {
     "last_updated": "2026-08-14T13:31:37.020094",
@@ -4352,7 +4352,7 @@
     "in_earnings_season": true
   },
   "QUICKHEAL.NS": {
-    "last_updated": "2026-05-18T15:45:12.216757",
+    "last_updated": "2026-09-15T16:33:36.996386",
     "in_earnings_season": false
   },
   "SIYSIL.NS": {
@@ -6401,6 +6401,18 @@
   },
   "SANATHAN.NS": {
     "last_updated": "2026-09-11T16:15:04.812026",
+    "in_earnings_season": false
+  },
+  "AMDIND.NS": {
+    "last_updated": "2026-09-15T16:05:42.561991",
+    "in_earnings_season": false
+  },
+  "ASHOKAMET.NS": {
+    "last_updated": "2026-09-15T16:06:54.752452",
+    "in_earnings_season": false
+  },
+  "SUDEEPPHRM.NS": {
+    "last_updated": "2026-09-15T16:39:57.093097",
     "in_earnings_season": false
   }
 }
