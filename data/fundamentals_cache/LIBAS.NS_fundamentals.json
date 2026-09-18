@@ -1,0 +1,21 @@
+{
+  "data": {
+    "ticker": "LIBAS.NS",
+    "fetch_date": "2026-09-18T16:00:30.910386",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 215024000.0,
+      "2025-12-31 00:00:00": 218839000.0
+    },
+    "revenue_qoq_change": 1.7742205521244139,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": -0.62,
+      "2025-12-31 00:00:00": 0.69
+    },
+    "eps_qoq_change": 211.29032258064515,
+    "gross_margin": 15.98,
+    "margin_change": 1.45,
+    "operating_margin": 6.12,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-09-18T16:00:30.911275"
+}
