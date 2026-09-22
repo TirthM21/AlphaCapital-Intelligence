@@ -692,8 +692,8 @@
     "in_earnings_season": true
   },
   "CIFL.NS": {
-    "last_updated": "2026-05-11T14:44:23.195369",
-    "in_earnings_season": true
+    "last_updated": "2026-09-22T16:14:19.769673",
+    "in_earnings_season": false
   },
   "CIGNITITEC.NS": {
     "last_updated": "2026-05-11T14:44:24.106362",
@@ -5284,7 +5284,7 @@
     "in_earnings_season": true
   },
   "SWANCORP.NS": {
-    "last_updated": "2026-06-23T15:11:12.487482",
+    "last_updated": "2026-09-22T16:43:44.219825",
     "in_earnings_season": false
   },
   "AVG.NS": {
@@ -6453,6 +6453,10 @@
   },
   "SHIVALIK.NS": {
     "last_updated": "2026-09-21T18:14:54.869464",
+    "in_earnings_season": false
+  },
+  "ZOTA.NS": {
+    "last_updated": "2026-09-22T16:49:24.253898",
     "in_earnings_season": false
   }
 }
