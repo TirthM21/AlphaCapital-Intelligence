@@ -5084,7 +5084,7 @@
     "in_earnings_season": true
   },
   "ANMOL.NS": {
-    "last_updated": "2026-06-16T16:42:40.085835",
+    "last_updated": "2026-09-23T15:59:08.181483",
     "in_earnings_season": false
   },
   "ARVSMART.NS": {
@@ -6457,6 +6457,22 @@
   },
   "ZOTA.NS": {
     "last_updated": "2026-09-22T16:49:24.253898",
+    "in_earnings_season": false
+  },
+  "HEGAM.NS": {
+    "last_updated": "2026-09-23T16:12:09.190864",
+    "in_earnings_season": false
+  },
+  "MANUGRAPH.NS": {
+    "last_updated": "2026-09-23T16:19:54.311775",
+    "in_earnings_season": false
+  },
+  "SBGLP.NS": {
+    "last_updated": "2026-09-23T16:29:49.246977",
+    "in_earnings_season": false
+  },
+  "SHIVAMAUTO.NS": {
+    "last_updated": "2026-09-23T16:30:55.234883",
     "in_earnings_season": false
   }
 }
