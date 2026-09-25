@@ -108,8 +108,8 @@
     "in_earnings_season": true
   },
   "ADSL.NS": {
-    "last_updated": "2026-05-11T14:38:02.199983",
-    "in_earnings_season": true
+    "last_updated": "2026-09-25T16:20:38.568764",
+    "in_earnings_season": false
   },
   "AEGISLOG.NS": {
     "last_updated": "2026-08-14T12:53:24.747629",
@@ -156,8 +156,8 @@
     "in_earnings_season": true
   },
   "AJAXENGG.NS": {
-    "last_updated": "2026-05-11T14:38:38.134442",
-    "in_earnings_season": true
+    "last_updated": "2026-09-25T16:21:18.548105",
+    "in_earnings_season": false
   },
   "AJMERA.NS": {
     "last_updated": "2026-07-28T13:52:39.322796",
@@ -6489,6 +6489,18 @@
   },
   "VIDYAWIRES.NS": {
     "last_updated": "2026-09-24T17:00:17.489277",
+    "in_earnings_season": false
+  },
+  "AAATECH.NS": {
+    "last_updated": "2026-09-25T16:19:49.563604",
+    "in_earnings_season": false
+  },
+  "HERANBA.NS": {
+    "last_updated": "2026-09-25T16:35:13.435222",
+    "in_earnings_season": false
+  },
+  "RACE.NS": {
+    "last_updated": "2026-09-25T16:49:54.551340",
     "in_earnings_season": false
   }
 }
