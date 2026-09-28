@@ -396,8 +396,8 @@
     "in_earnings_season": true
   },
   "BAGFILMS.NS": {
-    "last_updated": "2026-05-11T14:41:11.091290",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:11:01.350473",
+    "in_earnings_season": false
   },
   "BAJAJCON.NS": {
     "last_updated": "2026-08-14T12:56:33.754604",
@@ -768,8 +768,8 @@
     "in_earnings_season": true
   },
   "CUBEXTUB.NS": {
-    "last_updated": "2026-05-11T14:45:16.142157",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:15:25.370696",
+    "in_earnings_season": false
   },
   "CUMMINSIND.NS": {
     "last_updated": "2026-08-14T13:00:39.840465",
@@ -864,8 +864,8 @@
     "in_earnings_season": true
   },
   "DELPHIFX.NS": {
-    "last_updated": "2026-05-11T14:45:59.186514",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:16:10.494331",
+    "in_earnings_season": false
   },
   "DELTACORP.NS": {
     "last_updated": "2026-08-27T21:45:24.703302",
@@ -904,8 +904,8 @@
     "in_earnings_season": true
   },
   "DIGISPICE.NS": {
-    "last_updated": "2026-05-11T14:46:22.315462",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:16:36.529282",
+    "in_earnings_season": false
   },
   "DIGITIDE.NS": {
     "last_updated": "2026-08-14T13:01:45.707470",
@@ -3032,8 +3032,8 @@
     "in_earnings_season": false
   },
   "RUCHINFRA.NS": {
-    "last_updated": "2026-05-11T15:06:56.463934",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:38:48.665276",
+    "in_earnings_season": false
   },
   "RUPA.NS": {
     "last_updated": "2026-08-06T14:20:52.384654",
@@ -4316,8 +4316,8 @@
     "in_earnings_season": true
   },
   "SYMPHONY.NS": {
-    "last_updated": "2026-05-15T14:27:42.584056",
-    "in_earnings_season": true
+    "last_updated": "2026-09-28T19:44:14.648353",
+    "in_earnings_season": false
   },
   "UNITDSPR.NS": {
     "last_updated": "2026-08-14T13:29:49.131839",
@@ -4868,7 +4868,7 @@
     "in_earnings_season": false
   },
   "SHALBY.NS": {
-    "last_updated": "2026-06-03T16:58:22.197226",
+    "last_updated": "2026-09-28T19:40:37.685684",
     "in_earnings_season": false
   },
   "VARDMNPOLY.NS": {
@@ -4904,7 +4904,7 @@
     "in_earnings_season": true
   },
   "AVROIND.NS": {
-    "last_updated": "2026-06-08T15:42:28.232154",
+    "last_updated": "2026-09-28T19:10:47.410881",
     "in_earnings_season": false
   },
   "ELECTHERM.NS": {
@@ -5036,7 +5036,7 @@
     "in_earnings_season": true
   },
   "BAJAJ-AUTO.NS": {
-    "last_updated": "2026-06-15T17:11:11.582395",
+    "last_updated": "2026-09-28T19:11:03.623684",
     "in_earnings_season": false
   },
   "CDSL.NS": {
@@ -5248,7 +5248,7 @@
     "in_earnings_season": true
   },
   "GODIGIT.NS": {
-    "last_updated": "2026-06-22T16:57:44.514109",
+    "last_updated": "2026-09-28T19:20:32.554740",
     "in_earnings_season": false
   },
   "HYBRIDFIN.NS": {
@@ -5344,7 +5344,7 @@
     "in_earnings_season": true
   },
   "TAKE.NS": {
-    "last_updated": "2026-06-25T14:48:26.816365",
+    "last_updated": "2026-09-28T19:44:22.818035",
     "in_earnings_season": false
   },
   "TVTODAY.NS": {
@@ -6501,6 +6501,34 @@
   },
   "RACE.NS": {
     "last_updated": "2026-09-25T16:49:54.551340",
+    "in_earnings_season": false
+  },
+  "ADVENTHTL.NS": {
+    "last_updated": "2026-09-28T19:07:33.448817",
+    "in_earnings_season": false
+  },
+  "ALKALI.NS": {
+    "last_updated": "2026-09-28T19:08:27.387046",
+    "in_earnings_season": false
+  },
+  "BMWVENTLTD.NS": {
+    "last_updated": "2026-09-28T19:12:51.468517",
+    "in_earnings_season": false
+  },
+  "METROBRAND.NS": {
+    "last_updated": "2026-09-28T19:30:39.525218",
+    "in_earnings_season": false
+  },
+  "SSDL.NS": {
+    "last_updated": "2026-09-28T19:42:46.703145",
+    "in_earnings_season": false
+  },
+  "TCI.NS": {
+    "last_updated": "2026-09-28T19:44:47.724687",
+    "in_earnings_season": false
+  },
+  "WAAREEINDO.NS": {
+    "last_updated": "2026-09-28T19:48:45.926971",
     "in_earnings_season": false
   }
 }
