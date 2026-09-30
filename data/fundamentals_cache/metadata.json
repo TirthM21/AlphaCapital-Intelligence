@@ -4372,7 +4372,7 @@
     "in_earnings_season": true
   },
   "VALIANTORG.NS": {
-    "last_updated": "2026-05-18T15:54:51.252835",
+    "last_updated": "2026-09-30T18:06:59.554834",
     "in_earnings_season": false
   },
   "DHANUKA.NS": {
@@ -4968,7 +4968,7 @@
     "in_earnings_season": false
   },
   "VETO.NS": {
-    "last_updated": "2026-06-10T15:58:50.565534",
+    "last_updated": "2026-09-30T18:07:23.642477",
     "in_earnings_season": false
   },
   "WANBURY.NS": {
@@ -6537,6 +6537,14 @@
   },
   "AGASTYAEN.NS": {
     "last_updated": "2026-09-29T17:29:53.092945",
+    "in_earnings_season": false
+  },
+  "RKEC.NS": {
+    "last_updated": "2026-09-30T17:57:51.386866",
+    "in_earnings_season": false
+  },
+  "WAKEFIT.NS": {
+    "last_updated": "2026-09-30T18:08:26.435201",
     "in_earnings_season": false
   }
 }

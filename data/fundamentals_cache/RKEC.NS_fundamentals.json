@@ -1,0 +1,25 @@
+{
+  "data": {
+    "ticker": "RKEC.NS",
+    "fetch_date": "2026-09-30T17:57:51.384183",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 1189792000.0,
+      "2025-03-31 00:00:00": 1414253000.0
+    },
+    "revenue_qoq_change": 18.865566418331944,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": 3.44,
+      "2025-03-31 00:00:00": NaN
+    },
+    "eps_qoq_change": null,
+    "operating_margin": 10.91,
+    "quarterly_inventory": {
+      "2024-12-31 00:00:00": 1540300000.0,
+      "2025-03-31 00:00:00": 2069817000.0
+    },
+    "inventory_qoq_change": 34.38,
+    "inventory_to_sales_ratio": 1.464,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-09-30T17:57:51.385622"
+}
