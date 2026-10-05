@@ -4804,7 +4804,7 @@
     "in_earnings_season": true
   },
   "NOIDATOLL.NS": {
-    "last_updated": "2026-06-01T17:51:26.846706",
+    "last_updated": "2026-10-05T20:41:53.646732",
     "in_earnings_season": false
   },
   "PREMIERPOL.NS": {
@@ -5408,7 +5408,7 @@
     "in_earnings_season": false
   },
   "BRIGHOTEL.NS": {
-    "last_updated": "2026-07-03T13:57:01.160765",
+    "last_updated": "2026-10-05T20:21:42.709761",
     "in_earnings_season": false
   },
   "ESCORTS.NS": {
@@ -6561,6 +6561,14 @@
   },
   "PARKHOSPS.NS": {
     "last_updated": "2026-10-01T18:20:17.238565",
+    "in_earnings_season": false
+  },
+  "5PAISA.NS": {
+    "last_updated": "2026-10-05T20:15:05.525648",
+    "in_earnings_season": false
+  },
+  "LOKESHMACH.NS": {
+    "last_updated": "2026-10-05T20:37:25.471789",
     "in_earnings_season": false
   }
 }
