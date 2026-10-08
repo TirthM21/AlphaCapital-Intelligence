@@ -4796,7 +4796,7 @@
     "in_earnings_season": true
   },
   "BROOKS.NS": {
-    "last_updated": "2026-06-01T17:32:53.752786",
+    "last_updated": "2026-10-08T18:24:57.274687",
     "in_earnings_season": false
   },
   "LLOYDSENGG.NS": {
@@ -6577,6 +6577,10 @@
   },
   "NEPHROPLUS.NS": {
     "last_updated": "2026-10-06T18:12:07.225589",
+    "in_earnings_season": false
+  },
+  "KSHINTL.NS": {
+    "last_updated": "2026-10-08T18:39:33.268685",
     "in_earnings_season": false
   }
 }
