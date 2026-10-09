@@ -5536,7 +5536,7 @@
     "in_earnings_season": true
   },
   "VIKRAMSOLR.NS": {
-    "last_updated": "2026-07-10T14:47:09.039977",
+    "last_updated": "2026-10-09T18:33:03.518094",
     "in_earnings_season": false
   },
   "BOROLTD.NS": {
@@ -6581,6 +6581,10 @@
   },
   "KSHINTL.NS": {
     "last_updated": "2026-10-08T18:39:33.268685",
+    "in_earnings_season": false
+  },
+  "GLOTTIS.NS": {
+    "last_updated": "2026-10-09T18:05:23.401772",
     "in_earnings_season": false
   }
 }
