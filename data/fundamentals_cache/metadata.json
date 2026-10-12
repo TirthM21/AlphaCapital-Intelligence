@@ -1048,8 +1048,8 @@
     "in_earnings_season": true
   },
   "ERIS.NS": {
-    "last_updated": "2026-05-11T14:47:53.232265",
-    "in_earnings_season": true
+    "last_updated": "2026-10-12T20:57:18.112498",
+    "in_earnings_season": false
   },
   "ESAFSFB.NS": {
     "last_updated": "2026-08-14T13:03:16.826392",
@@ -5552,7 +5552,7 @@
     "in_earnings_season": true
   },
   "VESUVIUS.NS": {
-    "last_updated": "2026-07-13T14:58:11.950317",
+    "last_updated": "2026-10-12T21:27:00.186316",
     "in_earnings_season": false
   },
   "EUROPRATIK.NS": {
@@ -6585,6 +6585,14 @@
   },
   "GLOTTIS.NS": {
     "last_updated": "2026-10-09T18:05:23.401772",
+    "in_earnings_season": false
+  },
+  "DPWIRES.NS": {
+    "last_updated": "2026-10-12T20:56:01.939266",
+    "in_earnings_season": false
+  },
+  "STUDDS.NS": {
+    "last_updated": "2026-10-12T21:22:20.053967",
     "in_earnings_season": false
   }
 }
