@@ -1,0 +1,38 @@
+{
+  "data": {
+    "ticker": "TARAPUR.NS",
+    "fetch_date": "2026-10-13T19:23:48.102592",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": NaN,
+      "2025-06-30 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0,
+      "2025-12-31 00:00:00": 0.0,
+      "2026-03-31 00:00:00": 0.0,
+      "2026-06-30 00:00:00": 0.0
+    },
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": NaN,
+      "2025-06-30 00:00:00": 0.05,
+      "2025-09-30 00:00:00": -0.23,
+      "2025-12-31 00:00:00": -0.12,
+      "2026-03-31 00:00:00": -0.64,
+      "2026-06-30 00:00:00": -0.23
+    },
+    "eps_qoq_change": 64.0625,
+    "eps_yoy_change": -560.0,
+    "gross_margin": 0,
+    "margin_change": 0,
+    "operating_margin": 0,
+    "quarterly_inventory": {
+      "2025-03-31 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0,
+      "2026-03-31 00:00:00": 0.0
+    },
+    "inventory_qoq_change": null,
+    "inventory_to_sales_ratio": 0,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-10-13T19:23:48.104354"
+}
