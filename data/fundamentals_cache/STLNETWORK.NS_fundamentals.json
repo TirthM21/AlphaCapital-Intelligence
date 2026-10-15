@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STLNETWORK.NS",
-    "fetch_date": "2026-08-14T13:26:17.951706",
+    "fetch_date": "2026-10-15T16:44:36.731126",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1899500000.0,
@@ -26,6 +26,7 @@
     "margin_change": -0.71,
     "operating_margin": 4.12,
     "quarterly_inventory": {
+      "2025-03-31 00:00:00": 420200000.0,
       "2025-09-30 00:00:00": 547300000.0,
       "2026-03-31 00:00:00": 806700000.0
     },
@@ -33,5 +34,5 @@
     "inventory_to_sales_ratio": 0.458,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:26:17.953434"
+  "fetched_at": "2026-10-15T16:44:36.731933"
 }

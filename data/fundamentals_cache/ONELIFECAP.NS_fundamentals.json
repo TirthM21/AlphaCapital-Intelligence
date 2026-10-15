@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ONELIFECAP.NS",
-    "fetch_date": "2026-10-07T18:44:53.542965",
+    "fetch_date": "2026-10-15T16:35:27.958633",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8467000.0,
       "2025-09-30 00:00:00": 38597000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.376,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-07T18:44:53.544940"
+  "fetched_at": "2026-10-15T16:35:27.959507"
 }

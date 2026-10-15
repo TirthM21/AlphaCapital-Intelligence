@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APLAPOLLO.NS",
-    "fetch_date": "2026-08-14T12:54:55.871878",
+    "fetch_date": "2026-10-15T16:10:52.584454",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 53243500000.0,
       "2025-06-30 00:00:00": 50028100000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.266,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T12:54:55.873644"
+  "fetched_at": "2026-10-15T16:10:52.585280"
 }

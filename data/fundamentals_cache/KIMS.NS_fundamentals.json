@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KIMS.NS",
-    "fetch_date": "2026-08-14T13:11:30.889766",
+    "fetch_date": "2026-10-15T16:28:29.667070",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8716000000.0,
       "2025-09-30 00:00:00": 9607000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:11:30.891560"
+  "fetched_at": "2026-10-15T16:28:29.667982"
 }

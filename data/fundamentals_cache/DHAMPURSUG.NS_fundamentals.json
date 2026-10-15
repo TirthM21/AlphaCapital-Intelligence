@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DHAMPURSUG.NS",
-    "fetch_date": "2026-08-14T13:01:31.879518",
+    "fetch_date": "2026-10-15T16:17:54.602138",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5214200000.0,
       "2025-09-30 00:00:00": 5041900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.556,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:01:31.881272"
+  "fetched_at": "2026-10-15T16:17:54.602867"
 }

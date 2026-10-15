@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACE.NS",
-    "fetch_date": "2026-08-14T12:53:02.837249",
+    "fetch_date": "2026-10-15T16:08:44.718819",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 9609900000.0,
       "2025-06-30 00:00:00": 6520800000.0,
@@ -25,11 +25,11 @@
     "operating_margin": 13.91,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 5151124000.0,
-      "2026-03-31 00:00:00": 6054000000.0
+      "2026-03-31 00:00:00": 6053957000.0
     },
     "inventory_qoq_change": 17.53,
     "inventory_to_sales_ratio": 0.771,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T12:53:02.838988"
+  "fetched_at": "2026-10-15T16:08:44.719602"
 }

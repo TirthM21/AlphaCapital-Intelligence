@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKFINDUS.NS",
-    "fetch_date": "2026-09-24T16:54:23.415500",
+    "fetch_date": "2026-10-15T16:43:29.896196",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7206100000.0,
       "2025-06-30 00:00:00": 8206300000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": 0.552,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-24T16:54:23.417089"
+  "fetched_at": "2026-10-15T16:43:29.896928"
 }

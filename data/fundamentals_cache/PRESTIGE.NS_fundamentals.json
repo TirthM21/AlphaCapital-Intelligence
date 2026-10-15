@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRESTIGE.NS",
-    "fetch_date": "2026-08-14T13:20:04.042770",
+    "fetch_date": "2026-10-15T16:37:55.766931",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 23073000000.0,
       "2025-09-30 00:00:00": 24317000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 15.047,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:20:04.044538"
+  "fetched_at": "2026-10-15T16:37:55.767799"
 }

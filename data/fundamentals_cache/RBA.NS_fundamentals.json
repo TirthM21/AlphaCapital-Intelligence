@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RBA.NS",
-    "fetch_date": "2026-08-14T13:21:11.960135",
+    "fetch_date": "2026-10-15T16:39:06.797489",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6325490000.0,
       "2025-06-30 00:00:00": 6977230000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.047,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:21:11.961839"
+  "fetched_at": "2026-10-15T16:39:06.799531"
 }

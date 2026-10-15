@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HILINFRA.NS",
-    "fetch_date": "2026-10-01T18:07:58.077661",
+    "fetch_date": "2026-10-15T16:23:57.600303",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1119510000.0,
       "2025-09-30 00:00:00": 945700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.298,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-01T18:07:58.079289"
+  "fetched_at": "2026-10-15T16:23:57.601172"
 }

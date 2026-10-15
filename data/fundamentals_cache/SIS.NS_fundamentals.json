@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIS.NS",
-    "fetch_date": "2026-08-14T13:25:11.079327",
+    "fetch_date": "2026-10-15T16:43:23.816152",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 35484900000.0,
       "2025-09-30 00:00:00": 37585200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:25:11.081161"
+  "fetched_at": "2026-10-15T16:43:23.816948"
 }

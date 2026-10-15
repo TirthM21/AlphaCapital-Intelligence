@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXCELSOFT.NS",
-    "fetch_date": "2026-09-10T15:52:51.861886",
+    "fetch_date": "2026-10-15T16:20:04.579199",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 699180000.0,
       "2025-06-30 00:00:00": 557180000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 8.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-10T15:52:51.863308"
+  "fetched_at": "2026-10-15T16:20:04.581030"
 }

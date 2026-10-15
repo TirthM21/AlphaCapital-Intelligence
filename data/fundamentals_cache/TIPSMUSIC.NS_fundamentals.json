@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIPSMUSIC.NS",
-    "fetch_date": "2026-08-14T13:28:37.102598",
+    "fetch_date": "2026-10-15T16:47:12.755636",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 784895000.0,
       "2025-06-30 00:00:00": 880684000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 49.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:28:37.103957"
+  "fetched_at": "2026-10-15T16:47:12.756231"
 }

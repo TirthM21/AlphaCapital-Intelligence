@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HINDALCO.NS",
-    "fetch_date": "2026-08-14T13:07:17.906547",
+    "fetch_date": "2026-10-15T16:24:01.789697",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 642320000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:07:17.908359"
+  "fetched_at": "2026-10-15T16:24:01.790595"
 }

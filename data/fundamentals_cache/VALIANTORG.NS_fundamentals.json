@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VALIANTORG.NS",
-    "fetch_date": "2026-09-30T18:06:59.551445",
+    "fetch_date": "2026-10-15T16:48:57.892832",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2044064000.0,
       "2025-09-30 00:00:00": 1573051000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.395,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-30T18:06:59.553338"
+  "fetched_at": "2026-10-15T16:48:57.893657"
 }

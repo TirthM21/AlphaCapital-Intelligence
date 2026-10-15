@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZYDUSWELL.NS",
-    "fetch_date": "2026-08-14T13:32:27.096390",
+    "fetch_date": "2026-10-15T16:51:27.821391",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 9106000000.0,
       "2025-06-30 00:00:00": 8577000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.534,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:32:27.098137"
+  "fetched_at": "2026-10-15T16:51:27.822297"
 }

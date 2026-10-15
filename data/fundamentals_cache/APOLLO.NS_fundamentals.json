@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APOLLO.NS",
-    "fetch_date": "2026-08-14T12:54:57.726833",
+    "fetch_date": "2026-10-15T16:10:54.703786",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1617667000.0,
       "2025-06-30 00:00:00": 1335831000.0,
@@ -25,11 +25,11 @@
     "operating_margin": 18.36,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 6006361000.0,
-      "2026-03-31 00:00:00": 7952893000.0
+      "2026-03-31 00:00:00": 7952892000.0
     },
     "inventory_qoq_change": 32.41,
     "inventory_to_sales_ratio": 3.165,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T12:54:57.728664"
+  "fetched_at": "2026-10-15T16:10:54.704617"
 }

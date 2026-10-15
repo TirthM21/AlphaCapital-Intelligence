@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLUSPRING.NS",
-    "fetch_date": "2026-08-14T12:58:15.698335",
+    "fetch_date": "2026-10-15T16:14:28.613282",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7972300000.0,
       "2025-09-30 00:00:00": 8574760000.0,
@@ -24,6 +24,7 @@
     "margin_change": 0.87,
     "operating_margin": 0.71,
     "quarterly_inventory": {
+      "2025-03-31 00:00:00": 74760000.0,
       "2025-09-30 00:00:00": 66900000.0,
       "2026-03-31 00:00:00": 69560000.0
     },
@@ -31,5 +32,5 @@
     "inventory_to_sales_ratio": 0.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T12:58:15.700091"
+  "fetched_at": "2026-10-15T16:14:28.614136"
 }

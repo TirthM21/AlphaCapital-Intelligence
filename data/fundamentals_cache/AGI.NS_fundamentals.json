@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AGI.NS",
-    "fetch_date": "2026-08-14T12:53:40.803572",
+    "fetch_date": "2026-10-15T16:09:28.551839",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7048300000.0,
       "2025-06-30 00:00:00": 6876600000.0,
@@ -25,11 +25,12 @@
     "operating_margin": 16.58,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 3989494000.0,
-      "2026-03-31 00:00:00": 4572200000.0
+      "2025-09-30 00:00:00": NaN,
+      "2026-03-31 00:00:00": 4572153000.0
     },
-    "inventory_qoq_change": 14.61,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": 0.582,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T12:53:40.805393"
+  "fetched_at": "2026-10-15T16:09:28.552612"
 }

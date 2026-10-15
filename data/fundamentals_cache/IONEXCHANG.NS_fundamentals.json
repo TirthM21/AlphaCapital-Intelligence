@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IONEXCHANG.NS",
-    "fetch_date": "2026-08-14T13:09:19.807137",
+    "fetch_date": "2026-10-15T16:26:07.776623",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8345600000.0,
       "2025-06-30 00:00:00": 5831900000.0,
@@ -25,11 +25,11 @@
     "operating_margin": 1.43,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 2989869000.0,
-      "2026-03-31 00:00:00": 4413900000.0
+      "2026-03-31 00:00:00": 4413860000.0
     },
     "inventory_qoq_change": 47.63,
     "inventory_to_sales_ratio": 0.63,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:09:19.809122"
+  "fetched_at": "2026-10-15T16:26:07.777468"
 }

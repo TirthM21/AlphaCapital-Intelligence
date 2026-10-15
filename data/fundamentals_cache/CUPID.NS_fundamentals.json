@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CUPID.NS",
-    "fetch_date": "2026-08-14T13:00:40.717908",
+    "fetch_date": "2026-10-15T16:17:00.760880",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 598049000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.453,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:00:40.719763"
+  "fetched_at": "2026-10-15T16:17:00.761638"
 }

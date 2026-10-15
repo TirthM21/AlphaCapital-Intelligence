@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SANATHAN.NS",
-    "fetch_date": "2026-09-11T16:15:04.809181",
+    "fetch_date": "2026-10-15T16:41:01.746472",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7453400000.0,
       "2025-09-30 00:00:00": 8179900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.567,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-11T16:15:04.810728"
+  "fetched_at": "2026-10-15T16:41:01.747263"
 }

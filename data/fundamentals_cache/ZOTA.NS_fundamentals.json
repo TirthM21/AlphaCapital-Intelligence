@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZOTA.NS",
-    "fetch_date": "2026-09-22T16:49:24.251509",
+    "fetch_date": "2026-10-15T16:51:22.797957",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 972746000.0,
       "2025-06-30 00:00:00": 1035826000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-22T16:49:24.252736"
+  "fetched_at": "2026-10-15T16:51:22.799768"
 }

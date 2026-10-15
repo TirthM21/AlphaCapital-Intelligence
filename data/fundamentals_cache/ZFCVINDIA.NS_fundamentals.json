@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZFCVINDIA.NS",
-    "fetch_date": "2026-08-14T13:32:17.135391",
+    "fetch_date": "2026-10-15T16:51:17.926469",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10101175000.0,
       "2025-06-30 00:00:00": 9755550000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.264,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:32:17.137153"
+  "fetched_at": "2026-10-15T16:51:17.927358"
 }

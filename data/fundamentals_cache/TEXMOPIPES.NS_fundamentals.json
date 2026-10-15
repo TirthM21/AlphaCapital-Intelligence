@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEXMOPIPES.NS",
-    "fetch_date": "2026-09-07T17:41:44.455377",
+    "fetch_date": "2026-10-15T16:46:42.878483",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1052220000.0,
       "2025-09-30 00:00:00": 630526000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.638,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-07T17:41:44.457161"
+  "fetched_at": "2026-10-15T16:46:42.879364"
 }
