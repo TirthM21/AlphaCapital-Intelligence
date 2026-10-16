@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ITCHOTELS.NS",
-    "fetch_date": "2026-08-05T14:10:42.683970",
+    "fetch_date": "2026-10-16T16:14:11.497306",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8089300000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 1.335,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T14:10:42.685707"
+  "fetched_at": "2026-10-16T16:14:11.499205"
 }

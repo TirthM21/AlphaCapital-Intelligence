@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KSHINTL.NS",
-    "fetch_date": "2026-10-08T18:39:33.265924",
+    "fetch_date": "2026-10-16T16:17:11.509721",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5078370000.0,
       "2025-06-30 00:00:00": 5587120000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.365,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-08T18:39:33.267348"
+  "fetched_at": "2026-10-16T16:17:11.511562"
 }
