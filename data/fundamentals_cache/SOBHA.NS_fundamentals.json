@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOBHA.NS",
-    "fetch_date": "2026-07-22T14:02:32.133405",
+    "fetch_date": "2026-10-19T18:46:08.100392",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12406170000.0,
       "2025-06-30 00:00:00": 8519340000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 10.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:02:32.134569"
+  "fetched_at": "2026-10-19T18:46:08.102197"
 }

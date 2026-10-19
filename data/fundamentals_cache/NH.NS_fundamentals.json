@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NH.NS",
-    "fetch_date": "2026-08-14T13:16:53.100332",
+    "fetch_date": "2026-10-19T18:36:45.015065",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 15072690000.0,
       "2025-09-30 00:00:00": 16437900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.058,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:16:53.102094"
+  "fetched_at": "2026-10-19T18:36:45.016891"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOIL.NS",
-    "fetch_date": "2026-08-06T14:13:52.365376",
+    "fetch_date": "2026-10-19T18:35:09.030947",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3480598000.0,
       "2025-09-30 00:00:00": 3480478000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:13:52.367104"
+  "fetched_at": "2026-10-19T18:35:09.032747"
 }

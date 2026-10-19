@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWANCORP.NS",
-    "fetch_date": "2026-09-22T16:43:44.217238",
+    "fetch_date": "2026-10-19T18:48:05.177386",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12131843000.0,
       "2025-09-30 00:00:00": 11383426000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.197,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-22T16:43:44.218475"
+  "fetched_at": "2026-10-19T18:48:05.179210"
 }

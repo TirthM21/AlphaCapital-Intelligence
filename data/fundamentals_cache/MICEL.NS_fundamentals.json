@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MICEL.NS",
-    "fetch_date": "2026-08-27T21:59:48.842633",
+    "fetch_date": "2026-10-19T18:34:43.019393",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 448462000.0,
       "2025-06-30 00:00:00": 116121000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.666,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T21:59:48.844480"
+  "fetched_at": "2026-10-19T18:34:43.021380"
 }

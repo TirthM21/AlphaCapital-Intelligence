@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIGNATURE.NS",
-    "fetch_date": "2026-08-12T13:27:23.131694",
+    "fetch_date": "2026-10-19T18:45:33.190501",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8656690000.0,
       "2025-09-30 00:00:00": 3384920000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 19.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T13:27:23.133239"
+  "fetched_at": "2026-10-19T18:45:33.192292"
 }

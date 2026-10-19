@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRIVENI.NS",
-    "fetch_date": "2026-08-06T14:27:30.470046",
+    "fetch_date": "2026-10-19T18:50:15.054998",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 16292900000.0,
       "2025-06-30 00:00:00": 15479300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.889,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:27:30.471818"
+  "fetched_at": "2026-10-19T18:50:15.056697"
 }

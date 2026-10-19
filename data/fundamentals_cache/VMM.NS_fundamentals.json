@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VMM.NS",
-    "fetch_date": "2026-08-24T13:18:20.572118",
+    "fetch_date": "2026-10-19T18:52:33.085507",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 31403200000.0,
       "2025-09-30 00:00:00": 29814870000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.541,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-24T13:18:20.574024"
+  "fetched_at": "2026-10-19T18:52:33.087378"
 }

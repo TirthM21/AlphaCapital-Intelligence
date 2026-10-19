@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SJVN.NS",
-    "fetch_date": "2026-08-27T22:10:42.788235",
+    "fetch_date": "2026-10-19T18:45:53.198698",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9174500000.0,
       "2025-09-30 00:00:00": 10324000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.098,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T22:10:42.790119"
+  "fetched_at": "2026-10-19T18:45:53.200521"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TCI.NS",
-    "fetch_date": "2026-09-28T19:44:47.721667",
+    "fetch_date": "2026-10-19T18:48:49.231800",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 11788000000.0,
       "2025-06-30 00:00:00": 11393000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.012,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-28T19:44:47.723407"
+  "fetched_at": "2026-10-19T18:48:49.233643"
 }

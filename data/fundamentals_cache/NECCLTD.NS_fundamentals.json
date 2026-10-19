@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NECCLTD.NS",
-    "fetch_date": "2026-09-11T16:08:16.914099",
+    "fetch_date": "2026-10-19T18:36:27.899588",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 690998000.0,
       "2025-09-30 00:00:00": 707460000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-11T16:08:16.915526"
+  "fetched_at": "2026-10-19T18:36:27.900983"
 }

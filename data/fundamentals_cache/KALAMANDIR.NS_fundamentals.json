@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KALAMANDIR.NS",
-    "fetch_date": "2026-08-27T21:55:16.694365",
+    "fetch_date": "2026-10-19T18:30:05.875881",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3988400000.0,
       "2025-06-30 00:00:00": 3790200000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 2.175,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T21:55:16.696115"
+  "fetched_at": "2026-10-19T18:30:05.877915"
 }

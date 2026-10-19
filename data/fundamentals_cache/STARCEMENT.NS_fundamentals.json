@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STARCEMENT.NS",
-    "fetch_date": "2026-08-27T22:11:37.806440",
+    "fetch_date": "2026-10-19T18:46:52.966164",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10520879000.0,
       "2025-06-30 00:00:00": 9119925000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.494,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T22:11:37.808191"
+  "fetched_at": "2026-10-19T18:46:52.968043"
 }

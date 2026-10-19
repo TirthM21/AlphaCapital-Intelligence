@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PNCINFRA.NS",
-    "fetch_date": "2026-08-14T13:19:28.950666",
+    "fetch_date": "2026-10-19T18:39:40.076363",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 14228008000.0,
       "2025-09-30 00:00:00": 11276399000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.451,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:19:28.952443"
+  "fetched_at": "2026-10-19T18:39:40.078115"
 }

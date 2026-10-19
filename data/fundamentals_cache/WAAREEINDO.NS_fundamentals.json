@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WAAREEINDO.NS",
-    "fetch_date": "2026-09-28T19:48:45.923851",
+    "fetch_date": "2026-10-19T18:52:51.056672",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1920048000.0,
       "2025-06-30 00:00:00": 1946757000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.308,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-28T19:48:45.925653"
+  "fetched_at": "2026-10-19T18:52:51.058448"
 }
