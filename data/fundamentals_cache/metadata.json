@@ -992,8 +992,8 @@
     "in_earnings_season": true
   },
   "ELECTCAST.NS": {
-    "last_updated": "2026-10-14T16:31:33.198037",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:38:46.838311",
+    "in_earnings_season": true
   },
   "ELGIEQUIP.NS": {
     "last_updated": "2026-10-15T16:19:15.815091",
@@ -1528,8 +1528,8 @@
     "in_earnings_season": true
   },
   "ICICIGI.NS": {
-    "last_updated": "2026-10-14T16:37:05.906940",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:44:19.894285",
+    "in_earnings_season": true
   },
   "ICICIPRULI.NS": {
     "last_updated": "2026-08-14T13:07:57.866447",
@@ -2108,7 +2108,7 @@
     "in_earnings_season": true
   },
   "LTTS.NS": {
-    "last_updated": "2026-08-14T13:13:24.925382",
+    "last_updated": "2026-10-21T16:50:09.933381",
     "in_earnings_season": true
   },
   "LUMAXTECH.NS": {
@@ -4024,8 +4024,8 @@
     "in_earnings_season": true
   },
   "GUJTHEM.NS": {
-    "last_updated": "2026-10-14T16:35:21.008729",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:42:33.830014",
+    "in_earnings_season": true
   },
   "HPAL.NS": {
     "last_updated": "2026-08-12T13:10:12.909093",
@@ -4224,8 +4224,8 @@
     "in_earnings_season": true
   },
   "INDOAMIN.NS": {
-    "last_updated": "2026-10-14T16:37:50.129890",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:45:04.958833",
+    "in_earnings_season": true
   },
   "LICI.NS": {
     "last_updated": "2026-10-19T18:32:33.147354",
@@ -4340,8 +4340,8 @@
     "in_earnings_season": true
   },
   "KILITCH.NS": {
-    "last_updated": "2026-05-18T15:36:12.987957",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:48:04.974478",
+    "in_earnings_season": true
   },
   "MCLEODRUSS.NS": {
     "last_updated": "2026-10-15T16:31:54.827003",
@@ -4948,8 +4948,8 @@
     "in_earnings_season": true
   },
   "NIBE.NS": {
-    "last_updated": "2026-10-14T16:46:47.243561",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:54:01.000894",
+    "in_earnings_season": true
   },
   "NUCLEUS.NS": {
     "last_updated": "2026-06-10T15:45:58.522958",
@@ -5112,11 +5112,11 @@
     "in_earnings_season": true
   },
   "MBEL.NS": {
-    "last_updated": "2026-10-14T16:44:11.999162",
-    "in_earnings_season": false
+    "last_updated": "2026-10-21T16:51:26.960788",
+    "in_earnings_season": true
   },
   "PATELRMART.NS": {
-    "last_updated": "2026-08-06T14:17:10.723354",
+    "last_updated": "2026-10-21T16:56:04.974741",
     "in_earnings_season": true
   },
   "PGEL.NS": {
@@ -5696,7 +5696,7 @@
     "in_earnings_season": true
   },
   "MASTEK.NS": {
-    "last_updated": "2026-08-12T13:16:57.024084",
+    "last_updated": "2026-10-21T16:51:14.989945",
     "in_earnings_season": true
   },
   "RADIOCITY.NS": {
@@ -5716,7 +5716,7 @@
     "in_earnings_season": true
   },
   "TATVA.NS": {
-    "last_updated": "2026-08-14T13:27:45.959940",
+    "last_updated": "2026-10-21T17:05:53.875927",
     "in_earnings_season": true
   },
   "A2ZINFRA.NS": {
@@ -6621,6 +6621,14 @@
   },
   "TEAMLEASE.NS": {
     "last_updated": "2026-10-19T18:48:56.170042",
+    "in_earnings_season": true
+  },
+  "GKSL.NS": {
+    "last_updated": "2026-10-21T16:41:11.817222",
+    "in_earnings_season": true
+  },
+  "OSWALAGRO.NS": {
+    "last_updated": "2026-10-21T16:55:33.086136",
     "in_earnings_season": true
   }
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBEL.NS",
-    "fetch_date": "2026-10-14T16:44:11.996140",
+    "fetch_date": "2026-10-21T16:51:26.957512",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2376523000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.199,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-14T16:44:11.997702"
+  "fetched_at": "2026-10-21T16:51:26.959352"
 }
