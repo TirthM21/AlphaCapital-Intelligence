@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UTLSOLAR.NS",
-    "fetch_date": "2026-10-15T16:48:47.909210",
+    "fetch_date": "2026-10-22T17:08:20.117600",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4803450000.0,
       "2025-06-30 00:00:00": 5973490000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.676,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:48:47.910015"
+  "fetched_at": "2026-10-22T17:08:20.118724"
 }

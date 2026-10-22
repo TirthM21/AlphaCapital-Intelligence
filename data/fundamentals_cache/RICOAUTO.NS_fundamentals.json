@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RICOAUTO.NS",
-    "fetch_date": "2026-10-15T16:39:37.892963",
+    "fetch_date": "2026-10-22T16:59:09.914267",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5434600000.0,
       "2025-09-30 00:00:00": 6273600000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.374,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:39:37.893837"
+  "fetched_at": "2026-10-22T16:59:09.915046"
 }

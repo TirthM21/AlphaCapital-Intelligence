@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CDSL.NS",
-    "fetch_date": "2026-10-15T16:15:25.635522",
+    "fetch_date": "2026-10-22T16:34:54.614728",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2244895000.0,
       "2025-06-30 00:00:00": 2588400000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 40.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:15:25.636218"
+  "fetched_at": "2026-10-22T16:34:54.615449"
 }

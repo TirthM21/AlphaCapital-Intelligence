@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUPREMEENG.NS",
-    "fetch_date": "2026-10-15T16:45:15.679290",
+    "fetch_date": "2026-10-22T17:04:47.775524",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 43364000.0,
       "2025-06-30 00:00:00": 83991000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.079,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:45:15.680112"
+  "fetched_at": "2026-10-22T17:04:47.776285"
 }

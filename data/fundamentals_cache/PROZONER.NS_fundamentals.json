@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PROZONER.NS",
-    "fetch_date": "2026-10-15T16:38:07.747272",
+    "fetch_date": "2026-10-22T16:57:39.967126",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 74110000.0,
       "2025-09-30 00:00:00": 461877000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 26.392,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:38:07.748127"
+  "fetched_at": "2026-10-22T16:57:39.967886"
 }

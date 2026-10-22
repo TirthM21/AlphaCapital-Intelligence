@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATATECH.NS",
-    "fetch_date": "2026-10-15T16:46:16.862837",
+    "fetch_date": "2026-10-22T17:05:49.131365",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12856500000.0,
       "2025-06-30 00:00:00": 12442900000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.25,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:46:16.863472"
+  "fetched_at": "2026-10-22T17:05:49.131996"
 }

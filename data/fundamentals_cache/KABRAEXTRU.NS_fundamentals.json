@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KABRAEXTRU.NS",
-    "fetch_date": "2026-10-15T16:27:41.750132",
+    "fetch_date": "2026-10-22T16:47:13.924374",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 859668000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 2.299,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:27:41.751048"
+  "fetched_at": "2026-10-22T16:47:13.925308"
 }

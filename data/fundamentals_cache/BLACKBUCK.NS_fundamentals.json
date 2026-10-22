@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLACKBUCK.NS",
-    "fetch_date": "2026-10-15T16:14:11.728199",
+    "fetch_date": "2026-10-22T16:33:39.548693",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1436100000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:14:11.729436"
+  "fetched_at": "2026-10-22T16:33:39.549468"
 }

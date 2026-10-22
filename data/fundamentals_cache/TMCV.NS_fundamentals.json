@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TMCV.NS",
-    "fetch_date": "2026-10-15T16:47:18.702821",
+    "fetch_date": "2026-10-22T17:06:50.914809",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 216890000000.0,
       "2025-06-30 00:00:00": 171920000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.265,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:47:18.703770"
+  "fetched_at": "2026-10-22T17:06:50.915666"
 }

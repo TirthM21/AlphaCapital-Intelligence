@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMSPHARMA.NS",
-    "fetch_date": "2026-10-15T16:43:39.820193",
+    "fetch_date": "2026-10-22T17:03:12.078016",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1960471000.0,
       "2025-09-30 00:00:00": 2424295000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.697,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:43:39.820983"
+  "fetched_at": "2026-10-22T17:03:12.078819"
 }

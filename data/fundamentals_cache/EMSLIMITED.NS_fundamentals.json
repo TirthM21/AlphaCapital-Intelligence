@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMSLIMITED.NS",
-    "fetch_date": "2026-10-15T16:19:32.710784",
+    "fetch_date": "2026-10-22T16:39:01.575744",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2388889000.0,
       "2025-09-30 00:00:00": 1724706000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.435,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:19:32.711628"
+  "fetched_at": "2026-10-22T16:39:01.576629"
 }

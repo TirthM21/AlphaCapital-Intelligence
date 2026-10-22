@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JGCHEM.NS",
-    "fetch_date": "2026-10-15T16:26:52.656734",
+    "fetch_date": "2026-10-22T16:46:24.656630",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2180130000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.291,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:26:52.657609"
+  "fetched_at": "2026-10-22T16:46:24.657570"
 }

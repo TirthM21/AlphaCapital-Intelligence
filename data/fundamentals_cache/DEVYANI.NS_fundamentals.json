@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DEVYANI.NS",
-    "fetch_date": "2026-10-15T16:17:51.576363",
+    "fetch_date": "2026-10-22T16:37:20.548921",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12125910000.0,
       "2025-06-30 00:00:00": 13569690000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.104,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:17:51.577117"
+  "fetched_at": "2026-10-22T16:37:20.549854"
 }

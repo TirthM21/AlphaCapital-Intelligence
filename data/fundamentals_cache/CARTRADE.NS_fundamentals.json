@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CARTRADE.NS",
-    "fetch_date": "2026-10-15T16:15:19.535029",
+    "fetch_date": "2026-10-22T16:34:47.689280",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1695138000.0,
       "2025-06-30 00:00:00": 1730397000.0,
@@ -23,5 +23,5 @@
     "operating_margin": 25.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:15:19.535614"
+  "fetched_at": "2026-10-22T16:34:47.689885"
 }

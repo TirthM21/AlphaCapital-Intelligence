@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GROWW.NS",
-    "fetch_date": "2026-10-15T16:22:41.614630",
+    "fetch_date": "2026-10-22T16:42:11.605458",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8010060000.0,
       "2025-06-30 00:00:00": 9044000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 63.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:22:41.615348"
+  "fetched_at": "2026-10-22T16:42:11.606217"
 }

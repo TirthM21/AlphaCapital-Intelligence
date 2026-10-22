@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RACE.NS",
-    "fetch_date": "2026-10-15T16:38:30.770994",
+    "fetch_date": "2026-10-22T16:58:02.743099",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1567260000.0,
       "2025-09-30 00:00:00": 1484303000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.015,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:38:30.771785"
+  "fetched_at": "2026-10-22T16:58:02.743819"
 }

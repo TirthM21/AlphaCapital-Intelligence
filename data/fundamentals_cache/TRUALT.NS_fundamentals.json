@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRUALT.NS",
-    "fetch_date": "2026-10-15T16:47:50.804059",
+    "fetch_date": "2026-10-22T17:07:23.029265",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 9069887000.0,
       "2025-06-30 00:00:00": 3038917000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.843,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:47:50.805096"
+  "fetched_at": "2026-10-22T17:07:23.030117"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECLERX.NS",
-    "fetch_date": "2026-10-15T16:18:54.662019",
+    "fetch_date": "2026-10-22T16:38:23.613556",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8982860000.0,
       "2025-06-30 00:00:00": 9345560000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:18:54.662883"
+  "fetched_at": "2026-10-22T16:38:23.614442"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WEWORK.NS",
-    "fetch_date": "2026-10-15T16:50:43.967162",
+    "fetch_date": "2026-10-22T17:10:16.000336",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5393670000.0,
       "2025-06-30 00:00:00": NaN,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:50:43.968002"
+  "fetched_at": "2026-10-22T17:10:16.001123"
 }

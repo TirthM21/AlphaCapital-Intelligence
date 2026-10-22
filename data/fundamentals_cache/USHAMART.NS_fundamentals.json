@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "USHAMART.NS",
-    "fetch_date": "2026-10-15T16:48:43.937687",
+    "fetch_date": "2026-10-22T17:08:15.831273",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8960800000.0,
       "2025-06-30 00:00:00": 8871900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.927,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:48:43.938542"
+  "fetched_at": "2026-10-22T17:08:15.832565"
 }

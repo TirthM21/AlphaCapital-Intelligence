@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WCIL.NS",
-    "fetch_date": "2026-10-15T16:50:30.824443",
+    "fetch_date": "2026-10-22T17:10:03.403566",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4158180000.0,
       "2025-09-30 00:00:00": 4396150000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:50:30.825110"
+  "fetched_at": "2026-10-22T17:10:03.404227"
 }

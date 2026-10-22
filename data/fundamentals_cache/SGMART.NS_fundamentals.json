@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SGMART.NS",
-    "fetch_date": "2026-10-15T16:42:03.852410",
+    "fetch_date": "2026-10-22T17:01:36.019228",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 15950300000.0,
       "2025-06-30 00:00:00": 11437700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.217,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:42:03.853215"
+  "fetched_at": "2026-10-22T17:01:36.020107"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAILIFE.NS",
-    "fetch_date": "2026-10-15T16:40:45.794586",
+    "fetch_date": "2026-10-22T17:00:17.826616",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5795070000.0,
       "2025-06-30 00:00:00": 4964190000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.272,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:40:45.795427"
+  "fetched_at": "2026-10-22T17:00:17.827569"
 }

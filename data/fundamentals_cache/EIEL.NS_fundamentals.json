@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EIEL.NS",
-    "fetch_date": "2026-10-15T16:19:01.649102",
+    "fetch_date": "2026-10-22T16:38:30.538497",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3929163000.0,
       "2025-06-30 00:00:00": 2409202000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.093,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:19:01.649964"
+  "fetched_at": "2026-10-22T16:38:30.539417"
 }

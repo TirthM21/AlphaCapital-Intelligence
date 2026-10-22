@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GEEKAYWIRE.NS",
-    "fetch_date": "2026-10-15T16:21:15.670039",
+    "fetch_date": "2026-10-22T16:40:45.543830",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 917379000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:21:15.670793"
+  "fetched_at": "2026-10-22T16:40:45.544700"
 }

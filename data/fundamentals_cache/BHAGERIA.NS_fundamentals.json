@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BHAGERIA.NS",
-    "fetch_date": "2026-10-15T16:13:46.630543",
+    "fetch_date": "2026-10-22T16:33:14.673355",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1826265000.0,
       "2025-06-30 00:00:00": 1574837000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.195,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:13:46.631269"
+  "fetched_at": "2026-10-22T16:33:14.674265"
 }

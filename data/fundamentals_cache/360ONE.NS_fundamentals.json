@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "360ONE.NS",
-    "fetch_date": "2026-10-15T16:08:05.643400",
+    "fetch_date": "2026-10-22T16:27:33.432316",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 7211200000.0,
       "2025-06-30 00:00:00": 6627800000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 44.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:08:05.644151"
+  "fetched_at": "2026-10-22T16:27:33.433152"
 }

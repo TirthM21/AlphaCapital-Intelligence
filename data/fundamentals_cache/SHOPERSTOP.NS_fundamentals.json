@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHOPERSTOP.NS",
-    "fetch_date": "2026-10-15T16:42:39.797936",
+    "fetch_date": "2026-10-22T17:02:11.876328",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10640000000.0,
       "2025-06-30 00:00:00": 11610800000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.626,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:42:39.798729"
+  "fetched_at": "2026-10-22T17:02:11.877165"
 }

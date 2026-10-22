@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAJOOENG.NS",
-    "fetch_date": "2026-10-15T16:38:42.821095",
+    "fetch_date": "2026-10-22T16:58:14.799647",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 898962000.0,
       "2025-06-30 00:00:00": 850732000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.665,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:38:42.822955"
+  "fetched_at": "2026-10-22T16:58:14.800439"
 }

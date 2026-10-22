@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PIRAMALFIN.NS",
-    "fetch_date": "2026-10-15T16:37:04.713035",
+    "fetch_date": "2026-10-22T16:56:36.907567",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 23981400000.0,
       "2025-06-30 00:00:00": 25105800000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 21.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:37:04.713593"
+  "fetched_at": "2026-10-22T16:56:36.908454"
 }

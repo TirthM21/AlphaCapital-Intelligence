@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VINEETLAB.NS",
-    "fetch_date": "2026-10-15T16:49:40.821295",
+    "fetch_date": "2026-10-22T17:09:13.079493",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 140765000.0,
       "2025-06-30 00:00:00": 74418000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 3.393,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:49:40.822163"
+  "fetched_at": "2026-10-22T17:09:13.080290"
 }

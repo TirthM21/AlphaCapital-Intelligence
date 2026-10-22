@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JSWINFRA.NS",
-    "fetch_date": "2026-10-15T16:27:26.778335",
+    "fetch_date": "2026-10-22T16:46:58.661776",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12831800000.0,
       "2025-06-30 00:00:00": 12238500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.102,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:27:26.779375"
+  "fetched_at": "2026-10-22T16:46:58.662751"
 }

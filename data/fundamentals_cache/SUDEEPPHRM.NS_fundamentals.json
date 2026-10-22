@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUDEEPPHRM.NS",
-    "fetch_date": "2026-10-15T16:44:49.777324",
+    "fetch_date": "2026-10-22T17:04:21.782369",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1575465000.0,
       "2025-06-30 00:00:00": 1249175000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.365,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:44:49.778119"
+  "fetched_at": "2026-10-22T17:04:21.783127"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WELCORP.NS",
-    "fetch_date": "2026-10-15T16:50:35.857582",
+    "fetch_date": "2026-10-22T17:10:07.973793",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 39249700000.0,
       "2025-06-30 00:00:00": 35514900000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.141,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:50:35.858478"
+  "fetched_at": "2026-10-22T17:10:07.974596"
 }

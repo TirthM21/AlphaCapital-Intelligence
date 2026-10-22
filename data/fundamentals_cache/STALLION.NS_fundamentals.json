@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STALLION.NS",
-    "fetch_date": "2026-10-15T16:44:22.862885",
+    "fetch_date": "2026-10-22T17:03:54.747380",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1104719000.0,
       "2025-09-30 00:00:00": 1055641000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:44:22.863731"
+  "fetched_at": "2026-10-22T17:03:54.748205"
 }

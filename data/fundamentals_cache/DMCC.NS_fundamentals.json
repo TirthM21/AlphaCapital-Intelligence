@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DMCC.NS",
-    "fetch_date": "2026-10-15T16:18:21.734275",
+    "fetch_date": "2026-10-22T16:37:50.654248",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1270429000.0,
       "2025-09-30 00:00:00": 1260312000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.363,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:18:21.735134"
+  "fetched_at": "2026-10-22T16:37:50.655202"
 }

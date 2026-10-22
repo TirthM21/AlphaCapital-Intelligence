@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MEESHO.NS",
-    "fetch_date": "2026-10-15T16:32:03.645507",
+    "fetch_date": "2026-10-22T16:51:35.785991",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 25038660000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -6.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:32:03.646110"
+  "fetched_at": "2026-10-22T16:51:35.786635"
 }

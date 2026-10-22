@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VTL.NS",
-    "fetch_date": "2026-10-15T16:50:19.741390",
+    "fetch_date": "2026-10-22T17:09:52.015322",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 25085700000.0,
       "2025-06-30 00:00:00": 23856600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.348,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:50:19.742173"
+  "fetched_at": "2026-10-22T17:09:52.016089"
 }

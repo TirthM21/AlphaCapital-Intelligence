@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STEELXIND.NS",
-    "fetch_date": "2026-10-15T16:44:33.767131",
+    "fetch_date": "2026-10-22T17:04:05.942254",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2999989000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.467,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:44:33.767947"
+  "fetched_at": "2026-10-22T17:04:05.943116"
 }

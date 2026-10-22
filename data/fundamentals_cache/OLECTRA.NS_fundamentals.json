@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OLECTRA.NS",
-    "fetch_date": "2026-10-15T16:35:19.796703",
+    "fetch_date": "2026-10-22T16:54:51.812784",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3472235000.0,
       "2025-09-30 00:00:00": 6566234000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.429,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:35:19.797432"
+  "fetched_at": "2026-10-22T16:54:51.813551"
 }

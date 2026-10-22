@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMSUGAR.NS",
-    "fetch_date": "2026-10-15T16:28:46.695929",
+    "fetch_date": "2026-10-22T16:48:18.857702",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2082300000.0,
       "2025-09-30 00:00:00": 1750800000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.005,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:28:46.696800"
+  "fetched_at": "2026-10-22T16:48:18.858648"
 }

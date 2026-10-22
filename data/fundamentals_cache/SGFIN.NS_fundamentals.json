@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SGFIN.NS",
-    "fetch_date": "2026-10-15T16:41:59.747511",
+    "fetch_date": "2026-10-22T17:01:31.891320",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 540931000.0,
       "2025-06-30 00:00:00": 672492000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 92.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:41:59.748205"
+  "fetched_at": "2026-10-22T17:01:31.891956"
 }

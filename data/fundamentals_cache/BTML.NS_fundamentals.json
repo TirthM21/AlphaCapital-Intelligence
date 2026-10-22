@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BTML.NS",
-    "fetch_date": "2026-10-15T16:14:56.509173",
+    "fetch_date": "2026-10-22T16:34:24.737458",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 181230000.0,
       "2025-09-30 00:00:00": 234018000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.832,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:14:56.509954"
+  "fetched_at": "2026-10-22T16:34:24.738408"
 }

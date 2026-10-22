@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUNJALAU.NS",
-    "fetch_date": "2026-10-15T16:33:23.701021",
+    "fetch_date": "2026-10-22T16:52:55.794421",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 4910152000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.405,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:33:23.701884"
+  "fetched_at": "2026-10-22T16:52:55.795372"
 }

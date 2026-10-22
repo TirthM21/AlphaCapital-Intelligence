@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEGA.NS",
-    "fetch_date": "2026-10-15T16:46:34.804505",
+    "fetch_date": "2026-10-22T17:06:06.825571",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3560920000.0,
       "2025-09-30 00:00:00": 4053540000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.254,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:46:34.805352"
+  "fetched_at": "2026-10-22T17:06:06.826397"
 }

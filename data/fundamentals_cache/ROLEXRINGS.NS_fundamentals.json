@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROLEXRINGS.NS",
-    "fetch_date": "2026-10-15T16:39:52.756463",
+    "fetch_date": "2026-10-22T16:59:24.826699",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2915830000.0,
       "2025-09-30 00:00:00": 2713830000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.772,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:39:52.757334"
+  "fetched_at": "2026-10-22T16:59:24.827462"
 }

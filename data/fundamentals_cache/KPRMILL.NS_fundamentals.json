@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KPRMILL.NS",
-    "fetch_date": "2026-10-15T16:29:06.669784",
+    "fetch_date": "2026-10-22T16:48:38.779450",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 17009500000.0,
       "2025-06-30 00:00:00": 16864000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.994,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:29:06.670653"
+  "fetched_at": "2026-10-22T16:48:38.780446"
 }

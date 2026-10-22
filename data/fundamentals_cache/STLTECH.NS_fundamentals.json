@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STLTECH.NS",
-    "fetch_date": "2026-10-15T16:44:38.942836",
+    "fetch_date": "2026-10-22T17:04:10.925933",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10520000000.0,
       "2025-06-30 00:00:00": 10190000000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.474,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:44:38.943680"
+  "fetched_at": "2026-10-22T17:04:10.926732"
 }

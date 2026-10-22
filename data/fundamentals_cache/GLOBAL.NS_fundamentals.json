@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GLOBAL.NS",
-    "fetch_date": "2026-10-15T16:21:44.653922",
+    "fetch_date": "2026-10-22T16:41:14.773779",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 148285000.0,
       "2025-09-30 00:00:00": 259167000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.308,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:21:44.654773"
+  "fetched_at": "2026-10-22T16:41:14.774665"
 }

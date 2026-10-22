@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVALON.NS",
-    "fetch_date": "2026-10-15T16:12:18.617215",
+    "fetch_date": "2026-10-22T16:31:46.476848",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3233080000.0,
       "2025-09-30 00:00:00": 3824640000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.956,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:12:18.618024"
+  "fetched_at": "2026-10-22T16:31:46.477778"
 }
