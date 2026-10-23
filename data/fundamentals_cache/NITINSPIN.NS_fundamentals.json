@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NITINSPIN.NS",
-    "fetch_date": "2026-10-16T16:22:28.516285",
+    "fetch_date": "2026-10-23T16:43:43.911621",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7933132000.0,
       "2025-09-30 00:00:00": 7600831000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.694,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T16:22:28.518172"
+  "fetched_at": "2026-10-23T16:43:43.912941"
 }
