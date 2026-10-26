@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHIVAMAUTO.NS",
-    "fetch_date": "2026-10-15T16:42:34.803072",
+    "fetch_date": "2026-10-26T18:39:57.449602",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 907315000.0,
       "2025-09-30 00:00:00": 1132336000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.748,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:42:34.803847"
+  "fetched_at": "2026-10-26T18:39:57.451369"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QUICKHEAL.NS",
-    "fetch_date": "2026-10-16T16:26:14.574794",
+    "fetch_date": "2026-10-26T18:35:48.431162",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 651400000.0,
       "2025-06-30 00:00:00": 572300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.058,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T16:26:14.576520"
+  "fetched_at": "2026-10-26T18:35:48.432895"
 }

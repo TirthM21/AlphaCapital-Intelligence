@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PATANJALI.NS",
-    "fetch_date": "2026-10-15T16:36:26.848318",
+    "fetch_date": "2026-10-26T18:33:47.410748",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 95119455000.0,
       "2025-06-30 00:00:00": 87660253000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.642,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:36:26.849056"
+  "fetched_at": "2026-10-26T18:33:47.412487"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REMSONSIND.NS",
-    "fetch_date": "2026-10-15T16:39:24.797970",
+    "fetch_date": "2026-10-26T18:36:46.491567",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 996306000.0,
       "2025-09-30 00:00:00": 1155850000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.659,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:39:24.800820"
+  "fetched_at": "2026-10-26T18:36:46.493330"
 }

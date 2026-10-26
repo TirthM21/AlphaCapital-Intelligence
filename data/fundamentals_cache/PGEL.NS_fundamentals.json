@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PGEL.NS",
-    "fetch_date": "2026-10-15T16:36:49.756659",
+    "fetch_date": "2026-10-26T18:34:10.511498",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 15038504000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.787,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:36:49.757448"
+  "fetched_at": "2026-10-26T18:34:10.513244"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STANLEY.NS",
-    "fetch_date": "2026-10-16T16:32:10.602385",
+    "fetch_date": "2026-10-26T18:41:49.343869",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1086700000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.363,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T16:32:10.604302"
+  "fetched_at": "2026-10-26T18:41:49.345647"
 }

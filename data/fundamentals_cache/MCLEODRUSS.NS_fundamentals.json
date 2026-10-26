@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCLEODRUSS.NS",
-    "fetch_date": "2026-10-15T16:31:54.824632",
+    "fetch_date": "2026-10-26T18:29:13.445729",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2157600000.0,
       "2025-09-30 00:00:00": 3628300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.471,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:31:54.825504"
+  "fetched_at": "2026-10-26T18:29:13.447528"
 }

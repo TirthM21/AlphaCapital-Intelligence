@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VESUVIUS.NS",
-    "fetch_date": "2026-10-12T21:27:00.183237",
+    "fetch_date": "2026-10-26T18:46:49.730123",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5235300000.0,
       "2025-09-30 00:00:00": 5462400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.605,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-12T21:27:00.184797"
+  "fetched_at": "2026-10-26T18:46:49.731859"
 }

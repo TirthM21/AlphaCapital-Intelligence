@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BSE.NS",
-    "fetch_date": "2026-10-15T16:14:52.492452",
+    "fetch_date": "2026-10-26T18:12:00.163425",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 9579500000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 64.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:14:52.493103"
+  "fetched_at": "2026-10-26T18:12:00.164891"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUCHINFRA.NS",
-    "fetch_date": "2026-10-16T16:28:08.491768",
+    "fetch_date": "2026-10-26T18:37:43.499039",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 165300000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T16:28:08.493665"
+  "fetched_at": "2026-10-26T18:37:43.500817"
 }
