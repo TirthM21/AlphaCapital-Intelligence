@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DPWIRES.NS",
-    "fetch_date": "2026-10-20T16:22:10.250197",
+    "fetch_date": "2026-10-27T17:25:14.741377",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1261353000.0,
       "2025-09-30 00:00:00": 1300482000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T16:22:10.252355"
+  "fetched_at": "2026-10-27T17:25:14.743205"
 }
