@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NIBE.NS",
-    "fetch_date": "2026-10-21T16:54:00.997540",
+    "fetch_date": "2026-10-28T18:13:29.537597",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 824992000.0,
       "2025-09-30 00:00:00": 733679000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.638,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T16:54:00.999387"
+  "fetched_at": "2026-10-28T18:13:29.539390"
 }

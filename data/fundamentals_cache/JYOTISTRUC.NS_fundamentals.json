@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JYOTISTRUC.NS",
-    "fetch_date": "2026-10-19T18:30:01.961043",
+    "fetch_date": "2026-10-28T18:06:44.722143",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1561600000.0,
       "2025-09-30 00:00:00": 1506000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.581,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:30:01.962858"
+  "fetched_at": "2026-10-28T18:06:44.723958"
 }

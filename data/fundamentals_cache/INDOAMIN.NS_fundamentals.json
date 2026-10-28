@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDOAMIN.NS",
-    "fetch_date": "2026-10-21T16:45:04.955412",
+    "fetch_date": "2026-10-28T18:04:31.623191",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2875853000.0,
       "2025-09-30 00:00:00": 2770451000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.476,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T16:45:04.957327"
+  "fetched_at": "2026-10-28T18:04:31.625024"
 }

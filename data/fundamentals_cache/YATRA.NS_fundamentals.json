@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YATRA.NS",
-    "fetch_date": "2026-10-19T18:53:34.150124",
+    "fetch_date": "2026-10-28T18:30:14.880161",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2098140000.0,
       "2025-09-30 00:00:00": 3508690000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0.67,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:53:34.151535"
+  "fetched_at": "2026-10-28T18:30:14.881558"
 }
