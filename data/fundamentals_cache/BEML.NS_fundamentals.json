@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BEML.NS",
-    "fetch_date": "2026-10-22T16:33:03.551382",
+    "fetch_date": "2026-10-30T17:42:48.119544",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 16525300000.0,
       "2025-06-30 00:00:00": 6339900000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 2.853,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:33:03.552288"
+  "fetched_at": "2026-10-30T17:42:48.121294"
 }

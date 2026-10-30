@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCX.NS",
-    "fetch_date": "2026-10-22T16:51:28.970233",
+    "fetch_date": "2026-10-30T18:01:18.271213",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2913300000.0,
       "2025-06-30 00:00:00": 3732100000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 67.42,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:51:28.971012"
+  "fetched_at": "2026-10-30T18:01:18.272588"
 }

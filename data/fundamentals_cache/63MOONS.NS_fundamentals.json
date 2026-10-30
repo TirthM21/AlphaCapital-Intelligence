@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "63MOONS.NS",
-    "fetch_date": "2026-10-22T16:27:39.708391",
+    "fetch_date": "2026-10-30T17:37:22.878055",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 135429000.0,
       "2025-06-30 00:00:00": 303264000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -59.32,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:27:39.709154"
+  "fetched_at": "2026-10-30T17:37:22.879440"
 }

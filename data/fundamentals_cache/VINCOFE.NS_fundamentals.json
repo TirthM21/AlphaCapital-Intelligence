@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VINCOFE.NS",
-    "fetch_date": "2026-10-22T17:09:10.823487",
+    "fetch_date": "2026-10-30T18:19:04.314860",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1016051000.0,
       "2025-09-30 00:00:00": 1356103000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.644,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:09:10.824268"
+  "fetched_at": "2026-10-30T18:19:04.316613"
 }

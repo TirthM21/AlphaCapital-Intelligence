@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NYKAA.NS",
-    "fetch_date": "2026-10-22T16:54:39.725835",
+    "fetch_date": "2026-10-30T18:04:29.069119",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 21549400000.0,
       "2025-09-30 00:00:00": 23459800000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:54:39.726596"
+  "fetched_at": "2026-10-30T18:04:29.070857"
 }

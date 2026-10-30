@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAREYDRUGS.NS",
-    "fetch_date": "2026-10-22T16:27:44.613846",
+    "fetch_date": "2026-10-30T17:37:27.836891",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1022083000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.931,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:27:44.614767"
+  "fetched_at": "2026-10-30T17:37:27.838750"
 }

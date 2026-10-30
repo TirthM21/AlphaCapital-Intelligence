@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANOMAY.NS",
-    "fetch_date": "2026-10-22T16:50:54.760739",
+    "fetch_date": "2026-10-30T18:00:44.139967",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1639367000.0,
       "2025-09-30 00:00:00": 1661535000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.194,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:50:54.761666"
+  "fetched_at": "2026-10-30T18:00:44.141754"
 }

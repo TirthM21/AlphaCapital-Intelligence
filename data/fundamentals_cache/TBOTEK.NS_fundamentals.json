@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TBOTEK.NS",
-    "fetch_date": "2026-10-22T17:05:50.893600",
+    "fetch_date": "2026-10-30T18:15:43.155906",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4461290000.0,
       "2025-06-30 00:00:00": 5112780000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 11.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:05:50.894252"
+  "fetched_at": "2026-10-30T18:15:43.157221"
 }

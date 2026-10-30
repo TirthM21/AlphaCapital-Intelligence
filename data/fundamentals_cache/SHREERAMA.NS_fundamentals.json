@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHREERAMA.NS",
-    "fetch_date": "2026-10-19T18:45:12.094041",
+    "fetch_date": "2026-10-30T18:12:09.107097",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 551731000.0,
       "2025-09-30 00:00:00": 616532000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.529,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:45:12.095869"
+  "fetched_at": "2026-10-30T18:12:09.108928"
 }

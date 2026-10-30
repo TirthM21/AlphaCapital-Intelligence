@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVL.NS",
-    "fetch_date": "2026-10-22T16:31:51.397833",
+    "fetch_date": "2026-10-30T17:41:35.905610",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9402300000.0,
       "2025-09-30 00:00:00": 4575000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.705,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:31:51.398753"
+  "fetched_at": "2026-10-30T17:41:35.907429"
 }

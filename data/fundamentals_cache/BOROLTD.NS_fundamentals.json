@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BOROLTD.NS",
-    "fetch_date": "2026-10-22T16:34:05.754827",
+    "fetch_date": "2026-10-30T17:43:51.863971",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2326897000.0,
       "2025-09-30 00:00:00": 3403600000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.444,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:34:05.755627"
+  "fetched_at": "2026-10-30T17:43:51.865838"
 }

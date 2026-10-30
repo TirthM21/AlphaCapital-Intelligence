@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBCL.NS",
-    "fetch_date": "2026-10-22T17:00:58.022937",
+    "fetch_date": "2026-10-30T18:10:47.236610",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1365968000.0,
       "2025-09-30 00:00:00": 1374025000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:00:58.023724"
+  "fetched_at": "2026-10-30T18:10:47.238349"
 }

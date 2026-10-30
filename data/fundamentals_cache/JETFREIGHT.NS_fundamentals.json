@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JETFREIGHT.NS",
-    "fetch_date": "2026-10-22T16:46:23.776396",
+    "fetch_date": "2026-10-30T17:56:11.116185",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1197228000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 3.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:46:23.777161"
+  "fetched_at": "2026-10-30T17:56:11.117577"
 }

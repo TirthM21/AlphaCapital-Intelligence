@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALRAMCHIN.NS",
-    "fetch_date": "2026-10-22T16:32:29.527915",
+    "fetch_date": "2026-10-30T17:42:14.211185",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 15422745000.0,
       "2025-09-30 00:00:00": 16707634000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.915,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:32:29.528835"
+  "fetched_at": "2026-10-30T17:42:14.212953"
 }

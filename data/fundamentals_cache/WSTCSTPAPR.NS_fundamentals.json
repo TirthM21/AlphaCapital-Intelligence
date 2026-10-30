@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WSTCSTPAPR.NS",
-    "fetch_date": "2026-10-22T17:10:30.019178",
+    "fetch_date": "2026-10-30T18:20:23.128103",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9546461000.0,
       "2025-09-30 00:00:00": 10430222000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.768,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:10:30.019932"
+  "fetched_at": "2026-10-30T18:20:23.129980"
 }

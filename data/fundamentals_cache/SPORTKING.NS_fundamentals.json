@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPORTKING.NS",
-    "fetch_date": "2026-10-22T17:03:41.885422",
+    "fetch_date": "2026-10-30T18:13:33.200005",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5858008000.0,
       "2025-09-30 00:00:00": 6273912000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.556,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:03:41.886479"
+  "fetched_at": "2026-10-30T18:13:33.201758"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GPPL.NS",
-    "fetch_date": "2026-10-22T16:41:51.757610",
+    "fetch_date": "2026-10-30T17:51:38.106825",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2515980000.0,
       "2025-06-30 00:00:00": 2501300000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.036,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:41:51.758626"
+  "fetched_at": "2026-10-30T17:51:38.108626"
 }

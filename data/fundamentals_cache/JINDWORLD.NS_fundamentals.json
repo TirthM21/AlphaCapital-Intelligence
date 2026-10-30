@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JINDWORLD.NS",
-    "fetch_date": "2026-10-22T16:46:31.727140",
+    "fetch_date": "2026-10-30T17:56:19.107926",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5398974000.0,
       "2025-09-30 00:00:00": 5733446000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.542,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:46:31.728054"
+  "fetched_at": "2026-10-30T17:56:19.109637"
 }

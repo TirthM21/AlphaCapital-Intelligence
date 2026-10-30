@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TDPOWERSYS.NS",
-    "fetch_date": "2026-10-22T17:05:59.037486",
+    "fetch_date": "2026-10-30T18:15:51.189682",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3482075000.0,
       "2025-06-30 00:00:00": 3718985000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.786,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:05:59.038282"
+  "fetched_at": "2026-10-30T18:15:51.191402"
 }

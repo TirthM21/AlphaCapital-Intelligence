@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PANAMAPET.NS",
-    "fetch_date": "2026-10-22T16:55:41.982398",
+    "fetch_date": "2026-10-30T18:05:29.967583",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6932200000.0,
       "2025-09-30 00:00:00": 7732200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.385,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:55:41.983188"
+  "fetched_at": "2026-10-30T18:05:29.969339"
 }

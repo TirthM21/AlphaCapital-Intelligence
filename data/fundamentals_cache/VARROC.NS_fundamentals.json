@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VARROC.NS",
-    "fetch_date": "2026-10-22T17:08:34.944472",
+    "fetch_date": "2026-10-30T18:18:28.396726",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 20275510000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.354,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:08:34.945350"
+  "fetched_at": "2026-10-30T18:18:28.398545"
 }

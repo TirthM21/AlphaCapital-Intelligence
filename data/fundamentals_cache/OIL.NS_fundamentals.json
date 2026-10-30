@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OIL.NS",
-    "fetch_date": "2026-10-22T16:54:47.951188",
+    "fetch_date": "2026-10-30T18:04:37.074153",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 79286600000.0,
       "2025-09-30 00:00:00": 83941100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.438,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:54:47.951992"
+  "fetched_at": "2026-10-30T18:04:37.075895"
 }

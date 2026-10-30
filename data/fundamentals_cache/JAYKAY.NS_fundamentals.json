@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAYKAY.NS",
-    "fetch_date": "2026-10-22T16:46:19.074966",
+    "fetch_date": "2026-10-30T17:56:06.083767",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 554535000.0,
       "2025-09-30 00:00:00": 630656000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.569,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:46:19.075914"
+  "fetched_at": "2026-10-30T17:56:06.085533"
 }

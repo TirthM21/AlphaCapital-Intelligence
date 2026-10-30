@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NHPC.NS",
-    "fetch_date": "2026-10-19T18:36:46.055055",
+    "fetch_date": "2026-10-30T18:03:44.170349",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 23469700000.0,
       "2025-06-30 00:00:00": 32137700000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.077,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:36:46.056810"
+  "fetched_at": "2026-10-30T18:03:44.172138"
 }

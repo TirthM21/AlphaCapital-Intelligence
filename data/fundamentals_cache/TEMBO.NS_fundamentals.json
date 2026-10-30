@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEMBO.NS",
-    "fetch_date": "2026-10-22T17:06:09.252996",
+    "fetch_date": "2026-10-30T18:16:01.220826",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2481226000.0,
       "2025-09-30 00:00:00": 2454052000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.607,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:06:09.253820"
+  "fetched_at": "2026-10-30T18:16:01.222564"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRLLOG.NS",
-    "fetch_date": "2026-10-22T17:09:46.999547",
+    "fetch_date": "2026-10-30T18:19:40.330808",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8090300000.0,
       "2025-06-30 00:00:00": 7443400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:09:47.000329"
+  "fetched_at": "2026-10-30T18:19:40.332576"
 }

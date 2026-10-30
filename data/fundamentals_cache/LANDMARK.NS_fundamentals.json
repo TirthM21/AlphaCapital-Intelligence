@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LANDMARK.NS",
-    "fetch_date": "2026-10-22T16:49:16.740696",
+    "fetch_date": "2026-10-30T17:59:06.149527",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 10617200000.0,
       "2025-09-30 00:00:00": 12109170000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.517,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:49:16.741603"
+  "fetched_at": "2026-10-30T17:59:06.151262"
 }

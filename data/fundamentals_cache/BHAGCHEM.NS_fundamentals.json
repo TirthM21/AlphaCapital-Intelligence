@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BHAGCHEM.NS",
-    "fetch_date": "2026-10-22T16:33:13.543280",
+    "fetch_date": "2026-10-30T17:42:58.014401",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1237778000.0,
       "2025-09-30 00:00:00": 1400972000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.747,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:33:13.544196"
+  "fetched_at": "2026-10-30T17:42:58.016154"
 }

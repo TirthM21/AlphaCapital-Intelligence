@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JINDALPOLY.NS",
-    "fetch_date": "2026-10-23T16:35:58.888317",
+    "fetch_date": "2026-10-30T17:56:15.078647",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 10834069000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.898,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T16:35:58.889643"
+  "fetched_at": "2026-10-30T17:56:15.080404"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASKAUTOLTD.NS",
-    "fetch_date": "2026-10-22T16:31:14.765790",
+    "fetch_date": "2026-10-30T17:40:59.019577",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8496700000.0,
       "2025-06-30 00:00:00": 8912900000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.228,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:31:14.766709"
+  "fetched_at": "2026-10-30T17:40:59.021418"
 }

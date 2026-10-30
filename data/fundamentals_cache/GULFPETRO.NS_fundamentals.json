@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GULFPETRO.NS",
-    "fetch_date": "2026-10-23T16:32:02.768207",
+    "fetch_date": "2026-10-30T17:52:18.089347",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1582973000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.389,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T16:32:02.769447"
+  "fetched_at": "2026-10-30T17:52:18.091128"
 }

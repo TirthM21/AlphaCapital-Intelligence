@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIKKO.NS",
-    "fetch_date": "2026-10-22T17:02:42.990185",
+    "fetch_date": "2026-10-30T18:12:33.203239",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 181018000.0,
       "2025-09-30 00:00:00": 192007000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:02:42.990968"
+  "fetched_at": "2026-10-30T18:12:33.205000"
 }

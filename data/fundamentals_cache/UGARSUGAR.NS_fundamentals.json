@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UGARSUGAR.NS",
-    "fetch_date": "2026-10-22T17:07:46.829142",
+    "fetch_date": "2026-10-30T18:17:40.273292",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3563405000.0,
       "2025-09-30 00:00:00": 4173861000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.466,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:07:46.829891"
+  "fetched_at": "2026-10-30T18:17:40.275161"
 }

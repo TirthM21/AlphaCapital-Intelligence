@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPARC.NS",
-    "fetch_date": "2026-10-22T17:03:33.141680",
+    "fetch_date": "2026-10-30T18:13:24.151299",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 96400000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -90.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:03:33.142311"
+  "fetched_at": "2026-10-30T18:13:24.152643"
 }

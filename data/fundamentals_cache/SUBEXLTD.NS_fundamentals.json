@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUBEXLTD.NS",
-    "fetch_date": "2026-10-22T17:04:17.883455",
+    "fetch_date": "2026-10-30T18:14:09.055236",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 664000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.61,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:04:17.884086"
+  "fetched_at": "2026-10-30T18:14:09.056560"
 }

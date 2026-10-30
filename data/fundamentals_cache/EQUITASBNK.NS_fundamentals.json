@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EQUITASBNK.NS",
-    "fetch_date": "2026-10-22T16:39:15.645405",
+    "fetch_date": "2026-10-30T17:49:02.132939",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 10548705000.0,
       "2025-06-30 00:00:00": 10774343000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 332.4324324324324,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:39:15.645852"
+  "fetched_at": "2026-10-30T17:49:02.133572"
 }

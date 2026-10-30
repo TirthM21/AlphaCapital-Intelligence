@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NEOGEN.NS",
-    "fetch_date": "2026-10-22T16:53:40.833514",
+    "fetch_date": "2026-10-30T18:03:30.190083",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1867300000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 2.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T16:53:40.834288"
+  "fetched_at": "2026-10-30T18:03:30.191877"
 }
