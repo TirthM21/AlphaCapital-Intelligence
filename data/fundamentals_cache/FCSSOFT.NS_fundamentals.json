@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FCSSOFT.NS",
-    "fetch_date": "2026-08-27T21:47:52.128412",
+    "fetch_date": "2026-11-02T21:29:02.088693",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 88058000.0,
       "2025-09-30 00:00:00": 82140000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.042,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T21:47:52.130339"
+  "fetched_at": "2026-11-02T21:29:02.089960"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRECAM.NS",
-    "fetch_date": "2026-10-19T18:40:10.972603",
+    "fetch_date": "2026-11-02T21:46:45.355933",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1950033000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.437,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:40:10.974378"
+  "fetched_at": "2026-11-02T21:46:45.357206"
 }

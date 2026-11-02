@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UGROCAP.NS",
-    "fetch_date": "2026-10-19T18:50:43.179374",
+    "fetch_date": "2026-11-02T21:57:21.412046",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3221855000.0,
       "2025-09-30 00:00:00": 3489403000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 1.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:50:43.180717"
+  "fetched_at": "2026-11-02T21:57:21.413047"
 }

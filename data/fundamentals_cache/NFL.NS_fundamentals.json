@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NFL.NS",
-    "fetch_date": "2026-10-19T18:36:42.005043",
+    "fetch_date": "2026-11-02T21:43:15.400095",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 35341700000.0,
       "2025-09-30 00:00:00": 67630700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.241,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:36:42.006847"
+  "fetched_at": "2026-11-02T21:43:15.401343"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPENCERS.NS",
-    "fetch_date": "2026-10-19T18:46:32.097286",
+    "fetch_date": "2026-11-02T21:53:08.243162",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4158382000.0,
       "2025-09-30 00:00:00": 4451456000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.392,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:46:32.099056"
+  "fetched_at": "2026-11-02T21:53:08.244412"
 }

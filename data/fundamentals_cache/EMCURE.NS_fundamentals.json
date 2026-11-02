@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMCURE.NS",
-    "fetch_date": "2026-10-23T16:28:25.843817",
+    "fetch_date": "2026-11-02T21:28:13.219908",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 21005370000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.929,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T16:28:25.845361"
+  "fetched_at": "2026-11-02T21:28:13.221183"
 }

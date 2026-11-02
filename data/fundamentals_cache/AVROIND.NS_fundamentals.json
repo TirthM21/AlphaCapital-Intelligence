@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVROIND.NS",
-    "fetch_date": "2026-09-28T19:10:47.407625",
+    "fetch_date": "2026-11-02T21:21:04.049327",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 216681000.0,
       "2025-09-30 00:00:00": 209021000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.783,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-28T19:10:47.409400"
+  "fetched_at": "2026-11-02T21:21:04.050567"
 }

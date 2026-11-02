@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOLARINDS.NS",
-    "fetch_date": "2026-10-19T18:46:11.269671",
+    "fetch_date": "2026-11-02T21:52:47.373450",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 21544500000.0,
       "2025-09-30 00:00:00": 20822200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.475,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:46:11.271431"
+  "fetched_at": "2026-11-02T21:52:47.374733"
 }

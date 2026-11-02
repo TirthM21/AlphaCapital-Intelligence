@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RTNINDIA.NS",
-    "fetch_date": "2026-10-19T18:42:40.140918",
+    "fetch_date": "2026-11-02T21:49:14.325140",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 17010650000.0,
       "2025-09-30 00:00:00": 21218560000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.537,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:42:40.142656"
+  "fetched_at": "2026-11-02T21:49:14.326403"
 }

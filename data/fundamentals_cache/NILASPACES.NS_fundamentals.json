@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NILASPACES.NS",
-    "fetch_date": "2026-10-19T18:36:54.060729",
+    "fetch_date": "2026-11-02T21:43:27.148982",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 408328000.0,
       "2025-09-30 00:00:00": 421835000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 5.467,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:36:54.062512"
+  "fetched_at": "2026-11-02T21:43:27.150219"
 }

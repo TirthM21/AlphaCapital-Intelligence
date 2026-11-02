@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HLVLTD.NS",
-    "fetch_date": "2026-08-27T21:51:50.724774",
+    "fetch_date": "2026-11-02T21:33:07.157493",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 407400000.0,
       "2025-09-30 00:00:00": 358300000.0,
@@ -26,11 +26,11 @@
     "quarterly_inventory": {
       "2025-03-31 00:00:00": 82615000.0,
       "2025-09-30 00:00:00": 76000000.0,
-      "2026-03-31 00:00:00": 84400000.0
+      "2026-03-31 00:00:00": 84449000.0
     },
-    "inventory_qoq_change": 11.05,
+    "inventory_qoq_change": 11.12,
     "inventory_to_sales_ratio": 0.181,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T21:51:50.726576"
+  "fetched_at": "2026-11-02T21:33:07.158761"
 }

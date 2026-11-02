@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JKLAKSHMI.NS",
-    "fetch_date": "2026-08-27T21:54:40.769003",
+    "fetch_date": "2026-11-02T21:36:00.136308",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 18976200000.0,
       "2025-06-30 00:00:00": 17409300000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.339,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T21:54:40.770805"
+  "fetched_at": "2026-11-02T21:36:00.137564"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MMTC.NS",
-    "fetch_date": "2026-10-19T18:34:58.914641",
+    "fetch_date": "2026-11-02T21:41:32.365991",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 13600000.0,
       "2025-09-30 00:00:00": 11000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:34:58.916396"
+  "fetched_at": "2026-11-02T21:41:32.367214"
 }

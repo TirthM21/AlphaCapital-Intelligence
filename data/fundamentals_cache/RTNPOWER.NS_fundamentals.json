@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RTNPOWER.NS",
-    "fetch_date": "2026-10-19T18:42:41.184398",
+    "fetch_date": "2026-11-02T21:49:15.356194",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 9362500000.0,
       "2025-06-30 00:00:00": 8219600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.253,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:42:41.186161"
+  "fetched_at": "2026-11-02T21:49:15.357435"
 }

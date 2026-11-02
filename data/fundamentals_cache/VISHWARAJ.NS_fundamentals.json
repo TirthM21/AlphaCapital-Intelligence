@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VISHWARAJ.NS",
-    "fetch_date": "2026-10-26T18:47:22.580208",
+    "fetch_date": "2026-11-02T21:59:00.394727",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1330588000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.373,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-26T18:47:22.581930"
+  "fetched_at": "2026-11-02T21:59:00.395965"
 }

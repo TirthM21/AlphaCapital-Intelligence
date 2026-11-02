@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAKSOFT.NS",
-    "fetch_date": "2026-10-19T18:43:14.040427",
+    "fetch_date": "2026-11-02T21:49:48.447994",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2490745000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 16.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:43:14.041795"
+  "fetched_at": "2026-11-02T21:49:48.448977"
 }

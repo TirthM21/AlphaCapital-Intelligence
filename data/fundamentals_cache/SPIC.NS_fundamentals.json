@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPIC.NS",
-    "fetch_date": "2026-10-19T18:46:33.180416",
+    "fetch_date": "2026-11-02T21:53:09.310847",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 7771400000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.111,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:46:33.182190"
+  "fetched_at": "2026-11-02T21:53:09.312119"
 }

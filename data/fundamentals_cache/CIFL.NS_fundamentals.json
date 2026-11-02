@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CIFL.NS",
-    "fetch_date": "2026-09-22T16:14:19.767007",
+    "fetch_date": "2026-11-02T21:24:42.923755",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1218033000.0,
       "2025-09-30 00:00:00": 1275871000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.005,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-22T16:14:19.768294"
+  "fetched_at": "2026-11-02T21:24:42.925004"
 }

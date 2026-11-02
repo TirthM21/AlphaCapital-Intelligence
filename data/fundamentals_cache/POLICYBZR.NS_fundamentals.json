@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POLICYBZR.NS",
-    "fetch_date": "2026-10-19T18:39:47.007922",
+    "fetch_date": "2026-11-02T21:46:21.172468",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 15078700000.0,
       "2025-06-30 00:00:00": 13479900000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.25,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:39:47.009255"
+  "fetched_at": "2026-11-02T21:46:21.173473"
 }

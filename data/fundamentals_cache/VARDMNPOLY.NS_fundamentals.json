@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VARDMNPOLY.NS",
-    "fetch_date": "2026-10-19T18:51:29.079728",
+    "fetch_date": "2026-11-02T21:58:07.315425",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 595369000.0,
       "2025-09-30 00:00:00": 617240000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.293,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:51:29.081583"
+  "fetched_at": "2026-11-02T21:58:07.316689"
 }

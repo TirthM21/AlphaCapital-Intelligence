@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHARDACROP.NS",
-    "fetch_date": "2026-08-27T22:09:33.016191",
+    "fetch_date": "2026-11-02T21:51:18.268056",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 18285252000.0,
       "2025-06-30 00:00:00": 9848146000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-27T22:09:33.017989"
+  "fetched_at": "2026-11-02T21:51:18.269313"
 }

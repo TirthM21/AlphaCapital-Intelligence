@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSPL.NS",
-    "fetch_date": "2026-10-19T18:35:33.998533",
+    "fetch_date": "2026-11-02T21:42:07.242123",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7108614000.0,
       "2025-09-30 00:00:00": 6768647000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.709,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:35:34.000346"
+  "fetched_at": "2026-11-02T21:42:07.243357"
 }

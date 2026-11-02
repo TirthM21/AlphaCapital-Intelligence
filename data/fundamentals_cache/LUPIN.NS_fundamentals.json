@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LUPIN.NS",
-    "fetch_date": "2026-10-19T18:33:00.120364",
+    "fetch_date": "2026-11-02T21:39:33.231192",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 55622000000.0,
       "2025-06-30 00:00:00": 61637500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.74,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:33:00.122110"
+  "fetched_at": "2026-11-02T21:39:33.232443"
 }

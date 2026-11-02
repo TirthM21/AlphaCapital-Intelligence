@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ONIDA.NS",
-    "fetch_date": "2026-10-19T18:37:54.059768",
+    "fetch_date": "2026-11-02T21:44:27.277645",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1408500000.0,
       "2025-09-30 00:00:00": 1633100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.774,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:37:54.061542"
+  "fetched_at": "2026-11-02T21:44:27.278929"
 }

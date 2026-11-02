@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RHETAN.NS",
-    "fetch_date": "2026-10-19T18:41:57.929115",
+    "fetch_date": "2026-11-02T21:48:32.250509",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 50356000.0,
       "2025-09-30 00:00:00": 47577000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 12.549,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:41:57.930898"
+  "fetched_at": "2026-11-02T21:48:32.251847"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POWERINDIA.NS",
-    "fetch_date": "2026-10-19T18:39:55.946270",
+    "fetch_date": "2026-11-02T21:46:30.340069",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 18404500000.0,
       "2025-06-30 00:00:00": 14293500000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.608,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:39:55.948070"
+  "fetched_at": "2026-11-02T21:46:30.341342"
 }

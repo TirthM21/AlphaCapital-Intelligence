@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VISHNU.NS",
-    "fetch_date": "2026-08-12T13:33:27.135525",
+    "fetch_date": "2026-11-02T21:58:59.426565",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3459464000.0,
       "2025-09-30 00:00:00": 3998307000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.186,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T13:33:27.137076"
+  "fetched_at": "2026-11-02T21:58:59.427879"
 }

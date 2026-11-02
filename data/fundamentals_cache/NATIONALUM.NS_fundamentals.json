@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NATIONALUM.NS",
-    "fetch_date": "2026-10-19T18:36:08.958075",
+    "fetch_date": "2026-11-02T21:42:42.281035",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 38069400000.0,
       "2025-09-30 00:00:00": 42923400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.346,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:36:08.959818"
+  "fetched_at": "2026-11-02T21:42:42.282298"
 }

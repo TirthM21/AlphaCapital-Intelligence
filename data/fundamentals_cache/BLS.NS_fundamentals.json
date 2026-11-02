@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLS.NS",
-    "fetch_date": "2026-08-13T13:01:44.135280",
+    "fetch_date": "2026-11-02T21:22:58.926593",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7105653000.0,
       "2025-09-30 00:00:00": 7366283000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-13T13:01:44.137164"
+  "fetched_at": "2026-11-02T21:22:58.927876"
 }

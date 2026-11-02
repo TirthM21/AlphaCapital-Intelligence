@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "URJA.NS",
-    "fetch_date": "2026-10-19T18:51:10.943156",
+    "fetch_date": "2026-11-02T21:57:49.299228",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 171753000.0,
       "2025-06-30 00:00:00": 190115000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 2.901,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:51:10.944957"
+  "fetched_at": "2026-11-02T21:57:49.300466"
 }

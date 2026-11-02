@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KITEX.NS",
-    "fetch_date": "2026-10-19T18:31:01.927700",
+    "fetch_date": "2026-11-02T21:37:35.291532",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1966919000.0,
       "2025-09-30 00:00:00": 1221017000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.953,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:31:01.929567"
+  "fetched_at": "2026-11-02T21:37:35.292772"
 }

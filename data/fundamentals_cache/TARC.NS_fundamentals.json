@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TARC.NS",
-    "fetch_date": "2026-10-19T18:48:31.018158",
+    "fetch_date": "2026-11-02T21:55:08.397282",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 758948000.0,
       "2025-09-30 00:00:00": 68706000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 11.034,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:48:31.019970"
+  "fetched_at": "2026-11-02T21:55:08.398520"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KNRCON.NS",
-    "fetch_date": "2026-10-19T18:31:11.039400",
+    "fetch_date": "2026-11-02T21:37:44.344156",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6127228000.0,
       "2025-09-30 00:00:00": 6465048000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.226,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:31:11.041175"
+  "fetched_at": "2026-11-02T21:37:44.345398"
 }

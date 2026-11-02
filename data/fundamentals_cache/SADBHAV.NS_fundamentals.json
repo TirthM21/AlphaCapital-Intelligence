@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SADBHAV.NS",
-    "fetch_date": "2026-10-19T18:42:59.159251",
+    "fetch_date": "2026-11-02T21:49:33.160403",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2219848000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.005,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:42:59.161028"
+  "fetched_at": "2026-11-02T21:49:33.161685"
 }

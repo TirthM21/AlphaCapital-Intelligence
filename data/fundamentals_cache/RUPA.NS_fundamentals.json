@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUPA.NS",
-    "fetch_date": "2026-10-19T18:42:49.941233",
+    "fetch_date": "2026-11-02T21:49:24.301504",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1826534000.0,
       "2025-09-30 00:00:00": 3189474000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 2.218,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:42:49.943120"
+  "fetched_at": "2026-11-02T21:49:24.302764"
 }

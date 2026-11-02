@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIVIDHA.NS",
-    "fetch_date": "2026-10-19T18:52:26.168902",
+    "fetch_date": "2026-11-02T21:59:04.365344",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1085000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 8.346,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:52:26.170667"
+  "fetched_at": "2026-11-02T21:59:04.366580"
 }

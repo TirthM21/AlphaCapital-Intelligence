@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WANBURY.NS",
-    "fetch_date": "2026-10-19T18:52:56.311353",
+    "fetch_date": "2026-11-02T21:59:34.451487",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1631840000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.306,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:52:56.313201"
+  "fetched_at": "2026-11-02T21:59:34.452760"
 }

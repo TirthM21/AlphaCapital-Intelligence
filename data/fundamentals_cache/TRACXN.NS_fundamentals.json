@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRACXN.NS",
-    "fetch_date": "2026-10-22T17:07:04.987327",
+    "fetch_date": "2026-11-02T21:56:38.163024",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 212033000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -20.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:07:04.987933"
+  "fetched_at": "2026-11-02T21:56:38.164029"
 }

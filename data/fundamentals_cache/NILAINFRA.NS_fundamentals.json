@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NILAINFRA.NS",
-    "fetch_date": "2026-10-19T18:36:52.947715",
+    "fetch_date": "2026-11-02T21:43:26.287028",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 925967000.0,
       "2025-09-30 00:00:00": 740359000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.303,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:36:52.949460"
+  "fetched_at": "2026-11-02T21:43:26.288267"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROLLT.NS",
-    "fetch_date": "2026-10-19T18:42:18.015183",
+    "fetch_date": "2026-11-02T21:48:52.467395",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:42:18.016170"
+  "fetched_at": "2026-11-02T21:48:52.468162"
 }

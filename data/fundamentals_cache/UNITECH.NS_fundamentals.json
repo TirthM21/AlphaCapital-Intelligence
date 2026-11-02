@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNITECH.NS",
-    "fetch_date": "2026-10-19T18:50:59.113517",
+    "fetch_date": "2026-11-02T21:57:37.483950",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1050026000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 26.551,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:50:59.115358"
+  "fetched_at": "2026-11-02T21:57:37.485209"
 }
