@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BMWVENTLTD.NS",
-    "fetch_date": "2026-10-27T17:21:09.697417",
+    "fetch_date": "2026-11-03T19:02:58.532545",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5848560000.0,
       "2025-06-30 00:00:00": 4845908000.0,
@@ -27,5 +27,5 @@
     "inventory_to_sales_ratio": 0.408,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:21:09.699144"
+  "fetched_at": "2026-11-03T19:02:58.534104"
 }

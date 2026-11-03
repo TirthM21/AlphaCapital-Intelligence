@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OFSS.NS",
-    "fetch_date": "2026-10-27T17:42:00.949571",
+    "fetch_date": "2026-11-03T19:23:53.799321",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 18522000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 47.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:42:00.950981"
+  "fetched_at": "2026-11-03T19:23:53.800882"
 }

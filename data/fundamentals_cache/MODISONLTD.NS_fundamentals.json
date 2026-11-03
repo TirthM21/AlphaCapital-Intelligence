@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MODISONLTD.NS",
-    "fetch_date": "2026-10-27T17:39:28.908577",
+    "fetch_date": "2026-11-03T19:21:22.760136",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1341357000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.813,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:39:28.910351"
+  "fetched_at": "2026-11-03T19:21:22.763300"
 }

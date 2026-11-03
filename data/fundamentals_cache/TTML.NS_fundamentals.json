@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTML.NS",
-    "fetch_date": "2026-10-27T17:54:44.804271",
+    "fetch_date": "2026-11-03T19:36:40.980430",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2842500000.0,
       "2025-12-31 00:00:00": 2943100000.0,
@@ -23,5 +23,5 @@
     "operating_margin": 41.73,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:54:44.805296"
+  "fetched_at": "2026-11-03T19:36:40.981614"
 }
