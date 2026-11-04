@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATVA.NS",
-    "fetch_date": "2026-10-28T18:25:25.708154",
+    "fetch_date": "2026-11-04T19:52:39.417445",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1235160000.0,
       "2025-12-31 00:00:00": 1313340000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 1.145,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-28T18:25:25.709955"
+  "fetched_at": "2026-11-04T19:52:39.418374"
 }
