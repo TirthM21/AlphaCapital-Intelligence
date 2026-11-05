@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAPPYFORGE.NS",
-    "fetch_date": "2026-10-26T18:20:28.248191",
+    "fetch_date": "2026-11-05T19:36:27.629676",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3519723000.0,
       "2025-06-30 00:00:00": 3538034000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.518,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-26T18:20:28.249951"
+  "fetched_at": "2026-11-05T19:36:27.631102"
 }

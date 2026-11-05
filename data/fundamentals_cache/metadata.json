@@ -716,7 +716,7 @@
     "in_earnings_season": true
   },
   "COASTCORP.NS": {
-    "last_updated": "2026-08-11T12:58:41.428111",
+    "last_updated": "2026-11-05T19:29:22.178227",
     "in_earnings_season": true
   },
   "COCHINSHIP.NS": {
@@ -1372,7 +1372,7 @@
     "in_earnings_season": true
   },
   "GUJALKALI.NS": {
-    "last_updated": "2026-08-11T13:04:59.556688",
+    "last_updated": "2026-11-05T19:36:08.172672",
     "in_earnings_season": true
   },
   "GUJGASLTD.NS": {
@@ -1400,11 +1400,11 @@
     "in_earnings_season": true
   },
   "HARIOMPIPE.NS": {
-    "last_updated": "2026-08-14T13:06:36.983784",
+    "last_updated": "2026-11-05T19:36:29.253009",
     "in_earnings_season": true
   },
   "HARSHA.NS": {
-    "last_updated": "2026-10-22T16:42:48.716812",
+    "last_updated": "2026-11-05T19:36:31.175086",
     "in_earnings_season": true
   },
   "HATHWAY.NS": {
@@ -1592,7 +1592,7 @@
     "in_earnings_season": true
   },
   "IMFA.NS": {
-    "last_updated": "2026-08-11T13:07:05.500674",
+    "last_updated": "2026-11-05T19:38:26.237737",
     "in_earnings_season": true
   },
   "INDGN.NS": {
@@ -1736,7 +1736,7 @@
     "in_earnings_season": true
   },
   "ITC.NS": {
-    "last_updated": "2026-10-29T17:54:25.337699",
+    "last_updated": "2026-11-05T19:39:40.206285",
     "in_earnings_season": true
   },
   "ITDC.NS": {
@@ -2000,7 +2000,7 @@
     "in_earnings_season": true
   },
   "KOTAKBANK.NS": {
-    "last_updated": "2026-10-29T17:54:26.274484",
+    "last_updated": "2026-11-05T19:42:13.190159",
     "in_earnings_season": true
   },
   "KPEL.NS": {
@@ -2288,7 +2288,7 @@
     "in_earnings_season": true
   },
   "MMFL.NS": {
-    "last_updated": "2026-08-14T13:15:16.053084",
+    "last_updated": "2026-11-05T19:45:55.295343",
     "in_earnings_season": true
   },
   "MMTC.NS": {
@@ -2356,7 +2356,7 @@
     "in_earnings_season": true
   },
   "MUFTI.NS": {
-    "last_updated": "2026-07-15T13:47:12.317400",
+    "last_updated": "2026-11-05T19:46:39.150838",
     "in_earnings_season": true
   },
   "MUKANDLTD.NS": {
@@ -2672,7 +2672,7 @@
     "in_earnings_season": true
   },
   "PDSL.NS": {
-    "last_updated": "2026-10-26T18:33:58.415094",
+    "last_updated": "2026-11-05T19:49:57.291021",
     "in_earnings_season": true
   },
   "PENIND.NS": {
@@ -2828,7 +2828,7 @@
     "in_earnings_season": true
   },
   "PSPPROJECT.NS": {
-    "last_updated": "2026-08-14T13:20:18.945622",
+    "last_updated": "2026-11-05T19:51:32.506314",
     "in_earnings_season": true
   },
   "PTC.NS": {
@@ -4072,7 +4072,7 @@
     "in_earnings_season": true
   },
   "MAYURUNIQ.NS": {
-    "last_updated": "2026-10-22T16:51:17.705795",
+    "last_updated": "2026-11-05T19:45:04.196688",
     "in_earnings_season": true
   },
   "MSPL.NS": {
@@ -4508,7 +4508,7 @@
     "in_earnings_season": true
   },
   "HAPPYFORGE.NS": {
-    "last_updated": "2026-10-26T18:20:28.251726",
+    "last_updated": "2026-11-05T19:36:27.639009",
     "in_earnings_season": true
   },
   "IOLCP.NS": {
@@ -4588,7 +4588,7 @@
     "in_earnings_season": true
   },
   "ICICIBANK.NS": {
-    "last_updated": "2026-10-29T17:54:23.296572",
+    "last_updated": "2026-11-05T19:37:57.339179",
     "in_earnings_season": true
   },
   "IOC.NS": {
@@ -4840,7 +4840,7 @@
     "in_earnings_season": true
   },
   "INFY.NS": {
-    "last_updated": "2026-10-29T17:54:24.524779",
+    "last_updated": "2026-11-05T19:39:05.306362",
     "in_earnings_season": true
   },
   "LTM.NS": {
@@ -4860,7 +4860,7 @@
     "in_earnings_season": false
   },
   "TCS.NS": {
-    "last_updated": "2026-10-29T17:54:30.271027",
+    "last_updated": "2026-11-05T19:59:49.609294",
     "in_earnings_season": true
   },
   "NCLIND.NS": {
@@ -5044,7 +5044,7 @@
     "in_earnings_season": true
   },
   "CEATLTD.NS": {
-    "last_updated": "2026-08-14T12:59:11.888988",
+    "last_updated": "2026-11-05T19:28:35.393652",
     "in_earnings_season": true
   },
   "COROMANDEL.NS": {
@@ -6164,8 +6164,8 @@
     "in_earnings_season": true
   },
   "PRAKASHSTL.NS": {
-    "last_updated": "2026-08-27T22:05:01.789692",
-    "in_earnings_season": false
+    "last_updated": "2026-11-05T19:51:02.217950",
+    "in_earnings_season": true
   },
   "RCOM.NS": {
     "last_updated": "2026-11-02T21:48:09.473153",
@@ -6669,6 +6669,14 @@
   },
   "FAZE3Q.NS": {
     "last_updated": "2026-11-04T19:26:22.323466",
+    "in_earnings_season": true
+  },
+  "MODIS.NS": {
+    "last_updated": "2026-11-05T19:46:02.122602",
+    "in_earnings_season": true
+  },
+  "TRIGYN.NS": {
+    "last_updated": "2026-11-05T20:01:09.436810",
     "in_earnings_season": true
   }
 }

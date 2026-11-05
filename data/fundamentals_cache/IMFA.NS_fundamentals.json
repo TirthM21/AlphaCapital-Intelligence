@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IMFA.NS",
-    "fetch_date": "2026-08-11T13:07:05.497515",
+    "fetch_date": "2026-11-05T19:38:26.234818",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5671500000.0,
       "2025-06-30 00:00:00": 6415400000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.849,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-11T13:07:05.499304"
+  "fetched_at": "2026-11-05T19:38:26.236045"
 }
