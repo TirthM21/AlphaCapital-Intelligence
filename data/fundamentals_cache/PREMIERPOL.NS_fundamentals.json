@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PREMIERPOL.NS",
-    "fetch_date": "2026-10-30T18:07:16.015018",
+    "fetch_date": "2026-11-06T19:16:29.283290",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 831700000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.437,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:07:16.016774"
+  "fetched_at": "2026-11-06T19:16:29.284521"
 }

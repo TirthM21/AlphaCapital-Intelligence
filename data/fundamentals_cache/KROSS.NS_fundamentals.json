@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KROSS.NS",
-    "fetch_date": "2026-10-30T17:58:40.094633",
+    "fetch_date": "2026-11-06T19:07:51.967478",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1309200000.0,
       "2025-12-31 00:00:00": 1774780000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.466,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:58:40.096844"
+  "fetched_at": "2026-11-06T19:07:51.968717"
 }

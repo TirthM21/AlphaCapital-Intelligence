@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TNPETRO.NS",
-    "fetch_date": "2026-10-30T18:16:45.182499",
+    "fetch_date": "2026-11-06T19:25:59.388213",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4628300000.0,
       "2025-09-30 00:00:00": 4560900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.333,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:16:45.184243"
+  "fetched_at": "2026-11-06T19:25:59.389449"
 }

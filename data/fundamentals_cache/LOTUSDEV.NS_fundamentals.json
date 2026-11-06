@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LOTUSDEV.NS",
-    "fetch_date": "2026-10-30T17:59:46.018161",
+    "fetch_date": "2026-11-06T19:08:57.976348",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1323480000.0,
       "2025-09-30 00:00:00": 1761080000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 4.333,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:59:46.019953"
+  "fetched_at": "2026-11-06T19:08:57.977573"
 }

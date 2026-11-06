@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OBEROIRLTY.NS",
-    "fetch_date": "2026-10-30T18:04:32.312062",
+    "fetch_date": "2026-11-06T19:13:45.063295",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9875500000.0,
       "2025-12-31 00:00:00": 14926400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 7.062,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:04:32.313856"
+  "fetched_at": "2026-11-06T19:13:45.064529"
 }

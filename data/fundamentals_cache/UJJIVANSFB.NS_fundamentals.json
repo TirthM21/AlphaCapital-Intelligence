@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UJJIVANSFB.NS",
-    "fetch_date": "2026-10-30T18:17:42.240540",
+    "fetch_date": "2026-11-06T19:26:56.249768",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11049400000.0,
       "2025-12-31 00:00:00": 12959500000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 247.16981132075472,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:17:42.241232"
+  "fetched_at": "2026-11-06T19:26:56.250302"
 }

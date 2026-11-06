@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALMONDZ.NS",
-    "fetch_date": "2026-10-30T17:39:20.878941",
+    "fetch_date": "2026-11-06T18:48:25.119416",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 295300000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:39:20.880698"
+  "fetched_at": "2026-11-06T18:48:25.120668"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATAELXSI.NS",
-    "fetch_date": "2026-10-30T18:15:37.141885",
+    "fetch_date": "2026-11-06T19:24:51.101408",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8920959000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:15:37.143618"
+  "fetched_at": "2026-11-06T19:24:51.102636"
 }

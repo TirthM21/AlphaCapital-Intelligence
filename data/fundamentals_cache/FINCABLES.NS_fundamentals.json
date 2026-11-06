@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FINCABLES.NS",
-    "fetch_date": "2026-10-30T17:49:42.061372",
+    "fetch_date": "2026-11-06T18:58:53.026928",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 13955200000.0,
       "2025-09-30 00:00:00": 13757900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.508,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:49:42.063139"
+  "fetched_at": "2026-11-06T18:58:53.028147"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PWL.NS",
-    "fetch_date": "2026-10-30T18:07:43.205782",
+    "fetch_date": "2026-11-06T19:16:56.098568",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8470900000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.097,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:07:43.207579"
+  "fetched_at": "2026-11-06T19:16:56.099777"
 }

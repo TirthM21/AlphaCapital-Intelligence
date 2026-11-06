@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORIENTHOT.NS",
-    "fetch_date": "2026-10-30T18:05:08.234895",
+    "fetch_date": "2026-11-06T19:14:21.512518",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1076500000.0,
       "2025-12-31 00:00:00": 1392500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.098,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:05:08.236621"
+  "fetched_at": "2026-11-06T19:14:21.513805"
 }

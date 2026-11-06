@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKMEGGPROD.NS",
-    "fetch_date": "2026-10-30T18:12:54.311934",
+    "fetch_date": "2026-11-06T19:22:08.198845",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1757000000.0,
       "2025-09-30 00:00:00": NaN,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.726,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:12:54.313767"
+  "fetched_at": "2026-11-06T19:22:08.200064"
 }

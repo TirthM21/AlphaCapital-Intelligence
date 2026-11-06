@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELGIEQUIP.NS",
-    "fetch_date": "2026-10-30T17:48:30.983382",
+    "fetch_date": "2026-11-06T18:57:39.865238",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8667000000.0,
       "2025-09-30 00:00:00": 9680000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.669,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:48:30.985158"
+  "fetched_at": "2026-11-06T18:57:39.866429"
 }

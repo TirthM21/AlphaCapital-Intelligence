@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNOMINDA.NS",
-    "fetch_date": "2026-10-30T18:18:03.081927",
+    "fetch_date": "2026-11-06T19:27:17.487402",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 44890900000.0,
       "2025-09-30 00:00:00": 48140300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.383,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:18:03.083720"
+  "fetched_at": "2026-11-06T19:27:17.488716"
 }

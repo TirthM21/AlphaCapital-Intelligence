@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GALLANTT.NS",
-    "fetch_date": "2026-10-30T17:50:13.133074",
+    "fetch_date": "2026-11-06T18:59:23.911928",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11277784000.0,
       "2025-12-31 00:00:00": 10735803000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.584,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:50:13.134817"
+  "fetched_at": "2026-11-06T18:59:23.913149"
 }

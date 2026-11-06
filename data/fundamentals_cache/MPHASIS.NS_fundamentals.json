@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MPHASIS.NS",
-    "fetch_date": "2026-10-30T18:02:26.997764",
+    "fetch_date": "2026-11-06T19:11:41.091152",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 37100410000.0,
       "2025-06-30 00:00:00": 37324890000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:02:26.999079"
+  "fetched_at": "2026-11-06T19:11:41.092124"
 }

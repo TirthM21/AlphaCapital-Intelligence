@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAHLIFE.NS",
-    "fetch_date": "2026-10-30T18:00:19.141852",
+    "fetch_date": "2026-11-06T19:09:30.966879",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 319700000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 173.845,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:00:19.143574"
+  "fetched_at": "2026-11-06T19:09:30.968107"
 }

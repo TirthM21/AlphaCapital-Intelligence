@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATACOMM.NS",
-    "fetch_date": "2026-10-30T18:15:35.261902",
+    "fetch_date": "2026-11-06T19:24:49.061101",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 59598500000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:15:35.263683"
+  "fetched_at": "2026-11-06T19:24:49.062318"
 }

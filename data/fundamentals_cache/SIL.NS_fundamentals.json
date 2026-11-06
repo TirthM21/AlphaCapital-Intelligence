@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIL.NS",
-    "fetch_date": "2026-10-30T18:12:34.160226",
+    "fetch_date": "2026-11-06T19:21:48.070096",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 104949000.0,
       "2025-09-30 00:00:00": 63828000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.295,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:12:34.161948"
+  "fetched_at": "2026-11-06T19:21:48.071305"
 }

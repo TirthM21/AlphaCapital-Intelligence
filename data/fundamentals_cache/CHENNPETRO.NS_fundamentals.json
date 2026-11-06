@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHENNPETRO.NS",
-    "fetch_date": "2026-10-30T17:45:09.242199",
+    "fetch_date": "2026-11-06T18:54:16.961381",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 148122300000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.394,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:45:09.244002"
+  "fetched_at": "2026-11-06T18:54:16.962606"
 }

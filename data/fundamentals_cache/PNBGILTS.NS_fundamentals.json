@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PNBGILTS.NS",
-    "fetch_date": "2026-10-30T18:06:35.109126",
+    "fetch_date": "2026-11-06T19:15:48.233379",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2986042000.0,
       "2025-06-30 00:00:00": 5632651000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 96.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:06:35.110445"
+  "fetched_at": "2026-11-06T19:15:48.234533"
 }

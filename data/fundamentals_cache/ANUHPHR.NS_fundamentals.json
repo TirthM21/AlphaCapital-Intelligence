@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANUHPHR.NS",
-    "fetch_date": "2026-10-30T17:39:55.982130",
+    "fetch_date": "2026-11-06T18:48:59.862166",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1864794000.0,
       "2025-09-30 00:00:00": 1858827000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.762,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:39:55.983862"
+  "fetched_at": "2026-11-06T18:48:59.863394"
 }

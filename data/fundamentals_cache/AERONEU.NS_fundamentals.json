@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AERONEU.NS",
-    "fetch_date": "2026-10-30T17:38:28.996398",
+    "fetch_date": "2026-11-06T18:47:32.912204",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 296988000.0,
       "2025-09-30 00:00:00": 345221000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.058,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:38:28.998152"
+  "fetched_at": "2026-11-06T18:47:32.913407"
 }

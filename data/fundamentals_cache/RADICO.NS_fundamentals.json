@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RADICO.NS",
-    "fetch_date": "2026-10-30T18:07:57.047506",
+    "fetch_date": "2026-11-06T19:17:10.103870",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 15060406000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.722,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:07:57.049365"
+  "fetched_at": "2026-11-06T19:17:10.105104"
 }

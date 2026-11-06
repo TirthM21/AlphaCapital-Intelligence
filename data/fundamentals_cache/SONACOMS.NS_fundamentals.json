@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SONACOMS.NS",
-    "fetch_date": "2026-10-30T18:13:15.077090",
+    "fetch_date": "2026-11-06T19:22:29.267455",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8539070000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.512,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:13:15.078913"
+  "fetched_at": "2026-11-06T19:22:29.268698"
 }

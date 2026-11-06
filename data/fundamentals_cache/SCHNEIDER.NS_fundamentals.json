@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SCHNEIDER.NS",
-    "fetch_date": "2026-10-30T18:10:57.122290",
+    "fetch_date": "2026-11-06T19:20:10.490050",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6216300000.0,
       "2025-09-30 00:00:00": 6501400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.646,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:10:57.124108"
+  "fetched_at": "2026-11-06T19:20:10.491271"
 }

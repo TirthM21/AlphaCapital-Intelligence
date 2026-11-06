@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDIANB.NS",
-    "fetch_date": "2026-10-30T17:54:39.180187",
+    "fetch_date": "2026-11-06T19:03:51.046687",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 89815100000.0,
       "2025-12-31 00:00:00": 96918800000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 55.5621301775148,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:54:39.180869"
+  "fetched_at": "2026-11-06T19:03:51.047220"
 }

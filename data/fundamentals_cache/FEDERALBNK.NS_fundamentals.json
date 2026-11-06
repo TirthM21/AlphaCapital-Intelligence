@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FEDERALBNK.NS",
-    "fetch_date": "2026-10-30T17:49:33.080779",
+    "fetch_date": "2026-11-06T18:58:43.969150",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 37757100000.0,
       "2025-12-31 00:00:00": 41023500000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 57.2972972972973,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:49:33.081414"
+  "fetched_at": "2026-11-06T18:58:43.969693"
 }

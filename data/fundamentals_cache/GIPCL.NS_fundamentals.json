@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIPCL.NS",
-    "fetch_date": "2026-10-30T17:50:51.072032",
+    "fetch_date": "2026-11-06T19:00:02.095303",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3715231000.0,
       "2025-09-30 00:00:00": 3213953000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.417,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:50:51.073783"
+  "fetched_at": "2026-11-06T19:00:02.096509"
 }

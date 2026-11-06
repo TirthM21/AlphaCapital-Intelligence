@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARIHANTCAP.NS",
-    "fetch_date": "2026-10-30T17:40:25.867789",
+    "fetch_date": "2026-11-06T18:49:29.839776",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 256129000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -8.23,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:40:25.869104"
+  "fetched_at": "2026-11-06T18:49:29.840761"
 }

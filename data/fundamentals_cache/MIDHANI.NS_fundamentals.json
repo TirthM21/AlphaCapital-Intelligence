@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MIDHANI.NS",
-    "fetch_date": "2026-10-30T18:01:43.068150",
+    "fetch_date": "2026-11-06T19:10:56.167427",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1685589000.0,
       "2025-09-30 00:00:00": 2077618000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 5.858,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:01:43.069992"
+  "fetched_at": "2026-11-06T19:10:56.168651"
 }

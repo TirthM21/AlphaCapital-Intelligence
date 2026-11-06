@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOTL.NS",
-    "fetch_date": "2026-10-30T18:13:19.320198",
+    "fetch_date": "2026-11-06T19:22:33.318820",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9822838000.0,
       "2025-09-30 00:00:00": 10672919000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.601,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:13:19.321945"
+  "fetched_at": "2026-11-06T19:22:33.320038"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PONNIERODE.NS",
-    "fetch_date": "2026-10-30T18:06:49.990846",
+    "fetch_date": "2026-11-06T19:16:03.261022",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 603700000.0,
       "2025-12-31 00:00:00": 1513500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.818,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:06:49.992616"
+  "fetched_at": "2026-11-06T19:16:03.262254"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAUSHAKLTD.NS",
-    "fetch_date": "2026-10-30T18:05:51.942052",
+    "fetch_date": "2026-11-06T19:15:05.129966",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 587800000.0,
       "2025-12-31 00:00:00": 488000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.408,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:05:51.943795"
+  "fetched_at": "2026-11-06T19:15:05.131189"
 }

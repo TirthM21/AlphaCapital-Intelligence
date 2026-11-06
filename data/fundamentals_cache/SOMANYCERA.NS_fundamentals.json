@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOMANYCERA.NS",
-    "fetch_date": "2026-10-15T16:43:47.997901",
+    "fetch_date": "2026-11-06T19:22:25.464310",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6014700000.0,
       "2025-09-30 00:00:00": 6805300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.473,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:43:47.998702"
+  "fetched_at": "2026-11-06T19:22:25.465562"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COMSYN.NS",
-    "fetch_date": "2026-10-30T17:45:40.002802",
+    "fetch_date": "2026-11-06T18:54:47.917976",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 905132000.0,
       "2025-09-30 00:00:00": 984537000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.756,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:45:40.004525"
+  "fetched_at": "2026-11-06T18:54:47.919184"
 }

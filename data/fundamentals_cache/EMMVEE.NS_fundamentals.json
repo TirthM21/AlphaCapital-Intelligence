@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMMVEE.NS",
-    "fetch_date": "2026-10-30T17:48:44.888073",
+    "fetch_date": "2026-11-06T18:57:53.856780",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 11309957000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.195,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:48:44.889920"
+  "fetched_at": "2026-11-06T18:57:53.857974"
 }

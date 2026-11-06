@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MARKSANS.NS",
-    "fetch_date": "2026-10-30T18:00:55.140112",
+    "fetch_date": "2026-11-06T19:10:07.041924",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6199890000.0,
       "2025-09-30 00:00:00": 7204090000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.156,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:00:55.141861"
+  "fetched_at": "2026-11-06T19:10:07.043155"
 }

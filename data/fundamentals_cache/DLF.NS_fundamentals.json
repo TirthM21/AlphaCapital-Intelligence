@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DLF.NS",
-    "fetch_date": "2026-10-30T17:47:33.946455",
+    "fetch_date": "2026-11-06T18:56:41.962992",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 27167000000.0,
       "2025-12-31 00:00:00": 20202200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 20.191,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:47:33.948242"
+  "fetched_at": "2026-11-06T18:56:41.964211"
 }

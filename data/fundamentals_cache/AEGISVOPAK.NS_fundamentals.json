@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEGISVOPAK.NS",
-    "fetch_date": "2026-10-30T17:38:23.800804",
+    "fetch_date": "2026-11-06T18:47:27.861612",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 2322275000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.056,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T17:38:23.802527"
+  "fetched_at": "2026-11-06T18:47:27.862811"
 }
