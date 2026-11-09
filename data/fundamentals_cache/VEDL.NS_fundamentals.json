@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VEDL.NS",
-    "fetch_date": "2026-11-02T21:58:16.376953",
+    "fetch_date": "2026-11-09T22:32:26.622160",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.273,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:58:16.378238"
+  "fetched_at": "2026-11-09T22:32:26.623873"
 }

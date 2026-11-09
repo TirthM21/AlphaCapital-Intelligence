@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAMHI.NS",
-    "fetch_date": "2026-11-02T21:49:57.198383",
+    "fetch_date": "2026-11-09T22:24:06.525165",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3187920000.0,
       "2025-06-30 00:00:00": 2722110000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:49:57.199640"
+  "fetched_at": "2026-11-09T22:24:06.526819"
 }

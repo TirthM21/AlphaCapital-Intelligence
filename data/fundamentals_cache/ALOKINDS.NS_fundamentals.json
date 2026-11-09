@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALOKINDS.NS",
-    "fetch_date": "2026-11-02T21:18:47.945012",
+    "fetch_date": "2026-11-09T21:52:49.310465",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 9324900000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 82.867,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:18:47.946568"
+  "fetched_at": "2026-11-09T21:52:49.312168"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACC.NS",
-    "fetch_date": "2026-11-02T21:17:18.802337",
+    "fetch_date": "2026-11-09T21:51:20.524500",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.322,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:17:18.803591"
+  "fetched_at": "2026-11-09T21:51:20.526200"
 }

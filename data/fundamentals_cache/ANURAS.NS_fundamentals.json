@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANURAS.NS",
-    "fetch_date": "2026-11-02T21:19:23.880711",
+    "fetch_date": "2026-11-09T21:53:25.432082",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5001580000.0,
       "2025-06-30 00:00:00": 4858270000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 2.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:19:23.881967"
+  "fetched_at": "2026-11-09T21:53:25.433755"
 }

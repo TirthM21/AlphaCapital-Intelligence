@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDOWIND.NS",
-    "fetch_date": "2026-11-02T21:34:31.378655",
+    "fetch_date": "2026-11-09T22:08:39.426642",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 115515000.0,
       "2025-09-30 00:00:00": 177433000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.211,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:34:31.379869"
+  "fetched_at": "2026-11-09T22:08:39.428287"
 }

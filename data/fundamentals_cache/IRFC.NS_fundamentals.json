@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IRFC.NS",
-    "fetch_date": "2026-11-02T21:35:08.150228",
+    "fetch_date": "2026-11-09T22:09:16.631646",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 69010700000.0,
       "2025-12-31 00:00:00": 66571200000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 24.15,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:35:08.151368"
+  "fetched_at": "2026-11-09T22:09:16.632906"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SDBL.NS",
-    "fetch_date": "2026-11-02T21:50:39.288703",
+    "fetch_date": "2026-11-09T22:24:48.584202",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5283751000.0,
       "2025-09-30 00:00:00": 2695885000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.678,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:50:39.289968"
+  "fetched_at": "2026-11-09T22:24:48.585856"
 }

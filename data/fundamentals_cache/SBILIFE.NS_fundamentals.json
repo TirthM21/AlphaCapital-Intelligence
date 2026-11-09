@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBILIFE.NS",
-    "fetch_date": "2026-11-02T21:50:29.460825",
+    "fetch_date": "2026-11-09T22:24:38.673816",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 390129400000.0,
       "2025-12-31 00:00:00": 461102500000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -7.75716694772344,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:50:29.461374"
+  "fetched_at": "2026-11-09T22:24:38.674431"
 }

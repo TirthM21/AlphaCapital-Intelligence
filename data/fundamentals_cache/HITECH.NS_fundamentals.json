@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HITECH.NS",
-    "fetch_date": "2026-11-02T21:33:03.046943",
+    "fetch_date": "2026-11-09T22:07:10.702377",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7913604000.0,
       "2025-09-30 00:00:00": 8587668000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.4,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:33:03.048186"
+  "fetched_at": "2026-11-09T22:07:10.704190"
 }

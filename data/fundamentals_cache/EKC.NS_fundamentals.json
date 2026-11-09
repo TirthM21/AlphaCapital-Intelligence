@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EKC.NS",
-    "fetch_date": "2026-11-02T21:27:53.970537",
+    "fetch_date": "2026-11-09T22:01:59.505115",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3868800000.0,
       "2025-09-30 00:00:00": 3603800000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.52,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:27:53.971800"
+  "fetched_at": "2026-11-09T22:01:59.506930"
 }

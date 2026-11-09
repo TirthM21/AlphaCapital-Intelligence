@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BANDHANBNK.NS",
-    "fetch_date": "2026-11-02T21:21:45.204132",
+    "fetch_date": "2026-11-09T21:55:47.432529",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 34831185000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 67.0995670995671,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:21:45.204710"
+  "fetched_at": "2026-11-09T21:55:47.433309"
 }

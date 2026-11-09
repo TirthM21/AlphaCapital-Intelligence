@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AIRAN.NS",
-    "fetch_date": "2026-11-02T21:18:19.897423",
+    "fetch_date": "2026-11-09T21:52:21.430977",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 256989000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:18:19.898432"
+  "fetched_at": "2026-11-09T21:52:21.432252"
 }

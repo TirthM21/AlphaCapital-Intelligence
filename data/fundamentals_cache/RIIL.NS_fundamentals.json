@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RIIL.NS",
-    "fetch_date": "2026-11-02T21:48:37.394792",
+    "fetch_date": "2026-11-09T22:22:46.573198",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 124600000.0,
       "2025-09-30 00:00:00": NaN,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:48:37.395948"
+  "fetched_at": "2026-11-09T22:22:46.574549"
 }

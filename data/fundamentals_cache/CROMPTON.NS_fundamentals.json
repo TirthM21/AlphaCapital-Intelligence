@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CROMPTON.NS",
-    "fetch_date": "2026-11-02T21:25:36.184287",
+    "fetch_date": "2026-11-09T21:59:41.470016",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 19983800000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.473,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:25:36.185536"
+  "fetched_at": "2026-11-09T21:59:41.472226"
 }

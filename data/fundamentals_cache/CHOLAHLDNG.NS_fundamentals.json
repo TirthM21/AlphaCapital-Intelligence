@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHOLAHLDNG.NS",
-    "fetch_date": "2026-11-02T21:24:41.094181",
+    "fetch_date": "2026-11-09T21:58:46.509493",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 94998800000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 17.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:24:41.095201"
+  "fetched_at": "2026-11-09T21:58:46.511062"
 }

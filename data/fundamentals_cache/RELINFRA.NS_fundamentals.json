@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RELINFRA.NS",
-    "fetch_date": "2026-11-02T21:48:21.402294",
+    "fetch_date": "2026-11-09T22:22:30.664660",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 59078200000.0,
       "2025-09-30 00:00:00": 62349100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.024,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:48:21.403513"
+  "fetched_at": "2026-11-09T22:22:30.666274"
 }

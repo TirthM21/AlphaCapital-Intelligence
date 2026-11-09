@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HINDZINC.NS",
-    "fetch_date": "2026-11-02T21:33:00.468413",
+    "fetch_date": "2026-11-09T22:07:07.490586",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 75910000000.0,
       "2025-12-31 00:00:00": 106270000000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.142,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:33:00.469633"
+  "fetched_at": "2026-11-09T22:07:07.492394"
 }

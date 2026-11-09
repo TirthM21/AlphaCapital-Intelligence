@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HDFCAMC.NS",
-    "fetch_date": "2026-11-02T21:32:23.074146",
+    "fetch_date": "2026-11-09T22:06:30.633439",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 9681500000.0,
@@ -29,5 +29,5 @@
     "operating_margin": 77.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:32:23.075169"
+  "fetched_at": "2026-11-09T22:06:30.634853"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MARATHON.NS",
-    "fetch_date": "2026-11-02T21:40:25.053657",
+    "fetch_date": "2026-11-09T22:14:33.959819",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1408147000.0,
       "2025-09-30 00:00:00": 1168521000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 6.173,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:40:25.054908"
+  "fetched_at": "2026-11-09T22:14:33.961520"
 }

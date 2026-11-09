@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FDC.NS",
-    "fetch_date": "2026-11-02T21:29:03.105436",
+    "fetch_date": "2026-11-09T22:03:10.553933",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 4730300000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.527,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:29:03.106707"
+  "fetched_at": "2026-11-09T22:03:10.555912"
 }
