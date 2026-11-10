@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BUILDPRO.NS",
-    "fetch_date": "2026-11-03T19:03:29.538765",
+    "fetch_date": "2026-11-10T19:18:50.558665",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 15601700000.0,
       "2025-06-30 00:00:00": 15681400000.0,
@@ -28,5 +28,5 @@
     "inventory_to_sales_ratio": 0.255,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:03:29.540436"
+  "fetched_at": "2026-11-10T19:18:50.559469"
 }

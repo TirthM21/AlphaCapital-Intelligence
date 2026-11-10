@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HTMEDIA.NS",
-    "fetch_date": "2026-11-03T19:13:08.607075",
+    "fetch_date": "2026-11-10T19:28:35.812906",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3937600000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.238,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:13:08.608988"
+  "fetched_at": "2026-11-10T19:28:35.813825"
 }

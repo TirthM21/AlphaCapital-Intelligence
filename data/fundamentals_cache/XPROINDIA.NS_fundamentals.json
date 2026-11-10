@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XPROINDIA.NS",
-    "fetch_date": "2026-11-03T19:39:45.817964",
+    "fetch_date": "2026-11-10T19:55:23.935807",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1449020000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.417,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:39:45.819882"
+  "fetched_at": "2026-11-10T19:55:23.936717"
 }
