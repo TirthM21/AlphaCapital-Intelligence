@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DAVANGERE.NS",
-    "fetch_date": "2026-11-02T21:26:00.932650",
+    "fetch_date": "2026-11-11T19:17:25.732708",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 240701000.0,
       "2025-09-30 00:00:00": 481926000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 6.062,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:26:00.933878"
+  "fetched_at": "2026-11-11T19:17:25.733598"
 }

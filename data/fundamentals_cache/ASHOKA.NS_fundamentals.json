@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASHOKA.NS",
-    "fetch_date": "2026-11-02T21:20:17.143512",
+    "fetch_date": "2026-11-11T19:11:41.702316",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 18870672000.0,
       "2025-09-30 00:00:00": 18511802000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.294,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:20:17.144786"
+  "fetched_at": "2026-11-11T19:11:41.703529"
 }

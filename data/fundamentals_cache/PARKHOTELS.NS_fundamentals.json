@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PARKHOTELS.NS",
-    "fetch_date": "2026-11-02T21:45:19.419446",
+    "fetch_date": "2026-11-11T19:36:44.016257",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1542500000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.684,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:45:19.420716"
+  "fetched_at": "2026-11-11T19:36:44.017323"
 }

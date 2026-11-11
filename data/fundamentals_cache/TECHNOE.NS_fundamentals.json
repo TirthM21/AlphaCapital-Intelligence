@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TECHNOE.NS",
-    "fetch_date": "2026-11-02T21:55:36.464213",
+    "fetch_date": "2026-11-11T19:46:58.998895",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5259740000.0,
       "2025-09-30 00:00:00": 8434250000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:55:36.465483"
+  "fetched_at": "2026-11-11T19:46:58.999857"
 }

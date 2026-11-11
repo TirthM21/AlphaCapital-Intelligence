@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BALAJITELE.NS",
-    "fetch_date": "2026-11-02T21:21:32.899008",
+    "fetch_date": "2026-11-11T19:12:58.912836",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 728318000.0,
       "2025-09-30 00:00:00": 488053000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.864,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:21:32.900257"
+  "fetched_at": "2026-11-11T19:12:58.913933"
 }

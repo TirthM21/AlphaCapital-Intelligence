@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INOXWIND.NS",
-    "fetch_date": "2026-11-02T21:34:48.048455",
+    "fetch_date": "2026-11-11T19:26:13.828196",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8262500000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 2.199,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:34:48.049774"
+  "fetched_at": "2026-11-11T19:26:13.829218"
 }

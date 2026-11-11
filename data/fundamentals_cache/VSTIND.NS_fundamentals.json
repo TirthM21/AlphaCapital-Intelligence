@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSTIND.NS",
-    "fetch_date": "2026-11-02T21:59:23.444484",
+    "fetch_date": "2026-11-11T19:50:46.108030",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2959200000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 3.143,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:59:23.445761"
+  "fetched_at": "2026-11-11T19:50:46.109035"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUSHIL.NS",
-    "fetch_date": "2026-11-02T21:49:25.433370",
+    "fetch_date": "2026-11-11T19:40:48.902968",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1791570000.0,
       "2025-09-30 00:00:00": 2356490000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.144,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:49:25.434670"
+  "fetched_at": "2026-11-11T19:40:48.903988"
 }

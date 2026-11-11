@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARKADE.NS",
-    "fetch_date": "2026-11-02T21:19:54.959979",
+    "fetch_date": "2026-11-11T19:11:19.633506",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1594458000.0,
       "2025-09-30 00:00:00": NaN,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 6.234,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:19:54.961247"
+  "fetched_at": "2026-11-11T19:11:19.634587"
 }

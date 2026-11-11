@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JUBLINGREA.NS",
-    "fetch_date": "2026-11-02T21:36:26.270700",
+    "fetch_date": "2026-11-11T19:27:51.759784",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 10294200000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.785,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:36:26.271952"
+  "fetched_at": "2026-11-11T19:27:51.760811"
 }

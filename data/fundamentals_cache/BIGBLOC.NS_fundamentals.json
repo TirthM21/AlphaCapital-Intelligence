@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIGBLOC.NS",
-    "fetch_date": "2026-11-02T21:22:38.898466",
+    "fetch_date": "2026-11-11T19:14:04.603838",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 563554000.0,
       "2025-09-30 00:00:00": 673189000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:22:38.899729"
+  "fetched_at": "2026-11-11T19:14:04.604888"
 }

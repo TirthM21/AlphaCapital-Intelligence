@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIGERLOGS.NS",
-    "fetch_date": "2026-11-02T21:56:06.331305",
+    "fetch_date": "2026-11-11T19:47:28.846586",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1687310000.0,
       "2025-12-31 00:00:00": 1390245000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:56:06.332284"
+  "fetched_at": "2026-11-11T19:47:28.847409"
 }

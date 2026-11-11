@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NMDC.NS",
-    "fetch_date": "2026-11-02T21:43:44.307020",
+    "fetch_date": "2026-11-11T19:35:09.916282",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 70045900000.0,
       "2025-06-30 00:00:00": 67388600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.371,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:43:44.308282"
+  "fetched_at": "2026-11-11T19:35:09.917192"
 }

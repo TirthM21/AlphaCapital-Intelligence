@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRIGHOTEL.NS",
-    "fetch_date": "2026-11-02T21:23:29.102871",
+    "fetch_date": "2026-11-11T19:14:55.783056",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1241600000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.049,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:23:29.104132"
+  "fetched_at": "2026-11-11T19:14:55.784086"
 }

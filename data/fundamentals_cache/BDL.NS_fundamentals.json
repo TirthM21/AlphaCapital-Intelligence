@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BDL.NS",
-    "fetch_date": "2026-11-02T21:22:05.221047",
+    "fetch_date": "2026-11-11T19:13:31.616994",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2310926000.0,
       "2025-09-30 00:00:00": 11470810000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 8.176,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:22:05.222314"
+  "fetched_at": "2026-11-11T19:13:31.618030"
 }

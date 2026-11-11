@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRAJIND.NS",
-    "fetch_date": "2026-11-02T21:46:38.219386",
+    "fetch_date": "2026-11-11T19:38:03.038833",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6402019000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.339,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:46:38.220675"
+  "fetched_at": "2026-11-11T19:38:03.039975"
 }

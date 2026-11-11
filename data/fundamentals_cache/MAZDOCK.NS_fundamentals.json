@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAZDOCK.NS",
-    "fetch_date": "2026-11-02T21:40:43.396728",
+    "fetch_date": "2026-11-11T19:32:07.739382",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 26255900000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.188,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:40:43.397983"
+  "fetched_at": "2026-11-11T19:32:07.740405"
 }

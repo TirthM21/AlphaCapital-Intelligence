@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BANSALWIRE.NS",
-    "fetch_date": "2026-11-02T21:21:50.061077",
+    "fetch_date": "2026-11-11T19:13:15.677275",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9390070000.0,
       "2025-09-30 00:00:00": NaN,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.496,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:21:50.062348"
+  "fetched_at": "2026-11-11T19:13:15.678355"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLATIND.NS",
-    "fetch_date": "2026-11-03T19:25:49.986475",
+    "fetch_date": "2026-11-11T19:37:32.024890",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1153820000.0,
       "2025-09-30 00:00:00": 983780000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.617,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:25:49.988478"
+  "fetched_at": "2026-11-11T19:37:32.026021"
 }

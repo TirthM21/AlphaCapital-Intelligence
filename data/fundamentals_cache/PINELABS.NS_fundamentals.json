@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PINELABS.NS",
-    "fetch_date": "2026-11-02T21:45:59.039398",
+    "fetch_date": "2026-11-11T19:37:23.860225",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.069,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:45:59.040643"
+  "fetched_at": "2026-11-11T19:37:23.861278"
 }

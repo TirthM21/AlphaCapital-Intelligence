@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BOMDYEING.NS",
-    "fetch_date": "2026-11-02T21:23:13.922795",
+    "fetch_date": "2026-11-11T19:14:40.854905",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3778400000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.125,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:23:13.924045"
+  "fetched_at": "2026-11-11T19:14:40.855974"
 }

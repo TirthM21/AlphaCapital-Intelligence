@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RNBDENIMS.NS",
-    "fetch_date": "2026-11-02T21:48:49.234399",
+    "fetch_date": "2026-11-11T19:40:12.850517",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1018718000.0,
       "2025-09-30 00:00:00": 1092688000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.66,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:48:49.235641"
+  "fetched_at": "2026-11-11T19:40:12.851554"
 }

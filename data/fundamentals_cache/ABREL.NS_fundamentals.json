@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABREL.NS",
-    "fetch_date": "2026-11-02T21:17:16.833980",
+    "fetch_date": "2026-11-11T19:08:41.755908",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1442100000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 13.772,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:17:16.835233"
+  "fetched_at": "2026-11-11T19:08:41.756995"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IVALUE.NS",
-    "fetch_date": "2026-11-02T21:35:21.298014",
+    "fetch_date": "2026-11-11T19:26:46.866601",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2279000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.038,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:35:21.299257"
+  "fetched_at": "2026-11-11T19:26:46.867669"
 }

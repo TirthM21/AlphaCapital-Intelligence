@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CENTRUM.NS",
-    "fetch_date": "2026-11-02T21:24:18.012011",
+    "fetch_date": "2026-11-11T19:15:45.767666",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8093669000.0,
       "2025-09-30 00:00:00": 8328859000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 22.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:24:18.012986"
+  "fetched_at": "2026-11-11T19:15:45.768528"
 }

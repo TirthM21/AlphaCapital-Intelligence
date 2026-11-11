@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIKASLIFE.NS",
-    "fetch_date": "2026-11-02T21:58:40.555830",
+    "fetch_date": "2026-11-11T19:50:02.993052",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1352046000.0,
       "2025-06-30 00:00:00": 923836000.0,
@@ -28,5 +28,5 @@
     "inventory_to_sales_ratio": 0.031,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:58:40.557074"
+  "fetched_at": "2026-11-11T19:50:02.994048"
 }

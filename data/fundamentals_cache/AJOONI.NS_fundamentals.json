@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AJOONI.NS",
-    "fetch_date": "2026-11-02T21:18:24.737784",
+    "fetch_date": "2026-11-11T19:09:49.658438",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 292744000.0
     },
@@ -13,5 +13,5 @@
     "inventory_to_sales_ratio": 0.819,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:18:24.738370"
+  "fetched_at": "2026-11-11T19:09:49.659012"
 }

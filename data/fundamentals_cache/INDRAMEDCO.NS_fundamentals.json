@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDRAMEDCO.NS",
-    "fetch_date": "2026-11-02T21:34:33.136882",
+    "fetch_date": "2026-11-11T19:25:58.932157",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3337500000.0,
       "2025-06-30 00:00:00": 3650600000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.019,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:34:33.138124"
+  "fetched_at": "2026-11-11T19:25:58.933201"
 }

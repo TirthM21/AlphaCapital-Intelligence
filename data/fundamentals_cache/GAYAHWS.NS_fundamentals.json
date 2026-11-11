@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GAYAHWS.NS",
-    "fetch_date": "2026-11-02T21:30:00.050873",
+    "fetch_date": "2026-11-11T19:21:25.928770",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:30:00.051881"
+  "fetched_at": "2026-11-11T19:21:25.929659"
 }

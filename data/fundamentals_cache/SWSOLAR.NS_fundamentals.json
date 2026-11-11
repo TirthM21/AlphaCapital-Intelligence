@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWSOLAR.NS",
-    "fetch_date": "2026-11-02T21:54:51.389941",
+    "fetch_date": "2026-11-11T19:46:14.075515",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 17616300000.0,
       "2025-12-31 00:00:00": 20922100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:54:51.391195"
+  "fetched_at": "2026-11-11T19:46:14.076564"
 }

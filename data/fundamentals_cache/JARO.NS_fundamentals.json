@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JARO.NS",
-    "fetch_date": "2026-11-02T21:35:35.015115",
+    "fetch_date": "2026-11-11T19:27:00.757157",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 741208000.0,
       "2025-06-30 00:00:00": 606746000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 18.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:35:35.016109"
+  "fetched_at": "2026-11-11T19:27:00.757949"
 }

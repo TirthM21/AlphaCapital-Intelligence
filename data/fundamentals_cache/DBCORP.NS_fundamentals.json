@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBCORP.NS",
-    "fetch_date": "2026-11-02T21:26:02.166082",
+    "fetch_date": "2026-11-11T19:17:26.764547",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 5594500000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.455,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:26:02.167343"
+  "fetched_at": "2026-11-11T19:17:26.765477"
 }

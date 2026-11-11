@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAVAS.NS",
-    "fetch_date": "2026-11-03T18:56:53.258879",
+    "fetch_date": "2026-11-11T19:08:28.637642",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 5911819000.0,
       "2025-12-31 00:00:00": 6023690000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 26.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T18:56:53.260400"
+  "fetched_at": "2026-11-11T19:08:28.638527"
 }

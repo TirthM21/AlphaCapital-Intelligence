@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HDIL.NS",
-    "fetch_date": "2026-11-02T21:32:26.994688",
+    "fetch_date": "2026-11-11T19:23:52.849692",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": -319278000.0,
       "2025-09-30 00:00:00": 4059000.0
@@ -23,5 +23,5 @@
     "inventory_to_sales_ratio": 6934.434,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:32:26.995876"
+  "fetched_at": "2026-11-11T19:23:52.850839"
 }

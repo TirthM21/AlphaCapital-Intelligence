@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JSLL.NS",
-    "fetch_date": "2026-11-02T21:36:15.306491",
+    "fetch_date": "2026-11-11T19:27:40.788614",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1742859000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:36:15.307844"
+  "fetched_at": "2026-11-11T19:27:40.789742"
 }

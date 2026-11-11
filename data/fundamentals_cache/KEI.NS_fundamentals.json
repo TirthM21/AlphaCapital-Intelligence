@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KEI.NS",
-    "fetch_date": "2026-11-02T21:37:10.366586",
+    "fetch_date": "2026-11-11T19:28:35.789052",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 25903160000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.954,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:37:10.368491"
+  "fetched_at": "2026-11-11T19:28:35.790133"
 }

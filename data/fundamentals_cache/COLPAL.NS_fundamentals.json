@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COLPAL.NS",
-    "fetch_date": "2026-11-02T21:25:05.135398",
+    "fetch_date": "2026-11-11T19:16:29.912085",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 14206400000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.249,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:25:05.136672"
+  "fetched_at": "2026-11-11T19:16:29.913167"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CMSINFO.NS",
-    "fetch_date": "2026-11-02T21:24:56.251903",
+    "fetch_date": "2026-11-11T19:16:20.796435",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6190680000.0,
       "2025-06-30 00:00:00": 6274050000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:24:56.253173"
+  "fetched_at": "2026-11-11T19:16:20.797524"
 }

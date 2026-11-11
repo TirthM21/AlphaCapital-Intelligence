@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WAAREERTL.NS",
-    "fetch_date": "2026-11-02T21:59:30.301371",
+    "fetch_date": "2026-11-11T19:50:52.992599",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 7747800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.258,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:59:30.302645"
+  "fetched_at": "2026-11-11T19:50:52.993550"
 }

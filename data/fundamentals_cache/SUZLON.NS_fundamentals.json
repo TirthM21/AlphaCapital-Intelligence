@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUZLON.NS",
-    "fetch_date": "2026-11-02T21:54:38.288620",
+    "fetch_date": "2026-11-11T19:46:00.794495",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 31173300000.0,
       "2025-12-31 00:00:00": 42281800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.122,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:54:38.289899"
+  "fetched_at": "2026-11-11T19:46:00.795531"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HPL.NS",
-    "fetch_date": "2026-11-03T19:13:04.526445",
+    "fetch_date": "2026-11-11T19:24:44.845357",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3830287000.0,
       "2025-09-30 00:00:00": 4344482000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.453,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:13:04.528329"
+  "fetched_at": "2026-11-11T19:24:44.846428"
 }

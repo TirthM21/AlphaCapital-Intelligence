@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DMART.NS",
-    "fetch_date": "2026-11-02T21:27:06.016042",
+    "fetch_date": "2026-11-11T19:18:30.822334",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 163597000000.0,
       "2025-12-31 00:00:00": 181008800000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.371,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:27:06.017285"
+  "fetched_at": "2026-11-11T19:18:30.823313"
 }

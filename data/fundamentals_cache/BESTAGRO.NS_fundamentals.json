@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BESTAGRO.NS",
-    "fetch_date": "2026-11-02T21:22:18.951168",
+    "fetch_date": "2026-11-11T19:13:45.776365",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3812400000.0,
       "2025-09-30 00:00:00": 5168300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.643,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:22:18.952413"
+  "fetched_at": "2026-11-11T19:13:45.777421"
 }

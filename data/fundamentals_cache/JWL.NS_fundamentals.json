@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JWL.NS",
-    "fetch_date": "2026-11-02T21:36:30.301805",
+    "fetch_date": "2026-11-11T19:27:55.776449",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4593428000.0,
       "2025-09-30 00:00:00": 7858455000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.608,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:36:30.303052"
+  "fetched_at": "2026-11-11T19:27:55.777462"
 }

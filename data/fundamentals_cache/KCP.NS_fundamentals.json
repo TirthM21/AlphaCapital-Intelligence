@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KCP.NS",
-    "fetch_date": "2026-11-02T21:37:03.363364",
+    "fetch_date": "2026-11-11T19:28:28.895180",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6765100000.0,
       "2025-09-30 00:00:00": 6015500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.789,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:37:03.364640"
+  "fetched_at": "2026-11-11T19:28:28.896276"
 }

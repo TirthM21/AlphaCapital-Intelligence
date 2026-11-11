@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAICORPLTD.NS",
-    "fetch_date": "2026-11-02T21:35:31.239207",
+    "fetch_date": "2026-11-11T19:26:56.825441",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1353700000.0,
       "2025-06-30 00:00:00": 1312500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.996,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:35:31.240456"
+  "fetched_at": "2026-11-11T19:26:56.826468"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GTLINFRA.NS",
-    "fetch_date": "2026-11-02T21:31:41.192382",
+    "fetch_date": "2026-11-11T19:23:06.769758",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3345300000.0,
       "2025-09-30 00:00:00": 3564900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.008,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:31:41.193645"
+  "fetched_at": "2026-11-11T19:23:06.770806"
 }

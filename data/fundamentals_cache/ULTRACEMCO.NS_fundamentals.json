@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ULTRACEMCO.NS",
-    "fetch_date": "2026-11-02T21:57:23.262305",
+    "fetch_date": "2026-11-11T19:48:46.010972",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 212754500000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.489,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:57:23.263572"
+  "fetched_at": "2026-11-11T19:48:46.012048"
 }
