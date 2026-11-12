@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRITIKA.NS",
-    "fetch_date": "2026-11-04T19:35:31.355902",
+    "fetch_date": "2026-11-12T19:47:26.534723",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2068562000.0,
       "2025-09-30 00:00:00": 1796256000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.267,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T19:35:31.356825"
+  "fetched_at": "2026-11-12T19:47:26.535933"
 }

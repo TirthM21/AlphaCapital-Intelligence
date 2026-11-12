@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRIGYN.NS",
-    "fetch_date": "2026-11-05T20:01:09.434358",
+    "fetch_date": "2026-11-12T20:06:05.516279",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2244999000.0,
       "2025-09-30 00:00:00": 2419514000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:01:09.435638"
+  "fetched_at": "2026-11-12T20:06:05.517886"
 }

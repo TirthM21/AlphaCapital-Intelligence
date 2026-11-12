@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GUJALKALI.NS",
-    "fetch_date": "2026-11-05T19:36:08.170003",
+    "fetch_date": "2026-11-12T19:41:01.288652",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11051200000.0,
       "2025-09-30 00:00:00": 10831900000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.362,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:36:08.171259"
+  "fetched_at": "2026-11-12T19:41:01.289854"
 }

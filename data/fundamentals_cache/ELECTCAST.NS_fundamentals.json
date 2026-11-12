@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELECTCAST.NS",
-    "fetch_date": "2026-11-04T19:25:20.467174",
+    "fetch_date": "2026-11-12T19:37:14.318135",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 15576929000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.682,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T19:25:20.468120"
+  "fetched_at": "2026-11-12T19:37:14.319351"
 }

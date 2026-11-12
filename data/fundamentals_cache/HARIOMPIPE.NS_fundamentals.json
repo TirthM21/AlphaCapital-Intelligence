@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HARIOMPIPE.NS",
-    "fetch_date": "2026-11-05T19:36:29.250303",
+    "fetch_date": "2026-11-12T19:41:22.302740",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4609641000.0,
       "2025-09-30 00:00:00": 3358674000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.943,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:36:29.251543"
+  "fetched_at": "2026-11-12T19:41:22.303951"
 }

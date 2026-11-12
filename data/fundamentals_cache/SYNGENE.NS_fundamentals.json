@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYNGENE.NS",
-    "fetch_date": "2026-11-04T19:52:12.453383",
+    "fetch_date": "2026-11-12T20:04:10.513082",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 8745000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.202,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T19:52:12.454341"
+  "fetched_at": "2026-11-12T20:04:10.514327"
 }
