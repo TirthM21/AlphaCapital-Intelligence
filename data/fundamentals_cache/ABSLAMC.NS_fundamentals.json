@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABSLAMC.NS",
-    "fetch_date": "2026-11-06T18:46:55.818870",
+    "fetch_date": "2026-11-13T19:04:25.168851",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4473900000.0,
       "2025-09-30 00:00:00": NaN,
@@ -27,5 +27,5 @@
     "operating_margin": 52.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:46:55.819840"
+  "fetched_at": "2026-11-13T19:04:25.169562"
 }

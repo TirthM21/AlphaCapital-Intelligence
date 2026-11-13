@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WHEELS.NS",
-    "fetch_date": "2026-11-06T19:29:25.242417",
+    "fetch_date": "2026-11-13T19:46:59.336329",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 12639700000.0,
       "2025-12-31 00:00:00": 13714500000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.556,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:29:25.243661"
+  "fetched_at": "2026-11-13T19:46:59.337042"
 }

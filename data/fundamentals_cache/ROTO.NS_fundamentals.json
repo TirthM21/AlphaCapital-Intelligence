@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROTO.NS",
-    "fetch_date": "2026-11-06T19:18:33.114224",
+    "fetch_date": "2026-11-13T19:36:04.610215",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 658838000.0,
       "2025-09-30 00:00:00": 647637000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.935,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:18:33.115439"
+  "fetched_at": "2026-11-13T19:36:04.611060"
 }

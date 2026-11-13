@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INDSWFTLAB.NS",
-    "fetch_date": "2026-11-06T19:04:12.965534",
+    "fetch_date": "2026-11-13T19:21:43.344725",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.707,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:04:12.966785"
+  "fetched_at": "2026-11-13T19:21:43.345590"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STAR.NS",
-    "fetch_date": "2026-11-06T19:23:02.159851",
+    "fetch_date": "2026-11-13T19:40:34.375127",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 11197360000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:23:02.161068"
+  "fetched_at": "2026-11-13T19:40:34.375884"
 }

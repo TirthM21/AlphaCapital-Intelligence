@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GREAVESCOT.NS",
-    "fetch_date": "2026-11-06T19:01:00.083287",
+    "fetch_date": "2026-11-13T19:18:30.202400",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 7454300000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.387,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:01:00.084530"
+  "fetched_at": "2026-11-13T19:18:30.203290"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FIVESTAR.NS",
-    "fetch_date": "2026-11-06T18:58:59.885716",
+    "fetch_date": "2026-11-13T19:16:30.325965",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7743124000.0,
       "2025-12-31 00:00:00": 8074167000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 48.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:58:59.886646"
+  "fetched_at": "2026-11-13T19:16:30.326567"
 }

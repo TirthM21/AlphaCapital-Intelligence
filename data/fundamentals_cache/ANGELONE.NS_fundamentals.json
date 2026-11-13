@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANGELONE.NS",
-    "fetch_date": "2026-11-06T18:48:48.745249",
+    "fetch_date": "2026-11-13T19:06:18.246529",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11343500000.0,
       "2025-09-30 00:00:00": NaN,
@@ -27,5 +27,5 @@
     "operating_margin": 41.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:48:48.746226"
+  "fetched_at": "2026-11-13T19:06:18.247120"
 }

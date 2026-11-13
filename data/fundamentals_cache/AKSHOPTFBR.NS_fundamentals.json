@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AKSHOPTFBR.NS",
-    "fetch_date": "2026-11-06T18:48:09.842073",
+    "fetch_date": "2026-11-13T19:05:39.281298",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 268950000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.338,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:48:09.843326"
+  "fetched_at": "2026-11-13T19:05:39.282060"
 }

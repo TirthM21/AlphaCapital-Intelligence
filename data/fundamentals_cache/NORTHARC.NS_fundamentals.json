@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NORTHARC.NS",
-    "fetch_date": "2026-11-06T19:13:27.021945",
+    "fetch_date": "2026-11-13T19:30:57.428025",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5836306000.0,
       "2025-12-31 00:00:00": 6569776000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 31.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:13:27.022905"
+  "fetched_at": "2026-11-13T19:30:57.428764"
 }

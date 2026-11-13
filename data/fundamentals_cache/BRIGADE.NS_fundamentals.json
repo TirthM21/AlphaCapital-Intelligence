@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRIGADE.NS",
-    "fetch_date": "2026-11-06T18:53:07.911224",
+    "fetch_date": "2026-11-13T19:10:37.292491",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12811400000.0,
       "2025-09-30 00:00:00": NaN,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 10.387,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:53:07.912485"
+  "fetched_at": "2026-11-13T19:10:37.293418"
 }

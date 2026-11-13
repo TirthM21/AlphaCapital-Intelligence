@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JNKINDIA.NS",
-    "fetch_date": "2026-11-06T19:05:44.955674",
+    "fetch_date": "2026-11-13T19:23:15.216811",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 990990000.0,
       "2025-09-30 00:00:00": 1783790000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.139,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:05:44.956920"
+  "fetched_at": "2026-11-13T19:23:15.217699"
 }

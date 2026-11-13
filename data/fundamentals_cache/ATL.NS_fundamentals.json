@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATL.NS",
-    "fetch_date": "2026-11-06T18:50:17.896939",
+    "fetch_date": "2026-11-13T19:07:47.261215",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1872500000.0,
       "2025-09-30 00:00:00": 2071600000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:50:17.897926"
+  "fetched_at": "2026-11-13T19:07:47.261811"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CONFIPET.NS",
-    "fetch_date": "2026-11-06T18:54:50.973917",
+    "fetch_date": "2026-11-13T19:12:20.289553",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11119900000.0,
       "2025-09-30 00:00:00": 9830100000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.087,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:54:50.975150"
+  "fetched_at": "2026-11-13T19:12:20.290424"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUKANDLTD.NS",
-    "fetch_date": "2026-11-06T19:11:54.906019",
+    "fetch_date": "2026-11-13T19:29:25.452675",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 11287100000.0,
       "2025-09-30 00:00:00": 11606200000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.764,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:11:54.907237"
+  "fetched_at": "2026-11-13T19:29:25.453520"
 }

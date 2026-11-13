@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAINBOW.NS",
-    "fetch_date": "2026-11-06T19:17:14.028084",
+    "fetch_date": "2026-11-13T19:34:45.585588",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 4447990000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.098,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:17:14.029316"
+  "fetched_at": "2026-11-13T19:34:45.586461"
 }

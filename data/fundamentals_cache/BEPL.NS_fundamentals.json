@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BEPL.NS",
-    "fetch_date": "2026-11-06T18:51:56.948249",
+    "fetch_date": "2026-11-13T19:09:26.252145",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3079088000.0,
       "2025-12-31 00:00:00": 3013903000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.448,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:51:56.949498"
+  "fetched_at": "2026-11-13T19:09:26.252872"
 }

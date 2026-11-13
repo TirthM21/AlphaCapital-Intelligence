@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LODHA.NS",
-    "fetch_date": "2026-11-06T19:08:54.061942",
+    "fetch_date": "2026-11-13T19:26:24.328584",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 34917000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 9.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:08:54.063182"
+  "fetched_at": "2026-11-13T19:26:24.329374"
 }

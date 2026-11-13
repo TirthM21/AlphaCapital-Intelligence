@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADSL.NS",
-    "fetch_date": "2026-11-06T18:47:19.871708",
+    "fetch_date": "2026-11-13T19:04:49.155172",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2190200000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.184,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:47:19.872928"
+  "fetched_at": "2026-11-13T19:04:49.155983"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORIENTELEC.NS",
-    "fetch_date": "2026-11-06T19:14:20.157621",
+    "fetch_date": "2026-11-13T19:31:50.520913",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7690800000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.589,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:14:20.158892"
+  "fetched_at": "2026-11-13T19:31:50.521772"
 }

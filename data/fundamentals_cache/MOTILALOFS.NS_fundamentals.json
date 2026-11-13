@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOTILALOFS.NS",
-    "fetch_date": "2026-11-06T19:11:37.112659",
+    "fetch_date": "2026-11-13T19:29:07.420821",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 18295400000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 82.26,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:11:37.113626"
+  "fetched_at": "2026-11-13T19:29:07.422894"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CANTABIL.NS",
-    "fetch_date": "2026-11-06T18:53:32.804580",
+    "fetch_date": "2026-11-13T19:11:02.493870",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1586757000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:53:32.805793"
+  "fetched_at": "2026-11-13T19:11:02.494734"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAYNECOIND.NS",
-    "fetch_date": "2026-11-06T19:05:18.907491",
+    "fetch_date": "2026-11-13T19:22:49.309969",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 16493500000.0,
       "2025-12-31 00:00:00": 17272300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.582,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:05:18.908737"
+  "fetched_at": "2026-11-13T19:22:49.310835"
 }

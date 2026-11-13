@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TATACAP.NS",
-    "fetch_date": "2026-11-06T19:24:47.156874",
+    "fetch_date": "2026-11-13T19:42:20.464299",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 74198500000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 22.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:24:47.157818"
+  "fetched_at": "2026-11-13T19:42:20.464869"
 }

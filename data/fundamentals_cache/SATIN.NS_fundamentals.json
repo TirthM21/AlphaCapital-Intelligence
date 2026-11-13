@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SATIN.NS",
-    "fetch_date": "2026-11-06T19:19:55.273384",
+    "fetch_date": "2026-11-13T19:37:26.526570",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 6203503000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 20.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:19:55.274349"
+  "fetched_at": "2026-11-13T19:37:26.527218"
 }

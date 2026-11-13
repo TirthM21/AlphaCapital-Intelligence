@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SFL.NS",
-    "fetch_date": "2026-11-06T19:20:34.083343",
+    "fetch_date": "2026-11-13T19:38:05.402560",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8214100000.0,
       "2025-12-31 00:00:00": 10744300000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 0.433,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:20:34.084551"
+  "fetched_at": "2026-11-13T19:38:05.403429"
 }

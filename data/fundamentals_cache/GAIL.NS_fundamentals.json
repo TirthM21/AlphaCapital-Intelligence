@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GAIL.NS",
-    "fetch_date": "2026-11-06T18:59:20.038881",
+    "fetch_date": "2026-11-13T19:16:50.426829",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 353106800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.159,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:59:20.040111"
+  "fetched_at": "2026-11-13T19:16:50.427565"
 }

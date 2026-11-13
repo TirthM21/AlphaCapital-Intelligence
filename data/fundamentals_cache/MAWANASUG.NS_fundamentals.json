@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAWANASUG.NS",
-    "fetch_date": "2026-11-06T19:10:14.967604",
+    "fetch_date": "2026-11-13T19:27:45.324262",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4005300000.0,
       "2025-09-30 00:00:00": 4289700000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.934,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:10:14.968810"
+  "fetched_at": "2026-11-13T19:27:45.325080"
 }

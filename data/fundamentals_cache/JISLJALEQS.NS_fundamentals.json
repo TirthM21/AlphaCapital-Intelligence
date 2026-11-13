@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JISLJALEQS.NS",
-    "fetch_date": "2026-11-06T19:05:34.036712",
+    "fetch_date": "2026-11-13T19:23:04.433825",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 17487300000.0,
       "2025-06-30 00:00:00": 15456500000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.381,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:05:34.037956"
+  "fetched_at": "2026-11-13T19:23:04.434679"
 }

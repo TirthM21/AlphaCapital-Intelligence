@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "METROPOLIS.NS",
-    "fetch_date": "2026-11-06T19:10:48.030991",
+    "fetch_date": "2026-11-13T19:28:18.371578",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 4291910000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.103,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:10:48.032239"
+  "fetched_at": "2026-11-13T19:28:18.372449"
 }

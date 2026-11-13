@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMARTWORKS.NS",
-    "fetch_date": "2026-11-06T19:22:12.371619",
+    "fetch_date": "2026-11-13T19:39:43.378708",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 4247830000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 20.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:22:12.372584"
+  "fetched_at": "2026-11-13T19:39:43.379286"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LLOYDSENGG.NS",
-    "fetch_date": "2026-11-06T19:08:49.892411",
+    "fetch_date": "2026-11-13T19:26:20.244099",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 3166600000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.786,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:08:49.893661"
+  "fetched_at": "2026-11-13T19:26:20.244864"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KHAICHEM.NS",
-    "fetch_date": "2026-10-19T18:30:46.008766",
+    "fetch_date": "2026-11-13T19:24:27.582971",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1606814000.0,
       "2025-06-30 00:00:00": 2343179000.0,
@@ -31,5 +31,5 @@
     "inventory_to_sales_ratio": 1.011,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T18:30:46.010602"
+  "fetched_at": "2026-11-13T19:24:27.583737"
 }

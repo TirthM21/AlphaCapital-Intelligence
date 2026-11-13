@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AETHER.NS",
-    "fetch_date": "2026-11-06T18:47:34.856732",
+    "fetch_date": "2026-11-13T19:05:04.012865",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 2801000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 2.071,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:47:34.857936"
+  "fetched_at": "2026-11-13T19:05:04.013567"
 }

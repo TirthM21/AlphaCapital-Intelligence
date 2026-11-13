@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNITEDPOLY.NS",
-    "fetch_date": "2026-11-06T19:27:12.210529",
+    "fetch_date": "2026-11-13T19:44:45.378609",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1852158000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.396,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:27:12.211745"
+  "fetched_at": "2026-11-13T19:44:45.379323"
 }

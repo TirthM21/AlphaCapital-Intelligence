@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAM-INDIA.NS",
-    "fetch_date": "2026-11-06T19:12:16.105838",
+    "fetch_date": "2026-11-13T19:29:46.300361",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6066100000.0,
       "2025-09-30 00:00:00": NaN,
@@ -27,5 +27,5 @@
     "operating_margin": 65.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:12:16.106813"
+  "fetched_at": "2026-11-13T19:29:46.301089"
 }

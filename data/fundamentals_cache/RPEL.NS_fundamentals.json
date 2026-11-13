@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RPEL.NS",
-    "fetch_date": "2026-10-26T18:37:22.407976",
+    "fetch_date": "2026-11-13T19:36:06.299757",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 584416000.0,
       "2025-09-30 00:00:00": NaN,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.734,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-26T18:37:22.409781"
+  "fetched_at": "2026-11-13T19:36:06.300592"
 }

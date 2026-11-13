@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GABRIEL.NS",
-    "fetch_date": "2026-11-06T18:59:18.015603",
+    "fetch_date": "2026-11-13T19:16:48.382131",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 13083240000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.32,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:59:18.016835"
+  "fetched_at": "2026-11-13T19:16:48.382884"
 }

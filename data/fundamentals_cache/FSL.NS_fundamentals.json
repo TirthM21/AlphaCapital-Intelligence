@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FSL.NS",
-    "fetch_date": "2026-11-06T18:59:15.323704",
+    "fetch_date": "2026-11-13T19:16:45.316903",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 22209340000.0,
       "2025-12-31 00:00:00": 24674470000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:59:15.324673"
+  "fetched_at": "2026-11-13T19:16:45.317480"
 }

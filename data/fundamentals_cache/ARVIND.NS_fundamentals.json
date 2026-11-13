@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARVIND.NS",
-    "fetch_date": "2026-11-06T18:49:42.855893",
+    "fetch_date": "2026-11-13T19:07:12.296568",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 23711400000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.883,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:49:42.857161"
+  "fetched_at": "2026-11-13T19:07:12.297331"
 }

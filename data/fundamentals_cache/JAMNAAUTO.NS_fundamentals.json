@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JAMNAAUTO.NS",
-    "fetch_date": "2026-11-06T19:05:13.081156",
+    "fetch_date": "2026-11-13T19:22:43.436489",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 5733260000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.538,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:05:13.082396"
+  "fetched_at": "2026-11-13T19:22:43.437364"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALGOQUANT.NS",
-    "fetch_date": "2026-11-06T18:48:15.638316",
+    "fetch_date": "2026-11-13T19:05:45.357713",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 80226000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 290.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:48:15.639324"
+  "fetched_at": "2026-11-13T19:05:45.358304"
 }

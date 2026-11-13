@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KARURVYSYA.NS",
-    "fetch_date": "2026-11-06T19:06:37.070166",
+    "fetch_date": "2026-11-13T19:24:07.333962",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 15266000000.0,
       "2025-12-31 00:00:00": 17482000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 50.74074074074074,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:06:37.070733"
+  "fetched_at": "2026-11-13T19:24:07.334315"
 }

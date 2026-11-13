@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADANIGREEN.NS",
-    "fetch_date": "2026-11-06T18:47:10.831643",
+    "fetch_date": "2026-11-13T19:04:40.164779",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 28240000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:47:10.832863"
+  "fetched_at": "2026-11-13T19:04:40.165691"
 }

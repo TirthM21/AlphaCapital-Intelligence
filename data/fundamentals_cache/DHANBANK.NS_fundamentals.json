@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DHANBANK.NS",
-    "fetch_date": "2026-11-06T18:56:19.047046",
+    "fetch_date": "2026-11-13T19:13:48.387322",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1784000000.0,
       "2025-12-31 00:00:00": 2034700000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 296.7741935483871,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:56:19.047610"
+  "fetched_at": "2026-11-13T19:13:48.387778"
 }

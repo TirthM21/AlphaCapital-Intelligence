@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HINDOILEXP.NS",
-    "fetch_date": "2026-11-06T19:02:35.015245",
+    "fetch_date": "2026-11-13T19:20:05.261779",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 786535000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 3.448,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:02:35.016484"
+  "fetched_at": "2026-11-13T19:20:05.262714"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DCMSRIND.NS",
-    "fetch_date": "2026-11-06T18:55:53.906944",
+    "fetch_date": "2026-11-13T19:13:23.239344",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2925400000.0,
       "2025-09-30 00:00:00": 5222400000.0,
@@ -32,5 +32,5 @@
     "inventory_to_sales_ratio": 1.945,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T18:55:53.908168"
+  "fetched_at": "2026-11-13T19:13:23.240273"
 }

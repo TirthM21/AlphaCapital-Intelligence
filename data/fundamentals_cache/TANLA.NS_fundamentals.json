@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TANLA.NS",
-    "fetch_date": "2026-11-06T19:24:39.173376",
+    "fetch_date": "2026-11-13T19:42:12.358546",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 10406557000.0,
       "2025-12-31 00:00:00": 11210356000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:24:39.174341"
+  "fetched_at": "2026-11-13T19:42:12.359148"
 }
