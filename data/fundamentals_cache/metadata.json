@@ -4220,8 +4220,8 @@
     "in_earnings_season": true
   },
   "GREENLAM.NS": {
-    "last_updated": "2026-08-13T13:09:32.207672",
-    "in_earnings_season": true
+    "last_updated": "2026-11-18T20:05:59.866765",
+    "in_earnings_season": false
   },
   "INDOAMIN.NS": {
     "last_updated": "2026-11-12T19:43:37.319884",
@@ -6709,6 +6709,18 @@
   },
   "KEEPLEARN.NS": {
     "last_updated": "2026-11-16T21:51:26.734886",
+    "in_earnings_season": false
+  },
+  "BALAXI.NS": {
+    "last_updated": "2026-11-18T19:56:13.788271",
+    "in_earnings_season": false
+  },
+  "KDDL.NS": {
+    "last_updated": "2026-11-18T20:11:43.931824",
+    "in_earnings_season": false
+  },
+  "NDRAUTO.NS": {
+    "last_updated": "2026-11-18T20:17:37.037390",
     "in_earnings_season": false
   }
 }
