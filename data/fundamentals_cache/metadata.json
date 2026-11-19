@@ -1024,8 +1024,8 @@
     "in_earnings_season": true
   },
   "ENDURANCE.NS": {
-    "last_updated": "2026-08-14T13:03:02.998787",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T20:03:03.846357",
+    "in_earnings_season": false
   },
   "ENGINERSIN.NS": {
     "last_updated": "2026-11-13T19:15:30.276736",
@@ -3092,8 +3092,8 @@
     "in_earnings_season": true
   },
   "SANGAMIND.NS": {
-    "last_updated": "2026-08-06T14:21:29.516423",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T20:24:47.989647",
+    "in_earnings_season": false
   },
   "SANGHVIMOV.NS": {
     "last_updated": "2026-11-13T19:37:12.460413",
@@ -4468,7 +4468,7 @@
     "in_earnings_season": true
   },
   "SAFARI.NS": {
-    "last_updated": "2026-05-21T15:23:00.751117",
+    "last_updated": "2026-11-19T20:24:19.993639",
     "in_earnings_season": false
   },
   "SAMMAANCAP.NS": {
@@ -6721,6 +6721,10 @@
   },
   "NDRAUTO.NS": {
     "last_updated": "2026-11-18T20:17:37.037390",
+    "in_earnings_season": false
+  },
+  "WSI.NS": {
+    "last_updated": "2026-11-19T20:34:44.052262",
     "in_earnings_season": false
   }
 }
