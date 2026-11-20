@@ -1896,8 +1896,8 @@
     "in_earnings_season": true
   },
   "KALPATARU.NS": {
-    "last_updated": "2026-05-11T14:55:29.247003",
-    "in_earnings_season": true
+    "last_updated": "2026-11-20T19:50:39.497822",
+    "in_earnings_season": false
   },
   "KAMDHENU.NS": {
     "last_updated": "2026-11-13T19:23:55.444998",
@@ -6725,6 +6725,14 @@
   },
   "WSI.NS": {
     "last_updated": "2026-11-19T20:34:44.052262",
+    "in_earnings_season": false
+  },
+  "SHADOWFAX.NS": {
+    "last_updated": "2026-11-20T20:05:03.517999",
+    "in_earnings_season": false
+  },
+  "TTKHLTCARE.NS": {
+    "last_updated": "2026-11-20T20:10:54.576691",
     "in_earnings_season": false
   }
 }
