@@ -2628,8 +2628,8 @@
     "in_earnings_season": true
   },
   "PANACEABIO.NS": {
-    "last_updated": "2026-08-14T13:18:27.872237",
-    "in_earnings_season": true
+    "last_updated": "2026-11-26T21:17:51.073918",
+    "in_earnings_season": false
   },
   "PARADEEP.NS": {
     "last_updated": "2026-11-13T19:32:20.371824",
@@ -4464,8 +4464,8 @@
     "in_earnings_season": true
   },
   "POLYPLEX.NS": {
-    "last_updated": "2026-08-11T13:18:20.739105",
-    "in_earnings_season": true
+    "last_updated": "2026-11-26T21:19:11.298990",
+    "in_earnings_season": false
   },
   "SAFARI.NS": {
     "last_updated": "2026-11-19T20:24:19.993639",
@@ -5912,7 +5912,7 @@
     "in_earnings_season": true
   },
   "PITTIENG.NS": {
-    "last_updated": "2026-08-19T13:02:31.139643",
+    "last_updated": "2026-11-26T21:18:50.414709",
     "in_earnings_season": false
   },
   "DOLPHIN.NS": {
@@ -6733,6 +6733,14 @@
   },
   "TTKHLTCARE.NS": {
     "last_updated": "2026-11-20T20:10:54.576691",
+    "in_earnings_season": false
+  },
+  "AKG.NS": {
+    "last_updated": "2026-11-26T20:51:11.057975",
+    "in_earnings_season": false
+  },
+  "OLIL.NS": {
+    "last_updated": "2026-11-26T21:17:02.306084",
     "in_earnings_season": false
   }
 }
