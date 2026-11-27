@@ -4016,7 +4016,7 @@
     "in_earnings_season": true
   },
   "FLAIR.NS": {
-    "last_updated": "2026-08-27T21:48:11.516611",
+    "last_updated": "2026-11-27T20:46:52.826513",
     "in_earnings_season": false
   },
   "FUSION.NS": {
@@ -5892,7 +5892,7 @@
     "in_earnings_season": false
   },
   "MOLDTECH.NS": {
-    "last_updated": "2026-08-18T12:57:30.308513",
+    "last_updated": "2026-11-27T20:59:20.592171",
     "in_earnings_season": false
   },
   "OSWALSEEDS.NS": {
@@ -6016,7 +6016,7 @@
     "in_earnings_season": false
   },
   "AHLUCONT.NS": {
-    "last_updated": "2026-08-27T21:37:25.178473",
+    "last_updated": "2026-11-27T20:35:45.630560",
     "in_earnings_season": false
   },
   "AJOONI.NS": {
@@ -6741,6 +6741,10 @@
   },
   "OLIL.NS": {
     "last_updated": "2026-11-26T21:17:02.306084",
+    "in_earnings_season": false
+  },
+  "DODLA.NS": {
+    "last_updated": "2026-11-27T20:44:39.528133",
     "in_earnings_season": false
   }
 }
